@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_container" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e36" />
+    <com.indianchat.ui.coreui.components.SelectionCheckView android:id="@id/selection_check" android:background="@drawable/selection_check_deemphasized" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f040710="0.0dip" />
+</LinearLayout>

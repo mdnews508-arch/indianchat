@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:APKTOOL_DUMMYVAL_0x7f0401d2="@id/end" motion:APKTOOL_DUMMYVAL_0x7f0401d3="@id/start" motion:APKTOOL_DUMMYVAL_0x7f040286="500" motion:APKTOOL_DUMMYVAL_0x7f04056c="easeInOut" />
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/wds_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="1.0" motion:APKTOOL_DUMMYVAL_0x7f040454="parent" motion:APKTOOL_DUMMYVAL_0x7f040467="parent" motion:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+        <Constraint android:id="@id/me_tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="1.0" motion:APKTOOL_DUMMYVAL_0x7f040454="parent" motion:APKTOOL_DUMMYVAL_0x7f040467="parent" motion:APKTOOL_DUMMYVAL_0x7f04046a="@id/wds_search_bar" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/me_tab_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.0" android:translationY="-500.0dip" motion:APKTOOL_DUMMYVAL_0x7f040454="parent" motion:APKTOOL_DUMMYVAL_0x7f040467="parent" motion:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+        <Constraint android:id="@id/wds_search_bar" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" android:alpha="1.0" motion:APKTOOL_DUMMYVAL_0x7f040454="parent" motion:APKTOOL_DUMMYVAL_0x7f040467="parent" motion:APKTOOL_DUMMYVAL_0x7f04046b="@id/me_tab_container" />
+        <Constraint android:id="@id/toolbar_profile_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:alpha="0.0" motion:APKTOOL_DUMMYVAL_0x7f040454="parent" motion:APKTOOL_DUMMYVAL_0x7f040467="parent" motion:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1502e3" />
+    </ConstraintSet>
+</MotionScene>

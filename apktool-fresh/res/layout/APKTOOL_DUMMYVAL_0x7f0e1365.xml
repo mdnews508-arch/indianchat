@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:background="@drawable/status_text_link_loading_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070e51" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e50" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e50" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_link_white" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

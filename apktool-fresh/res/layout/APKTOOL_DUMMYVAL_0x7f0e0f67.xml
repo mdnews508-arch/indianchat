@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="?APKTOOL_DUMMYVAL_0x7f04060a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaEditText android:textColorHint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/poll_question_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:hint="@string/APKTOOL_DUMMYVAL_0x7f1233c3" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionNext" android:importantForAccessibility="yes" app:APKTOOL_DUMMYVAL_0x7f04028f="outline" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+    <ViewStub android:id="@id/poll_question_text_area_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f6e" android:inflatedId="@id/poll_question_text_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</LinearLayout>

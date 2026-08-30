@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/manage_device_storage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f122281" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f122282" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_photo_library" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/manage_cloud_storage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f122280" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_trash" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="start|center" android:id="@id/manage_cloud_storage_shimmer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708ec">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708eb" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+                <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708ea" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/manage_subscription" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f12228c" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_get_more_storage" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/manage_subscription_subtitle_shimmer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708ec">
+        <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708ed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/get_more_cloud_storage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f122288" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_get_more_storage" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/get_more_cloud_storage_subtitle_shimmer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708ec">
+        <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708ed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+</LinearLayout>

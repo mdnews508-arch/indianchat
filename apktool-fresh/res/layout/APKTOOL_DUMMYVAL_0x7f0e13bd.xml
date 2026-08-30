@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0706c1" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0706c2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.collections.ObservableRecyclerView android:id="@id/updates_list" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f48" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

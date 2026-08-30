@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:id="@id/policy_education_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/policy_education_subtitle" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502f4">
+            <com.indianchat.ui.coreui.base.WaImageView android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wa_ic_block" style="@style/APKTOOL_DUMMYVAL_0x7f1502f3" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/policy_education_explanation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </LinearLayout>
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502f4">
+            <com.indianchat.ui.coreui.base.WaImageView android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_shield" style="@style/APKTOOL_DUMMYVAL_0x7f1502f3" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/policy_education_admin_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </LinearLayout>
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/close_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:text="@string/APKTOOL_DUMMYVAL_0x7f124df4" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/see_channel_guidelines_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227f5" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/fullscreen_header" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0709b5" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0709b5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0709b5" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0709b5" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0709b5" style="?APKTOOL_DUMMYVAL_0x7f0404f5">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@id/cancel_button" android:padding="12.0dip" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709f4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709f4" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1250c6" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/material_ic_clear_black_24dp" style="?APKTOOL_DUMMYVAL_0x7f0404f2" />
+        <FrameLayout android:id="@id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0709ba" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0709ba">
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/mtrl_picker_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040340="@dimen/APKTOOL_DUMMYVAL_0x7f0709c9" style="?APKTOOL_DUMMYVAL_0x7f0404f7" />
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/mtrl_picker_header_selection_text" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0709c4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040340="@dimen/APKTOOL_DUMMYVAL_0x7f0709c5" app:APKTOOL_DUMMYVAL_0x7f04048a="@dimen/APKTOOL_DUMMYVAL_0x7f0709b9" style="?APKTOOL_DUMMYVAL_0x7f0404f6" />
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/APKTOOL_DUMMYVAL_0x7f0c002c" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end|center|top" android:id="@id/confirm_button" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709f4" android:text="@string/APKTOOL_DUMMYVAL_0x7f1250d9" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1250d9" style="?APKTOOL_DUMMYVAL_0x7f0404f3" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d0b" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709b6" style="?APKTOOL_DUMMYVAL_0x7f0404f4" />
+</merge>

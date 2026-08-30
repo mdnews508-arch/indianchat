@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/integrity_warning_report_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/report_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/report_button" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc8" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/report_button_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121fc8" android:singleLine="true" style="?APKTOOL_DUMMYVAL_0x7f040774" />
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/report_button_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121fbd" style="?APKTOOL_DUMMYVAL_0x7f040770" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.toggle.WDSSwitch android:id="@id/integrity_report_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/integrity_warning_report_details_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0aa4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040759" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710a5" />
+</LinearLayout>

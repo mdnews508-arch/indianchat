@@ -1,0 +1,264 @@
+package exoplayer2.av1.src;
+
+import X.AbstractC32971bt;
+import X.AbstractC466425r;
+import X.AbstractC466525s;
+import X.AbstractC63252uj;
+import X.AbstractC81763lf;
+import X.C000700h;
+import X.C50709NKh;
+import android.content.Context;
+import android.util.ArrayMap;
+import com.facebook.exoplayer.monitor.Dav1dDecoderEventListener;
+import com.facebook.exoplayer.monitor.VpsEventCallback;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes11.dex */
+public final class Dav1dMediaCodecAdapterSetting {
+    public static final C50709NKh Companion = new C50709NKh();
+    public static final float ITM_BRIGHTNESS_MAX_SCALE_IDENTITY = 1.0f;
+    public static final float ITM_DEFAULT_D65_DISTANCE = 0.2f;
+    public final boolean alignLeft;
+    public final long allowedJoiningTimeMs;
+    public final Context appContext;
+    public final boolean applyGrain;
+    public final String cacheDir;
+    public final int cpuItmAdmissionReason;
+    public final int cpuItmGrossFrameThresholdMs;
+    public final int cpuItmMaxFramePixels;
+    public final int cpuItmMaxShortSide;
+    public final int cpuItmSlowFrameThresholdMs;
+    public final boolean dav1dThrowExceptionOnPictureError;
+    public final Dav1dDecoderEventListener decoderEventListener;
+    public final boolean disableBlackScreenFix;
+    public final boolean disableHdrCanvasRouting;
+    public final boolean enableBackgroundInit;
+    public final boolean enableCanvasBufferFormatValidation;
+    public final boolean enableCanvasPictureLayoutValidation;
+    public final boolean enableCanvasRenderValidation;
+    public final boolean enableDav1dJniV2;
+    public final boolean enableDav1dMediaCodecAdapterSurfaceFixes;
+    public final boolean enableDav1dReuseRebind;
+    public final boolean enableDecodeErrorRecovery;
+    public final boolean enableDirectPBOCopy;
+    public final boolean enableDynamicNDK;
+    public final boolean enableEagainYield;
+    public final boolean enableEagerHwbufTeardown;
+    public final boolean enableFrameDropMonitor;
+    public final boolean enableHardwareBuffer;
+    public final boolean enableHwBufTrimMemory;
+    public final boolean enableMmeLogging;
+    public final boolean enableModernGLFormats;
+    public final boolean enableNeonOptimizedCopy;
+    public final boolean enableOpenGLRendering;
+    public final boolean enableOpenglTrimMemory;
+    public final boolean enablePBOUpload;
+    public final boolean enableRendererFallback;
+    public final boolean enableRenderingHandleAspectRatio;
+    public final boolean enableScopeGuard;
+    public final boolean enableSetFrameRate;
+    public final boolean enableStablePictureRef;
+    public final boolean enableStableRenderWindow;
+    public final boolean enableSurfaceControlCompat;
+    public final boolean enableUsampler2D;
+    public final boolean enableVpsLogging;
+    public final boolean enableVulkanRendering;
+    public final int enhancementMode;
+    public final int fdMinFreeFds;
+    public final int fdPressureThresholdPct;
+    public final int frameDropIntervalThresholdMs;
+    public final int frameDropLockWaitThresholdMs;
+    public final int hwbufMaxInstances;
+    public final int hwbufPoolSize;
+    public int initialInputBufferSizeBytes;
+    public final float itmBrightnessMaxScale;
+    public final float itmD65Distance;
+    public final int maxDroppedFramesToNotify;
+    public final int maxFrameDelay;
+    public final int maxNumRetryLockingCanvas;
+    public final int maxWidthForAV1SRShader;
+    public final int nThreads;
+    public final boolean openglPreferHardwareBuffer;
+    public final int requestedEnhancementMode;
+    public final boolean resetDataSpaceOnFlush;
+    public final Dav1dScalingMode scalingMode;
+    public final boolean skipSetDataSpaceForSDR;
+    public final boolean useLegacySimpleDecoder;
+    public final boolean useV1AcquireNativeWindowInDav1dJNIV2;
+    public final boolean validateEglSurfaceSize;
+    public final String videoId;
+    public final VpsEventCallback vpsEventCallback;
+
+    public final ArrayMap toLoggable() {
+        ArrayMap arrayMap = new ArrayMap();
+        arrayMap.put("dav1d_scaling_mode", this.scalingMode.name());
+        arrayMap.put("dav1d_allowed_joining_time_ms", String.valueOf(this.allowedJoiningTimeMs));
+        arrayMap.put("dav1d_max_dropped_frames_to_notify", String.valueOf(this.maxDroppedFramesToNotify));
+        arrayMap.put("dav1d_n_threads", String.valueOf(this.nThreads));
+        arrayMap.put("dav1d_max_frame_delay", String.valueOf(this.maxFrameDelay));
+        arrayMap.put("dav1d_max_num_retry_locking_canvas", String.valueOf(this.maxNumRetryLockingCanvas));
+        arrayMap.put("dav1d_apply_grain", String.valueOf(this.applyGrain));
+        arrayMap.put("dav1d_throw_exception_on_picture_error", String.valueOf(this.dav1dThrowExceptionOnPictureError));
+        arrayMap.put("dav1d_enable_opengl_rendering", String.valueOf(this.enableOpenGLRendering));
+        arrayMap.put("dav1d_enable_vulkan_rendering", String.valueOf(this.enableVulkanRendering));
+        arrayMap.put("dav1d_enable_vps_logging", String.valueOf(this.enableVpsLogging));
+        arrayMap.put("dav1d_enable_mme_logging", String.valueOf(this.enableMmeLogging));
+        arrayMap.put("dav1d_align_left", String.valueOf(this.alignLeft));
+        arrayMap.put("dav1d_max_width_for_av1_sr_shader", String.valueOf(this.maxWidthForAV1SRShader));
+        arrayMap.put("dav1d_enable_rendering_handle_aspect_ratio", String.valueOf(this.enableRenderingHandleAspectRatio));
+        arrayMap.put("dav1d_enable_dynamic_ndk", String.valueOf(this.enableDynamicNDK));
+        arrayMap.put("dav1d_enable_jni_v2", String.valueOf(this.enableDav1dJniV2));
+        arrayMap.put("dav1d_validate_egl_surface_size", String.valueOf(this.validateEglSurfaceSize));
+        arrayMap.put("dav1d_video_id", this.videoId);
+        arrayMap.put("dav1d_enable_usampler_2d", String.valueOf(this.enableUsampler2D));
+        arrayMap.put("dav1d_disable_black_screen_fix", String.valueOf(this.disableBlackScreenFix));
+        arrayMap.put("dav1d_use_v1_acquire_native_window_in_jni_v2", String.valueOf(this.useV1AcquireNativeWindowInDav1dJNIV2));
+        arrayMap.put("dav1d_enable_mediacodec_adapter_surface_fixes", String.valueOf(this.enableDav1dMediaCodecAdapterSurfaceFixes));
+        arrayMap.put("dav1d_initial_input_buffer_size_bytes", String.valueOf(this.initialInputBufferSizeBytes));
+        arrayMap.put("dav1d_skip_set_data_space_for_sdr", String.valueOf(this.skipSetDataSpaceForSDR));
+        arrayMap.put("dav1d_enable_scope_guard", String.valueOf(this.enableScopeGuard));
+        arrayMap.put("dav1d_use_legacy_simple_decoder", String.valueOf(this.useLegacySimpleDecoder));
+        arrayMap.put("dav1d_enhancement_mode", String.valueOf(this.enhancementMode));
+        arrayMap.put("dav1d_requested_enhancement_mode", String.valueOf(this.requestedEnhancementMode));
+        arrayMap.put("dav1d_cpu_itm_admission_reason", String.valueOf(this.cpuItmAdmissionReason));
+        arrayMap.put("dav1d_cpu_itm_max_short_side", String.valueOf(this.cpuItmMaxShortSide));
+        arrayMap.put("dav1d_cpu_itm_max_frame_pixels", String.valueOf(this.cpuItmMaxFramePixels));
+        arrayMap.put("dav1d_cpu_itm_slow_frame_threshold_ms", String.valueOf(this.cpuItmSlowFrameThresholdMs));
+        arrayMap.put("dav1d_cpu_itm_gross_frame_threshold_ms", String.valueOf(this.cpuItmGrossFrameThresholdMs));
+        arrayMap.put("dav1d_enable_direct_pbo_copy", String.valueOf(this.enableDirectPBOCopy));
+        arrayMap.put("dav1d_enable_modern_gl_formats", String.valueOf(this.enableModernGLFormats));
+        arrayMap.put("dav1d_enable_renderer_fallback", String.valueOf(this.enableRendererFallback));
+        arrayMap.put("dav1d_enable_opengl_trim_memory", String.valueOf(this.enableOpenglTrimMemory));
+        arrayMap.put("dav1d_enable_hwbuf_trim_memory", String.valueOf(this.enableHwBufTrimMemory));
+        arrayMap.put("dav1d_enable_neon_optimized_copy", String.valueOf(this.enableNeonOptimizedCopy));
+        arrayMap.put("dav1d_enable_background_init", String.valueOf(this.enableBackgroundInit));
+        arrayMap.put("dav1d_enable_hardware_buffer", String.valueOf(this.enableHardwareBuffer));
+        arrayMap.put("dav1d_enable_pbo_upload", String.valueOf(this.enablePBOUpload));
+        arrayMap.put("dav1d_opengl_prefer_hardware_buffer", String.valueOf(this.openglPreferHardwareBuffer));
+        arrayMap.put("dav1d_enable_eager_hwbuf_teardown", String.valueOf(this.enableEagerHwbufTeardown));
+        arrayMap.put("dav1d_hwbuf_pool_size", String.valueOf(this.hwbufPoolSize));
+        arrayMap.put("dav1d_hwbuf_max_instances", String.valueOf(this.hwbufMaxInstances));
+        arrayMap.put("dav1d_fd_pressure_threshold_pct", String.valueOf(this.fdPressureThresholdPct));
+        arrayMap.put("dav1d_fd_min_free_fds", String.valueOf(this.fdMinFreeFds));
+        arrayMap.put("dav1d_enable_eagain_yield", String.valueOf(this.enableEagainYield));
+        arrayMap.put("dav1d_enable_decode_error_recovery", String.valueOf(this.enableDecodeErrorRecovery));
+        arrayMap.put("dav1d_enable_canvas_render_validation", String.valueOf(this.enableCanvasRenderValidation));
+        arrayMap.put("dav1d_enable_canvas_buffer_format_validation", String.valueOf(this.enableCanvasBufferFormatValidation));
+        arrayMap.put("dav1d_enable_canvas_picture_layout_validation", String.valueOf(this.enableCanvasPictureLayoutValidation));
+        arrayMap.put("dav1d_enable_frame_drop_monitor", String.valueOf(this.enableFrameDropMonitor));
+        arrayMap.put("dav1d_frame_drop_lock_wait_threshold_ms", String.valueOf(this.frameDropLockWaitThresholdMs));
+        arrayMap.put("dav1d_frame_drop_interval_threshold_ms", String.valueOf(this.frameDropIntervalThresholdMs));
+        arrayMap.put("enable_dav1d_compat_surface_control", String.valueOf(this.enableSurfaceControlCompat));
+        arrayMap.put("dav1d_enable_set_frame_rate", String.valueOf(this.enableSetFrameRate));
+        arrayMap.put("dav1d_reset_data_space_on_flush", String.valueOf(this.resetDataSpaceOnFlush));
+        arrayMap.put("dav1d_enable_stable_render_window", String.valueOf(this.enableStableRenderWindow));
+        arrayMap.put("dav1d_enable_stable_picture_ref", String.valueOf(this.enableStablePictureRef));
+        arrayMap.put("dav1d_enable_reuse_rebind", String.valueOf(this.enableDav1dReuseRebind));
+        arrayMap.put("dav1d_disable_hdr_canvas_routing", String.valueOf(this.disableHdrCanvasRouting));
+        arrayMap.put("dav1d_itm_brightness_max_scale", String.valueOf(this.itmBrightnessMaxScale));
+        arrayMap.put("dav1d_itm_d65_distance", String.valueOf(this.itmD65Distance));
+        return arrayMap;
+    }
+
+    public String toString() {
+        JSONObject jSONObjectA17 = AbstractC81763lf.A17();
+        Set setEntrySet = toLoggable().entrySet();
+        setEntrySet.getClass();
+        Iterator it = setEntrySet.iterator();
+        while (it.hasNext()) {
+            Map.Entry entryA0Y = AbstractC32971bt.A0Y(it);
+            try {
+                jSONObjectA17.put(AbstractC466425r.A12(entryA0Y), entryA0Y.getValue());
+            } catch (Exception unused) {
+            }
+        }
+        return AbstractC466525s.A0w(jSONObjectA17);
+    }
+
+    public final void setInitialInputBufferSizeBytes(int i) {
+        this.initialInputBufferSizeBytes = i;
+    }
+
+    public Dav1dMediaCodecAdapterSetting(Dav1dScalingMode dav1dScalingMode, long j, int i, int i2, int i3, int i4, boolean z, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6, VpsEventCallback vpsEventCallback, boolean z7, int i5, boolean z8, boolean z9, boolean z10, boolean z11, String str, boolean z12, boolean z13, boolean z14, boolean z15, int i6, boolean z16, boolean z17, boolean z18, int i7, int i8, int i9, int i10, int i11, int i12, int i13, boolean z19, boolean z20, boolean z21, boolean z22, boolean z23, boolean z24, boolean z25, String str2, boolean z26, boolean z27, boolean z28, boolean z29, int i14, int i15, int i16, int i17, boolean z30, int i18, int i19, boolean z31, boolean z32, boolean z33, boolean z34, boolean z35, boolean z36, boolean z37, boolean z38, Context context, Dav1dDecoderEventListener dav1dDecoderEventListener, boolean z39, boolean z40, boolean z41, boolean z42, float f, float f2) {
+        C000700h.A0A(dav1dScalingMode, 0);
+        C000700h.A0A(str, 19);
+        C000700h.A0A(str2, 42);
+        this.scalingMode = dav1dScalingMode;
+        this.allowedJoiningTimeMs = j;
+        this.maxDroppedFramesToNotify = i;
+        this.nThreads = i2;
+        this.maxFrameDelay = i3;
+        this.maxNumRetryLockingCanvas = i4;
+        this.applyGrain = z;
+        this.dav1dThrowExceptionOnPictureError = z2;
+        this.enableOpenGLRendering = z3;
+        this.enableVulkanRendering = z4;
+        this.enableVpsLogging = z5;
+        this.enableMmeLogging = z6;
+        this.vpsEventCallback = vpsEventCallback;
+        this.alignLeft = z7;
+        this.maxWidthForAV1SRShader = i5;
+        this.enableRenderingHandleAspectRatio = z8;
+        this.enableDynamicNDK = z9;
+        this.enableDav1dJniV2 = z10;
+        this.validateEglSurfaceSize = z11;
+        this.videoId = str;
+        this.enableUsampler2D = z12;
+        this.disableBlackScreenFix = z13;
+        this.useV1AcquireNativeWindowInDav1dJNIV2 = z14;
+        this.enableDav1dMediaCodecAdapterSurfaceFixes = z15;
+        this.initialInputBufferSizeBytes = i6;
+        this.skipSetDataSpaceForSDR = z16;
+        this.enableScopeGuard = z17;
+        this.useLegacySimpleDecoder = z18;
+        this.enhancementMode = i7;
+        this.requestedEnhancementMode = i8;
+        this.cpuItmAdmissionReason = i9;
+        this.cpuItmMaxShortSide = i10;
+        this.cpuItmMaxFramePixels = i11;
+        this.cpuItmSlowFrameThresholdMs = i12;
+        this.cpuItmGrossFrameThresholdMs = i13;
+        this.enableDirectPBOCopy = z19;
+        this.enableModernGLFormats = z20;
+        this.enableRendererFallback = z21;
+        this.enableOpenglTrimMemory = z22;
+        this.enableHwBufTrimMemory = z23;
+        this.enableNeonOptimizedCopy = z24;
+        this.enableBackgroundInit = z25;
+        this.cacheDir = str2;
+        this.enableHardwareBuffer = z26;
+        this.enablePBOUpload = z27;
+        this.openglPreferHardwareBuffer = z28;
+        this.enableEagerHwbufTeardown = z29;
+        this.hwbufPoolSize = i14;
+        this.hwbufMaxInstances = i15;
+        this.fdPressureThresholdPct = i16;
+        this.fdMinFreeFds = i17;
+        this.enableFrameDropMonitor = z30;
+        this.frameDropLockWaitThresholdMs = i18;
+        this.frameDropIntervalThresholdMs = i19;
+        this.enableSurfaceControlCompat = z31;
+        this.enableEagainYield = z32;
+        this.enableDecodeErrorRecovery = z33;
+        this.enableCanvasRenderValidation = z34;
+        this.enableCanvasBufferFormatValidation = z35;
+        this.enableCanvasPictureLayoutValidation = z36;
+        this.enableSetFrameRate = z37;
+        this.resetDataSpaceOnFlush = z38;
+        this.appContext = context;
+        this.decoderEventListener = dav1dDecoderEventListener;
+        this.enableStableRenderWindow = z39;
+        this.enableStablePictureRef = z40;
+        this.enableDav1dReuseRebind = z41;
+        this.itmBrightnessMaxScale = f;
+        this.itmD65Distance = f2;
+        this.disableHdrCanvasRouting = z42;
+    }
+
+    public /* synthetic */ Dav1dMediaCodecAdapterSetting(Dav1dScalingMode dav1dScalingMode, long j, int i, int i2, int i3, int i4, boolean z, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6, VpsEventCallback vpsEventCallback, boolean z7, int i5, boolean z8, boolean z9, boolean z10, boolean z11, String str, boolean z12, boolean z13, boolean z14, boolean z15, int i6, boolean z16, boolean z17, boolean z18, int i7, int i8, int i9, int i10, int i11, int i12, int i13, boolean z19, boolean z20, boolean z21, boolean z22, boolean z23, boolean z24, boolean z25, String str2, boolean z26, boolean z27, boolean z28, boolean z29, int i14, int i15, int i16, int i17, boolean z30, int i18, int i19, boolean z31, boolean z32, boolean z33, boolean z34, boolean z35, boolean z36, boolean z37, boolean z38, Context context, Dav1dDecoderEventListener dav1dDecoderEventListener, boolean z39, boolean z40, boolean z41, boolean z42, float f, float f2, int i20, int i21, int i22, AbstractC63252uj abstractC63252uj) {
+        this(dav1dScalingMode, j, i, i2, i3, i4, z, z2, z3, z4, z5, z6, vpsEventCallback, z7, i5, z8, z9, z10, z11, str, z12, z13, z14, z15, i6, z16, z17, z18, i7, i8, i9, i10, i11, i12, i13, z19, z20, z21, z22, z23, z24, z25, str2, z26, z27, z28, z29, i14, i15, i16, i17, z30, i18, i19, z31, z32, z33, z34, z35, z36, z37, z38, context, dav1dDecoderEventListener, z39, z40, z41, z42, (i22 & 16) != 0 ? 1.0f : f, (i22 & 32) != 0 ? 0.2f : f2);
+    }
+}

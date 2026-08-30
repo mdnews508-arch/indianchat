@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/meta_ai_app_connections" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04049c="@string/APKTOOL_DUMMYVAL_0x7f122422" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wds_ic_accounts_center" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f122421"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

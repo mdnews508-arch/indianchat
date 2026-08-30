@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d известувања</item>
+        <item quantity="one">%1$d известување</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%1$d скриени редови</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d допаѓања</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d нови известувања</item>
+        <item quantity="one">%d ново известување</item>
+    </plurals>
+</resources>

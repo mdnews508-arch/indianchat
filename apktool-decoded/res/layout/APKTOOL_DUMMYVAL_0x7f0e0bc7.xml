@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="vertical" android:id="@id/duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/duration_60_min" android:layout_below="@id/share_live_location"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/duration_15_min" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1060" />
+    <include android:id="@id/duration_60_min" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1060" />
+    <include android:id="@id/duration_480_min" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1060" />
+    <ViewStub android:id="@id/duration_indefinitely_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1060" android:inflatedId="@id/duration_indefinitely" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" />
+</RadioGroup>

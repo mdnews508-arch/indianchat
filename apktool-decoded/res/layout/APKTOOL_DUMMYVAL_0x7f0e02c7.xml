@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/product_footer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/catalog_list_footer_loading_spinner" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/catalog_list_footer_end_of_results" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/catalog_list_footer_end_of_results_title" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/end_of_results_button" android:visibility="gone" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        <ViewStub android:id="@id/product_list_hint_stub" android:visibility="gone" android:inflatedId="@id/product_list_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

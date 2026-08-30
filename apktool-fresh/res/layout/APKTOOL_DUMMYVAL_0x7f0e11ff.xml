@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/single_option_top_border_division" android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="0.0dip" android:layout_height="0.5dip" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$dটি নোটিফিকেশন</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%1$dটি লাইন লুকানো আছে</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$dটি পেজ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$dটি লাইক</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+</resources>

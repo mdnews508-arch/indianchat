@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f071106" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060687" android:gravity="center" android:background="@drawable/btn_live_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@android:color/transparent" app:APKTOOL_DUMMYVAL_0x7f040101="@android:color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e6" android:ellipsize="end" android:id="@id/place_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

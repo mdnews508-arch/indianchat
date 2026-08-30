@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1505bb"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/avatar" android:focusable="false" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" indianchat:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" indianchat:APKTOOL_DUMMYVAL_0x7f040863="@android:color/transparent" style="@style/APKTOOL_DUMMYVAL_0x7f1501d0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b2b">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040953" android:gravity="center_vertical" android:id="@id/name" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <ViewStub android:id="@id/subtitle_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e150b" android:inflatedId="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end|center" android:id="@id/additional_info_label" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e081a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+    <ViewStub android:id="@id/connect_icon_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e150d" android:inflatedId="@id/connect_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b2a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b2a" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b29" />
+    <ViewStub android:id="@id/group_call_wave_btn_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e59" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b2f" />
+    <ViewStub android:id="@id/ring_btn_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b2f" />
+    <ViewStub android:id="@id/ringing_dots_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e150e" android:inflatedId="@id/ringing_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b31" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b30" />
+    <ViewStub android:id="@id/wave_one_btn_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1510" android:inflatedId="@id/wave_one_btn" android:layout_width="34.0dip" android:layout_height="45.0dip" />
+    <ViewStub android:id="@id/wave_one_btn_stub_v2" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e59" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13dc" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/uc_action_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/user_control_message_preview_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13d9" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <com.whatsapp.ui.coreui.FAQTextView android:gravity="center_horizontal" android:id="@id/uc_feedback_desc" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+                <ViewStub android:id="@id/uc_data_sharing_label_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06cd" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" />
+                <com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/uc_action_tile_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+                <LinearLayout android:orientation="vertical" android:id="@id/uc_action_emphasized" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/uc_action_footer_prefs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar android:id="@id/wds_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409db="clear" app:APKTOOL_DUMMYVAL_0x7f0409dc="normal" />
+    <HorizontalScrollView android:id="@id/payment_transaction_filters" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.whatsapp.ui.wds.components.chip.WDSChipGroup android:id="@id/payment_transaction_filter_chip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407d3="true" />
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/payment_history_recycler_view" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/frame_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/header" android:background="@drawable/link_preview_background" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07016c">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="11.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/reference_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" android:letterSpacing="0.15" app:APKTOOL_DUMMYVAL_0x7f04048a="16.0sp" />
+                <ViewStub android:id="@id/bill_paid_label" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0598" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b00" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/biller_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.coreui.base.WaImageView android:id="@id/dashed_underline1" android:background="@drawable/dashed_underline_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/thumbAndTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+                    <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/biller_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f07077a" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f04062e" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bill_and_biller_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:ellipsize="end" android:id="@id/bill_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f04048a="19.0sp" />
+                        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/bill_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f04048a="16.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.indianchat.ui.coreui.base.WaImageView android:id="@id/dashed_underline" android:background="@drawable/dashed_underline_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/total_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d5a" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f04048a="18.0sp" />
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/total_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f04048a="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

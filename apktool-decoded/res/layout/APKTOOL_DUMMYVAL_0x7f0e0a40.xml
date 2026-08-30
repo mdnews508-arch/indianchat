@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_width="132.0dip" android:layout_height="88.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_upi_mapper_nux_illustration" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1222a9" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?android:textAppearanceSmall" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:text="@string/APKTOOL_DUMMYVAL_0x7f1222a8" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:gravity="center" android:id="@id/continue_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:text="@string/APKTOOL_DUMMYVAL_0x7f1222a7" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f150121" />
+    </LinearLayout>
+</ScrollView>

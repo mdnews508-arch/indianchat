@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d نوٹیفیکیشنز</item>
+        <item quantity="one">%1$d نوٹیفیکیشن</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%1$d لائنز پوشیدہ ہیں</item>
+        <item quantity="one">%1$d لائن پوشیدہ ہے</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d پیجز</item>
+        <item quantity="one">%1$d پیج</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d لائکس</item>
+        <item quantity="one">%1$d لائک</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+</resources>

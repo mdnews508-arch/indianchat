@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/voice_settings_main_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" app:APKTOOL_DUMMYVAL_0x7f04026d="gone" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.coreui.collections.centeredrecyclerview.CenteredSelectionRecyclerView android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/voice_selection_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f040442="LinearLayoutManager" />
+                <ViewStub android:layout_gravity="center|top" android:id="@id/meta_ai_voice_selection_animation_view_stub" android:layout_width="128.0dip" android:layout_height="128.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dcd" />
+                <LinearLayout android:orientation="vertical" android:id="@id/voice_option_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="200.0dip" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/voice_option_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+                    </LinearLayout>
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/voice_option_description" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+                </LinearLayout>
+            </FrameLayout>
+            <View android:id="@id/voice_option_description_divider" android:background="?android:listDivider" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ViewStub android:id="@id/default_voice_setting_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

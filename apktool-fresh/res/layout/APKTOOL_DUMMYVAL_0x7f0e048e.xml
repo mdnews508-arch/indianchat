@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <com.whatsapp.ui.coreui.PagerSlidingTabStrip android:id="@id/contact_qr_tab_strip" android:background="?APKTOOL_DUMMYVAL_0x7f040593" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040649="@color/APKTOOL_DUMMYVAL_0x7f060746" app:APKTOOL_DUMMYVAL_0x7f04064a="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+    <ViewStub android:id="@id/contact_qr_segmented_tabs_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0493" android:inflatedId="@id/contact_qr_segmented_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@id/contact_qr_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/contact_qr_preview" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </FrameLayout>
+</LinearLayout>

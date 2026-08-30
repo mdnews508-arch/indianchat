@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversation_contact" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" android:animateLayoutChanges="true" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071144" style="@style/APKTOOL_DUMMYVAL_0x7f150204"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@id/conversation_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f1504b5" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/conversation_contact_status_holder" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="false">
+        <ViewStub android:layout_gravity="left" android:id="@id/business_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04ac" android:inflatedId="@id/business_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="left" android:id="@id/conversation_contact_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f1504b2" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

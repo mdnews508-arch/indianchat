@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader android:id="@id/org_section_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0403aa="defaultHeader" />
+    <LinearLayout android:orientation="vertical" android:id="@id/org_section_rows" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

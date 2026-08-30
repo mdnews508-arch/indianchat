@@ -1,0 +1,97 @@
+package X;
+
+/* JADX INFO: renamed from: X.7lF, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C174417lF {
+    public int A00;
+    public int A01;
+    public int A02;
+    public int A03;
+    public int A05;
+    public int A06;
+    public int A07;
+    public int A08;
+    public int A09;
+    public int A0A;
+    public int A0B;
+    public int A0C;
+    public int A0D;
+    public int A0E;
+    public int A0F;
+    public int A0G;
+    public int A0H;
+    public int A0I;
+    public int A0J;
+    public boolean A0L;
+    public C7QV A0K = C7QV.A05;
+    public int A04 = -1;
+
+    public final String A00() {
+        int i = this.A04;
+        int i2 = this.A01;
+        int i3 = this.A0I;
+        int i4 = this.A0J;
+        int i5 = this.A0H;
+        int i6 = this.A06;
+        int i7 = this.A07;
+        int i8 = this.A05;
+        int i9 = this.A09;
+        int i10 = this.A0A;
+        int i11 = this.A0C;
+        int i12 = this.A0B;
+        int i13 = this.A0D;
+        int i14 = this.A0E;
+        int i15 = this.A0G;
+        int i16 = this.A0F;
+        int i17 = this.A08;
+        int i18 = this.A03;
+        int i19 = this.A00;
+        int i20 = this.A02;
+        boolean z = this.A0L;
+        C7QV c7qv = this.A0K;
+        StringBuilder sbA08 = AnonymousClass000.A08();
+        sbA08.append("distributionMode=");
+        sbA08.append(i);
+        sbA08.append(", candidateCount=");
+        sbA08.append(i2);
+        sbA08.append(", jidsAfterMode=");
+        sbA08.append(i3);
+        sbA08.append(", mentionsAdded=");
+        sbA08.append(i4);
+        sbA08.append(", droppedNullJid=");
+        sbA08.append(i5);
+        sbA08.append(", droppedDenyList=");
+        sbA08.append(i6);
+        sbA08.append(", droppedEnterprise=");
+        sbA08.append(i7);
+        sbA08.append(", droppedBlocked=");
+        sbA08.append(i8);
+        sbA08.append(", droppedNoContact=");
+        sbA08.append(i9);
+        sbA08.append(", droppedNoContactLid=");
+        sbA08.append(i10);
+        sbA08.append(", droppedNoContactPn=");
+        sbA08.append(i11);
+        sbA08.append(", droppedNoContactOther=");
+        sbA08.append(i12);
+        sbA08.append(", droppedNoKey=");
+        sbA08.append(i13);
+        sbA08.append(", droppedNoKeyLid=");
+        sbA08.append(i14);
+        sbA08.append(", droppedNoKeyPn=");
+        sbA08.append(i15);
+        sbA08.append(", droppedNoKeyOther=");
+        sbA08.append(i16);
+        sbA08.append(", droppedInterop=");
+        sbA08.append(i17);
+        sbA08.append(", denyListSize=");
+        sbA08.append(i18);
+        sbA08.append(", allowListSize=");
+        sbA08.append(i19);
+        sbA08.append(", customListSize=");
+        sbA08.append(i20);
+        sbA08.append(", statusMigrated=");
+        sbA08.append(z);
+        return AnonymousClass000.A04(c7qv, ", trigger=", sbA08);
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/conversation_fts_not_ready_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/conversation_fts_not_ready_text" android:background="?APKTOOL_DUMMYVAL_0x7f04071d" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070654" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070656" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070655" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070653" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1237ef" />
+    <View android:layout_alignTop="@id/conversation_fts_not_ready_text" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <View android:background="@drawable/bottom_elevation" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070657" android:layout_below="@id/conversation_fts_not_ready_text" />
+</RelativeLayout>

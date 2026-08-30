@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/upr_onboarding_root" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/upr_onboarding_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0408d4="?APKTOOL_DUMMYVAL_0x7f040a00" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:id="@id/upr_onboarding_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/chat_name_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="12.0sp" android:gravity="end" android:id="@id/time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d10">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="14.0sp" android:ellipsize="end" android:id="@id/message_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/badge_icon" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f6" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    </LinearLayout>
+</merge>

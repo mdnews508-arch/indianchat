@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.conversation.sidechat.SideChatDrawerLayout android:id="@id/side_chat_drawer_root" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04a7" />
+        <ViewStub android:layout_gravity="end" android:id="@id/side_chat_drawer_content_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e11ee" android:inflatedId="@id/side_chat_drawer_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.whatsapp.conversation.sidechat.SideChatDrawerLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout android:orientation="vertical" android:id="@id/lists_folder_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/lists_folder_recycler" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

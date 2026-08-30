@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.banners.WDSBanner android:id="@id/educational_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040092="defaultStyle" app:APKTOOL_DUMMYVAL_0x7f040262="true" />
+</FrameLayout>

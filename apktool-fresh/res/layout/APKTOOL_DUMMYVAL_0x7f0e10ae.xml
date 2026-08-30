@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/delete_payments_account_action" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/remove_row_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f121326" app:APKTOOL_DUMMYVAL_0x7f04068e="text" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_delete_white" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+</LinearLayout>

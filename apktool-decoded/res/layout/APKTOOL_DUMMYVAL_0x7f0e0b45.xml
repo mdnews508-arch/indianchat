@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/background_media_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/ic_retry_background" android:layout_width="40.0dip" android:layout_height="40.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/retry_icon_background" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/ic_retry" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_refresh_white" />
+</androidx.constraintlayout.widget.ConstraintLayout>

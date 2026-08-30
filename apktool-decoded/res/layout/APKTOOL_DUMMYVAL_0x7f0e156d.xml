@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/dpa_product_card" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011d="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f04011e="8.0dip" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/dpa_product_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e6" android:ellipsize="end" android:id="@id/dpa_product_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3_emphasized" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.analytics.uxlogging.components.LoggingAwareFrameLayout android:id="@id/status_playback_content_action_button_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/wamo_swipe_up_cta_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:src="@drawable/ic_caret_up" android:importantForAccessibility="no" />
+        <com.indianchat.wamo.ui.status.WamoLargeCtaButton android:id="@id/status_playback_content_action_button" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07104b" />
+    </LinearLayout>
+</com.indianchat.analytics.uxlogging.components.LoggingAwareFrameLayout>

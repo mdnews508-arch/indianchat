@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/carousel_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|center" android:id="@id/pager_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f89" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:overScrollMode="never" app:APKTOOL_DUMMYVAL_0x7f04083b="@drawable/calls_tab_carousel_dot_indicator_selector" app:APKTOOL_DUMMYVAL_0x7f04083d="center" app:APKTOOL_DUMMYVAL_0x7f040846="0.0dip" app:APKTOOL_DUMMYVAL_0x7f040848="@dimen/APKTOOL_DUMMYVAL_0x7f070f8a" />
+    <ViewStub android:layout_gravity="center" android:id="@id/calls_tab_nux_invite_button_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0361" android:inflatedId="@id/calls_tab_nux_invite_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+</merge>

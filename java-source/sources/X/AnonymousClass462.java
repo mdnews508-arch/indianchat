@@ -1,0 +1,19 @@
+package X;
+
+import com.google.common.collect.ImmutableList;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/* JADX INFO: renamed from: X.462, reason: invalid class name */
+/* JADX INFO: loaded from: classes4.dex */
+public final class AnonymousClass462 extends C40801qH implements InterfaceC16790p2 {
+    public ImmutableList A00() {
+        ImmutableList immutableListAwe = this.A00.Awe(96356950);
+        ArrayList arrayListA0o = AbstractC466825v.A0o(immutableListAwe);
+        Iterator<E> it = immutableListAwe.iterator();
+        while (it.hasNext()) {
+            arrayListA0o.add(new C46D(AbstractC81823ll.A0I(it)));
+        }
+        return AbstractC466125o.A0a(arrayListA0o);
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.evolvedabout.ui.creation.AboutPreviewPanel android:orientation="vertical" android:id="@id/about_preview_panel" android:background="@drawable/bg_about_preview_panel" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f07003e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/preview_header" android:background="@drawable/wds_component_pressed" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/preview_header_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12007f" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/preview_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+        <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/preview_save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/preview_body" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07003c" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e143e" />
+    </FrameLayout>
+</com.indianchat.evolvedabout.ui.creation.AboutPreviewPanel>

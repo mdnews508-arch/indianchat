@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d notifikationer</item>
+        <item quantity="one">%1$d notifikation</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%1$d linjer skjult</item>
+        <item quantity="one">%1$d linje skjult</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d sider</item>
+        <item quantity="one">%1$d side</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d synes godt om</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+</resources>

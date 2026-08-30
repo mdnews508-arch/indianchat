@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.search.WDSSearchBar android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sender_messages_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="16.0sp" android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/empty_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123916" />
+    </FrameLayout>
+</LinearLayout>

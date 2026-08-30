@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="top" android:id="@id/paa_managed_account_message_icon" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710ea" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710ea" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+            <view android:layout_gravity="left" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.whatsapp.ui.coreui.components.TextAndDateLayout">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409af" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:textColorHighlight="?APKTOOL_DUMMYVAL_0x7f04090d" android:layout_gravity="center|left|top" android:id="@id/paa_managed_account_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055d" />
+            </view>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

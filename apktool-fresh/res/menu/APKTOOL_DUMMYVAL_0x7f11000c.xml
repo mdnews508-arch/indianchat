@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_format_bold" android:id="@id/rewrite" android:orderInCategory="200" android:title="@string/APKTOOL_DUMMYVAL_0x7f124fb7" android:showAsAction="always" />
+</menu>

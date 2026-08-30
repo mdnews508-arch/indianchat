@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/payment_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/payment_recycler_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ebc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/progress_bar_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ebb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.fab.WDSExtendedFab android:layout_gravity="end|bottom|center" android:id="@id/fab_request_payment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f125139" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/currency_br_real_mono" app:APKTOOL_DUMMYVAL_0x7f0403d3="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f1505f1" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

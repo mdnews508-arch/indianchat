@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/search_map_preview_map_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/map_loading" />
+    <com.whatsapp.locationsharing.location.WaMapView android:id="@id/search_map_preview_map" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d15" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d15" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d16" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d16" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04085e="?APKTOOL_DUMMYVAL_0x7f0404bd" app:APKTOOL_DUMMYVAL_0x7f04085f="1.0dip" app:APKTOOL_DUMMYVAL_0x7f040861="false" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d16" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d16" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/live_location_expired_contact_mask" />
+    </FrameLayout>
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</merge>

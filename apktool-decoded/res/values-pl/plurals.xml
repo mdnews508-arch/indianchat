@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d powiadomień</item>
+        <item quantity="one">%1$d powiadomienie</item>
+        <item quantity="few">%1$d powiadomienia</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">Ukryto %1$d wierszy</item>
+        <item quantity="one">Ukryto %1$d wiersz</item>
+        <item quantity="few">Ukryto %1$d wiersze</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d stron</item>
+        <item quantity="one">%1$d strona</item>
+        <item quantity="few">%1$d strony</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d polubień</item>
+        <item quantity="one">%1$d polubienie</item>
+        <item quantity="few">%1$d polubienia</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+</resources>

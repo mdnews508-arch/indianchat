@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColorLink="?APKTOOL_DUMMYVAL_0x7f040a02" android:gravity="center" android:id="@id/notification_primer_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070636" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070636" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+</LinearLayout>

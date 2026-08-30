@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124a80" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:gravity="center" android:id="@id/wa_lead_gen_error_retry" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f07110f" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07110f" android:text="@string/APKTOOL_DUMMYVAL_0x7f124a88" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

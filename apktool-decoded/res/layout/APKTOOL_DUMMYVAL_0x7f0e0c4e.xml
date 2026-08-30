@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/music_attribution_view_bg" android:background="@drawable/music_attribution_background_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070941"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

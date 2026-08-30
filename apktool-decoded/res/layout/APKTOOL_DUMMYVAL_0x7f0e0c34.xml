@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/APKTOOL_DUMMYVAL_0x7f060884" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409aa" android:layout_gravity="start" android:id="@id/poll_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/multi_selection_poll_check_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_check_circle_small" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150340" android:id="@id/poll_type_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    </LinearLayout>
+</LinearLayout>

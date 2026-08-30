@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/APKTOOL_DUMMYVAL_0x7f1502a0">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502a2">
+            <com.indianchat.ui.coreui.base.WaImageView android:id="@id/instrumentation_auth_image" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/private_ptt" style="@style/APKTOOL_DUMMYVAL_0x7f150297" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f6f" style="@style/APKTOOL_DUMMYVAL_0x7f1502a1" />
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150299">
+                <com.indianchat.ui.coreui.base.WaImageView android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_settings_chats" style="@style/APKTOOL_DUMMYVAL_0x7f15029a" />
+                <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15029d">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_one" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f5e" style="@style/APKTOOL_DUMMYVAL_0x7f15029c" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_one_body" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f5f" style="@style/APKTOOL_DUMMYVAL_0x7f15029b" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150299">
+                <com.indianchat.ui.coreui.base.WaImageView android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_keyboard_voice" style="@style/APKTOOL_DUMMYVAL_0x7f15029a" />
+                <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15029d">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_two" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f65" style="@style/APKTOOL_DUMMYVAL_0x7f15029c" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_two_body" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f66" style="@style/APKTOOL_DUMMYVAL_0x7f15029b" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150299">
+                <com.indianchat.ui.coreui.base.WaImageView android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_settings" style="@style/APKTOOL_DUMMYVAL_0x7f15029a" />
+                <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15029d">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_three" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f61" style="@style/APKTOOL_DUMMYVAL_0x7f15029c" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_bullet_three_body" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f62" style="@style/APKTOOL_DUMMYVAL_0x7f15029b" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/instrumentation_auth_complete_link" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f6c" style="@style/APKTOOL_DUMMYVAL_0x7f150296" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150294">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/instrumentation_auth_complete_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f6a" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </LinearLayout>
+</LinearLayout>

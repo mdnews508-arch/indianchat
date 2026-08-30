@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1200e3" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/conversations_swipe_to_reveal_filter_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f040442="LinearLayoutManager" />
+    <ViewStub android:id="@id/conversations_filter_pinned_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e067b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

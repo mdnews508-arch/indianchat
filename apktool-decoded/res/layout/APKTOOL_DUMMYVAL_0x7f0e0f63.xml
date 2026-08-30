@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.components.button.ThumbnailButton android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/poll_creator_option_add_media" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f040862="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

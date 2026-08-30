@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/delete_suspended_group_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140">
+        <CheckBox android:id="@id/delete_suspended_media_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:layout_marginRight="11.0dip" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/delete_media_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

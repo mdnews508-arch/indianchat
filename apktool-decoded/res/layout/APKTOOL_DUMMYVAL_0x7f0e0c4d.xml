@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/motion_photo_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.mediaview.ui.MotionPhotoIcon android:id="@id/motion_photo_icon" android:background="@drawable/reaction_button_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060977" />
+</FrameLayout>

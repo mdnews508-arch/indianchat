@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sticker_store_featured" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/store_recycler_view" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e9c" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:orientation="vertical" android:id="@id/store_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1306" android:inflatedId="@id/store_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12fd" android:inflatedId="@id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e9c">
+        <FrameLayout android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/floating_discover_third_party_app_button" android:background="?APKTOOL_DUMMYVAL_0x7f040297" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e9c" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e9b">
+            <View android:background="?APKTOOL_DUMMYVAL_0x7f04029f" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e2" android:ellipsize="end" android:layout_gravity="center" android:id="@id/discover_sticker_apps_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12403a" android:maxLines="2" android:textAllCaps="true" android:importantForAccessibility="no" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ai_private_processing_badge_stub" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0703ce" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703ce" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_lock_meta_ai" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:layout_gravity="center_vertical" android:id="@id/ai_private_processing_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12244d" android:maxLines="1" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071149" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body3" />
+</LinearLayout>

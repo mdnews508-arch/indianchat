@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0700b9" />
+            <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0700bc" />
+            <stroke android:width="@dimen/APKTOOL_DUMMYVAL_0x7f0700b6" android:color="@color/APKTOOL_DUMMYVAL_0x7f06007e" />
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f06007d" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0700b9" />
+                <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0700bc" />
+                <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f06007f" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

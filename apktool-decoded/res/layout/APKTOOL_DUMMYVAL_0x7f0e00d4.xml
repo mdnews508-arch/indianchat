@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07012c" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07012b">
+        <LinearLayout android:orientation="vertical" android:id="@id/newsletter_admin_settings" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/newsletter_reaction_settings_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f1227bb" app:APKTOOL_DUMMYVAL_0x7f0403aa="defaultHeader" />
+            <RadioGroup android:id="@id/newsletter_reactions_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <RadioButton android:theme="?APKTOOL_DUMMYVAL_0x7f04075d" android:id="@id/reactions_all_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                <RadioButton android:theme="?APKTOOL_DUMMYVAL_0x7f04075d" android:id="@id/reactions_default_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                <RadioButton android:theme="?APKTOOL_DUMMYVAL_0x7f04075d" android:id="@id/reactions_none_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            </RadioGroup>
+        </LinearLayout>
+        <com.indianchat.ui.wds.components.divider.WDSDivider android:id="@id/admin_profile_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04026b="thin" />
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/admin_profile_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f120284" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f120285" app:APKTOOL_DUMMYVAL_0x7f0406b1="wds_switch" />
+        <ViewStub android:id="@id/admin_profile_create_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e013e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/admin_profile_existing_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e013f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

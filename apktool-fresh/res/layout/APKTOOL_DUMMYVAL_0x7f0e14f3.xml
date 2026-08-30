@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_gravity="top" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070095" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/voice_output_image_response" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/generated_image" android:background="@null" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" android:adjustViewBounds="false" app:APKTOOL_DUMMYVAL_0x7f040453="1:1" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f04078f="@style/APKTOOL_DUMMYVAL_0x7f1505b6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071090" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14f9" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14f4" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14f2" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

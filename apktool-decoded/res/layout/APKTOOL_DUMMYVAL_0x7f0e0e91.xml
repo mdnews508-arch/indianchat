@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:gravity="center" android:id="@id/order_detail_external_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a12" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

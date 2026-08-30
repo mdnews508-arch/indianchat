@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lonely_state_parent" android:background="?APKTOOL_DUMMYVAL_0x7f0409eb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:layout_gravity="center" android:id="@id/lonely_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0707fb" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f040009="calling_themed" app:APKTOOL_DUMMYVAL_0x7f0408d9="calling_themed" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+</LinearLayout>

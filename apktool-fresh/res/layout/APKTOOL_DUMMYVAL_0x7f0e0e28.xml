@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/offsite_card_payment_details_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f08" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0eff" />
+        <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f02" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ef9" />
+    </LinearLayout>
+</ScrollView>

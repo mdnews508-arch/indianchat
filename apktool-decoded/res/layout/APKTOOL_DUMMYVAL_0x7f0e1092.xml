@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.BoundedLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/prefill_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070315"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/loading_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <LinearLayout android:orientation="vertical" android:id="@id/stored_numbers_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.indianchat.ui.coreui.BoundedLinearLayout>

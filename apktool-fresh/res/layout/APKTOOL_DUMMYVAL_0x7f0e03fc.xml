@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005e">
+        <com.whatsapp.ui.coreui.base.WaImageButton android:layout_gravity="start|center" android:id="@id/subgroup_switcher_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150131" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/community_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702dc" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0702dc" android:maxLines="1" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/subgroup_switcher_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0702d7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0702d7" />
+    <FrameLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/add_group_button" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f120e6a" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bd7" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bd7">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:id="@id/remove_accounts_title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123412" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+        <LinearLayout android:orientation="vertical" android:id="@id/account_list_card" android:background="@drawable/login_back_account_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/account_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/remove_account_divider" android:showDividers="middle" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/learn_more_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f123410" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hatch_browser_preview_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediaview.api.PhotoView android:id="@id/hatch_browser_preview_photo" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/hatch_browser_preview_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" app:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15020d" />
+</FrameLayout>

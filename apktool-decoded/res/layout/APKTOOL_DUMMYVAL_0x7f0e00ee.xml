@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textlayout.WDSTextLayout android:id="@id/replace_pin_text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_picto_pin_code" app:APKTOOL_DUMMYVAL_0x7f040443="view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

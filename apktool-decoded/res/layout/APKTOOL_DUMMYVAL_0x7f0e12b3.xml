@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_reply_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/status_playback_header_profile_picture_viewstub" android:background="@drawable/white_circle" android:padding="1.25dip" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e126e" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="start|center|top" android:id="@id/status_reply_lottie_nye_animation_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b6" android:inflatedId="@id/status_reply_lottie_nye_animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.ui.coreui.KeyboardPopupLayout android:id="@id/main_ccl" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/bottom_sheet" android:fitsSystemWindows="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:visibility="gone" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12ae" />
+                <ViewStub android:gravity="center_horizontal" android:id="@id/coex_privacy_disclaimer_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03c6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                <FrameLayout android:id="@id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="-5.0dip" android:layout_above="@id/conversation_entry_holder" />
+                <FrameLayout android:id="@id/conversation_entry_holder" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04cb" />
+                </FrameLayout>
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.indianchat.ui.coreui.KeyboardPopupLayout>
+</FrameLayout>

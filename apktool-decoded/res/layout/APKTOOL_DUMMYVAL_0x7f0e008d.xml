@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137a" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/flex_checkout_form_step_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                <LinearLayout android:orientation="vertical" android:id="@id/flex_checkout_form_fields_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+            </LinearLayout>
+        </ScrollView>
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/flex_checkout_form_action_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f125106" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/flex_checkout_form_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

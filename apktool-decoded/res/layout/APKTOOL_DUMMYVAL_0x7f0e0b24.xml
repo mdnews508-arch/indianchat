@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.media.conversation.waveforms.VoiceVisualizer android:layout_gravity="center_vertical" android:id="@id/jarvis_voice_visualizer" android:layout_width="fill_parent" android:layout_height="24.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:APKTOOL_DUMMYVAL_0x7f040640="?APKTOOL_DUMMYVAL_0x7f04093b" app:APKTOOL_DUMMYVAL_0x7f040733="?APKTOOL_DUMMYVAL_0x7f04093c" app:APKTOOL_DUMMYVAL_0x7f040734="4.799988dip" app:APKTOOL_DUMMYVAL_0x7f040735="2.5dip" />
+    <com.indianchat.voicerecorder.VoiceNoteSeekBar android:layout_gravity="center_vertical" android:id="@id/jarvis_voice_seekbar" android:layout_width="fill_parent" android:layout_height="24.0dip" android:max="1000" android:progress="0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:APKTOOL_DUMMYVAL_0x7f040937="?APKTOOL_DUMMYVAL_0x7f040065" app:APKTOOL_DUMMYVAL_0x7f040938="12.0dip" app:APKTOOL_DUMMYVAL_0x7f040939="3.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505b5" />
+</FrameLayout>

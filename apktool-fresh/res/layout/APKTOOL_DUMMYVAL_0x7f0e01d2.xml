@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/row_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070378" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070361" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <ViewStub android:layout_gravity="center" android:id="@id/lists_item_left_add_on" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01d1" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" />
+        <com.whatsapp.ui.coreui.components.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+    </FrameLayout>
+    <include android:id="@id/multiple_contact_picker_row_name" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040466="@id/contact_selector" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d19" />
+</androidx.constraintlayout.widget.ConstraintLayout>

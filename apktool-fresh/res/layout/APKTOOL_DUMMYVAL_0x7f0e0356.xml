@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.SelectionCheckView android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" app:APKTOOL_DUMMYVAL_0x7f04044e="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

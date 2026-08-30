@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/future_proof_message" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.divider.WDSDivider android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f04026b="thin" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:id="@id/future_proof_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121a7e" android:drawablePadding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f04027d="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+</LinearLayout>

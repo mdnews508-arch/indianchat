@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070975" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070974" android:scaleType="centerInside" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_videocam_white" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

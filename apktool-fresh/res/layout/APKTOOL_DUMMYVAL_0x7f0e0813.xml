@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="bottom|center" android:background="@drawable/event_preset_cover_image_grid_item_selected_check_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705d6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705d6" android:src="@drawable/wa_ic_check_circle_filled" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

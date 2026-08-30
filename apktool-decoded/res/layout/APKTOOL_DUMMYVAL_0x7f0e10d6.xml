@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/retry_button" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070502" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0704ff" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070502" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0704ff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124367" app:APKTOOL_DUMMYVAL_0x7f04086f="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f15015c"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

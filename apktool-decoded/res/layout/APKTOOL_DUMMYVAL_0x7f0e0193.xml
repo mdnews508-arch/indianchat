@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/alert_banner_component" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/alert_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+        <LinearLayout android:orientation="vertical" android:id="@id/alert_info_layout" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/alert_title" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15001f" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/alert_details" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15001a" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/alert_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150019" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/alert_count_icon_layout" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0608ba" android:id="@id/multi_alert_count" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.indianchat.ui.coreui.base.WaImageView android:id="@id/alert_right_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_arrow_forward_ios" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0608ba" />
+        </LinearLayout>
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/alert_close_icon" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0608b7" />
+    </LinearLayout>
+</merge>

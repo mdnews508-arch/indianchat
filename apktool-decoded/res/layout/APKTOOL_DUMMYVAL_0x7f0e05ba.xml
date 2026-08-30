@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.conversationrow.botrichresponse.litho.UnifiedResponseLithoDateWrapperView android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/newsletter_message_view_count" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dd8" android:inflatedId="@id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/search_provider_attribution" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1145" android:inflatedId="@id/search_provider_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/date" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/wamosub_indicator" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0658" android:inflatedId="@id/wamosub_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071019" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071018" />
+</com.indianchat.conversationrow.botrichresponse.litho.UnifiedResponseLithoDateWrapperView>

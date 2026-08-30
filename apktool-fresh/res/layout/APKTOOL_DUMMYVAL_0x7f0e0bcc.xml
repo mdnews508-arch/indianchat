@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/places_holder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:entries="@null" android:id="@id/places_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:nestedScrollingEnabled="true" />
+        <ProgressBar android:id="@id/progressbar_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/places_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyleLarge" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/places_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228c3" android:layout_below="@id/places_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <ViewStub android:id="@id/places_retry_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0bcd" android:inflatedId="@id/places_retry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/places_list" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

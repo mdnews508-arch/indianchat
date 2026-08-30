@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ctwa_icebreaker_prompt" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/ctwa_icebreaker_prompt_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="220.0dip" android:layout_weight="1.0" style="?APKTOOL_DUMMYVAL_0x7f0409a9" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/ctwa_icebreaker_prompt_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0605a9" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_send" />
+</LinearLayout>

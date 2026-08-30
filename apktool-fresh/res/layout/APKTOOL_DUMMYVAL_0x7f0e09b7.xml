@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/navigation_bar_protection" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:layout_gravity="start" android:id="@id/navigation_rail_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09bd" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/call_notification_holder_vr" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                <LinearLayout android:orientation="vertical" android:id="@id/conversation_list_view_host" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c003c">
+                    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:id="@id/call_notification_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <FrameLayout android:id="@id/pager_holder" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <view android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.whatsapp.home.ui.TabsPager" />
+                        </FrameLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@id/conversation_list_view_host">
+                            <LinearLayout android:orientation="horizontal" android:id="@id/toolbar_container" android:background="?APKTOOL_DUMMYVAL_0x7f0408da" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d">
+                                <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408da" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" app:APKTOOL_DUMMYVAL_0x7f04067a="true" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15058d">
+                                    <ViewStub android:id="@id/toolbar_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09c2" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                                    <ViewStub android:id="@id/toolbar_logo_glyph" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09c1" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710ef" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710ef" />
+                                    <ViewStub android:id="@id/toolbar_logo_text" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09c3" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                                </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+                                <ViewStub android:layout_gravity="center_vertical" android:id="@id/me_tab_v2_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c70" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <View android:id="@id/toolbar_padding" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/search_fragment_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" />
+                        <FrameLayout android:id="@id/media_fragment_holder" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" />
+                        <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070002" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" />
+                        <ViewStub android:layout_gravity="center|right|top" android:id="@id/filter_chat_tip_view_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070002" />
+                        <ViewStub android:layout_gravity="center|right|top" android:id="@id/account_switching_tool_tip_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0030" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070054" />
+                        <ViewStub android:id="@id/second_fab_tool_tip_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e114f" android:inflatedId="@id/second_fab_tool_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505d9" />
+                        <ViewStub android:id="@id/fab_second_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e144c" android:inflatedId="@id/fab_second" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505d7" />
+                        <ViewStub android:id="@id/extended_fab_second_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e144b" android:inflatedId="@id/extended_mini_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070604" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070605" style="@style/APKTOOL_DUMMYVAL_0x7f1505d7" />
+                        <ViewStub android:id="@id/fab_tool_tip_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0838" android:inflatedId="@id/fab_tool_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505d8" />
+                        <ViewStub android:id="@id/fab_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1453" android:inflatedId="@id/fab" style="@style/APKTOOL_DUMMYVAL_0x7f1505d3" />
+                        <ViewStub android:id="@id/extended_fab_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e144a" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710b0" style="@style/APKTOOL_DUMMYVAL_0x7f1505f1" />
+                    </FrameLayout>
+                    <ViewStub android:id="@id/bottom_navigation_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/conversation_view_host" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c003b" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

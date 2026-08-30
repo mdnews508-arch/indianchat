@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e050e" />
+    <com.indianchat.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <ViewStub android:id="@id/caption" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e050d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070138">
+            <ViewStub android:id="@id/newsletter_message_view_count" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dd8" android:inflatedId="@id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center|right" android:id="@id/date" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/wamosub_indicator" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0658" android:inflatedId="@id/wamosub_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071019" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071018" />
+        </LinearLayout>
+    </com.indianchat.ui.coreui.components.TextAndDateLayout>
+</LinearLayout>

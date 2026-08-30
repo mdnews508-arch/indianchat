@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/gallery_selected_container" android:background="@color/APKTOOL_DUMMYVAL_0x7f0602b5" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07067b" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/gallery_selected_media" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="center_vertical" android:id="@id/gallery_done_btn" android:background="@drawable/input_circle" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070216" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070216" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1222f6" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07067b" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_check_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" />
+</LinearLayout>

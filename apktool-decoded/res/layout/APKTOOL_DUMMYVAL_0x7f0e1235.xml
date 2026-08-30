@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:layout_width="72.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contactpicker_row_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040861="true" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/selection" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/contactpicker_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <ViewStub android:layout_gravity="start" android:id="@id/contactpicker_row_subtitle_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1238" android:inflatedId="@id/status_contact_picker_subtitle_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/selection" android:background="@drawable/selection_check_deemphasized" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.indianchat.ui.coreui.components.SelectionCheckView android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" app:APKTOOL_DUMMYVAL_0x7f040710="0.0dip" />
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.divider.WDSDivider android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/contact_selector" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:layout_toEndOf="@id/contact_selector" app:APKTOOL_DUMMYVAL_0x7f04026b="thin" />
+</RelativeLayout>

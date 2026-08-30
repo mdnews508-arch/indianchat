@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/note_layout" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_box" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/lock" android:layout_width="24.0dip" android:layout_height="24.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_lock" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060296" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f122e94" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/note_name_visible_to_others" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" />
+    </LinearLayout>
+</merge>

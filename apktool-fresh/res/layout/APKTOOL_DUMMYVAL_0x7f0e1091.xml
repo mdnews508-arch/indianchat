@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.BoundedLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/manual_phone_entry_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f07030b">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:textColorHint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:gravity="left" android:id="@id/registration_country" android:background="@drawable/dropdown_textfield_background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:hint="@string/APKTOOL_DUMMYVAL_0x7f1231fd" android:maxLines="1" android:lines="1" android:inputType="none" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        <com.whatsapp.ui.coreui.components.PhoneNumberEntry android:gravity="left" android:id="@id/phone_number_entry" android:layout_width="fill_parent" android:layout_height="45.0dip" app:APKTOOL_DUMMYVAL_0x7f040605="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+    </com.whatsapp.ui.coreui.BoundedLinearLayout>
+    <ViewStub android:id="@id/phone_number_entry_error" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1090" android:inflatedId="@id/phone_number_entry_error" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

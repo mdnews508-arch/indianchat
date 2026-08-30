@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center|top" android:id="@id/newsletter_enforcement_badge" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f5" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_appeal_outcome_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_appeal_outcome_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_gravity="center" android:id="@id/newsletter_appeal_outcome_request_date" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            <ViewStub android:id="@id/newsletter_appeal_outcome_additional_section" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d95" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/enforced_admin_profile_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0da0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.fragment.app.FragmentContainerView android:id="@id/newsletter_guidelines_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

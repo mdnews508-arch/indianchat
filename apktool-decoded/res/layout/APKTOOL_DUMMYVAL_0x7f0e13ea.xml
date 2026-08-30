@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.chip.WDSChipGroup android:id="@id/search_by_mood_chip_group" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</HorizontalScrollView>

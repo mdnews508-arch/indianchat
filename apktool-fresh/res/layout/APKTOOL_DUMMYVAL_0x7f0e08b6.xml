@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/promotion_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton android:id="@id/close_promotion_application_cta" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c17" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f15000c" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c17" android:text="@string/APKTOOL_DUMMYVAL_0x7f12041b" android:layout_toRightOf="@id/close_promotion_application_cta" android:layout_alignTop="@id/close_promotion_application_cta" android:layout_alignBottom="@id/close_promotion_application_cta" style="@style/APKTOOL_DUMMYVAL_0x7f15000d" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/close_promotion_application_cta">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/input_promo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c16" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070c15" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070c15">
+                <com.whatsapp.ui.coreui.WaEditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:imeOptions="flagNoFullscreen" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="bottom" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+            <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="bottom" android:id="@id/apply_promo_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1247db" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

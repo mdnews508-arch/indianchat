@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@drawable/community_divider_shadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center|left" android:id="@id/title" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702f4" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0702f4" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0702e2" android:includeFontPadding="false" style="?APKTOOL_DUMMYVAL_0x7f0404b2" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/requested_payment_amount_container" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/requested_payment_amount_expressive_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="20.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0405dd" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/requested_payment_amount_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="fill_vertical|center|left" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/toast_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070e39" app:APKTOOL_DUMMYVAL_0x7f04011d="@color/APKTOOL_DUMMYVAL_0x7f0608ca" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f070e37">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:layout_gravity="bottom" android:id="@id/toast_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070e38" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070e3a" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070e38" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e3a" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

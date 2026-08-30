@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003e" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060900" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3_emphasized" />
+        <ViewStub android:id="@id/secondary_action" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0042" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+        <ViewStub android:id="@id/action" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0039" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+    </LinearLayout>
+    <ViewStub android:id="@id/action_group_below" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

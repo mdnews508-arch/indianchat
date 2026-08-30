@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/filter_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.mediacomposer.doodle.ImagePreviewContentLayout android:id="@id/media_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09d1" />
+    </com.indianchat.mediacomposer.doodle.ImagePreviewContentLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c22" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0757" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0753" />
+    <View android:id="@id/ai_editor_report_long_press_target" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/ai_editor_report_popup_anchor" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <FrameLayout android:gravity="bottom" android:id="@id/filter_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/filter_sheet_new_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0857" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="top" android:id="@id/effects_toolbar_m1_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09d2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/button_regenerate" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" app:APKTOOL_DUMMYVAL_0x7f040009="media" app:APKTOOL_DUMMYVAL_0x7f040083="@color/APKTOOL_DUMMYVAL_0x7f060852" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_regenerate_with_paddings" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" app:APKTOOL_DUMMYVAL_0x7f0409a3="normal" />
+    <ViewStub android:layout_gravity="center" android:id="@id/play_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0b48" android:inflatedId="@id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/motion_photo_tools" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ced" android:inflatedId="@id/motion_photo_tools" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/bottom_tool_cluster_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c3f" android:inflatedId="@id/bottom_tool_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070939" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07093a" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

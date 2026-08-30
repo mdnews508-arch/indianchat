@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/view_shared_contact_array_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvContacts" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1501dc" />
+    <com.whatsapp.ui.wds.components.fab.WDSFab android:id="@id/send_btn" android:visibility="gone" android:src="@drawable/input_send" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1251ca" app:APKTOOL_DUMMYVAL_0x7f04044e="@id/rvContacts" app:APKTOOL_DUMMYVAL_0x7f040454="@id/rvContacts" style="@style/APKTOOL_DUMMYVAL_0x7f1505d3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

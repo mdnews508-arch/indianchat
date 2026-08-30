@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/agent_api_key_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/vec_ic_key" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f120f9e" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/agent_remove_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wa_ic_link_off" app:APKTOOL_DUMMYVAL_0x7f0404a1="?APKTOOL_DUMMYVAL_0x7f040a08" app:APKTOOL_DUMMYVAL_0x7f0404a4="?APKTOOL_DUMMYVAL_0x7f040a08" />
+</com.whatsapp.ui.coreui.InfoCard>

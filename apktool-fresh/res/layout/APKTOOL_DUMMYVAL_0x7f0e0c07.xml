@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/media_picker_popup_content" android:background="@drawable/media_attachment_view_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_horizontal" android:id="@id/drag_handle" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wds_bottom_sheet_handle" />
+    <com.whatsapp.conversation.ui.ConversationAttachmentContentView android:id="@id/conversation_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/conversation_attachment_media_grid" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04b5" android:inflatedId="@id/conversation_attachment_media_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

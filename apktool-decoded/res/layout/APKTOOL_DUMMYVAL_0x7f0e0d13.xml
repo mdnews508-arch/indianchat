@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/error_text_line1" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/error_text_line2" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/retry_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124367" style="@style/APKTOOL_DUMMYVAL_0x7f1505c6" />
+</merge>

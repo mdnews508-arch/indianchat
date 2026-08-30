@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.LockableCoordinatorLayout android:id="@id/root_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/view_replies_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124dc1">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/wds_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true">
+            <FrameLayout android:id="@id/view_replies_drag_handle_container" android:background="?APKTOOL_DUMMYVAL_0x7f0408da" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e15ac" />
+            </FrameLayout>
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/view_replies_context_action_toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f04002e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" app:APKTOOL_DUMMYVAL_0x7f040586="@drawable/abc_ic_ab_back_material" app:APKTOOL_DUMMYVAL_0x7f0408d4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+            <include android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137a" />
+            <FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0409ea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <androidx.fragment.app.FragmentContainerView android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.whatsapp.ui.coreui.LockableCoordinatorLayout>

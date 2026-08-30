@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040793="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.WaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/category_loading_banks" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+        <com.indianchat.ui.coreui.WaLinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0">
+            <View android:background="@drawable/category_loading_banks" android:layout_width="200.0dip" android:layout_height="18.0dip" />
+            <View android:background="@drawable/category_loading_banks" android:layout_width="100.0dip" android:layout_height="18.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+        </com.indianchat.ui.coreui.WaLinearLayout>
+    </com.indianchat.ui.coreui.WaLinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

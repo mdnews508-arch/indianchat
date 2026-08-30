@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:textColorLink="?APKTOOL_DUMMYVAL_0x7f040a02" android:gravity="center" android:id="@id/reg_tablet_choose_option_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+    <FrameLayout android:id="@id/reg_tablet_choose_option_login" android:background="@drawable/reg_tablet_choose_option_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/reg_tablet_choose_option_login_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f1235cc" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1235cd" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_qr_code" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/reg_tablet_choose_option_transfer" android:background="@drawable/reg_tablet_choose_option_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/reg_tablet_choose_option_transfer_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f1235d1" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1235d2" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_phone_android" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    </FrameLayout>
+</LinearLayout>

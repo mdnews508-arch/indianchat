@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.components.WaSwitchView android:id="@id/chat_settings_notify_new_message_switch_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04095e="@string/APKTOOL_DUMMYVAL_0x7f120455" app:APKTOOL_DUMMYVAL_0x7f04095f="?APKTOOL_DUMMYVAL_0x7f040770" app:APKTOOL_DUMMYVAL_0x7f040960="@string/APKTOOL_DUMMYVAL_0x7f120454" app:APKTOOL_DUMMYVAL_0x7f040961="?APKTOOL_DUMMYVAL_0x7f040774" style="@style/APKTOOL_DUMMYVAL_0x7f15079b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

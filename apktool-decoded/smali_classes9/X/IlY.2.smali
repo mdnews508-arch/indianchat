@@ -1,0 +1,252 @@
+.class public final synthetic LX/IlY;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/1jn;
+
+
+# annotations
+.annotation runtime Lkotlin/Deprecated;
+    level = .enum LX/4gJ;->HIDDEN:LX/4gJ;
+    message = "This synthesized declaration should not be used directly"
+.end annotation
+
+
+# static fields
+.field public static final A00:LX/IlY;
+
+.field public static final A01:LX/1j4;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 0
+    new-instance v1, LX/IlY;
+
+    .line 1
+    .line 2
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    sput-object v1, LX/IlY;->A00:LX/IlY;
+
+    .line 6
+    .line 7
+    const-string v0, "OperationResultSuccess"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, LX/GV4;->A0l(Ljava/lang/String;LX/1jn;)LX/1jq;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    sput-object v0, LX/IlY;->A01:LX/1j4;
+
+    .line 14
+    .line 15
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public final AF9()[LX/1jH;
+    .locals 2
+
+    .line 0
+    sget-object v1, Lcom/indianchat/accountlinking/ipc/api/models/OperationResultSuccess;->$childSerializers:[LX/00l;
+
+    .line 1
+    .line 2
+    const/4 v0, 0x1
+
+    .line 3
+    new-array v0, v0, [LX/1jH;
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, LX/GV4;->A1V([Ljava/lang/Object;[LX/00l;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+.method public bridge synthetic AKc(LX/1ki;)Ljava/lang/Object;
+    .locals 9
+
+    .line 0
+    const/4 v8, 0x0
+
+    .line 1
+    invoke-static {p1, v8}, LX/00h;->A0A(Ljava/lang/Object;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v7, LX/IlY;->A01:LX/1j4;
+
+    .line 5
+    .line 6
+    invoke-interface {p1, v7}, LX/1ki;->ACA(LX/1j4;)LX/1kh;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v6
+
+    .line 10
+    sget-object v5, Lcom/indianchat/accountlinking/ipc/api/models/OperationResultSuccess;->$childSerializers:[LX/00l;
+
+    .line 11
+    .line 12
+    const/4 v4, 0x0
+
+    .line 13
+    move-object v1, v4
+
+    .line 14
+    const/4 v3, 0x0
+
+    .line 15
+    :goto_0
+    invoke-interface {v6, v7}, LX/1kh;->AJa(LX/1j4;)I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v2
+
+    .line 19
+    const/4 v0, -0x1
+
+    .line 20
+    if-eq v2, v0, :cond_1
+
+    .line 21
+    .line 22
+    if-nez v2, :cond_0
+
+    .line 23
+    .line 24
+    invoke-static {v1, v7, v6, v5, v8}, LX/6gC;->A0g(Ljava/lang/Object;LX/1j4;LX/1kh;[LX/00l;I)Ljava/lang/Object;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v1
+
+    .line 28
+    check-cast v1, Lcom/indianchat/accountlinking/ipc/api/models/ResponseCode;
+
+    .line 29
+    .line 30
+    const/4 v3, 0x1
+
+    .line 31
+    goto :goto_0
+
+    .line 32
+    :cond_0
+    invoke-static {v2}, LX/GV2;->A1A(I)LX/OsL;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    throw v0
+
+    .line 37
+    :cond_1
+    invoke-interface {v6, v7}, LX/1kh;->ANr(LX/1j4;)V
+
+    .line 38
+    .line 39
+    .line 40
+    new-instance v0, Lcom/indianchat/accountlinking/ipc/api/models/OperationResultSuccess;
+
+    .line 41
+    .line 42
+    invoke-direct {v0, v3, v1, v4}, Lcom/indianchat/accountlinking/ipc/api/models/OperationResultSuccess;-><init>(ILcom/indianchat/accountlinking/ipc/api/models/ResponseCode;LX/HSZ;)V
+
+    .line 43
+    .line 44
+    .line 45
+    return-object v0
+.end method
+
+.method public final Abh()LX/1j4;
+    .locals 1
+
+    .line 0
+    sget-object v0, LX/IlY;->A01:LX/1j4;
+
+    .line 1
+    .line 2
+    return-object v0
+.end method
+
+.method public bridge synthetic CLj(Ljava/lang/Object;LX/25A;)V
+    .locals 3
+
+    .line 0
+    check-cast p1, Lcom/indianchat/accountlinking/ipc/api/models/OperationResult;
+
+    .line 1
+    .line 2
+    invoke-static {p2, p1}, LX/00h;->A0B(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 3
+    .line 4
+    .line 5
+    sget-object v2, LX/IlY;->A01:LX/1j4;
+
+    .line 6
+    .line 7
+    invoke-interface {p2, v2}, LX/25A;->ACB(LX/1j4;)LX/259;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v1
+
+    .line 11
+    sget-object v0, Lcom/indianchat/accountlinking/ipc/api/models/OperationResultSuccess;->$childSerializers:[LX/00l;
+
+    .line 12
+    .line 13
+    invoke-static {p1, v1, v2}, Lcom/indianchat/accountlinking/ipc/api/models/OperationResult;->write$Self(Lcom/indianchat/accountlinking/ipc/api/models/OperationResult;LX/259;LX/1j4;)V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-interface {v1, v2}, LX/259;->ANr(LX/1j4;)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method

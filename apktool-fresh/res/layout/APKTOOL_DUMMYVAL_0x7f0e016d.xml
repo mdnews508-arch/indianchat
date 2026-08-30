@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ptt_slide_to_cancel_container" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ptt_slide_to_cancel_scroller" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_gravity="end|center" android:id="@id/ptt_slide_to_cancel_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f124973" android:singleLine="true" android:drawablePadding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071147" app:APKTOOL_DUMMYVAL_0x7f040279="@drawable/wa_ic_chevron_left" app:APKTOOL_DUMMYVAL_0x7f04027d="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </FrameLayout>
+    <View android:id="@id/ptt_slide_to_cancel_animation" android:background="@drawable/ai_hub_ptt_slide_cancel_animation_background" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_width="94.0dip" android:layout_height="fill_parent" />
+    <View android:layout_gravity="start|center" android:background="@drawable/ai_hub_ptt_slide_to_cancel_fade" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/call_action" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/video_call" android:background="@drawable/calls_history_call_action_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034d" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12528d" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409fd" />
+        <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/voice_call" android:background="@drawable/calls_history_call_action_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034d" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124d81" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409fd" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/voice_chat_action" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/voice_chat" android:background="@drawable/calls_history_call_action_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034d" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12494d" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409fd" />
+    </LinearLayout>
+</merge>

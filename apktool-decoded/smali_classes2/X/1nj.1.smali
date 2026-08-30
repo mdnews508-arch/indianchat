@@ -1,0 +1,179 @@
+.class public LX/1nj;
+.super LX/1PW;
+.source ""
+
+# interfaces
+.implements LX/1PV;
+
+
+# instance fields
+.field public A00:I
+
+.field public A01:LX/85A;
+
+.field public A02:Ljava/lang/Integer;
+
+.field public A03:Z
+
+.field public A04:Z
+
+.field public transient A05:J
+
+.field public transient A06:LX/7yG;
+
+.field public transient A07:Ljava/lang/Integer;
+
+.field public transient A08:Ljava/lang/String;
+
+
+# virtual methods
+.method public A0w()Z
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, LX/1nj;->A06:LX/7yG;
+
+    .line 1
+    .line 2
+    if-eqz v0, :cond_0
+
+    .line 3
+    .line 4
+    iget-boolean v0, v0, LX/7yG;->A0E:Z
+
+    .line 5
+    .line 6
+    if-nez v0, :cond_1
+
+    .line 7
+    .line 8
+    :cond_0
+    iget-boolean v1, p0, LX/1nj;->A03:Z
+
+    .line 9
+    .line 10
+    const/4 v0, 0x0
+
+    .line 11
+    if-eqz v1, :cond_2
+
+    .line 12
+    .line 13
+    :cond_1
+    const/4 v0, 0x1
+
+    .line 14
+    :cond_2
+    return v0
+.end method
+
+.method public A0x()Z
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, LX/1nj;->A02:Ljava/lang/Integer;
+
+    .line 1
+    .line 2
+    if-eqz v0, :cond_0
+
+    .line 3
+    .line 4
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v0
+
+    .line 8
+    and-int/lit8 v1, v0, 0x4
+
+    .line 9
+    .line 10
+    const/4 v0, 0x1
+
+    .line 11
+    if-nez v1, :cond_1
+
+    .line 12
+    .line 13
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 14
+    :cond_1
+    return v0
+.end method
+
+.method public A0y()Z
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, LX/1nj;->A06:LX/7yG;
+
+    .line 1
+    .line 2
+    if-eqz v0, :cond_0
+
+    .line 3
+    .line 4
+    iget-boolean v1, v0, LX/7yG;->A04:Z
+
+    .line 5
+    .line 6
+    const/4 v0, 0x1
+
+    .line 7
+    if-nez v1, :cond_1
+
+    .line 8
+    .line 9
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 10
+    :cond_1
+    return v0
+.end method
+
+.method public A0z()Z
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, LX/1nj;->A02:Ljava/lang/Integer;
+
+    .line 1
+    .line 2
+    if-eqz v0, :cond_0
+
+    .line 3
+    .line 4
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v0
+
+    .line 8
+    const/4 v1, 0x1
+
+    .line 9
+    and-int/lit8 v0, v0, 0x1
+
+    .line 10
+    .line 11
+    if-eqz v0, :cond_0
+
+    .line 12
+    .line 13
+    return v1
+
+    .line 14
+    :cond_0
+    const/4 v1, 0x0
+
+    .line 15
+    return v1
+.end method

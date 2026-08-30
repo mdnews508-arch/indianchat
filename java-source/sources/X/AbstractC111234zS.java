@@ -1,0 +1,112 @@
+package X;
+
+/* JADX INFO: renamed from: X.4zS, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class AbstractC111234zS {
+    public static String A00(int i) {
+        switch (i) {
+            case 1204:
+                return "WEARABLES_SYSPERF_MCU_BOOT";
+            case 1704:
+                return "WEARABLES_SYSPERF_MCU_QUATERNION_ENABLE";
+            case 2363:
+                return "WEARABLES_SYSPERF_WHATSAPP_APP_START";
+            case 2452:
+                return "WEARABLES_SYSPERF_COMPLICATION_APP_LAUNCH_LATENCY";
+            case 2899:
+                return "WEARABLES_SYSPERF_MCU_CONTROL_CENTER_CLOSE_SCROLL_PERF";
+            case 3201:
+                return "WEARABLES_SYSPERF_CALENDAR_APP_START";
+            case 3240:
+                return "WEARABLES_SYSPERF_APP_START";
+            case 3403:
+                return "WEARABLES_SYSPERF_REMINDER_APP_START";
+            case 3465:
+                return "WEARABLES_SYSPERF_NOTIFICATION_PULLUP_SCROLL_PERF";
+            case 3575:
+                return "WEARABLES_SYSPERF_DISPLAY_HANDOFF_LATENCY_WRIST_DOWN_TO_AOD";
+            case 4219:
+                return "WEARABLES_SYSPERF_PHONE_APP_START";
+            case 4467:
+                return "WEARABLES_SYSPERF_TALKBACK_APP_START";
+            case 4870:
+                return "WEARABLES_SYSPERF_COLD_BOOT";
+            case 5659:
+                return "WEARABLES_SYSPERF_MCU_CONTROL_CENTER_OPEN_SCROLL_PERF";
+            case 6643:
+                return "WEARABLES_SYSPERF_WEATHER_APP_START";
+            case 6943:
+                return "WEARABLES_SYSPERF_HIBERNATE_BOOT";
+            case 8274:
+                return "WEARABLES_SYSPERF_GALLERY_APP_START";
+            case 8471:
+                return "WEARABLES_SYSPERF_CLOCK_APP_START";
+            case 8718:
+                return "WEARABLES_SYSPERF_BREATHE_APP_START";
+            case 8972:
+                return "WEARABLES_SYSPERF_MCU_EMG_MODEL_SWITCH";
+            case 9159:
+                return "WEARABLES_SYSPERF_NAVIGATION_APP_START";
+            case 9331:
+                return "WEARABLES_SYSPERF_ACTIVITY_START";
+            case 10182:
+                return "WEARABLES_SYSPERF_MCU_CONTROL_CENTER_SCROLL";
+            case 10251:
+                return "WEARABLES_SYSPERF_COOP_FINGERPRINT_TO_HATCH_READY";
+            case 10294:
+                return "WEARABLES_SYSPERF_PEOPLE_PICKER_APP_START";
+            case 10359:
+                return "WEARABLES_SYSPERF_WALLET_APP_START";
+            case 10686:
+                return "WEARABLES_SYSPERF_FRAME_PERF";
+            case 10729:
+                return "WEARABLES_SYSPERF_LAUNCHER_APP_START";
+            case 10900:
+                return "WEARABLES_SYSPERF_MSGR_APP_START";
+            case 11253:
+                return "WEARABLES_SYSPERF_HEART_APP_START";
+            case 11451:
+                return "WEARABLES_SYSPERF_WORKOUT_APP_START";
+            case 11747:
+                return "WEARABLES_SYSPERF_NOTIFICATION_LIST_SCROLL_PERF";
+            case 11788:
+                return "WEARABLES_SYSPERF_BLOOD_PRESSURE_APP_START";
+            case 11989:
+                return "WEARABLES_SYSPERF_INTERACTION_LATENCY_WRIST_RAISE_TO_WATCHFACE";
+            case 12246:
+                return "WEARABLES_SYSPERF_MESSAGES_APP_START";
+            case 12769:
+                return "WEARABLES_SYSPERF_BAREBONE_APP_START";
+            case 12811:
+                return "WEARABLES_SYSPERF_STORIES_HUB_APP_START";
+            case 13026:
+                return "WEARABLES_SYSPERF_SHAREBAR_APP_START";
+            case 13126:
+                return "WEARABLES_SYSPERF_WA_SVC_APP_START";
+            case 13275:
+                return "WEARABLES_SYSPERF_IG_APP_START";
+            case 13403:
+                return "WEARABLES_SYSPERF_WARM_BOOT";
+            case 13969:
+                return "WEARABLES_SYSPERF_MUSIC_APP_START";
+            case 14602:
+                return "WEARABLES_SYSPERF_MEDIA_CONTROLLER_APP_START";
+            case 15023:
+                return "WEARABLES_SYSPERF_DISPLAY_HANDOFF_LATENCY_CC_SETTINGS";
+            case 15328:
+                return "WEARABLES_SYSPERF_SPEECHSERVICE_APP_START";
+            case 15341:
+                return "WEARABLES_SYSPERF_SETTINGS_APP_START";
+            case 15804:
+                return "WEARABLES_SYSPERF_CAMERA_APP_START";
+            case 16027:
+                return "WEARABLES_SYSPERF_SPEECHTOTEXT_APP_START";
+            case 16194:
+                return "WEARABLES_SYSPERF_ONBOARDING_APP_START";
+            case 16254:
+                return "WEARABLES_SYSPERF_ACTIVITY_APP_START";
+            default:
+                return "UNDEFINED_QPL_EVENT";
+        }
+    }
+}

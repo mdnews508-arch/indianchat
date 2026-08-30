@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/link_to_community_home_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/link_to_community_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707ba" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707ba" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/link_to_community_parent_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/link_to_community_parent_description" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/link_to_community_home_arrow" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/chevron_right" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

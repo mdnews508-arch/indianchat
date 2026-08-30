@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:id="@id/left_decoration" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/image" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="center_vertical" android:id="@id/radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071147" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="start" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:maxLines="4" android:singleLine="false" android:textIsSelectable="false" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f1502c0" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/right_radio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

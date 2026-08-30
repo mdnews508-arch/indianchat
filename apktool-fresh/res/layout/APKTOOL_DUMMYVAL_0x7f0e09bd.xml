@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.navigationrail.WDSNavigationRail android:id="@id/nav_rail" android:layout_width="wrap_content" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0403a7="@layout/APKTOOL_DUMMYVAL_0x7f0e09be" app:APKTOOL_DUMMYVAL_0x7f040435="unlabeled" app:APKTOOL_DUMMYVAL_0x7f040538="center" style="@style/APKTOOL_DUMMYVAL_0x7f150647" />
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040583" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

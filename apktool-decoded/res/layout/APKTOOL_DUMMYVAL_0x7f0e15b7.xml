@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/row_addon_end" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="right" android:id="@id/voice_call" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e15b9" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07110b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07110a" android:layout_marginRight="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040464="@id/video_call" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <ViewStub android:id="@id/video_call" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e15b8" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07110b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07110a" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

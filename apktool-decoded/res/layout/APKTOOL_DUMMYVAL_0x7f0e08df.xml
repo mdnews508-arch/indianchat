@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.view.SquareFrameLayout android:background="@drawable/gallery_camera_holder_background" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070672"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/action_tile_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?APKTOOL_DUMMYVAL_0x7f0409e2" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_photo_camera" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/action_tile_label" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:text="@string/APKTOOL_DUMMYVAL_0x7f121abe" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.base.view.SquareFrameLayout>

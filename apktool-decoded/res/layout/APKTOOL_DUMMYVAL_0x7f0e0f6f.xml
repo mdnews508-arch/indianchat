@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.WaFrameLayout android:id="@id/poll_result_snapshot" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409b0" android:layout_gravity="start" android:id="@id/poll_name" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        <LinearLayout android:orientation="vertical" android:id="@id/poll_options" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:importantForAccessibility="no" />
+        <ViewStub android:id="@id/more_options" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f70" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ee" android:layout_gravity="start" android:id="@id/poll_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="14.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1233c4" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" style="@style/APKTOOL_DUMMYVAL_0x7f1505db" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.WaFrameLayout>

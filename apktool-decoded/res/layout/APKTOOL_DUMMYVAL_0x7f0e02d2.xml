@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/product_image_view" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704f2" android:scaleType="centerCrop" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/product_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_broken_image_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a01" />
+</com.facebook.shimmer.ShimmerFrameLayout>

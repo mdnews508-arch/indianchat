@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox android:id="@id/delete_media_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox android:id="@id/delete_starred_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124df2" />
+    <ViewStub android:id="@id/clear_scheduled_tasks_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03bd" android:inflatedId="@id/clear_scheduled_tasks_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/dialog_clear_chat_radio_group" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0711" android:inflatedId="@id/dialog_clear_chat_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

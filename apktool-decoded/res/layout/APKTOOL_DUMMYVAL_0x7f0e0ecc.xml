@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="62.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="bottom|center" android:id="@id/contact_row_photo" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040861="false" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="62.0dip" android:singleLine="true" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+</LinearLayout>

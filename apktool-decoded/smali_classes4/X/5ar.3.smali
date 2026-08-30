@@ -1,0 +1,173 @@
+.class public final LX/5ar;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final A00:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    iput p1, p0, LX/5ar;->A00:I
+
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public static final A00(I)I
+    .locals 2
+
+    .line 0
+    const/4 v0, 0x0
+
+    .line 1
+    if-eq p0, v0, :cond_0
+
+    .line 2
+    .line 3
+    const/4 v0, 0x4
+
+    .line 4
+    if-eq p0, v0, :cond_0
+
+    .line 5
+    .line 6
+    invoke-static {}, LX/000;->A08()Ljava/lang/StringBuilder;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v1
+
+    .line 10
+    const-string v0, "Visibility(value="
+
+    .line 11
+    .line 12
+    invoke-static {v0, v1, p0}, LX/1bt;->A0T(Ljava/lang/String;Ljava/lang/StringBuilder;I)Ljava/lang/String;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p0
+
+    .line 16
+    invoke-static {}, LX/000;->A08()Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v1
+
+    .line 20
+    const-string v0, "Unknown visibility value: "
+
+    .line 21
+    .line 22
+    invoke-static {v0, p0, v1}, LX/3ll;->A0T(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/IllegalArgumentException;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    throw v0
+
+    .line 27
+    :cond_0
+    return v0
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 0
+    iget v2, p0, LX/5ar;->A00:I
+
+    .line 1
+    .line 2
+    instance-of v0, p1, LX/5ar;
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    check-cast p1, LX/5ar;
+
+    .line 7
+    .line 8
+    iget v0, p1, LX/5ar;->A00:I
+
+    .line 9
+    .line 10
+    const/4 v1, 0x1
+
+    .line 11
+    if-eq v2, v0, :cond_1
+
+    .line 12
+    .line 13
+    :cond_0
+    const/4 v1, 0x0
+
+    .line 14
+    :cond_1
+    return v1
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    .line 0
+    iget v0, p0, LX/5ar;->A00:I
+
+    .line 1
+    .line 2
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    .line 0
+    iget v2, p0, LX/5ar;->A00:I
+
+    .line 1
+    .line 2
+    invoke-static {}, LX/000;->A08()Ljava/lang/StringBuilder;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object v1
+
+    .line 6
+    const-string v0, "Visibility(value="
+
+    .line 7
+    .line 8
+    invoke-static {v0, v1, v2}, LX/1bt;->A0T(Ljava/lang/String;Ljava/lang/StringBuilder;I)Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    return-object v0
+.end method

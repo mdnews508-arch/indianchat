@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/edit_community_info_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_edit_white" app:APKTOOL_DUMMYVAL_0x7f0404a2="false" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f1214e8" app:APKTOOL_DUMMYVAL_0x7f0404a5="@dimen/APKTOOL_DUMMYVAL_0x7f0702e0" />
+    <com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/manage_groups_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_group_add" app:APKTOOL_DUMMYVAL_0x7f0404a2="false" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f12227c" app:APKTOOL_DUMMYVAL_0x7f0404a5="@dimen/APKTOOL_DUMMYVAL_0x7f0702e0" />
+    <com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/community_settings_button" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_settings" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f120e91" app:APKTOOL_DUMMYVAL_0x7f0404a5="@dimen/APKTOOL_DUMMYVAL_0x7f0702e0" />
+    <View android:background="@drawable/community_divider_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

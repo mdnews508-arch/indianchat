@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/connection_lid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="12.0sp" android:id="@id/connection_role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="12.0sp" android:id="@id/connection_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/delete_connection_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122bdd" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/change_connection_pin_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122bda" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/generate_alerts_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122bdf" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/clear_pushname_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122bdb" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    </LinearLayout>
+</LinearLayout>

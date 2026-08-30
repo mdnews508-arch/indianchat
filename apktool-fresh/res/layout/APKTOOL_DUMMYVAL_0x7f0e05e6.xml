@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/header" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a97" android:singleLine="true" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:letterSpacing="0.04" app:APKTOOL_DUMMYVAL_0x7f04048a="16.0sp" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/dashed_underline" android:background="@drawable/dashed_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+</LinearLayout>

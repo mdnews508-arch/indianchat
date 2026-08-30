@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/celebration_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/wds_profile_picture" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:src="@drawable/wds_picto_success_tick" whatsapp:APKTOOL_DUMMYVAL_0x7f040634="circle" whatsapp:APKTOOL_DUMMYVAL_0x7f040635="x_large" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:gravity="center" android:id="@id/channel_name" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:maxLines="3" whatsapp:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/description_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="start|center|top" android:id="@id/description_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:src="@drawable/ic_store" android:scaleType="center" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0408c5="src_in" />
+    <com.whatsapp.business.biz.catalog.view.EllipsizedTextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061b" android:layout_gravity="start|center" android:id="@id/description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

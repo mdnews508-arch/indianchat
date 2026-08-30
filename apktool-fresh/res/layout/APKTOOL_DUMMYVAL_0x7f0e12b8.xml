@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/status_reshare_viewer_nux" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706cc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f040378="content_end" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_picto_arrows_repeat_share_double_arrow" app:APKTOOL_DUMMYVAL_0x7f040443="view" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

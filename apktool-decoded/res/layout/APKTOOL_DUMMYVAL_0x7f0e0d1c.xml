@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/contact_list_shimmer_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040793="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070363">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d1d" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

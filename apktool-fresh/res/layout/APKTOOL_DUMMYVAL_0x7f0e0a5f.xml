@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073a" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/refresh_payment_method_row" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_refresh_white" app:APKTOOL_DUMMYVAL_0x7f0404a2="false" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f1235be" />
+</LinearLayout>

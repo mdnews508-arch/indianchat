@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textStyle="normal" android:textColor="?APKTOOL_DUMMYVAL_0x7f040771" android:id="@id/profile_phone_number_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/APKTOOL_DUMMYVAL_0x7f1502be"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

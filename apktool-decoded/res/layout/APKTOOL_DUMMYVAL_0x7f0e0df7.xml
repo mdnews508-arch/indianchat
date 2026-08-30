@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/newsletter_status_album_grid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/newsletter_status_album_thumb_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/newsletter_status_album_image_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/newsletter_status_album_thumb_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/newsletter_status_album_image_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/newsletter_status_album_thumb_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/newsletter_status_album_image_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/newsletter_status_album_thumb_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/newsletter_status_album_image_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/newsletter_status_album_dimmer" android:background="@color/APKTOOL_DUMMYVAL_0x7f060850" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070aab" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:gravity="center" android:id="@id/newsletter_status_album_more_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

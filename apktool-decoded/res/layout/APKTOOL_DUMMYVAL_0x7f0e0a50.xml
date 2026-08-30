@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/list_section_divider_status" style="@style/APKTOOL_DUMMYVAL_0x7f1502c7" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/header_text" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f15032a" />
+</FrameLayout>

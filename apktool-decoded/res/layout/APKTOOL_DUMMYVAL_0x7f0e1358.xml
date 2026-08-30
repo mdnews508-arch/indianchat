@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:textColor="?APKTOOL_DUMMYVAL_0x7f040203" android:id="@id/top_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070430" />
+    <com.indianchat.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04003c="true">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="left" android:id="@id/bottom_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070469" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703e5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505db" />
+        </LinearLayout>
+    </com.indianchat.ui.coreui.components.TextAndDateLayout>
+    <View android:id="@id/button_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/action_btn_1" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150421" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/action_btn_2" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150421" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/action_btn_3" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150421" />
+    <com.indianchat.conversation.ui.conversationrow.TemplateButtonListLayout android:id="@id/template_button_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

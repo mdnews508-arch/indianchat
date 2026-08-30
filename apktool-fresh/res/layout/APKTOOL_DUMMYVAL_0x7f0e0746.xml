@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04049c="@string/APKTOOL_DUMMYVAL_0x7f120d68" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_perm_media" app:APKTOOL_DUMMYVAL_0x7f0404a1="?APKTOOL_DUMMYVAL_0x7f0409e2" app:APKTOOL_DUMMYVAL_0x7f0404a2="false" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f120d69"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

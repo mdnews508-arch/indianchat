@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/status_playback_views_pill_likes" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/views_pill_likes_dot" android:background="@drawable/status_playback_views_pill_dot" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e17" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e17" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071141" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/views_pill_likes_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:importantForAccessibility="no" />
+    <com.indianchat.ui.coreui.base.WaTextView android:id="@id/views_pill_likes_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" style="@style/APKTOOL_DUMMYVAL_0x7f1505b0" />
+</LinearLayout>

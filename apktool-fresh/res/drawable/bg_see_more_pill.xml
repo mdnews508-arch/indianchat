@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f07109b" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f07109b" />
+            <stroke android:width="@dimen/APKTOOL_DUMMYVAL_0x7f07107f" android:color="@color/APKTOOL_DUMMYVAL_0x7f06089e" />
+        </shape>
+    </item>
+</ripple>

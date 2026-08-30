@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/para_1_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/automator_para_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04026e="false" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f120521" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" app:APKTOOL_DUMMYVAL_0x7f04081b="@string/APKTOOL_DUMMYVAL_0x7f12051f" />
+    </LinearLayout>
+    <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/automator_para_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04026e="false" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f120522" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" app:APKTOOL_DUMMYVAL_0x7f04081b="@string/APKTOOL_DUMMYVAL_0x7f120520" />
+</LinearLayout>

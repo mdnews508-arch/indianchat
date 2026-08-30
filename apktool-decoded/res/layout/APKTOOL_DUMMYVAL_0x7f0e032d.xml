@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/call_permission_request_bottom_sheet_close_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:tint="@color/APKTOOL_DUMMYVAL_0x7f06030f" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061c" android:gravity="center" android:id="@id/call_permission_request_bottom_sheet_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061d" android:gravity="center" android:id="@id/call_permission_request_bottom_sheet_title_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120a80" />
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061e" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/call_permission_request_bottom_sheet_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+    <RadioGroup android:layout_gravity="center_vertical" android:id="@id/call_permission_request_bottom_sheet_reply_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.KeyboardPopupLayout android:id="@id/root" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/media_album_coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/background" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/title_background" android:background="@color/APKTOOL_DUMMYVAL_0x7f06010a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ListView android:id="@android:id/list" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/APKTOOL_DUMMYVAL_0x7f060746" android:textFilterEnabled="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:nestedScrollingEnabled="true" />
+        <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408dd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:transitionName="toolbar" app:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15020d" />
+        </FrameLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/media_album_view_cta_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c06" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525a" />
+        <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f125259" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ViewStub android:id="@id/message_selection_bottom_menu_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <com.indianchat.emoji.search.EmojiSearchKeyboardContainer android:id="@id/expressions_tray_emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</com.indianchat.ui.coreui.KeyboardPopupLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/exit_groups_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:layout_gravity="top" android:id="@id/exit_groups_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:layout_marginRight="11.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/exit_groups_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/exit_groups_names_text" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

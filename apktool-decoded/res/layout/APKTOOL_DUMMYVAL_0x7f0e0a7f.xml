@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/india_upi_savings_offer_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bff"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center_vertical" android:id="@id/india_upi_savings_offer_row_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150317">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_vertical" android:background="@drawable/payment_loading_box" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e7" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c01">
+                <View android:background="@drawable/payment_loading_box" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" />
+                <View android:background="@drawable/payment_loading_box" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bff" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

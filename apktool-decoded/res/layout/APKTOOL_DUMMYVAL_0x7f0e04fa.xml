@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/end_time_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/end_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_poll_end_time" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150340" android:gravity="start" android:layout_gravity="start" android:id="@id/end_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="5.0dip" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+</LinearLayout>

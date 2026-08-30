@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.contact.FacepileItemMaskView android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060992" android:gravity="center" android:layout_gravity="center" android:id="@id/peers_not_in_face_pile_count_text" android:background="@drawable/not_in_facepile_count_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</com.indianchat.ui.coreui.contact.FacepileItemMaskView>

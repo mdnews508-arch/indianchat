@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/upr_account_detail_row_label" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/upr_account_detail_row_value" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/upr_account_detail_row_copy" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="48.0dip" android:layout_height="48.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_content_copy" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+</LinearLayout>

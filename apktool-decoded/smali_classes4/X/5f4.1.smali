@@ -1,0 +1,410 @@
+.class public final LX/5f4;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final A00:D
+
+.field public final A01:Ljava/lang/Integer;
+
+.field public final A02:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 268435456
+    const/4 v2, 0x0
+
+    .line 268435457
+    const-wide/16 v0, 0x0
+
+    .line 268435458
+    .line 268435459
+    invoke-direct {p0, v2, v2, v0, v1}, LX/5f4;-><init>(Ljava/lang/Integer;Ljava/lang/String;D)V
+
+    .line 268435460
+    .line 268435461
+    .line 268435462
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/String;D)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    iput-object p1, p0, LX/5f4;->A01:Ljava/lang/Integer;
+
+    .line 4
+    .line 5
+    iput-wide p3, p0, LX/5f4;->A00:D
+
+    .line 6
+    .line 7
+    iput-object p2, p0, LX/5f4;->A02:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static A00(Ljava/lang/Integer;)Ljava/lang/String;
+    .locals 0
+
+    .line 0
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    .line 1
+    .line 2
+    .line 3
+    move-result p0
+
+    .line 4
+    packed-switch p0, :pswitch_data_0
+
+    .line 5
+    .line 6
+    .line 7
+    const-string p0, "OFFERING"
+
+    .line 8
+    .line 9
+    return-object p0
+
+    .line 10
+    :pswitch_0
+    const-string p0, "PAST_ENGAGEMENT"
+
+    .line 11
+    .line 12
+    return-object p0
+
+    .line 13
+    :pswitch_1
+    const-string p0, "EXPLICIT_PREFERENCE"
+
+    .line 14
+    .line 15
+    return-object p0
+
+    .line 16
+    :pswitch_2
+    const-string p0, "HIGH_CONFIDENCE"
+
+    .line 17
+    .line 18
+    return-object p0
+
+    .line 19
+    :pswitch_3
+    const-string p0, "ADDRESS"
+
+    .line 20
+    .line 21
+    return-object p0
+
+    .line 22
+    :pswitch_4
+    const-string p0, "TEXT"
+
+    .line 23
+    .line 24
+    return-object p0
+
+    .line 25
+    :pswitch_5
+    const-string p0, "CHAIN"
+
+    .line 26
+    .line 27
+    return-object p0
+
+    .line 28
+    :pswitch_6
+    const-string p0, "CATEGORY_SECONDARY"
+
+    .line 29
+    .line 30
+    return-object p0
+
+    .line 31
+    :pswitch_7
+    const-string p0, "CATEGORY_PRIMARY"
+
+    .line 32
+    .line 33
+    return-object p0
+
+    .line 34
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 6
+
+    .line 0
+    const/4 v5, 0x1
+
+    .line 1
+    if-eq p0, p1, :cond_1
+
+    .line 2
+    .line 3
+    instance-of v0, p1, LX/5f4;
+
+    .line 4
+    .line 5
+    const/4 v4, 0x0
+
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    check-cast p1, LX/5f4;
+
+    .line 9
+    .line 10
+    iget-object v1, p0, LX/5f4;->A01:Ljava/lang/Integer;
+
+    .line 11
+    .line 12
+    iget-object v0, p1, LX/5f4;->A01:Ljava/lang/Integer;
+
+    .line 13
+    .line 14
+    if-ne v1, v0, :cond_0
+
+    .line 15
+    .line 16
+    iget-wide v2, p0, LX/5f4;->A00:D
+
+    .line 17
+    .line 18
+    iget-wide v0, p1, LX/5f4;->A00:D
+
+    .line 19
+    .line 20
+    invoke-static {v2, v3, v0, v1}, Ljava/lang/Double;->compare(DD)I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v0
+
+    .line 24
+    if-nez v0, :cond_0
+
+    .line 25
+    .line 26
+    iget-object v1, p0, LX/5f4;->A02:Ljava/lang/String;
+
+    .line 27
+    .line 28
+    iget-object v0, p1, LX/5f4;->A02:Ljava/lang/String;
+
+    .line 29
+    .line 30
+    invoke-static {v1, v0}, LX/00h;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v0
+
+    .line 34
+    if-nez v0, :cond_1
+
+    .line 35
+    .line 36
+    :cond_0
+    return v4
+
+    .line 37
+    :cond_1
+    return v5
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    .line 0
+    iget-object v1, p0, LX/5f4;->A01:Ljava/lang/Integer;
+
+    .line 1
+    .line 2
+    if-nez v1, :cond_0
+
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    :goto_0
+    mul-int/lit8 v2, v0, 0x1f
+
+    .line 6
+    .line 7
+    iget-wide v0, p0, LX/5f4;->A00:D
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, LX/KJg;->A00(D)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v0
+
+    .line 13
+    add-int/2addr v2, v0
+
+    .line 14
+    mul-int/lit8 v1, v2, 0x1f
+
+    .line 15
+    .line 16
+    iget-object v0, p0, LX/5f4;->A02:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    invoke-static {v0}, LX/25s;->A05(Ljava/lang/String;)I
+
+    .line 19
+    .line 20
+    .line 21
+    move-result v0
+
+    .line 22
+    add-int/2addr v1, v0
+
+    .line 23
+    return v1
+
+    .line 24
+    :cond_0
+    invoke-static {v1}, LX/5f4;->A00(Ljava/lang/Integer;)Ljava/lang/String;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    invoke-static {v1, v0}, LX/25u;->A02(Ljava/lang/Number;Ljava/lang/String;)I
+
+    .line 29
+    .line 30
+    .line 31
+    move-result v0
+
+    .line 32
+    goto :goto_0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 6
+
+    .line 0
+    iget-object v5, p0, LX/5f4;->A01:Ljava/lang/Integer;
+
+    .line 1
+    .line 2
+    iget-wide v1, p0, LX/5f4;->A00:D
+
+    .line 3
+    .line 4
+    iget-object v4, p0, LX/5f4;->A02:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    invoke-static {}, LX/000;->A08()Ljava/lang/StringBuilder;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v3
+
+    .line 10
+    const-string v0, "ProvenanceData(type="
+
+    .line 11
+    .line 12
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 13
+    .line 14
+    .line 15
+    if-eqz v5, :cond_0
+
+    .line 16
+    .line 17
+    invoke-static {v5}, LX/5f4;->A00(Ljava/lang/Integer;)Ljava/lang/String;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    :goto_0
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 22
+    .line 23
+    .line 24
+    const-string v0, ", value="
+
+    .line 25
+    .line 26
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {v3, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+
+    .line 30
+    .line 31
+    .line 32
+    const-string v0, ", reason="
+
+    .line 33
+    .line 34
+    invoke-static {v0, v4, v3}, LX/1bt;->A0S(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v0
+
+    .line 38
+    return-object v0
+
+    .line 39
+    :cond_0
+    const-string v0, "null"
+
+    .line 40
+    .line 41
+    goto :goto_0
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/ai_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <ViewStub android:id="@id/ai_from_meta_layout" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e015a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/manage_ai_chat_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

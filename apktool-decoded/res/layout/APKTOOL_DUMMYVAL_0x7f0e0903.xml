@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/media_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    <FrameLayout android:id="@id/video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c22" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0757" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0753" />
+</FrameLayout>

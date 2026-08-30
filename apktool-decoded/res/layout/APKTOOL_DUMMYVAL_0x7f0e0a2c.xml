@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/payment_methods" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f124546" app:APKTOOL_DUMMYVAL_0x7f04068d="body3" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406b6="spacing_half" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:text="@string/APKTOOL_DUMMYVAL_0x7f125105" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_horizontal" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" style="@style/APKTOOL_DUMMYVAL_0x7f150343" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070fa5" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center_horizontal" android:id="@id/education_text" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124948" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/wave_all_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124c26" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f040009="calling" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+</LinearLayout>

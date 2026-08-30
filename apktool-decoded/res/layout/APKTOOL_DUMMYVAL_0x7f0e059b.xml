@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pay_options_identifier_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/text_and_logos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:ellipsize="end" android:id="@id/pay_with_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a27" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f04048a="19.0sp" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/card_last_four_digits" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" />
+    </LinearLayout>
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/pay_options_identifier_dashed_underline1" android:background="@drawable/dashed_underline_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" />
+</LinearLayout>

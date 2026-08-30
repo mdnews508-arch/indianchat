@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="22.0sp" android:gravity="center" android:id="@id/quick_reply_emoji_1" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="38.0dip" android:minHeight="38.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120089" />
+    <Space android:layout_width="4.0dip" android:layout_height="4.0dip" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="22.0sp" android:gravity="center" android:id="@id/quick_reply_emoji_2" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="38.0dip" android:minHeight="38.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120089" />
+    <Space android:layout_width="4.0dip" android:layout_height="4.0dip" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="22.0sp" android:gravity="center" android:id="@id/quick_reply_emoji_3" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="38.0dip" android:minHeight="38.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120089" />
+</LinearLayout>

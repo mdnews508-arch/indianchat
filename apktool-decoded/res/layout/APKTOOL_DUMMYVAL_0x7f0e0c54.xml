@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/member_since_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:ellipsize="none" android:layout_gravity="start" android:id="@id/member_since_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.InfoCard>

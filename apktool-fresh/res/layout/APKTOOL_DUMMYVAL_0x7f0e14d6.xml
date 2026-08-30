@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/voice_cancel_trashcan" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/voice_cancel_trashcan_lid" android:paddingBottom="1.0dip" android:layout_width="48.0dip" android:layout_height="wrap_content" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0607a7" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/voice_cancel_trashcan_body" android:layout_width="48.0dip" android:layout_height="wrap_content" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0607a7" />
+</LinearLayout>

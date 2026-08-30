@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_select_check_box" android:enabled="true" android:id="@id/multi_select" android:visible="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251c8" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f1251c8" app:APKTOOL_DUMMYVAL_0x7f0403d7="?APKTOOL_DUMMYVAL_0x7f040a00" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+    <item android:icon="@drawable/vec_ic_more" android:enabled="true" android:id="@id/more" android:visible="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f1250b0" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f1250b0" app:APKTOOL_DUMMYVAL_0x7f0403d7="?APKTOOL_DUMMYVAL_0x7f040a00" app:APKTOOL_DUMMYVAL_0x7f0407af="always">
+        <menu />
+    </item>
+    <item android:icon="@drawable/ic_motion_photos_toggle_off" android:enabled="true" android:id="@id/motion_photos_toggle" android:visible="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f124d1c" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f124d1c" app:APKTOOL_DUMMYVAL_0x7f0403d7="?APKTOOL_DUMMYVAL_0x7f040a00" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+    <item android:icon="@drawable/ic_hd_label" android:enabled="true" android:id="@id/hd_control_btn" android:visible="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f124d1b" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f124d1b" app:APKTOOL_DUMMYVAL_0x7f0403d7="?APKTOOL_DUMMYVAL_0x7f040a00" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+</menu>

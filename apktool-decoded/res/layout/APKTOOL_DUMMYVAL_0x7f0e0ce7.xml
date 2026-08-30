@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/more_menu_floating_root" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070985" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070985"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="start" android:id="@id/reactions_frame" android:background="@drawable/more_menu_reactions_bg" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/reactions_list" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+    <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:id="@id/menu_card_frame" android:background="@drawable/more_menu_card_bg" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/menu_items_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+</LinearLayout>

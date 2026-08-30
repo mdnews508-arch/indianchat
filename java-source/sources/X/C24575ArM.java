@@ -1,0 +1,79 @@
+package X;
+
+import androidx.fragment.app.Fragment;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.ArM, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes6.dex */
+public class C24575ArM extends AnonymousClass051 implements Function0 {
+    public final int $t;
+    public final Object A00;
+    public final Object A01;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C24575ArM(Fragment fragment, InterfaceC001000l interfaceC001000l, int i) {
+        super(0);
+        this.$t = i;
+        this.A01 = fragment;
+        this.A00 = interfaceC001000l;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public /* bridge */ /* synthetic */ Object invoke() {
+        InterfaceC02950Dn interfaceC02950Dn;
+        InterfaceC04850Lw interfaceC04850LwAbS;
+        Object objInvoke;
+        InterfaceC02950Dn interfaceC02950Dn2;
+        Object objInvoke2;
+        int i = this.$t;
+        Object obj = this.A00;
+        switch (i) {
+            case 1:
+            case 3:
+            case 6:
+            case 10:
+            case 12:
+            case 16:
+            case 19:
+            case 21:
+            case 23:
+            case 26:
+            case 28:
+            case 30:
+            case 34:
+            case 36:
+            case 38:
+            case 44:
+            case 46:
+            case 49:
+                InterfaceC02970Dp interfaceC02970DpA0Y = AbstractC202188rn.A0Y(obj);
+                return (!(interfaceC02970DpA0Y instanceof InterfaceC02950Dn) || (interfaceC02950Dn = (InterfaceC02950Dn) interfaceC02970DpA0Y) == null || (interfaceC04850LwAbS = interfaceC02950Dn.AbS()) == null) ? ((Fragment) this.A01).AbS() : interfaceC04850LwAbS;
+            case 47:
+                Function0 function0 = (Function0) obj;
+                return (function0 == null || (objInvoke = function0.invoke()) == null) ? ((ActivityC03760Hn) this.A01).AbR() : objInvoke;
+            default:
+                Function0 function1 = (Function0) obj;
+                if (function1 != null && (objInvoke2 = function1.invoke()) != null) {
+                    return objInvoke2;
+                }
+                InterfaceC02970Dp interfaceC02970DpA0Y2 = AbstractC202188rn.A0Y(this.A01);
+                return (!(interfaceC02970DpA0Y2 instanceof InterfaceC02950Dn) || (interfaceC02950Dn2 = (InterfaceC02950Dn) interfaceC02970DpA0Y2) == null) ? C0M5.A00 : interfaceC02950Dn2.AbR();
+        }
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C24575ArM(InterfaceC001000l interfaceC001000l, int i) {
+        super(0);
+        this.$t = i;
+        this.A00 = null;
+        this.A01 = interfaceC001000l;
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C24575ArM(ActivityC03760Hn activityC03760Hn) {
+        super(0);
+        this.$t = 47;
+        this.A00 = null;
+        this.A01 = activityC03760Hn;
+    }
+}

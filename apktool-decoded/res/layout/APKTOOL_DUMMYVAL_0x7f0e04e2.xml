@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/conversations_folder_badge_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0707c1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="end" android:id="@id/conversations_folder_badge" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070455" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070455" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070304" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070304" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3_emphasized" style="@style/APKTOOL_DUMMYVAL_0x7f150041" />
+</FrameLayout>

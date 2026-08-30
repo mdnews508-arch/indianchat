@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150018" parent="@style/APKTOOL_DUMMYVAL_0x7f15051a">
+        <item name="android:textFontWeight">500</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401ab">@color/APKTOOL_DUMMYVAL_0x7f060892</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401bd">@color/APKTOOL_DUMMYVAL_0x7f0608a7</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401c2">@color/APKTOOL_DUMMYVAL_0x7f0608aa</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150076" parent="@style/APKTOOL_DUMMYVAL_0x7f1500ba" />
+    <style name="APKTOOL_DUMMYVAL_0x7f15007a" parent="@style/APKTOOL_DUMMYVAL_0x7f1500bb" />
+    <style name="APKTOOL_DUMMYVAL_0x7f1500a5" parent="@style/APKTOOL_DUMMYVAL_0x7f15053c">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/APKTOOL_DUMMYVAL_0x7f15072b</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040045">@style/APKTOOL_DUMMYVAL_0x7f1502dc</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0400fb">@style/APKTOOL_DUMMYVAL_0x7f150726</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0400fc">@style/APKTOOL_DUMMYVAL_0x7f150726</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0400fd">@style/APKTOOL_DUMMYVAL_0x7f150727</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0400fe">@style/APKTOOL_DUMMYVAL_0x7f150726</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0404e6">@style/APKTOOL_DUMMYVAL_0x7f1502dd</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0404e7">@integer/APKTOOL_DUMMYVAL_0x7f0c003a</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1501d1" parent="@style/APKTOOL_DUMMYVAL_0x7f1506ab">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15022b" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowElevation">0.0dip</item>
+        <item name="android:windowClipToOutline">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">@integer/APKTOOL_DUMMYVAL_0x7f0c0021</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150250">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMYVAL_0x7f0710c1</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0409ff</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineHeight">@dimen/APKTOOL_DUMMYVAL_0x7f070637</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15027d">
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15028e">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0405dd</item>
+        <item name="android:textColorHint">?APKTOOL_DUMMYVAL_0x7f0409ff</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15028f">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0405dd</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15037c" parent="@style/APKTOOL_DUMMYVAL_0x7f1506ac">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:minWidth">128.0dip</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0403ce">textStart</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0403d4">@dimen/APKTOOL_DUMMYVAL_0x7f071050</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1503b6">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0405dd</item>
+        <item name="android:textColorHint">?APKTOOL_DUMMYVAL_0x7f0409ff</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/payment_amount_cursor</item>
+        <item name="android:fontFamily">?APKTOOL_DUMMYVAL_0x7f040373</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1503b7">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0405dd</item>
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1503b8">
+        <item name="android:textSize">42.0dip</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0405dd</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:lineHeight">48.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1503f9" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">?APKTOOL_DUMMYVAL_0x7f040371</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textFontWeight">450</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">12.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150473" parent="@style/APKTOOL_DUMMYVAL_0x7f15042b">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">24.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150474" parent="@style/APKTOOL_DUMMYVAL_0x7f15042a">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.01785714</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">20.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150475" parent="@style/APKTOOL_DUMMYVAL_0x7f15042d">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.03333333</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">16.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150476" parent="@style/APKTOOL_DUMMYVAL_0x7f150430">
+        <item name="android:textSize">57.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">-0.00438596</item>
+        <item name="android:lineHeight">64.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">64.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150477" parent="@style/APKTOOL_DUMMYVAL_0x7f15042f">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">52.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">52.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150478" parent="@style/APKTOOL_DUMMYVAL_0x7f15042e">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">44.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">44.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150479" parent="@style/APKTOOL_DUMMYVAL_0x7f15042e">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">40.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">40.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047a" parent="@style/APKTOOL_DUMMYVAL_0x7f150432">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">36.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">36.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047b" parent="@style/APKTOOL_DUMMYVAL_0x7f150439">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">32.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">32.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047c" parent="@style/APKTOOL_DUMMYVAL_0x7f15042a">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif-medium</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">20.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047d" parent="@style/APKTOOL_DUMMYVAL_0x7f15042d">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.04166667</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif-medium</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">16.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047e" parent="@style/APKTOOL_DUMMYVAL_0x7f15042d">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.04545455</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif-medium</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">16.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15047f" parent="@style/APKTOOL_DUMMYVAL_0x7f150439">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">28.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">28.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150480" parent="@style/APKTOOL_DUMMYVAL_0x7f150438">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.009375</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif-medium</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">24.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150481" parent="@style/APKTOOL_DUMMYVAL_0x7f150438">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040369">sans-serif-medium</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04048a">20.0sp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15069b" parent="@style/APKTOOL_DUMMYVAL_0x7f15071b">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040485">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1506a1" parent="@style/APKTOOL_DUMMYVAL_0x7f1500fc">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150700" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/APKTOOL_DUMMYVAL_0x7f150491</item>
+        <item name="android:minHeight">@dimen/APKTOOL_DUMMYVAL_0x7f0708bb</item>
+        <item name="android:paddingStart">@dimen/APKTOOL_DUMMYVAL_0x7f0708bc</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04024a">true</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04024c">true</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040298">@dimen/APKTOOL_DUMMYVAL_0x7f0708ba</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0402b5">true</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0403b3">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04050e">@style/APKTOOL_DUMMYVAL_0x7f150567</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040514">@dimen/APKTOOL_DUMMYVAL_0x7f0708bb</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040787">?APKTOOL_DUMMYVAL_0x7f04078e</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04078f">@style/APKTOOL_DUMMYVAL_0x7f1503e7</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150714" parent="@style/APKTOOL_DUMMYVAL_0x7f150689">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401e2">0.0dip</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040826">?APKTOOL_DUMMYVAL_0x7f040895</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0408d3">?APKTOOL_DUMMYVAL_0x7f040894</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500ba" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b7">
+        <item name="APKTOOL_DUMMYVAL_0x7f040257">?android:dialogCornerRadius</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500bb" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b8">
+        <item name="APKTOOL_DUMMYVAL_0x7f040257">?android:dialogCornerRadius</item>
+    </style>
+</resources>

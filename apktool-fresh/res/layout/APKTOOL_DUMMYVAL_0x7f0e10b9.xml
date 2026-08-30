@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/empty_view" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_no_report_to_admin_messages" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="17.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12375e" style="@style/APKTOOL_DUMMYVAL_0x7f150425" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0409f6" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/epl_dotted_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

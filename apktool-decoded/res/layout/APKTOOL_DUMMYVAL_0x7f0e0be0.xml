@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/low_light_btn_stub" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070211" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070210" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_toLeftOf="@id/flash_btn_container" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:background="@drawable/btn_gray_circle_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070212" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070212" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/low_light_btn" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a7c" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a7c" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_camera_low_light_on" />
+</FrameLayout>

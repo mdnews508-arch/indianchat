@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_image_preview_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f04011d="@android:color/black" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/camera_image_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124f2b" />
+        <include android:id="@id/camera_image_preview_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ca1" />
+    </androidx.cardview.widget.CardView>
+    <com.whatsapp.ui.coreui.base.WaImageButton android:layout_gravity="end|center|top" android:id="@id/camera_image_preview_close_button" android:background="@drawable/background_circle_gray" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070fb0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070fb0" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df6" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wds_ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+</FrameLayout>

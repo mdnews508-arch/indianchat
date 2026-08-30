@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f124c41" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/clear_cookies_list_item" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124c42" android:singleLine="false" style="@style/APKTOOL_DUMMYVAL_0x7f150137" />
+    <com.indianchat.ui.wds.components.list.footer.WDSSectionFooter android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f040377="@string/APKTOOL_DUMMYVAL_0x7f124c40" />
+</LinearLayout>

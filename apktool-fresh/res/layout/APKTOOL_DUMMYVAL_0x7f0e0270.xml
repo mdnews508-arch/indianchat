@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:background="@drawable/bot_prompts_recycler_view_item_background" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

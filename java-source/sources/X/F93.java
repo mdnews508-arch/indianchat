@@ -1,0 +1,94 @@
+package X;
+
+import com.google.android.search.verification.client.R;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes8.dex */
+public abstract class F93 {
+    public static List A00;
+    public static List A01;
+    public static final java.util.Map A02;
+
+    static {
+        C015707m[] c015707mArr = new C015707m[25];
+        Integer numValueOf = Integer.valueOf(R.drawable.id_logo_dana);
+        boolean zA1U = AbstractC31898DxN.A1U("DANA", numValueOf, c015707mArr);
+        Integer numValueOf2 = Integer.valueOf(R.drawable.id_logo_gopay);
+        boolean zA1V = AbstractC31898DxN.A1V("GoPay", numValueOf2, c015707mArr);
+        Integer numValueOf3 = Integer.valueOf(R.drawable.id_logo_linkaja);
+        int iA04 = AbstractC31898DxN.A04("LinkAja", numValueOf3, c015707mArr);
+        Integer numValueOf4 = Integer.valueOf(R.drawable.id_logo_ovo);
+        int iA05 = AbstractC31898DxN.A05("OVO", numValueOf4, c015707mArr);
+        Integer numValueOf5 = Integer.valueOf(R.drawable.id_logo_shopee);
+        c015707mArr[4] = AbstractC32971bt.A0Z("Shopee", numValueOf5);
+        Integer numValueOf6 = Integer.valueOf(R.drawable.id_logo_bri);
+        c015707mArr[5] = AbstractC32971bt.A0Z("Bank Rakyat Indonesia", numValueOf6);
+        Integer numValueOf7 = Integer.valueOf(R.drawable.id_logo_bca);
+        c015707mArr[6] = AbstractC32971bt.A0Z("Bank Central Asia", numValueOf7);
+        Integer numValueOf8 = Integer.valueOf(R.drawable.id_logo_mandiri);
+        c015707mArr[7] = AbstractC32971bt.A0Z("Bank Mandiri", numValueOf8);
+        Integer numValueOf9 = Integer.valueOf(R.drawable.id_logo_bni);
+        c015707mArr[8] = AbstractC32971bt.A0Z("Bank Negara Indonesia", numValueOf9);
+        Integer numValueOf10 = Integer.valueOf(R.drawable.id_logo_btn);
+        c015707mArr[9] = AbstractC32971bt.A0Z("Bank Tabungan Negara", numValueOf10);
+        Integer numValueOf11 = Integer.valueOf(R.drawable.id_logo_bsi);
+        c015707mArr[10] = AbstractC32971bt.A0Z("Bank Syariah Indonesia", numValueOf11);
+        Integer numValueOf12 = Integer.valueOf(R.drawable.id_logo_cimb);
+        c015707mArr[11] = AbstractC32971bt.A0Z("Bank CIMB Niaga", numValueOf12);
+        Integer numValueOf13 = Integer.valueOf(R.drawable.id_logo_ocbc);
+        c015707mArr[12] = AbstractC32971bt.A0Z("Bank OCBC NISP", numValueOf13);
+        Integer numValueOf14 = Integer.valueOf(R.drawable.id_logo_permata);
+        AbstractC31898DxN.A1J("Bank Permata", numValueOf14, c015707mArr);
+        Integer numValueOf15 = Integer.valueOf(R.drawable.id_logo_panin);
+        AbstractC31898DxN.A1K("Panin Bank", numValueOf15, c015707mArr);
+        Integer numValueOf16 = Integer.valueOf(R.drawable.id_logo_danamon);
+        c015707mArr[15] = AbstractC32971bt.A0Z("Bank Danamon", numValueOf16);
+        Integer numValueOf17 = Integer.valueOf(R.drawable.id_logo_smbc);
+        c015707mArr[16] = AbstractC32971bt.A0Z("Bank SMBC Indonesia", numValueOf17);
+        Integer numValueOf18 = Integer.valueOf(R.drawable.id_logo_bjb);
+        c015707mArr[17] = AbstractC32971bt.A0Z("Bank Jawa Barat", numValueOf18);
+        Integer numValueOf19 = Integer.valueOf(R.drawable.id_logo_maybank);
+        c015707mArr[18] = AbstractC32971bt.A0Z("Bank Maybank Indonesia", numValueOf19);
+        Integer numValueOf20 = Integer.valueOf(R.drawable.id_logo_mayapada);
+        c015707mArr[19] = AbstractC32971bt.A0Z("Bank Mayapada", numValueOf20);
+        Integer numValueOf21 = Integer.valueOf(R.drawable.id_logo_mega);
+        c015707mArr[20] = AbstractC32971bt.A0Z("Bank Mega", numValueOf21);
+        Integer numValueOf22 = Integer.valueOf(R.drawable.id_logo_jatim);
+        c015707mArr[21] = AbstractC32971bt.A0Z("Bank Jawa Timur", numValueOf22);
+        Integer numValueOf23 = Integer.valueOf(R.drawable.id_logo_kb);
+        AbstractC31898DxN.A1L("Bank KB Bukopin", numValueOf23, c015707mArr);
+        Integer numValueOf24 = Integer.valueOf(R.drawable.id_logo_muamalat);
+        AbstractC31898DxN.A1M("Bank Muamalat Indonesia", numValueOf24, c015707mArr);
+        Integer numValueOf25 = Integer.valueOf(R.drawable.id_logo_sinarmas);
+        c015707mArr[24] = AbstractC32971bt.A0Z("Bank Sinarmas", numValueOf25);
+        A02 = C05N.A0I(c015707mArr);
+        com.whatsapp.infra.logging.Log.i("IndonesiaBanksOrWalletsUtils/init/initialized");
+        A01 = AbstractC32971bt.A0W();
+        C34600FPp[] c34600FPpArr = new C34600FPp[25];
+        c34600FPpArr[zA1U ? 1 : 0] = new C34600FPp("DANA", "wallet", numValueOf, null);
+        c34600FPpArr[zA1V ? 1 : 0] = new C34600FPp("GoPay", "wallet", numValueOf2, null);
+        c34600FPpArr[iA04] = new C34600FPp("LinkAja", "wallet", numValueOf3, null);
+        c34600FPpArr[iA05] = new C34600FPp("OVO", "wallet", numValueOf4, null);
+        c34600FPpArr[4] = new C34600FPp("Shopee", "wallet", numValueOf5, null);
+        c34600FPpArr[5] = new C34600FPp("Bank Rakyat Indonesia", "bank_account", numValueOf6, null);
+        c34600FPpArr[6] = new C34600FPp("Bank Central Asia", "bank_account", numValueOf7, null);
+        c34600FPpArr[7] = new C34600FPp("Bank Mandiri", "bank_account", numValueOf8, null);
+        c34600FPpArr[8] = new C34600FPp("Bank Negara Indonesia", "bank_account", numValueOf9, null);
+        c34600FPpArr[9] = new C34600FPp("Bank Tabungan Negara", "bank_account", numValueOf10, null);
+        c34600FPpArr[10] = new C34600FPp("Bank Syariah Indonesia", "bank_account", numValueOf11, null);
+        c34600FPpArr[11] = new C34600FPp("Bank CIMB Niaga", "bank_account", numValueOf12, null);
+        c34600FPpArr[12] = new C34600FPp("Bank OCBC NISP", "bank_account", numValueOf13, null);
+        c34600FPpArr[13] = new C34600FPp("Bank Permata", "bank_account", numValueOf14, null);
+        c34600FPpArr[14] = new C34600FPp("Panin Bank", "bank_account", numValueOf15, null);
+        c34600FPpArr[15] = new C34600FPp("Bank Danamon", "bank_account", numValueOf16, null);
+        c34600FPpArr[16] = new C34600FPp("Bank SMBC Indonesia", "bank_account", numValueOf17, null);
+        c34600FPpArr[17] = new C34600FPp("Bank Jawa Barat", "bank_account", numValueOf18, null);
+        c34600FPpArr[18] = new C34600FPp("Bank Maybank Indonesia", "bank_account", numValueOf19, null);
+        c34600FPpArr[19] = new C34600FPp("Bank Mayapada", "bank_account", numValueOf20, null);
+        c34600FPpArr[20] = new C34600FPp("Bank Mega", "bank_account", numValueOf21, null);
+        c34600FPpArr[21] = new C34600FPp("Bank Jawa Timur", "bank_account", numValueOf22, null);
+        c34600FPpArr[22] = new C34600FPp("Bank KB Bukopin", "bank_account", numValueOf23, null);
+        c34600FPpArr[23] = new C34600FPp("Bank Muamalat Indonesia", "bank_account", numValueOf24, null);
+        A00 = AbstractC465925m.A1G(new C34600FPp("Bank Sinarmas", "bank_account", numValueOf25, null), c34600FPpArr, 24);
+    }
+}

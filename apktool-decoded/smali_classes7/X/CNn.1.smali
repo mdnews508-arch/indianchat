@@ -1,0 +1,129 @@
+.class public abstract LX/CNn;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public static final A00(Lcom/indianchat/bot/infra/core/tos/BotInteractionType;)I
+    .locals 2
+
+    .line 0
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-static {p0, v0}, LX/00h;->A0A(Ljava/lang/Object;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v1, LX/CRT;->A00:[I
+
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
+
+    .line 7
+    .line 8
+    .line 9
+    move-result v0
+
+    .line 10
+    aget v0, v1, v0
+
+    .line 11
+    .line 12
+    packed-switch v0, :pswitch_data_0
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-static {}, LX/25m;->A1J()LX/23o;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    throw v0
+
+    .line 20
+    :pswitch_0
+    const/4 v0, 0x0
+
+    .line 21
+    return v0
+
+    .line 22
+    :pswitch_1
+    const/4 v0, 0x6
+
+    .line 23
+    return v0
+
+    .line 24
+    :pswitch_2
+    const/4 v0, 0x2
+
+    .line 25
+    return v0
+
+    .line 26
+    :pswitch_3
+    const/4 v0, 0x1
+
+    .line 27
+    return v0
+
+    .line 28
+    :pswitch_4
+    const/4 v0, 0x3
+
+    .line 29
+    return v0
+
+    .line 30
+    :pswitch_5
+    const/4 v0, 0x4
+
+    .line 31
+    return v0
+
+    .line 32
+    :pswitch_6
+    const/4 v0, 0x5
+
+    .line 33
+    return v0
+
+    .line 34
+    :pswitch_7
+    const/4 v0, 0x7
+
+    .line 35
+    return v0
+
+    .line 36
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_0
+        :pswitch_1
+        :pswitch_1
+        :pswitch_2
+        :pswitch_2
+        :pswitch_3
+        :pswitch_3
+        :pswitch_4
+        :pswitch_4
+        :pswitch_4
+        :pswitch_4
+        :pswitch_4
+        :pswitch_4
+        :pswitch_5
+        :pswitch_5
+        :pswitch_5
+        :pswitch_6
+        :pswitch_6
+        :pswitch_7
+    .end packed-switch
+.end method

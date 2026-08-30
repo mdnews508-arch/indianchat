@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/attachment_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0703e0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703df" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f0703d8" android:src="@drawable/ic_attach_file" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120343" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/camera_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0703e0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703df" android:src="@drawable/ic_photo_camera" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120344" android:layout_marginEnd="3.0dip" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+</LinearLayout>

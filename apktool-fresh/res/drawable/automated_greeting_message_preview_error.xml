@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060030" />
+            <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f071120" android:width="@dimen/APKTOOL_DUMMYVAL_0x7f071120" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/vec_ic_warning_filled" />
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.storage.StorageUsageMediaPreviewOverflowOverlayView android:id="@id/overflow_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:layout_gravity="center" android:id="@id/overflow_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+</merge>

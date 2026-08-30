@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader android:id="@id/bill_payments_header" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b8c" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b8c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070b8c" app:APKTOOL_DUMMYVAL_0x7f040039="@string/APKTOOL_DUMMYVAL_0x7f122f19" app:APKTOOL_DUMMYVAL_0x7f04003a="textButton" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f122f0f" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/bill_payments_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150317">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020f" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020f" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020f" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020f" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/item_list_row" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.GridLayoutManager" app:APKTOOL_DUMMYVAL_0x7f0407e4="4" />
+</LinearLayout>

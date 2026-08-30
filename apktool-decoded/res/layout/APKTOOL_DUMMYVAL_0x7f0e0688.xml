@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversations_row_favorites_footer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/conversation_row_favorites_footer_divider" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <ViewStub android:layout_gravity="center" android:id="@id/conversations_row_lists_footer_mute_text_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e068a" android:inflatedId="@id/conversations_row_lists_footer_mute_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:gravity="center" android:id="@id/conversations_row_favorites_footer_text" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121a26" style="@style/APKTOOL_DUMMYVAL_0x7f15061f" />
+</LinearLayout>

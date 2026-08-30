@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qr_code_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.QrImageView android:layout_gravity="center_horizontal" android:id="@id/qr_code" android:background="@drawable/qrcode_bg" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0407ad="false" app:APKTOOL_DUMMYVAL_0x7f0407f6="@drawable/ic_qr_walogo" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/qr_code_instruction_title" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f96" style="@style/APKTOOL_DUMMYVAL_0x7f1502a1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/qr_code_instruction_text" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f95" style="@style/APKTOOL_DUMMYVAL_0x7f15029c" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070718" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1207" />
+    <View android:id="@id/header_bottom_shadow" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1502bb" />
+    <ViewStub android:id="@id/business_details_card_stub" android:inflatedId="@id/business_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/contact_details_card_stub" android:inflatedId="@id/contact_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/meta_ai_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c9c" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/deprecated_chat_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0460" android:inflatedId="@id/deprecated_chat_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e046c" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e046b" />
+    <ViewStub android:id="@id/upcoming_events_card" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13b4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/media_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03a3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0bad" />
+    <FrameLayout android:id="@id/wall_entry_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0054" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0467" />
+    <LinearLayout android:orientation="vertical" android:id="@id/groups_card" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+        <FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" style="@style/APKTOOL_DUMMYVAL_0x7f150253">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:id="@id/groups_in_common" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f150257" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06a7" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0138" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

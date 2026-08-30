@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/dependent_messages_settings_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fa" android:inflatedId="@id/dependent_messages_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.consumer.settings.SettingsRowPrivacyText android:id="@id/block_list_privacy_contacts_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?APKTOOL_DUMMYVAL_0x7f04076b" />
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@id/contacts_backup_layout" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" style="@style/APKTOOL_DUMMYVAL_0x7f1503be">
+            <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:ellipsize="none" android:id="@id/contacts_backup_label_view" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122ade" android:maxLines="@null" android:singleLine="false" style="?APKTOOL_DUMMYVAL_0x7f040774" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/contacts_backup_description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" style="?APKTOOL_DUMMYVAL_0x7f040770" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch android:layout_gravity="end|center|top" android:id="@id/contacts_backup_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+                <com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/backup_progress_bar" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminateOnly="true" />
+            </FrameLayout>
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

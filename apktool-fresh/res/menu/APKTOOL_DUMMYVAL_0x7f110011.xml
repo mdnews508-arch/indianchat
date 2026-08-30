@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_rename" android:id="@id/sticker_pack_rename" android:title="@string/APKTOOL_DUMMYVAL_0x7f124e79" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06066e" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+    <item android:icon="@drawable/ic_send_outline" android:id="@id/sticker_pack_send" android:title="@string/APKTOOL_DUMMYVAL_0x7f124e7a" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06066e" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/sticker_pack_remove" android:title="@string/APKTOOL_DUMMYVAL_0x7f12521e" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06066e" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+    <item android:icon="@drawable/ic_send_outline" android:id="@id/sticker_pack_create_zip" android:title="@string/APKTOOL_DUMMYVAL_0x7f124e35" android:showAsAction="never" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06066e" />
+</menu>

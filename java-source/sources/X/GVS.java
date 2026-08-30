@@ -1,0 +1,207 @@
+package X;
+
+import android.os.Bundle;
+import com.whatsapp.infra.core.jid.UserJid;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes9.dex */
+public final class GVS {
+    public static final GVS A0p = new GVS(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, false, false, false, false, false, false, false, false, false, false, false, false);
+    public final int A00;
+    public final HO9 A01;
+    public final C40749Hw6 A02;
+    public final C40671Huq A03;
+    public final C40672Hur A04;
+    public final C40750Hw7 A05;
+    public final C08690aa A06;
+    public final UserJid A07;
+    public final String A08;
+    public final String A09;
+    public final String A0A;
+    public final String A0B;
+    public final String A0C;
+    public final String A0D;
+    public final String A0E;
+    public final String A0F;
+    public final String A0G;
+    public final String A0H;
+    public final String A0I;
+    public final String A0J;
+    public final String A0K;
+    public final String A0L;
+    public final String A0M;
+    public final String A0N;
+    public final String A0O;
+    public final String A0P;
+    public final String A0Q;
+    public final String A0R;
+    public final String A0S;
+    public final String A0T;
+    public final String A0U;
+    public final String A0V;
+    public final String A0W;
+    public final String A0X;
+    public final String A0Y;
+    public final String A0Z;
+    public final ArrayList A0a;
+    public final List A0b;
+    public final JSONObject A0c;
+    public final boolean A0d;
+    public final boolean A0e;
+    public final boolean A0f;
+    public final boolean A0g;
+    public final boolean A0h;
+    public final boolean A0i;
+    public final boolean A0j;
+    public final boolean A0k;
+    public final boolean A0l;
+    public final boolean A0m;
+    public final boolean A0n;
+    public final boolean A0o;
+
+    public final Bundle A00() {
+        Bundle bundleA04 = AbstractC465925m.A04();
+        bundleA04.putString("data", this.A0J);
+        bundleA04.putString("source", this.A0U);
+        bundleA04.putString("entry_point", this.A0K);
+        bundleA04.putBoolean("has_ib", this.A0i);
+        bundleA04.putBoolean("has_wm", this.A0j);
+        bundleA04.putBoolean("ads_logging_requires_tos", this.A0d);
+        bundleA04.putBoolean("show_ad_attribution", this.A0k);
+        bundleA04.putBoolean("show_keyboard", this.A0m);
+        bundleA04.putBoolean("auto_greeting_msg", this.A0l);
+        String str = this.A0D;
+        bundleA04.putString("auto_greeting_msg_cta_type", str);
+        bundleA04.putString("auto_greeting_msg_cta_payload", this.A0C);
+        bundleA04.putString("icebreaker", this.A0M);
+        bundleA04.putString("ib_override_to_prefill", this.A0N);
+        bundleA04.putString("ctwa_context", this.A0H);
+        bundleA04.putString("source_url", this.A0X);
+        UserJid userJid = this.A07;
+        bundleA04.putString("jid", userJid != null ? userJid.getRawString() : null);
+        C08690aa c08690aa = this.A06;
+        bundleA04.putString("lid", c08690aa != null ? c08690aa.getRawString() : null);
+        bundleA04.putString("productId", this.A0Q);
+        bundleA04.putString("land_on_whatsapp_catalog", this.A0O);
+        bundleA04.putString("categoryId", this.A0F);
+        JSONObject jSONObject = this.A0c;
+        bundleA04.putString("banner", jSONObject != null ? jSONObject.toString() : null);
+        List list = this.A0b;
+        if (list != null) {
+            List listA1A = AbstractC02550Br.A1A(list);
+            ArrayList arrayListA0o = AbstractC466825v.A0o(listA1A);
+            Iterator it = listA1A.iterator();
+            while (it.hasNext()) {
+                arrayListA0o.add(((HOS) it.next()).label);
+            }
+            bundleA04.putStringArrayList("client_filters", AbstractC465925m.A1B(arrayListA0o));
+        }
+        bundleA04.putString("ctwa_context_override_phone_number", this.A0I);
+        bundleA04.putBoolean("always_show_ad_attribution", this.A0f);
+        C40671Huq c40671Huq = this.A03;
+        bundleA04.putString("flow_cta", c40671Huq != null ? c40671Huq.A00 : null);
+        bundleA04.putString("flow_id", c40671Huq != null ? c40671Huq.A02 : null);
+        bundleA04.putString("flow_first_screen", c40671Huq != null ? c40671Huq.A01 : null);
+        C40672Hur c40672Hur = this.A04;
+        bundleA04.putString("flow_auto_response_cta_type", c40672Hur != null ? c40672Hur.A00 : null);
+        bundleA04.putString("flow_auto_response_cta_url", c40672Hur != null ? c40672Hur.A01 : null);
+        bundleA04.putString("flow_auto_response_text", c40672Hur != null ? c40672Hur.A02 : null);
+        bundleA04.putString("source_id_override", this.A0W);
+        HO9 ho9 = this.A01;
+        if (ho9 != null) {
+            bundleA04.putInt("consumer_disclosure_variant", ho9.value);
+        }
+        bundleA04.putString("headline", this.A0L);
+        bundleA04.putString("body", this.A0E);
+        bundleA04.putString("app", this.A0B);
+        bundleA04.putString("source_id", this.A0V);
+        bundleA04.putString("referral_parameter", this.A0S);
+        bundleA04.putString("welcome_message", this.A0Z);
+        bundleA04.putString("ctwa_clid", this.A0G);
+        C40750Hw7 c40750Hw7 = this.A05;
+        bundleA04.putString("video_url", c40750Hw7 != null ? c40750Hw7.A02 : null);
+        bundleA04.putString("thumbnail_url", c40750Hw7 != null ? c40750Hw7.A01 : null);
+        bundleA04.putByteArray("thumbnail_data", c40750Hw7 != null ? c40750Hw7.A03 : null);
+        bundleA04.putString("og_img_url", c40750Hw7 != null ? c40750Hw7.A00 : null);
+        bundleA04.putParcelableArrayList("icebreakers", this.A0a);
+        bundleA04.putBoolean("disable_nudge", this.A0g);
+        bundleA04.putString("signals", this.A0T);
+        bundleA04.putString("auto_greeting_msg_cta_type", str);
+        bundleA04.putString("redirect", this.A0R);
+        bundleA04.putString("ad_id", this.A09);
+        bundleA04.putString("ad_group_id", this.A08);
+        bundleA04.putString("website_url", this.A0Y);
+        bundleA04.putString("land_on_whatsapp_profile", this.A0P);
+        bundleA04.putString("ad_preview_url", this.A0A);
+        bundleA04.putBoolean("chat_draft", this.A0n);
+        bundleA04.putBoolean("agm_persistence", this.A0e);
+        bundleA04.putBoolean("flow_submit_clear_composer", this.A0h);
+        bundleA04.putBoolean("ib_redesign", this.A0o);
+        C40749Hw6 c40749Hw6 = this.A02;
+        if (c40749Hw6 != null) {
+            bundleA04.putInt("thumbnail", c40749Hw6.A02.value);
+            bundleA04.putInt("title", c40749Hw6.A03.value);
+            bundleA04.putInt("subtitle", c40749Hw6.A01.value);
+            bundleA04.putInt("header_action", c40749Hw6.A00.value);
+        }
+        bundleA04.putInt("usync_mode", this.A00);
+        return bundleA04;
+    }
+
+    public GVS(HO9 ho9, C40749Hw6 c40749Hw6, C40671Huq c40671Huq, C40672Hur c40672Hur, C40750Hw7 c40750Hw7, C08690aa c08690aa, UserJid userJid, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String str9, String str10, String str11, String str12, String str13, String str14, String str15, String str16, String str17, String str18, String str19, String str20, String str21, String str22, String str23, String str24, String str25, String str26, String str27, String str28, ArrayList arrayList, List list, JSONObject jSONObject, int i, boolean z, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6, boolean z7, boolean z8, boolean z9, boolean z10, boolean z11, boolean z12) {
+        this.A0J = str;
+        this.A0U = str2;
+        this.A0K = str3;
+        this.A0i = z;
+        this.A0j = z2;
+        this.A0d = z3;
+        this.A0k = z4;
+        this.A0m = z5;
+        this.A0l = z6;
+        this.A0D = str4;
+        this.A0C = str5;
+        this.A0X = str6;
+        this.A0H = str7;
+        this.A0M = str8;
+        this.A0N = str9;
+        this.A06 = c08690aa;
+        this.A07 = userJid;
+        this.A0Q = str10;
+        this.A0O = str11;
+        this.A0F = str12;
+        this.A0c = jSONObject;
+        this.A0b = list;
+        this.A0I = str13;
+        this.A0f = z7;
+        this.A03 = c40671Huq;
+        this.A04 = c40672Hur;
+        this.A0W = str14;
+        this.A0B = str15;
+        this.A01 = ho9;
+        this.A0L = str16;
+        this.A0E = str17;
+        this.A0V = str18;
+        this.A0S = str19;
+        this.A0Z = str20;
+        this.A0G = str21;
+        this.A05 = c40750Hw7;
+        this.A0a = arrayList;
+        this.A0g = z8;
+        this.A0T = str22;
+        this.A0R = str23;
+        this.A09 = str24;
+        this.A08 = str25;
+        this.A0Y = str26;
+        this.A0P = str27;
+        this.A0A = str28;
+        this.A0n = z9;
+        this.A0e = z10;
+        this.A0h = z11;
+        this.A0o = z12;
+        this.A02 = c40749Hw6;
+        this.A00 = i;
+    }
+}

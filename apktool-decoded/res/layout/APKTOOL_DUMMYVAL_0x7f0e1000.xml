@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:theme="@style/APKTOOL_DUMMYVAL_0x7f15040b" android:id="@id/my_contacts_except_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/excluded" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150408" />
+</LinearLayout>

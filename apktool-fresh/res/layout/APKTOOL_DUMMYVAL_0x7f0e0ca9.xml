@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/ai_disclaimer_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/ai_disclaimer_layout_left" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wa_ic_info" app:APKTOOL_DUMMYVAL_0x7f0404a1="@color/APKTOOL_DUMMYVAL_0x7f060232" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f122429" app:APKTOOL_DUMMYVAL_0x7f0404a4="@color/APKTOOL_DUMMYVAL_0x7f060232" />
+    </FrameLayout>
+</com.whatsapp.ui.coreui.InfoCard>

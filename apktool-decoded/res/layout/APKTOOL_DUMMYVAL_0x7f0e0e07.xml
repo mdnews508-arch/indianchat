@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.fab.WDSFab android:id="@id/next_btn" android:visibility="invisible" android:src="@drawable/ic_fab_next" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125105" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505d3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

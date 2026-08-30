@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.3j9, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes3.dex */
+public interface InterfaceC80263j9 {
+    void BmK();
+}

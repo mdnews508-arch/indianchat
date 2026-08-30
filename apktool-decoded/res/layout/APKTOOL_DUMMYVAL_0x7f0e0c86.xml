@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/ar_countdown_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+</FrameLayout>

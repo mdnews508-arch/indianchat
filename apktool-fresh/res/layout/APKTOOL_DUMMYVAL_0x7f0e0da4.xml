@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502f4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wa_ic_info" style="@style/APKTOOL_DUMMYVAL_0x7f1502f3" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_eu_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</LinearLayout>

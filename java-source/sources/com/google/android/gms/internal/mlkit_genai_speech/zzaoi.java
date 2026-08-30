@@ -1,0 +1,58 @@
+package com.google.android.gms.internal.mlkit_genai_speech;
+
+import X.J27;
+import X.J2B;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class zzaoi extends zzagg implements zzaho {
+    public static final zzaoi zzb;
+    public static volatile zzahv zze;
+    public int zzf;
+    public zzago zzg = zzahx.zzb;
+    public boolean zzh;
+
+    static {
+        zzaoi zzaoiVar = new zzaoi();
+        zzb = zzaoiVar;
+        zzagg.zzD(zzaoi.class, zzaoiVar);
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_genai_speech.zzagg
+    public final Object zzb(int i, Object obj, Object obj2) {
+        zzahv zzahvVarA0K;
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 2) {
+            Object[] objArrA1b = J2B.A1b(4);
+            J27.A1I(objArrA1b, 2, 3, zzaoa.class);
+            return J27.A0N(zzb, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002ဇ\u0000", objArrA1b);
+        }
+        if (i2 == 3) {
+            return new zzaoi();
+        }
+        if (i2 == 4) {
+            return new zzaoh(zzb);
+        }
+        if (i2 == 5) {
+            return zzb;
+        }
+        if (i2 != 6) {
+            throw null;
+        }
+        zzahv zzahvVar = zze;
+        if (zzahvVar != null) {
+            return zzahvVar;
+        }
+        synchronized (zzaoi.class) {
+            zzahvVarA0K = zze;
+            if (zzahvVarA0K == null) {
+                zzaeq zzaeqVar = zzaeq.$redex_init_class;
+                zzahvVarA0K = J27.A0K(zzb);
+                zze = zzahvVarA0K;
+            }
+        }
+        return zzahvVarA0K;
+    }
+}

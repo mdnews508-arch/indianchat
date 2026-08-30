@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ti_bubble" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/typing_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0404ca="true" app:APKTOOL_DUMMYVAL_0x7f0404d4="true" app:APKTOOL_DUMMYVAL_0x7f0404d6="@raw/typing_indicator" app:APKTOOL_DUMMYVAL_0x7f0404d9="restart" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061f" android:textStyle="italic" android:ellipsize="end" android:id="@id/streamed_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:paddingEnd="10.0dip" />
+</LinearLayout>

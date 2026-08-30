@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.mlkit_genai_speech;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class zzbcb {
+    public final synchronized void zza(int i) {
+    }
+
+    public zzbcb(zzgx zzgxVar, zzbah zzbahVar) {
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView android:id="@id/epl_placeholder_image" android:background="@color/APKTOOL_DUMMYVAL_0x7f060030" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705ba" android:scaleType="centerInside" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_image" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" />
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView android:id="@id/epl_thumbnail" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705ba" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="center" android:id="@id/epl_play_frame_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0571" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

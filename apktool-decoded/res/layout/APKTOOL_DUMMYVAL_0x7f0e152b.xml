@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070492" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034a" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" indianchat:APKTOOL_DUMMYVAL_0x7f040861="false" indianchat:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/contact_text_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textStyle="normal" android:gravity="left" android:layout_gravity="left" android:id="@id/contact_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+    </LinearLayout>
+    <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="center" android:id="@id/message_btn" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1223bf" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_chat" indianchat:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e2" style="@style/APKTOOL_DUMMYVAL_0x7f150221" />
+</androidx.appcompat.widget.LinearLayoutCompat>

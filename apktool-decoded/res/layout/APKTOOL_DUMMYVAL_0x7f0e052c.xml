@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <ViewStub android:id="@id/conversation_row_ai_disclaimer_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0508" android:inflatedId="@id/conversation_row_ai_disclaimer_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/suspicious_link_indicator_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e134e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e065c" />
+        <ViewStub android:id="@id/conversation_row_call_link_preview_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0543" android:inflatedId="@id/conversation_row_call_link_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/conversation_content_container_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.components.AiRichTextAndDateLayout android:layout_gravity="start" android:id="@id/conversation_text_row" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04023a="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <com.indianchat.conversationrow.botrichresponse.WrappingRecyclerView android:layout_gravity="start" android:id="@id/rich_response_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ce2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+                <ViewStub android:id="@id/unified_rich_response_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0279" android:inflatedId="@id/unified_rich_response_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055d" />
+            </com.indianchat.ui.coreui.components.AiRichTextAndDateLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub android:layout_gravity="left" android:id="@id/carousel_bottom_component_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1146" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="left" android:id="@id/meta_ai_search_sources_bottom_component_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cb5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="left" android:id="@id/meta_ai_footer_component_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0caa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/meta_ai_app_cta_footer_component_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c9b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/side_by_side_cta_footer_component_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e11e9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/meta_ai_age_collection_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c98" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.eventsv2.ui.coverimage.EventCoverImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705ca" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0705c9" app:APKTOOL_DUMMYVAL_0x7f04020f="@dimen/APKTOOL_DUMMYVAL_0x7f0710a1" app:APKTOOL_DUMMYVAL_0x7f040688="bottomLeft|topLeft"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

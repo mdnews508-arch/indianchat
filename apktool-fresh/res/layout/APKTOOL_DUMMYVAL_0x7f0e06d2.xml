@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f150212" android:textColorHint="@color/APKTOOL_DUMMYVAL_0x7f060222" android:gravity="start" android:id="@id/inputView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" whatsapp:APKTOOL_DUMMYVAL_0x7f0402af="@drawable/end_icon_selector" whatsapp:APKTOOL_DUMMYVAL_0x7f0403bc="true">
+        <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060223" android:gravity="start" android:id="@id/hintOrDate" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0704a7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0704a7" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" android:textAlignment="viewStart" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

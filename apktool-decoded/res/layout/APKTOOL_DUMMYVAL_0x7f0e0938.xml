@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408da" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d" indianchat:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15058b" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/section_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12164a" indianchat:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/section_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" indianchat:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            <RadioGroup android:orientation="vertical" android:id="@id/ephemeral_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040140" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070492"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/banner_image_container" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707be" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="20.0dip" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a03" android:gravity="center" android:layout_gravity="center" android:id="@id/banner_image" android:background="@drawable/payments_banner_circle" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f040141" android:layout_gravity="center|left" android:id="@id/banner_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150425" />
+    <FrameLayout android:layout_width="52.0dip" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/cancel" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0601b2" />
+    </FrameLayout>
+</LinearLayout>

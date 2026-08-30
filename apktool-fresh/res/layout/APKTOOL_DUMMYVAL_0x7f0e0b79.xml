@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView android:id="@id/list_badge_color_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124f7c"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

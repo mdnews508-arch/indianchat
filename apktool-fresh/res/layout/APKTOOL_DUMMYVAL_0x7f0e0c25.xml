@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/grid_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/document_gallery_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e103c" android:inflatedId="@id/document_gallery_banner_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@android:id/empty" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c23" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateOnly="true" whatsapp:APKTOOL_DUMMYVAL_0x7f04021b="@color/APKTOOL_DUMMYVAL_0x7f060746" whatsapp:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+</FrameLayout>

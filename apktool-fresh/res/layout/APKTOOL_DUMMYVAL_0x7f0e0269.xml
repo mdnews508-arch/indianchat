@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/title_background" android:background="@color/APKTOOL_DUMMYVAL_0x7f06010a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ListView android:id="@android:id/list" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/APKTOOL_DUMMYVAL_0x7f060746" android:textFilterEnabled="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" android:nestedScrollingEnabled="true" />
+    <FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408dd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:transitionName="toolbar" app:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15020d" />
+    </FrameLayout>
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525a" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f125259" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

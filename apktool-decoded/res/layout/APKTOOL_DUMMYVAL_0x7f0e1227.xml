@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.metaai.ui.asset.MetaAiLottieView android:layout_gravity="center" android:id="@id/static_ring" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0404d3="raw" app:APKTOOL_DUMMYVAL_0x7f0404d4="true" app:APKTOOL_DUMMYVAL_0x7f04053b="FADE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/enc_backup_protect_another_way_bottom_sheet_content" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/enc_backup_protect_another_way_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215f8" />
+        </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/enc_backup_protect_another_way_passkey" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f1215f7" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1215f6" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406c8="none" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/enc_backup_protect_another_way_password" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f1215c9" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1215c8" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406c8="none" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/enc_backup_protect_another_way_encryption_key" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="" app:APKTOOL_DUMMYVAL_0x7f04068c="" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" app:APKTOOL_DUMMYVAL_0x7f0406c8="none" />
+    </LinearLayout>
+</ScrollView>

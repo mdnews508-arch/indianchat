@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/vec_ic_keyboard_arrow_up" android:id="@id/action_search_up" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251c0" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+    <item android:icon="@drawable/vec_ic_keyboard_arrow_down" android:id="@id/action_search_down" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251c5" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:id="@id/media_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0706b1">
+        <ViewStub android:id="@id/image" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10f9" android:inflatedId="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0706b2" />
+        <ViewStub android:layout_gravity="center" android:id="@id/control_frame_legacy_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05af" android:inflatedId="@id/control_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/control_frame_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13ce" android:inflatedId="@id/control_frame_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom" android:background="?APKTOOL_DUMMYVAL_0x7f040a15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07114c" android:importantForAccessibility="no">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13c7" />
+        </FrameLayout>
+    </com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+    <com.whatsapp.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07013d" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05d0" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13d0" />
+            <ViewStub android:layout_gravity="bottom" android:id="@id/date" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13cf" />
+</LinearLayout>

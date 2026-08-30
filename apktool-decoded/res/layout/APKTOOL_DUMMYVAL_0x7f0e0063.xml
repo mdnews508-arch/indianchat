@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/agent_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_agent_bg" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1251d0" app:APKTOOL_DUMMYVAL_0x7f040634="circle" app:APKTOOL_DUMMYVAL_0x7f040635="xx_large" />
+                <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/agent_avatar_robot" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/vec_ic_ai_agents" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0605c6" />
+                <com.indianchat.ui.coreui.base.WaTextView android:textSize="48.0dip" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605c6" android:layout_gravity="center" android:id="@id/agent_avatar_initial" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+            </FrameLayout>
+            <com.indianchat.ui.wds.components.textfield.WDSTextField android:id="@id/agent_name_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f123abd" android:inputType="textPersonName|textCapWords" app:APKTOOL_DUMMYVAL_0x7f0403ad="@string/APKTOOL_DUMMYVAL_0x7f123abc" app:APKTOOL_DUMMYVAL_0x7f04089c="single_line" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+        </LinearLayout>
+    </ScrollView>
+    <com.indianchat.ui.coreui.WaButtonWithLoader android:id="@id/agent_editor_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f071066" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" />
+</LinearLayout>

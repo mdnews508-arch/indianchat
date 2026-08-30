@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="left" android:id="@id/list_item_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:scaleType="center" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060220" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_datasharing_biz_ai_v2" />
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ViewStub android:id="@id/biz_ai_new_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06cc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:gravity="left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124aa7" style="@style/APKTOOL_DUMMYVAL_0x7f15011d" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0707d3" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="left" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124aa3" />
+    </LinearLayout>
+</LinearLayout>

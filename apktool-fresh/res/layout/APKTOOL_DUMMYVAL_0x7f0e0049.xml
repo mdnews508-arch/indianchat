@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/remove_or_deactivate_group_from_community" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/vec_ic_do_not_disturb_on" app:APKTOOL_DUMMYVAL_0x7f0404a1="?APKTOOL_DUMMYVAL_0x7f040a08" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f1201ae" app:APKTOOL_DUMMYVAL_0x7f0404a4="?APKTOOL_DUMMYVAL_0x7f040a08"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

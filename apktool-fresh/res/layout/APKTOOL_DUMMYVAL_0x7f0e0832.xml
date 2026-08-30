@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/entry_point_outline" android:background="@drawable/expressive_bg_preview_outline" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f0" android:alpha="0.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="start|bottom|center" android:id="@id/entry_point_preview_a" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705f6" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:alpha="0.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="start|bottom|center" android:id="@id/entry_point_preview_b" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705f6" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" android:alpha="0.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/entry_point_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_add" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e4" />
+</merge>

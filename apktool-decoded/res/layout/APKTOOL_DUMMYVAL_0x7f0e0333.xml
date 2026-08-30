@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.reactions.ui.ReactionEmojiTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0701f9" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

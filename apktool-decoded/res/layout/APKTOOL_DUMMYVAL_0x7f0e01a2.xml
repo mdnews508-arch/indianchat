@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/decline_call_swipe_up_hint_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019f" android:inflatedId="@id/decline_call_swipe_up_hint_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/accept_call_swipe_up_hint_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019f" android:inflatedId="@id/accept_call_swipe_up_hint_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/reply_call_swipe_up_hint_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019f" android:inflatedId="@id/reply_call_swipe_up_hint_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

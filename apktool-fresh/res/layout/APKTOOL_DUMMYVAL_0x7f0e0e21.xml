@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/nta_loading_spinner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="bottom|center" android:id="@id/nta_continue" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f0403fa="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+    <ViewStub android:id="@id/nta_personalized_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e23" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071149" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071136" app:APKTOOL_DUMMYVAL_0x7f0409db="clear" app:APKTOOL_DUMMYVAL_0x7f0409dc="normal" style="@style/APKTOOL_DUMMYVAL_0x7f1505f6" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/account_list_view" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040442="LinearLayoutManager" />
+</LinearLayout>

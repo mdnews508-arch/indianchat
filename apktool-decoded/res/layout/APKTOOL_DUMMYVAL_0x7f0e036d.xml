@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.camera.recording.RecordingView android:id="@id/recording_view" android:background="@drawable/camera_info_background_new" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

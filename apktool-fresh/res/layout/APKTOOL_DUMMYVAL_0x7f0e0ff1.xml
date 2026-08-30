@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/privacy_disclosure_bullet_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07051e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07051e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07051d" style="@style/APKTOOL_DUMMYVAL_0x7f150793" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/privacy_disclosure_bullet_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150795" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/privacy_disclosure_bullet_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150797" />
+    </LinearLayout>
+</merge>

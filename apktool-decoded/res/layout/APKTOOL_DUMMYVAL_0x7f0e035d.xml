@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0707c1" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0707c1" app:APKTOOL_DUMMYVAL_0x7f0403aa="prominent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

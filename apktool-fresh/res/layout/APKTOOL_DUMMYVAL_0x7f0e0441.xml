@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/add_via_phone_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120f81" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_call" app:APKTOOL_DUMMYVAL_0x7f040923="outline" app:APKTOOL_DUMMYVAL_0x7f0409a3="large" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/add_via_username_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:text="@string/APKTOOL_DUMMYVAL_0x7f120f82" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_username" app:APKTOOL_DUMMYVAL_0x7f040923="outline" app:APKTOOL_DUMMYVAL_0x7f0409a3="large" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/google_drive_restore_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:layout_gravity="center" android:id="@id/title_v2" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e109a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.ui.wds.components.textlayout.WDSTextLayout android:id="@id/google_drive_wds_text_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040378="content_end" app:APKTOOL_DUMMYVAL_0x7f040379="@string/APKTOOL_DUMMYVAL_0x7f124ed7" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_picto_cloud_sync" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f1250b1" app:APKTOOL_DUMMYVAL_0x7f040443="view" app:APKTOOL_DUMMYVAL_0x7f040930="@layout/APKTOOL_DUMMYVAL_0x7f0e0912" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="start|center" android:id="@id/close_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f3" android:src="@drawable/ic_close" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212e2" android:importantForAccessibility="yes" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+    </FrameLayout>
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <ScrollView android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="vertical" android:id="@id/delete_reason_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

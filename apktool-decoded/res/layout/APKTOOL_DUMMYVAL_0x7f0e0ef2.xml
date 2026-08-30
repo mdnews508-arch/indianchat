@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/payment_send_money_header" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f121f1c" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" />
+    <FrameLayout android:id="@id/send_money_tiles_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

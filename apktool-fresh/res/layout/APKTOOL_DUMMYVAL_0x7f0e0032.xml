@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:enabled="false" android:orientation="horizontal" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150001">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="?APKTOOL_DUMMYVAL_0x7f0403c0" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/biller_image" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070127" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070127" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:src="@drawable/ic_receipt" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:id="@id/biller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" style="@style/APKTOOL_DUMMYVAL_0x7f150622" />
+</LinearLayout>

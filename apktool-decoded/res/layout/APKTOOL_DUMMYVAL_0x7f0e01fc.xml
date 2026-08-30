@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:background="?android:colorBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140">
+            <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710d7" android:layout_weight="88.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+            <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="12.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710d7" android:layout_weight="55.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+            <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="45.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_item_bg" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140">
+                    <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:layout_weight="45.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+                    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="55.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:layout_weight="75.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+                    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="25.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_item_bg" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140">
+                    <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:layout_weight="45.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+                    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="55.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:layout_weight="75.0" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+                    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="25.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:background="@drawable/wds_round_corner_shimmer_background" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07104b" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f040a0b" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

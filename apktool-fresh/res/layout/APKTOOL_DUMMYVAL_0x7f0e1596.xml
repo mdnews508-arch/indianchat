@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5">
+        <com.whatsapp.ui.coreui.base.WaImageView android:gravity="center" android:id="@id/back_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124da6" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_arrow_back" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060674" app:APKTOOL_DUMMYVAL_0x7f040a42="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505c6" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124c0c" android:textAlignment="center" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/wamosub_audience_selection_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/all_followers" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1597" />
+            <include android:id="@id/wamosub_followers" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1597" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/send_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:text="@string/APKTOOL_DUMMYVAL_0x7f124c09" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+</LinearLayout>

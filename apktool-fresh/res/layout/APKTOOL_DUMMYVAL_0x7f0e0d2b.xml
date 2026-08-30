@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.conversation.carousel.CarouselView android:id="@id/promo_banner_carousel" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070238" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070238" app:APKTOOL_DUMMYVAL_0x7f040125="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f040126="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/promo_banner_dots" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

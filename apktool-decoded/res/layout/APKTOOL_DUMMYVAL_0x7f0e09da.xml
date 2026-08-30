@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/image_preview_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/media_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <ViewStub android:layout_gravity="center" android:id="@id/video_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cee" android:inflatedId="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.mediaview.api.PhotoView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124d1d" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/animated_sticker_preview" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070452" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070452" android:importantForAccessibility="no" />
+</merge>

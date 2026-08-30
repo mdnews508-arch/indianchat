@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.divider.WDSDivider android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04026b="thin" />
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/non_wa_invitee_remove_row" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1217e0" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f0406b6="spacing_double_plus" app:APKTOOL_DUMMYVAL_0x7f0406b7="spacing_double_plus" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_do_not_disturb_on" app:APKTOOL_DUMMYVAL_0x7f0406bd="destructive" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" app:APKTOOL_DUMMYVAL_0x7f0406ca="spacing_single" />
+</LinearLayout>

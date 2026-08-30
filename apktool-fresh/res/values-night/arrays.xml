@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="APKTOOL_DUMMYVAL_0x7f030026">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06094d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06098d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060931</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060967</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060916</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060860</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06093e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0608ee</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030027">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06091a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060943</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060985</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060929</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06095f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06090d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060865</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060859</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060935</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0608e4</item>
+    </array>
+</resources>

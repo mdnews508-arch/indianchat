@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/contact_qr_my_code_scroll_view" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.qrcode.contactqr.ContactQrContactCardView android:gravity="center" android:id="@id/contact_qr_card" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/contact_qr_share_link_container_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1029" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.settings.SettingsRowIconText android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/vec_ic_security_update_good" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f120413"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">Upozornenia: %1$d</item>
+        <item quantity="one">%1$d upozornenie</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">Skryté riadky: %1$d</item>
+        <item quantity="one">%1$d skrytý riadok</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d stránok</item>
+        <item quantity="one">%1$d stránka</item>
+        <item quantity="few">%1$d stránky</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d reakcií Páči sa mi to</item>
+        <item quantity="one">%1$d reakcia Páči sa mi to</item>
+        <item quantity="few">%1$d reakcie Páči sa mi to</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center_vertical" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f060374" android:backgroundTintMode="multiply" app:APKTOOL_DUMMYVAL_0x7f040009="destructive" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f040923="outline"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

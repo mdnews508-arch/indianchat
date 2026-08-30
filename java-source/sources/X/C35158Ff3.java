@@ -1,0 +1,24 @@
+package X;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: renamed from: X.Ff3, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C35158Ff3 implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int iA02 = AbstractC466825v.A02(parcel);
+        int i = parcel.readInt();
+        C33372Eks c33372Eks = new C33372Eks();
+        c33372Eks.A01 = iA02;
+        c33372Eks.A00 = i;
+        c33372Eks.A06(parcel);
+        return c33372Eks;
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public /* bridge */ /* synthetic */ Object[] newArray(int i) {
+        return new C33372Eks[i];
+    }
+}

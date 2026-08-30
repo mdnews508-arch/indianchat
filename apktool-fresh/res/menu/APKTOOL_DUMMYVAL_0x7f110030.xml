@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/wa_ic_notifications_1" android:id="@id/menu_manage_notifications" android:title="@string/APKTOOL_DUMMYVAL_0x7f12512e" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f060891" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+    <item android:icon="@drawable/ic_password_2" android:id="@id/menu_change_sponsor_pin" android:title="@string/APKTOOL_DUMMYVAL_0x7f12512d" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f060891" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+    <item android:icon="@drawable/wa_ic_link_off" android:id="@id/menu_unlink_managed_account" android:title="@string/APKTOOL_DUMMYVAL_0x7f125131" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06089b" app:APKTOOL_DUMMYVAL_0x7f0407af="never" />
+</menu>

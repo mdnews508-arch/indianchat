@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/albums" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060746" />
+    <ViewStub android:layout_gravity="center" android:id="@id/progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08f4" android:inflatedId="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/noMediaViewStub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e10" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/community_appeal_rejected_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f04000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_close" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+    <com.indianchat.ui.wds.components.textlayout.WDSTextLayout android:id="@id/community_appeal_rejected_text_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040443="view" />
+</LinearLayout>

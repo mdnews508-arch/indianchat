@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/pulse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_volume_up_filled" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+</merge>

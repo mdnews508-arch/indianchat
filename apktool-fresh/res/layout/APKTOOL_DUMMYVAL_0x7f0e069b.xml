@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/call_grid_top_right_icon_container_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0701c9" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701c9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:theme="@style/APKTOOL_DUMMYVAL_0x7f150534" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070496" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070496" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

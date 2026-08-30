@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/waiting_room_pip_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/call_grid_waiting_room_pip_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060895" android:gravity="center" android:layout_gravity="center" android:id="@id/waiting_room_pip_message" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f124b22" android:maxLines="@integer/APKTOOL_DUMMYVAL_0x7f0c0043" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f04006d="@dimen/APKTOOL_DUMMYVAL_0x7f070ff0" app:APKTOOL_DUMMYVAL_0x7f04006e="8.0sp" app:APKTOOL_DUMMYVAL_0x7f040070="1.0sp" app:APKTOOL_DUMMYVAL_0x7f040071="uniform" />
+</FrameLayout>

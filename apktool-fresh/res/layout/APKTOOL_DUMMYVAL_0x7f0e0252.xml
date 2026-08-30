@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/booking_confirmation_details_date_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dcc" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_calendar_month" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_gravity="center_vertical" android:id="@id/booking_confirmation_details_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060115" android:id="@id/booking_confirmation_details_date_add_to_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207a6" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

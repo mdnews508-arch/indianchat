@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.newsletterenforcements.ui.adminprofile.NewsletterEnforcedAdminProfileView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/enforced_admin_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_contact_colorable" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040634="circle" app:APKTOOL_DUMMYVAL_0x7f040635="xx_large" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="54.0dip" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:gravity="center" android:id="@id/enforced_admin_profile_initials" android:background="@drawable/newsletter_enforced_admin_profile_initials_background" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07111a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07111a" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" />
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center_horizontal" android:id="@id/enforced_admin_profile_name" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+</com.indianchat.newsletterenforcements.ui.adminprofile.NewsletterEnforcedAdminProfileView>

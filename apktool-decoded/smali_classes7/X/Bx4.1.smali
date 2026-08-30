@@ -1,0 +1,184 @@
+.class public final LX/Bx4;
+.super LX/0X6;
+.source ""
+
+
+# instance fields
+.field public A00:Z
+
+.field public A01:Z
+
+.field public final A02:LX/0Cn;
+
+.field public final A03:LX/0HD;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 0
+    invoke-direct {p0}, LX/0X6;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    const/16 v0, 0x801
+
+    .line 4
+    .line 5
+    invoke-static {v0}, LX/00S;->A03(I)Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    check-cast v0, LX/0HD;
+
+    .line 10
+    .line 11
+    iput-object v0, p0, LX/Bx4;->A03:LX/0HD;
+
+    .line 12
+    .line 13
+    const/16 v1, 0x3e8
+
+    .line 14
+    .line 15
+    new-instance v0, LX/0Cn;
+
+    .line 16
+    .line 17
+    invoke-direct {v0, v1}, LX/0Cn;-><init>(I)V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object v0, p0, LX/Bx4;->A02:LX/0Cn;
+
+    .line 21
+    .line 22
+    invoke-virtual {p0}, LX/0X6;->A0A()V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+.end method
+
+
+# virtual methods
+.method public declared-synchronized B0v()Ljava/lang/String;
+    .locals 3
+
+    .line 0
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, LX/Bx4;->A02:LX/0Cn;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, LX/0Cn;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v2
+
+    .line 7
+    invoke-static {}, LX/000;->A08()Ljava/lang/StringBuilder;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v1
+
+    .line 11
+    const-string v0, "AITypeaheadSuggestionsCache - "
+
+    .line 12
+    .line 13
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    const-string v0, " items"
+
+    .line 20
+    .line 21
+    invoke-static {v0, v1}, LX/000;->A06(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 25
+    monitor-exit p0
+
+    .line 26
+    return-object v0
+
+    .line 27
+    :catchall_0
+    move-exception v0
+
+    .line 28
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 29
+    throw v0
+.end method
+
+.method public declared-synchronized C6Z(LX/0dm;Z)V
+    .locals 1
+
+    .line 0
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, LX/Bx4;->A02:LX/0Cn;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, LX/0Cn;->evictAll()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 4
+    .line 5
+    .line 6
+    monitor-exit p0
+
+    .line 7
+    return-void
+
+    .line 8
+    :catchall_0
+    move-exception v0
+
+    .line 9
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 10
+    throw v0
+.end method

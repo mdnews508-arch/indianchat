@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06072e" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:text="Select options to mute" style="@style/APKTOOL_DUMMYVAL_0x7f150426" />
+    <RadioGroup android:id="@id/mute_options_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc8" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+</LinearLayout>

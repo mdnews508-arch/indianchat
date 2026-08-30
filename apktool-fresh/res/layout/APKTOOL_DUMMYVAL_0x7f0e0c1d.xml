@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f150538" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040298="0.0dip">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" app:APKTOOL_DUMMYVAL_0x7f04026d="gone" app:APKTOOL_DUMMYVAL_0x7f040480="enterAlways|scroll|snap" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+        <androidx.appcompat.widget.SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150680" />
+        <ViewStub android:id="@id/tab_layout_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c20" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/chip_layout_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c1e" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/media_gallery_separator" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a" />
+    <ViewStub android:id="@id/media_hub_fragment_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c24" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a" />
+    <View android:id="@id/split_view_divider" android:background="?APKTOOL_DUMMYVAL_0x7f0407f0" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

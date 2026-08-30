@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.media.recentmediasuggestion.impl.RecentMediaSuggestionThumbnailView android:layout_gravity="bottom" android:id="@id/recent_media_suggestion_view" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c6e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c6e"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

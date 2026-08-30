@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d ಅಧಿಸೂಚನೆಗಳು</item>
+        <item quantity="one">%1$d ಅಧಿಸೂಚನೆ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%1$d ಸಾಲುಗಳನ್ನು ಮರೆಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಸಾಲನ್ನು ಮರೆಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d ಪುಟಗಳು</item>
+        <item quantity="one">%1$d ಪುಟ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d ಲೈಕ್‌ಗಳು</item>
+        <item quantity="one">%1$d ಲೈಕ್</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+</resources>

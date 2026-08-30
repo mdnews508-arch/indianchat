@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/wa_old_device_icon" android:layout_width="@dimen/device_switch_verification_icon_dim" android:layout_height="@dimen/device_switch_verification_icon_dim" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/registration_device_confirmation" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:gravity="center_horizontal" android:id="@id/verify_wa_old_content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:text="@string/APKTOOL_DUMMYVAL_0x7f124859" android:lineSpacingMultiplier="@dimen/APKTOOL_DUMMYVAL_0x7f070c90" style="@style/APKTOOL_DUMMYVAL_0x7f15061e" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:gravity="center_horizontal" android:id="@id/verify_wa_old_content_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f124856" android:lineSpacingMultiplier="@dimen/APKTOOL_DUMMYVAL_0x7f070c90" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+</LinearLayout>

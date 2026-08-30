@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center_horizontal" android:id="@id/privacy_footer_text" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

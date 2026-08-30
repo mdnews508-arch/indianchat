@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/expressive_tray_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705fc" />
+    <FrameLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07114c" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="start|center" android:id="@id/tray_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120d8a" app:APKTOOL_DUMMYVAL_0x7f040009="section_header" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" app:APKTOOL_DUMMYVAL_0x7f0409a3="Small" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1239a2" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tray_themes_grid" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124da8" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.GridLayoutManager" app:APKTOOL_DUMMYVAL_0x7f0407e4="3" />
+</LinearLayout>

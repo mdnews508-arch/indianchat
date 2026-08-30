@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/lists_list_icon" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:scaleType="fitStart" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    <com.whatsapp.lists.badge.ListBadge android:id="@id/lists_custom_list_badge" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+</LinearLayout>

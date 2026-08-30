@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.progressindicator.WDSCircularProgressView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" app:APKTOOL_DUMMYVAL_0x7f0403e7="true" />
+</FrameLayout>

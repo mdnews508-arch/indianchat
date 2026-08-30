@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/picture_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04058b="false">
+        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040635="medium" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/avatar_contact" />
+        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/participant_picture" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040635="medium" />
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/fast_playback_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:minWidth="74.0dip" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f040009="media" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="start|bottom|center" android:id="@id/headphone_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/headphone_played" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="start|bottom|center" android:id="@id/mic_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/mic_played" />
+</merge>

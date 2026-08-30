@@ -1,0 +1,122 @@
+package X;
+
+/* JADX INFO: renamed from: X.4yh, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class AbstractC110764yh {
+    public static String A00(int i) {
+        switch (i) {
+            case 1036:
+                return "WEARABLE_COMMS_THREAD_VIEW_TTRC";
+            case 1718:
+                return "WEARABLE_COMMS_SMS_LOCAL_CACHE_SYNC";
+            case 1746:
+                return "WEARABLE_COMMS_DISPLAY_HANDOFF_LATENCY_THREAD";
+            case 1883:
+                return "WEARABLE_COMMS_CONTACT_SEARCH_SWITCH_TAB_LATENCY";
+            case 2067:
+                return "WEARABLE_COMMS_PHONE_CALL_TTRC";
+            case 2159:
+                return "WEARABLE_COMMS_XPLAT_MQTT_AUTH";
+            case 2407:
+                return "WEARABLE_COMMS_TIME_TO_ONLINE";
+            case 2479:
+                return "WEARABLE_COMMS_WEARABLE_LOCATION_SHARING";
+            case 2591:
+                return "WEARABLE_COMMS_ATTACHMENT_VIEW_TTRC";
+            case 3046:
+                return "WEARABLE_COMMS_COMMSHUB_THREAD_VIEW_TRANSITION_FRAME_DROPS";
+            case 3582:
+                return "WEARABLE_COMMS_MSGR_APP_START";
+            case 3583:
+                return "WEARABLE_COMMS_FULL_CONTACTS_VIEW_LOAD_MORE_LATENCY";
+            case 4706:
+                return "WEARABLE_COMMS_SMS_INITIALIZATION";
+            case 4754:
+                return "WEARABLE_COMMS_MAILBOX_SYNC";
+            case 4782:
+                return "WEARABLE_COMMS_COMMSHUB_CALLOG_TTRC";
+            case 4800:
+                return "WEARABLE_COMMS_COMMSHUB_INBOX_TAB_TTRC";
+            case 5232:
+                return "WEARABLE_COMMS_THREAD_VIEW_MESSAGE_SEND_LATENCY";
+            case 5406:
+                return "WEARABLE_COMMS_IG_APP_START";
+            case 5693:
+                return "WEARABLE_COMMS_MD_CORE_SYNC";
+            case 5926:
+                return "WEARABLE_COMMS_DISPLAY_HANDOFF_LATENCY_INBOX";
+            case 6248:
+                return "WEARABLE_COMMS_SNAPSHOT";
+            case 6991:
+                return "WEARABLE_COMMS_SMART_REPLIES_TTRC";
+            case 7048:
+                return "WEARABLE_COMMS_MWA_LOAD_THREADS";
+            case 7380:
+                return "WEARABLE_COMMS_THREAD_MESSAGE_FETCHING";
+            case 7471:
+                return "WEARABLE_COMMS_COMMSHUB_INBOX_UPDATE";
+            case 7783:
+                return "WEARABLE_COMMS_NOTIF_TO_THREAD_VIEW_TTRC";
+            case 7927:
+                return "WEARABLE_COMMS_S2D_MESSAGE_RECEIVE";
+            case 8641:
+                return "WEARABLE_COMMS_SEND_TO_SENT";
+            case 9020:
+                return "WEARABLE_COMMS_MESSAGING_READY";
+            case 9482:
+                return "WEARABLE_COMMS_COMMSHUB_CALLOG_UPDATE";
+            case 9835:
+                return "WEARABLE_COMMS_SMART_REPLY_LATENCY";
+            case 10446:
+                return "WEARABLE_COMMS_FULL_CONTACTS_VIEW_TTRC";
+            case 10516:
+                return "WEARABLE_COMMS_COMPOSER_AI_EDITING_LATENCY";
+            case 10602:
+                return "WEARABLE_COMMS_CAMERA_TTI";
+            case 11070:
+                return "WEARABLE_COMMS_MESSAGES_APP_START";
+            case 11099:
+                return "WEARABLE_COMMS_COMMSHUB_INBOX_TTRC";
+            case 11376:
+                return "WEARABLE_COMMS_NOTIFICATION_TO_THREAD_TTRC";
+            case 11881:
+                return "WEARABLE_COMMS_SUGGESTED_CONTACTS_VIEW_TTRC";
+            case 11897:
+                return "WEARABLE_COMMS_DELTA_PROCESSING";
+            case 11937:
+                return "WEARABLE_COMMS_WA_APP_START";
+            case 11980:
+                return "WEARABLE_COMMS_MAILBOX_MQTT_CONNECT";
+            case 12180:
+                return "WEARABLE_COMMS_MAILBOX_SERVICE_INIT";
+            case 12224:
+                return "WEARABLE_COMMS_MSG_SEND";
+            case 12300:
+                return "WEARABLE_COMMS_THREAD_VIEW_LOAD_MORE";
+            case 12583:
+                return "WEARABLE_COMMS_COMMSHUB_INBOX_INIT";
+            case 13359:
+                return "WEARABLE_COMMS_XPLAT_MQTT_CONNECT";
+            case 13404:
+                return "WEARABLE_COMMS_STORIES_VIEWER_TRANSITION_TTRC";
+            case 13471:
+                return "WEARABLE_COMMS_THREAD_VIEW_UPDATE";
+            case 13901:
+                return "WEARABLE_COMMS_COMMSHUB_CALLOG_LOAD_MORE";
+            case 13904:
+                return "WEARABLE_COMMS_THREAD_GET_MESSAGES";
+            case 14196:
+                return "WEARABLE_COMMS_IGD_MESSAGE_SEND_TO_SENT";
+            case 14296:
+                return "WEARABLE_COMMS_STORIES_VIEWER_TTRC";
+            case 15000:
+                return "WEARABLE_COMMS_PRELOAD_MAILBOX_SYNC";
+            case 15667:
+                return "WEARABLE_COMMS_CONTACTS_SEARCH_LATENCY";
+            case 15908:
+                return "WEARABLE_COMMS_COMMSHUB_INBOX_LOAD_MORE";
+            default:
+                return "UNDEFINED_QPL_EVENT";
+        }
+    }
+}

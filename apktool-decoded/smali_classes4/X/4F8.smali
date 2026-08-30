@@ -1,0 +1,86 @@
+.class public final LX/4F8;
+.super LX/3pn;
+.source ""
+
+
+# instance fields
+.field public final A00:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public constructor <init>(Lkotlin/jvm/functions/Function0;)V
+    .locals 2
+
+    .line 0
+    const/4 v1, 0x0
+
+    .line 1
+    invoke-direct {p0}, Landroid/text/style/ClickableSpan;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput-boolean v0, p0, LX/3pn;->A02:Z
+
+    .line 6
+    .line 7
+    iput-object v1, p0, LX/3pn;->A00:Ljava/lang/String;
+
+    .line 8
+    .line 9
+    iput-object v1, p0, LX/3pn;->A01:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    iput-object p1, p0, LX/4F8;->A00:Lkotlin/jvm/functions/Function0;
+
+    .line 12
+    .line 13
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, LX/4F8;->A00:Lkotlin/jvm/functions/Function0;
+
+    .line 1
+    .line 2
+    invoke-interface {v0}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public updateDrawState(Landroid/text/TextPaint;)V
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-static {p1, v0}, LX/00h;->A0A(Ljava/lang/Object;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-super {p0, p1}, Landroid/text/style/ClickableSpan;->updateDrawState(Landroid/text/TextPaint;)V
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setUnderlineText(Z)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

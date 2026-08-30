@@ -1,0 +1,257 @@
+.class public abstract LX/NzW;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public static final A00(Ljava/lang/Integer;)Ljava/lang/Integer;
+    .locals 1
+
+    .line 0
+    const/4 v0, -0x1
+
+    .line 1
+    if-eqz p0, :cond_3
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    if-eq p0, v0, :cond_3
+
+    .line 8
+    .line 9
+    const/4 v0, 0x0
+
+    .line 10
+    if-eq p0, v0, :cond_2
+
+    .line 11
+    .line 12
+    const/4 v0, 0x1
+
+    .line 13
+    if-eq p0, v0, :cond_1
+
+    .line 14
+    .line 15
+    const/4 v0, 0x2
+
+    .line 16
+    if-eq p0, v0, :cond_0
+
+    .line 17
+    .line 18
+    const/4 v0, 0x3
+
+    .line 19
+    if-eq p0, v0, :cond_3
+
+    .line 20
+    .line 21
+    invoke-static {}, LX/25m;->A1J()LX/23o;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    throw v0
+
+    .line 26
+    :cond_0
+    sget-object v0, LX/02S;->A0C:Ljava/lang/Integer;
+
+    .line 27
+    .line 28
+    return-object v0
+
+    .line 29
+    :cond_1
+    sget-object v0, LX/02S;->A01:Ljava/lang/Integer;
+
+    .line 30
+    .line 31
+    return-object v0
+
+    .line 32
+    :cond_2
+    sget-object v0, LX/02S;->A00:Ljava/lang/Integer;
+
+    .line 33
+    .line 34
+    return-object v0
+
+    .line 35
+    :cond_3
+    sget-object v0, LX/02S;->A0N:Ljava/lang/Integer;
+
+    .line 36
+    .line 37
+    return-object v0
+.end method
+
+.method public static final A01(Ljava/lang/Integer;)Ljava/lang/Integer;
+    .locals 1
+
+    .line 0
+    const/4 v0, -0x1
+
+    .line 1
+    if-eqz p0, :cond_2
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    if-eq p0, v0, :cond_2
+
+    .line 8
+    .line 9
+    const/4 v0, 0x0
+
+    .line 10
+    if-eq p0, v0, :cond_1
+
+    .line 11
+    .line 12
+    const/4 v0, 0x1
+
+    .line 13
+    if-eq p0, v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 v0, 0x2
+
+    .line 16
+    if-eq p0, v0, :cond_2
+
+    .line 17
+    .line 18
+    invoke-static {}, LX/25m;->A1J()LX/23o;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    throw v0
+
+    .line 23
+    :cond_0
+    sget-object v0, LX/02S;->A01:Ljava/lang/Integer;
+
+    .line 24
+    .line 25
+    return-object v0
+
+    .line 26
+    :cond_1
+    sget-object v0, LX/02S;->A00:Ljava/lang/Integer;
+
+    .line 27
+    .line 28
+    return-object v0
+
+    .line 29
+    :cond_2
+    sget-object v0, LX/02S;->A0N:Ljava/lang/Integer;
+
+    .line 30
+    .line 31
+    return-object v0
+.end method
+
+.method public static final A02(Ljava/lang/Integer;)Ljava/lang/Integer;
+    .locals 1
+
+    .line 0
+    const/4 v0, -0x1
+
+    .line 1
+    if-eqz p0, :cond_2
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    if-eq p0, v0, :cond_2
+
+    .line 8
+    .line 9
+    const/4 v0, 0x0
+
+    .line 10
+    if-eq p0, v0, :cond_1
+
+    .line 11
+    .line 12
+    const/4 v0, 0x1
+
+    .line 13
+    if-eq p0, v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 v0, 0x2
+
+    .line 16
+    if-eq p0, v0, :cond_2
+
+    .line 17
+    .line 18
+    invoke-static {}, LX/25m;->A1J()LX/23o;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    throw v0
+
+    .line 23
+    :cond_0
+    sget-object v0, LX/02S;->A01:Ljava/lang/Integer;
+
+    .line 24
+    .line 25
+    return-object v0
+
+    .line 26
+    :cond_1
+    sget-object v0, LX/02S;->A00:Ljava/lang/Integer;
+
+    .line 27
+    .line 28
+    return-object v0
+
+    .line 29
+    :cond_2
+    sget-object v0, LX/02S;->A0N:Ljava/lang/Integer;
+
+    .line 30
+    .line 31
+    return-object v0
+.end method

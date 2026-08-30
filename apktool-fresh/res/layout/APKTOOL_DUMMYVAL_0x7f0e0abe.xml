@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_container" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040426"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:id="@id/photo" android:background="@drawable/rounded_rect" android:layout_width="?APKTOOL_DUMMYVAL_0x7f0405eb" android:layout_height="?APKTOOL_DUMMYVAL_0x7f0405eb" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" whatsapp:APKTOOL_DUMMYVAL_0x7f040861="false" whatsapp:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/invite_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124f64" android:layout_centerVertical="true" android:layout_alignParentEnd="true" whatsapp:APKTOOL_DUMMYVAL_0x7f040009="normal" whatsapp:APKTOOL_DUMMYVAL_0x7f040923="borderless" whatsapp:APKTOOL_DUMMYVAL_0x7f0409a3="normal" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_toStartOf="@id/invite_btn" android:layout_toEndOf="@id/photo">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </LinearLayout>
+</RelativeLayout>

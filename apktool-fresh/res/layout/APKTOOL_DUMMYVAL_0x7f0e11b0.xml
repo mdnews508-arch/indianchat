@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/me_tab_profile_picture_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:layout_gravity="center" android:id="@id/me_tab_about_bubble_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e001c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/me_tab_profile_info_photo_section" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071122" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07091c" android:adjustViewBounds="true">
+        <ViewStub android:layout_gravity="bottom" android:id="@id/me_tab_profile_info_photo_section_background_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c00" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07091d" />
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_gravity="center" android:id="@id/me_tab_profile_photo_border" android:background="@drawable/me_tab_profile_photo_border" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bc6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bc6" android:importantForAccessibility="no" />
+            <ViewStub android:layout_gravity="center" android:id="@id/me_tab_profile_info_photo_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c01" android:inflatedId="@id/me_tab_profile_info_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/me_tab_plus_badge_surface_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0bfc" android:inflatedId="@id/me_tab_plus_badge_surface" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f3" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

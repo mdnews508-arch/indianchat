@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070492">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/notes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124268" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <com.indianchat.ui.coreui.base.text.ReadMoreTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="left" android:id="@id/payment_note_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:singleLine="false" android:drawablePadding="4.0dip" android:layout_below="@id/notes_title" app:APKTOOL_DUMMYVAL_0x7f040680="2" app:APKTOOL_DUMMYVAL_0x7f040682="?APKTOOL_DUMMYVAL_0x7f040a02" app:APKTOOL_DUMMYVAL_0x7f040683="@string/APKTOOL_DUMMYVAL_0x7f125192" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </RelativeLayout>
+</FrameLayout>

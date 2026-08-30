@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040870" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040876" android:id="@id/device_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/add_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123c3e" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+</LinearLayout>

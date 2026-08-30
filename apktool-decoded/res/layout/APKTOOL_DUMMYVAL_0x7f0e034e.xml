@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/content" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.calling.ui.callhistory.view.CallsHistoryRecyclerView android:id="@id/calls_recyclerView" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070200" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150280" />
+    <FrameLayout android:id="@android:id/empty" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07058d" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:gravity="center" android:id="@id/welcome_calls_layout_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0362" android:inflatedId="@id/welcome_calls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:gravity="center" android:id="@id/search_no_matches_text_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e035b" android:inflatedId="@id/search_no_matches" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:gravity="center" android:id="@id/search_no_matches_frame_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1141" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070002" />
+        <ViewStub android:id="@id/calls_empty_no_contacts_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e034b" android:inflatedId="@id/calls_empty_no_contacts" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/calls_empty_no_contacts_stub_v2" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e035c" android:inflatedId="@id/calls_tab_invite_friend_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/contacts_empty_permission_denied_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0791" android:inflatedId="@id/contacts_empty_permission_denied" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/contacts_empty_permission_denied_stub_v2" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0792" android:inflatedId="@id/contacts_empty_permission_denied_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/calls_progress_bar_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0352" android:inflatedId="@id/calls_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="center" android:id="@id/no_search_results_e2ee_footer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e075e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

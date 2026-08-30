@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061e" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060636" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f040150="false" app:APKTOOL_DUMMYVAL_0x7f040154="@color/APKTOOL_DUMMYVAL_0x7f060635"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

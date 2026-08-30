@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center_horizontal" android:id="@id/passkey_create_screen_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15061d"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

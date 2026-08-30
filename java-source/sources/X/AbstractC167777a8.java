@@ -1,0 +1,11 @@
+package X;
+
+import com.google.android.search.verification.client.R;
+
+/* JADX INFO: renamed from: X.7a8, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public abstract class AbstractC167777a8 {
+    public static final int[] A00 = {R.string._name_removed__res_0x7f120de1, R.string._name_removed__res_0x7f120e01, R.string._name_removed__res_0x7f120df9, R.string._name_removed__res_0x7f120df3, R.string._name_removed__res_0x7f120db5, R.string._name_removed__res_0x7f120db8, R.string._name_removed__res_0x7f120dcc, R.string._name_removed__res_0x7f120dec, R.string._name_removed__res_0x7f120dbf, R.string._name_removed__res_0x7f120de3, R.string._name_removed__res_0x7f120dce, R.string._name_removed__res_0x7f120db1, R.string._name_removed__res_0x7f120df8, R.string._name_removed__res_0x7f120ddf, R.string._name_removed__res_0x7f120df4, R.string._name_removed__res_0x7f120daf, R.string._name_removed__res_0x7f120de0, R.string._name_removed__res_0x7f120e00, R.string._name_removed__res_0x7f120de4, R.string._name_removed__res_0x7f120dcd, R.string._name_removed__res_0x7f120deb};
+    public static final int[] A01 = {R.string._name_removed__res_0x7f120df8, R.string._name_removed__res_0x7f120ddf, R.string._name_removed__res_0x7f120de0, R.string._name_removed__res_0x7f120de4, R.string._name_removed__res_0x7f120dce, R.string._name_removed__res_0x7f120e01, R.string._name_removed__res_0x7f120dcc, R.string._name_removed__res_0x7f120db8, R.string._name_removed__res_0x7f120df9, R.string._name_removed__res_0x7f120db1, R.string._name_removed__res_0x7f120de1, R.string._name_removed__res_0x7f120e00, R.string._name_removed__res_0x7f120de3, R.string._name_removed__res_0x7f120dbf, R.string._name_removed__res_0x7f120dec, R.string._name_removed__res_0x7f120deb, R.string._name_removed__res_0x7f120dd5, R.string._name_removed__res_0x7f120daf, R.string._name_removed__res_0x7f120dcd, R.string._name_removed__res_0x7f120db5, R.string._name_removed__res_0x7f120df4};
+    public static final int[] A02 = {R.string._name_removed__res_0x7f121a21, R.string._name_removed__res_0x7f121a22, R.string._name_removed__res_0x7f121a1e, R.string._name_removed__res_0x7f121a1f, R.string._name_removed__res_0x7f121a1b, R.string._name_removed__res_0x7f121a1d, R.string._name_removed__res_0x7f121a1c, R.string._name_removed__res_0x7f121a20};
+}

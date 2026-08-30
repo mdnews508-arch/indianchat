@@ -1,0 +1,87 @@
+package X;
+
+import com.google.protobuf.AbstractParser;
+import com.google.protobuf.ExtensionRegistryLite;
+import com.google.protobuf.GeneratedMessageLite;
+import com.google.protobuf.MessageLiteOrBuilder;
+import com.google.protobuf.Parser;
+import com.whatsapp.calling.voipcalling.Voip;
+import java.nio.ByteBuffer;
+
+/* JADX INFO: renamed from: X.Bkp, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes7.dex */
+public final class C26614Bkp extends GeneratedMessageLite implements MessageLiteOrBuilder {
+    public static final int CREATEDAT_FIELD_NUMBER = 4;
+    public static final C26614Bkp DEFAULT_INSTANCE;
+    public static final int ISDELETED_FIELD_NUMBER = 6;
+    public static final int LASTSENTAT_FIELD_NUMBER = 5;
+    public static final int MEDIAID_FIELD_NUMBER = 7;
+    public static final int MESSAGE_FIELD_NUMBER = 2;
+    public static final int NAME_FIELD_NUMBER = 1;
+    public static volatile Parser PARSER = null;
+    public static final int TYPE_FIELD_NUMBER = 3;
+    public int bitField0_;
+    public long createdAt_;
+    public boolean isDeleted_;
+    public long lastSentAt_;
+    public int type_;
+    public String name_ = Voip.REJECT_REASON_DECLINED;
+    public String message_ = Voip.REJECT_REASON_DECLINED;
+    public String mediaId_ = Voip.REJECT_REASON_DECLINED;
+
+    static {
+        C26614Bkp c26614Bkp = new C26614Bkp();
+        DEFAULT_INSTANCE = c26614Bkp;
+        GeneratedMessageLite.registerDefaultInstance(C26614Bkp.class, c26614Bkp);
+    }
+
+    public static C26614Bkp parseFrom(ByteBuffer byteBuffer) {
+        return (C26614Bkp) GeneratedMessageLite.parseFrom(DEFAULT_INSTANCE, byteBuffer);
+    }
+
+    @Override // com.google.protobuf.GeneratedMessageLite
+    public final Object dynamicMethod(GeneratedMessageLite.MethodToInvoke methodToInvoke, Object obj, Object obj2) {
+        Parser parserA0b;
+        switch (methodToInvoke) {
+            case GET_MEMOIZED_IS_INITIALIZED:
+                return (byte) 1;
+            case SET_MEMOIZED_IS_INITIALIZED:
+                return null;
+            case BUILD_MESSAGE_INFO:
+                Object[] objArr = new Object[9];
+                AbstractC81773lg.A1V(objArr);
+                objArr[1] = "name_";
+                objArr[2] = "message_";
+                objArr[3] = "type_";
+                objArr[4] = C29977DAs.A00;
+                objArr[5] = "createdAt_";
+                objArr[6] = "lastSentAt_";
+                objArr[7] = "isDeleted_";
+                objArr[8] = "mediaId_";
+                return GeneratedMessageLite.newMessageInfo(DEFAULT_INSTANCE, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ဇ\u0005\u0007ဈ\u0006", objArr);
+            case NEW_MUTABLE_INSTANCE:
+                return new C26614Bkp();
+            case NEW_BUILDER:
+                return new C25988Baf();
+            case GET_DEFAULT_INSTANCE:
+                return DEFAULT_INSTANCE;
+            case GET_PARSER:
+                Parser parser = PARSER;
+                if (parser != null) {
+                    return parser;
+                }
+                synchronized (C26614Bkp.class) {
+                    parserA0b = PARSER;
+                    if (parserA0b == null) {
+                        ExtensionRegistryLite extensionRegistryLite = AbstractParser.EMPTY_REGISTRY;
+                        parserA0b = AbstractC81763lf.A0b(DEFAULT_INSTANCE);
+                        PARSER = parserA0b;
+                    }
+                    break;
+                }
+                return parserA0b;
+            default:
+                throw AbstractC81763lf.A0w();
+        }
+    }
+}

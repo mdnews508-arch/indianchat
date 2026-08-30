@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d73" />
+    <ViewStub android:id="@id/add_to_call_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1512" android:inflatedId="@id/add_to_call_button_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" />
+    <FrameLayout android:id="@id/group_history_add_members_footer_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent">
+        <ViewStub android:id="@id/group_history_add_members_footer_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e147b" android:inflatedId="@id/group_history_add_members_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

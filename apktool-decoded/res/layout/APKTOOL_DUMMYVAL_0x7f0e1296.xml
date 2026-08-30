@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1553" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/status_privacy_crossposting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f123f5e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/status_privacy_crossposting_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a02" android:id="@id/status_privacy_crossposting_subtitle_link" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <ViewStub android:id="@id/crossposting_migration_banner" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b3" android:inflatedId="@id/crossposting_migration_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07010c" />
+    <include android:id="@id/status_privacy_fb_row" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1295" />
+    <include android:id="@id/status_privacy_ig_row" android:visibility="gone" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1295" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1553" />
+</LinearLayout>

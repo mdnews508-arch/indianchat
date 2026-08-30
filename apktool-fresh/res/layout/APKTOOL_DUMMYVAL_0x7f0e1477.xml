@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/call_buttons_container" android:background="@color/APKTOOL_DUMMYVAL_0x7f0608a7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f0409d7="horizontal">
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/selected_list_action_fab_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1201bd" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/wa_ic_call_filled" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/selected_list_action_fab_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1201bc" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_action_video_call_filled" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</FrameLayout>

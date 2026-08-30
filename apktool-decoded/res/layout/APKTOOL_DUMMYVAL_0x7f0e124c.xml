@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.button.WDSButton android:gravity="center" android:layout_gravity="end|center" android:id="@id/status_detail_message_button" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f040009="fb_pay" indianchat:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_chat_wds" indianchat:APKTOOL_DUMMYVAL_0x7f0403d7="?APKTOOL_DUMMYVAL_0x7f0409fd" indianchat:APKTOOL_DUMMYVAL_0x7f040923="borderless" indianchat:APKTOOL_DUMMYVAL_0x7f0409a3="normal" xmlns:indianchat="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

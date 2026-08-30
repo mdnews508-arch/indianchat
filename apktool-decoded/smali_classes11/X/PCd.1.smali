@@ -1,0 +1,40 @@
+.class public interface abstract LX/PCd;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/PCp;
+
+
+# static fields
+.field public static final A00:LX/MjH;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    .line 0
+    new-instance v0, LX/MjH;
+
+    .line 1
+    .line 2
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    sput-object v0, LX/PCd;->A00:LX/MjH;
+
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract CQ9(LX/P2d;)V
+.end method
+
+.method public abstract CYY()V
+.end method

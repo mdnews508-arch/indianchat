@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/music_message_vinyl_record_animated"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="record" android:animation="@animator/APKTOOL_DUMMYVAL_0x7f02001b" />
+</animated-vector>

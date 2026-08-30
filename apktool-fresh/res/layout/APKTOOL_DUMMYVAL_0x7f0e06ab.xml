@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/straighten_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:layout_gravity="center_horizontal" android:id="@id/straighten_angle_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.crop.StraightenDialView android:id="@id/straighten_dial" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124f2c" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/message_action_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/action_btn_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b5" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0601f8" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122063" android:includeFontPadding="false" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" />
+        <ViewStub android:id="@id/viewstub_action_button_badge" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e148b" android:inflatedId="@id/action_button_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" />
+    </LinearLayout>
+</LinearLayout>

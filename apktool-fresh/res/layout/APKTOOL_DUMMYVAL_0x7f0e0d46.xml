@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/music_shape_background_tinted" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a63" />
+        <FrameLayout android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.5dip">
+            <ImageView android:id="@id/music_shape_artwork" android:layout_width="51.0dip" android:layout_height="51.0dip" android:scaleType="centerCrop" />
+            <ViewStub android:layout_gravity="center" android:id="@id/music_artwork_error" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d21" android:inflatedId="@id/music_artwork_error" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a5e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a5e" />
+        </FrameLayout>
+        <ImageView android:id="@id/music_shape_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a63" />
+        <ViewStub android:layout_gravity="center|top" android:id="@id/music_shape_animated_background" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d45" android:inflatedId="@id/music_shape_animated_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a62" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a60" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a61" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070a68" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060977" android:ellipsize="end" android:id="@id/music_shape_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="center" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:elevation="2.0dip" />
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070a68" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060977" android:ellipsize="end" android:id="@id/music_shape_artist" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="center" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</LinearLayout>

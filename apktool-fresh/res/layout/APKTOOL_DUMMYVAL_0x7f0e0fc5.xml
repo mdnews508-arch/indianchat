@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501de">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <ViewStub android:id="@id/dm_page_header" android:inflatedId="@id/dm_page_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <ViewStub android:id="@id/dm_page_description" android:inflatedId="@id/dm_page_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <ViewStub android:id="@id/dm_setting_header_text" android:inflatedId="@id/dm_setting_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <ViewStub android:id="@id/dm_setting_description_text" android:inflatedId="@id/dm_setting_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <RadioGroup android:orientation="vertical" android:id="@id/dm_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <ViewStub android:id="@id/ar_section_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01cb" android:inflatedId="@id/ar_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/dm_description" android:inflatedId="@id/dm_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+                <ViewStub android:id="@id/dm_learn_more" android:inflatedId="@id/dm_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

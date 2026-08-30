@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/payment_cta_icon_border" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_cta_method_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b5c" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b5b" android:scaleType="fitCenter" />
+</FrameLayout>

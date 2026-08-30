@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="32.0dip" android:paddingEnd="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/vec_ic_previous_backups_success" android:importantForAccessibility="no" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/previous_backups_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1233f8" android:accessibilityHeading="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/previous_backups_empty_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1233f7" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</LinearLayout>

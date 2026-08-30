@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_info_small" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121f28" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textStyle="italic" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:layout_gravity="center_vertical" android:id="@id/conversation_row_ai_disclaimer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.whatsapp.ui.coreui.WaLinearLayout>

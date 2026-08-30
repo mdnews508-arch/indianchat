@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409aa" android:gravity="center" android:layout_gravity="center" android:id="@id/nfm_button_bottom_sheet_title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ed5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1241bf" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="false">
+            <LinearLayout android:orientation="vertical" android:id="@id/nfm_button_bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/button_bottom_sheet_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0601b2" />
+</FrameLayout>

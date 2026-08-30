@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/report_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501de">
+        <LinearLayout android:orientation="vertical" android:id="@id/report_layout_holder" android:layout_width="0.0dip" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+            <include android:id="@id/report_header" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10b5" />
+            <View android:id="@id/report_header_divider" android:background="?APKTOOL_DUMMYVAL_0x7f040759" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+            <include android:id="@id/request_gdpr_report_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10c3" />
+            <include android:id="@id/request_p2b_report_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10c3" />
+            <include android:id="@id/request_newsletter_report_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10c3" />
+            <include android:id="@id/request_wamo_report_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10c3" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

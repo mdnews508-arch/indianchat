@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.group.ui.components.AddMembersRowView android:gravity="center_vertical" android:id="@id/add_member_button" android:background="@drawable/chat_info_list_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5" />
+    <com.indianchat.group.ui.components.InviteViaLinkView android:id="@id/invite_via_link_button" android:background="@drawable/chat_info_list_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070719" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070719" />
+</LinearLayout>

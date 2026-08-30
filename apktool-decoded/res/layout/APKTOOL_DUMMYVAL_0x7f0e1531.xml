@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.bloks.wabloks.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@id/fcs_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="150.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.indianchat.ui.wds.components.topbar.WDSToolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f15024d" android:id="@id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@id/bk_bottom_sheet_toolbar" android:layout_centerInParent="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ef8" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ef8">
+                <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/bk_branding_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070ef5" android:maxHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070ef4" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/toolbar_customized_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070ced" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f04048a="@dimen/APKTOOL_DUMMYVAL_0x7f0710ba" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" style="@style/APKTOOL_DUMMYVAL_0x7f150461" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/webview_title_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:id="@id/website_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <ProgressBar android:id="@id/bk_toolbar_loading" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070ef7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ef7" android:layout_alignTop="@id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@id/bk_bottom_sheet_toolbar" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ef6" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ef6" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/divider_under_nav_bar" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+        <FrameLayout android:orientation="vertical" android:id="@id/wa_fcs_bottom_sheet_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/optional_loading_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.indianchat.bloks.wabloks.ui.PercentageBasedMaxHeightLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

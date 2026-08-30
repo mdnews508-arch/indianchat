@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/incognito_null_state_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.metaai.incognito.IncognitoContextCardView android:id="@id/incognito_context_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_gravity="center_horizontal" android:id="@id/incognito_disappearing_messages_notice_pill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09f2" />
+    <com.whatsapp.metaai.incognito.suggestion.IncognitoNullStateSuggestionView android:id="@id/incognito_null_state_suggestion_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

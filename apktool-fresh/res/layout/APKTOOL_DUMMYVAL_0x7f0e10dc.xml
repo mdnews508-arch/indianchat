@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rewrite_tray_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/suggestion_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <HorizontalScrollView android:layout_gravity="center_vertical" android:id="@id/expression_rewrite_tone_view" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.chip.ChipGroup android:id="@id/expression_rewrite_tone_chip_group" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f040160="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04073b="true" />
+    </HorizontalScrollView>
+    <ViewStub android:id="@id/word_limit_not_met_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10df" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/privacy_tos_null_state_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10e0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/contextual_nux_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04a0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

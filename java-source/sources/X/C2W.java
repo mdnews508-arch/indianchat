@@ -1,0 +1,1074 @@
+package X;
+
+import com.google.common.base.Optional;
+import com.google.common.collect.ImmutableCollection;
+import com.google.common.collect.ImmutableSet;
+import com.google.protobuf.AbstractMessageLite;
+import com.google.protobuf.ByteString;
+import com.google.protobuf.GeneratedMessageLite;
+import com.google.protobuf.Internal;
+import com.whatsapp.infra.core.jid.DeviceJid;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+/* JADX INFO: loaded from: classes7.dex */
+public class C2W extends C08T {
+    public final int $t = 3;
+    public final Object A00;
+    public final Object A01;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C2W(C12890hv c12890hv, IVV ivv) {
+        super("SyncManager/doPreCompanionLogoutTask");
+        this.A01 = ivv;
+        this.A00 = c12890hv;
+    }
+
+    /* JADX WARN: Code duplicated, block: B:111:0x02b0 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:113:0x02c4 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:116:0x02cd A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:118:0x02da A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:120:0x02e7  */
+    /* JADX WARN: Code duplicated, block: B:123:0x0302 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:130:0x032e A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:139:0x036e A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:146:0x0472 A[Catch: BrG -> 0x0487, BxJ -> 0x049e, CLD -> 0x0704, TryCatch #7 {BrG -> 0x0487, BxJ -> 0x049e, blocks: (B:144:0x038d, B:146:0x0472, B:147:0x047c), top: B:326:0x038d, outer: #3 }] */
+    /* JADX WARN: Code duplicated, block: B:158:0x0513 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:161:0x052f A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:164:0x054a A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:167:0x0588  */
+    /* JADX WARN: Code duplicated, block: B:168:0x0589  */
+    /* JADX WARN: Code duplicated, block: B:170:0x058e A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:173:0x0598 A[Catch: CLD -> 0x0704, LOOP:11: B:171:0x0592->B:173:0x0598, LOOP_END, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:176:0x05aa A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:179:0x05d0 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:181:0x05da A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:183:0x05e0 A[Catch: CLD -> 0x0704, LOOP:9: B:180:0x05d8->B:183:0x05e0, LOOP_END, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:185:0x05eb  */
+    /* JADX WARN: Code duplicated, block: B:188:0x05f8 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:190:0x0602 A[Catch: CLD -> 0x0704, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:192:0x0608 A[Catch: CLD -> 0x0704, LOOP:10: B:189:0x0600->B:192:0x0608, LOOP_END, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:198:0x066e A[Catch: CLD -> 0x0704, TRY_LEAVE, TryCatch #3 {CLD -> 0x0704, blocks: (B:13:0x0063, B:15:0x00ad, B:17:0x00b3, B:18:0x00bc, B:19:0x00bd, B:20:0x00d2, B:22:0x00da, B:24:0x00e2, B:25:0x00e4, B:28:0x00fc, B:30:0x0100, B:32:0x0108, B:34:0x011d, B:125:0x0316, B:195:0x0617, B:51:0x0192, B:53:0x019e, B:35:0x0121, B:44:0x0140, B:46:0x016f, B:48:0x0179, B:50:0x0181, B:39:0x0128, B:41:0x012c, B:43:0x0134, B:194:0x0613, B:54:0x01a3, B:56:0x01ad, B:57:0x01b5, B:59:0x01bb, B:61:0x01c3, B:63:0x01cf, B:65:0x01d7, B:66:0x01d9, B:68:0x01df, B:79:0x0206, B:81:0x020c, B:83:0x021a, B:69:0x01e2, B:71:0x01e6, B:73:0x01f0, B:75:0x01f8, B:77:0x0202, B:84:0x0222, B:86:0x0226, B:88:0x0230, B:90:0x0238, B:91:0x023d, B:92:0x0241, B:94:0x0247, B:96:0x025e, B:97:0x0262, B:98:0x026f, B:100:0x0275, B:102:0x0287, B:103:0x028c, B:105:0x0292, B:107:0x029e, B:108:0x02a6, B:109:0x02aa, B:111:0x02b0, B:113:0x02c4, B:114:0x02c7, B:116:0x02cd, B:118:0x02da, B:119:0x02de, B:121:0x02e9, B:123:0x0302, B:127:0x0320, B:128:0x0328, B:130:0x032e, B:133:0x033e, B:134:0x0344, B:135:0x034a, B:136:0x0350, B:137:0x0368, B:139:0x036e, B:141:0x037e, B:143:0x0386, B:144:0x038d, B:146:0x0472, B:147:0x047c, B:149:0x0488, B:151:0x049f, B:152:0x04b5, B:153:0x04bb, B:154:0x04c1, B:156:0x04d9, B:158:0x0513, B:159:0x0529, B:161:0x052f, B:162:0x053e, B:164:0x054a, B:165:0x054e, B:174:0x05a5, B:176:0x05aa, B:177:0x05ac, B:179:0x05d0, B:181:0x05da, B:183:0x05e0, B:184:0x05e6, B:186:0x05ec, B:188:0x05f8, B:190:0x0602, B:192:0x0608, B:193:0x060e, B:196:0x0618, B:198:0x066e, B:170:0x058e, B:171:0x0592, B:173:0x0598, B:124:0x030b), top: B:321:0x0063, inners: #7 }] */
+    /* JADX WARN: Code duplicated, block: B:201:0x069d  */
+    /* JADX WARN: Code duplicated, block: B:210:0x06c9  */
+    /* JADX WARN: Code duplicated, block: B:213:0x06db  */
+    /* JADX WARN: Code duplicated, block: B:238:0x07d5 A[DONT_INVERT] */
+    /* JADX WARN: Code duplicated, block: B:239:0x07d7  */
+    /* JADX WARN: Code duplicated, block: B:243:0x0813  */
+    /* JADX WARN: Code duplicated, block: B:250:0x0839  */
+    /* JADX WARN: Code duplicated, block: B:252:0x0858  */
+    /* JADX WARN: Code duplicated, block: B:254:0x085c  */
+    /* JADX WARN: Code duplicated, block: B:255:0x0864  */
+    /* JADX WARN: Code duplicated, block: B:262:0x089b  */
+    /* JADX WARN: Code duplicated, block: B:280:0x0935  */
+    /* JADX WARN: Code duplicated, block: B:282:0x094a  */
+    /* JADX WARN: Code duplicated, block: B:332:0x030b A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:337:0x05e6 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:338:0x060e A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:339:0x0713 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:353:0x01df A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:355:0x0206 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:370:0x01b5 A[ADDED_TO_REGION, REMOVE, SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:377:0x01b5 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:395:0x047c A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:400:0x0829 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:401:0x0823 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:402:0x0835 A[SYNTHETIC] */
+    /* JADX WARN: Code duplicated, block: B:404:0x080d A[SYNTHETIC] */
+    @Override // java.lang.Runnable
+    public void run() throws C27303BxH, JSONException, C27300BxE {
+        C14380ku c14380ku;
+        long jA00;
+        C11810fy c11810fy;
+        long j;
+        C14380ku c14380ku2;
+        long size;
+        C11810fy c11810fy2;
+        HashSet hashSetA1D;
+        ArrayList arrayListA0W;
+        InterfaceC001500s interfaceC001500s;
+        Iterator it;
+        String strA11;
+        BJG bjgA01;
+        List listA1A;
+        Iterator it2;
+        LinkedHashMap linkedHashMapA07;
+        LinkedHashMap linkedHashMapA14;
+        Iterator it3;
+        ArrayList arrayListA0W2;
+        ArrayList arrayListA0W3;
+        ArrayList arrayListA0W4;
+        ArrayList arrayListA0W5;
+        LinkedHashMap linkedHashMapA1E;
+        Iterator it4;
+        byte[] bArrA0A;
+        boolean zA1U;
+        HashMap mapA0I;
+        LinkedHashSet linkedHashSetA1F;
+        int i;
+        byte[] bArrA00;
+        Long lA02;
+        long jLongValue;
+        C1Z7 c1z7;
+        ArrayList arrayListA0y;
+        Object next;
+        byte[] bArr;
+        int i2;
+        JSONArray jSONArrayOptJSONArray;
+        ArrayList arrayListA0y2;
+        JSONArray jSONArrayOptJSONArray2;
+        C28679ChX c28679ChX;
+        C28408Cbv c28408CbvA00;
+        int iA0Y;
+        C26637BlC c26637BlC;
+        Iterable iterable;
+        C26153BdK c26153BdK;
+        Internal.ProtobufList protobufList;
+        int length;
+        Object obj;
+        int length2;
+        Object obj2;
+        C1JB c1jb;
+        D1N d1n;
+        C29612Cxc c29612Cxc;
+        Object obj3;
+        byte[] bArr2;
+        byte[] bArr3;
+        Object key;
+        Object value;
+        C1JB c1jbA0Q;
+        C29612Cxc c29612Cxc2;
+        C1JB c1jbA00;
+        AbstractC27299BxD abstractC27299BxD;
+        C29060Co7 c29060Co7A02;
+        AbstractC02700Ci abstractC02700Ci;
+        AbstractC02700Ci chatJid;
+        String str;
+        C1JB c1jbA0B;
+        switch (this.$t) {
+            case 0:
+                C12890hv c12890hv = ((C25521BHk) this.A00).A07;
+                if (c12890hv.A0d()) {
+                    c12890hv.A0W(Collections.singleton(((BJC) this.A01).A0T()));
+                    c12890hv.A0Q();
+                    return;
+                }
+                return;
+            case 1:
+                C12890hv c12890hv2 = (C12890hv) this.A00;
+                C15250mV c15250mV = c12890hv2.A0T;
+                AbstractC04810Ls it5 = ((ImmutableCollection) this.A01).iterator();
+                while (it5.hasNext()) {
+                    DeviceJid deviceJidA0Y = AbstractC25329B9x.A0Y(it5);
+                    StringBuilder sbA08 = AnonymousClass000.A08();
+                    sbA08.append("HistorySyncManager/stopMessageHistorySync for ");
+                    AbstractC466325q.A1J(sbA08, deviceJidA0Y.toString());
+                    C17190pi c17190pi = c15250mV.A06;
+                    c17190pi.A07(deviceJidA0Y, 2);
+                    c17190pi.A07(deviceJidA0Y, 3);
+                }
+                Optional optional = c12890hv2.A0H;
+                if (optional.isPresent()) {
+                    optional.get();
+                    throw AbstractC465925m.A17("isHostedCompanionPairingInProgress");
+                }
+                int iA0Y2 = c12890hv2.A0X.A0Y(14493);
+                ArrayList arrayListA0N = c12890hv2.A0I.A0N();
+                boolean zIsEmpty = arrayListA0N.isEmpty();
+                if (iA0Y2 == 0) {
+                    if (zIsEmpty) {
+                        c12890hv2.A0S(3);
+                        c14380ku = c12890hv2.A0M;
+                        jA00 = AnonymousClass089.A00(c14380ku.A04);
+                        c11810fy = c14380ku.A00;
+                        AbstractC148866g8.A1O(AbstractC25330B9y.A04(c11810fy), "syncd_last_companion_dereg_logging_time", jA00);
+                        j = C11810fy.A00(c11810fy).getLong("syncd_first_companion_reg_logging_time", 0L);
+                        if (j == 0) {
+                            com.whatsapp.infra.logging.Log.e("syncStatsManager/onLastCompanionDeregistration, first registerTs is 0L");
+                        } else {
+                            AbstractC466525s.A1A(AbstractC25330B9y.A04(c11810fy), "syncd_first_companion_reg_logging_time");
+                            C27073BtU c27073BtU = new C27073BtU();
+                            c27073BtU.A00 = AbstractC148866g8.A16(jA00, j);
+                            c14380ku.A03.CBh(c27073BtU);
+                        }
+                    }
+                } else if (zIsEmpty) {
+                    c14380ku = c12890hv2.A0M;
+                    jA00 = AnonymousClass089.A00(c14380ku.A04);
+                    c11810fy = c14380ku.A00;
+                    AbstractC148866g8.A1O(AbstractC25330B9y.A04(c11810fy), "syncd_last_companion_dereg_logging_time", jA00);
+                    j = C11810fy.A00(c11810fy).getLong("syncd_first_companion_reg_logging_time", 0L);
+                    if (j == 0) {
+                        com.whatsapp.infra.logging.Log.e("syncStatsManager/onLastCompanionDeregistration, first registerTs is 0L");
+                    } else {
+                        AbstractC466525s.A1A(AbstractC25330B9y.A04(c11810fy), "syncd_first_companion_reg_logging_time");
+                        C27073BtU c27073BtU2 = new C27073BtU();
+                        c27073BtU2.A00 = AbstractC148866g8.A16(jA00, j);
+                        c14380ku.A03.CBh(c27073BtU2);
+                    }
+                }
+                C14260ki c14260ki = c12890hv2.A0Q;
+                com.whatsapp.infra.logging.Log.i("SyncdKeyManager/unblockAllCollections");
+                C15T c15tA0D = BA2.A0D(c14260ki.A05.A00);
+                try {
+                    c15tA0D.A02.A04("missing_keys", null, "SyncdMissingKeysTable.deleteAllRows", null);
+                    c15tA0D.close();
+                    c12890hv2.A0Q();
+                    Optional optional2 = c12890hv2.A0G;
+                    if (optional2.isPresent()) {
+                        Iterator it6 = arrayListA0N.iterator();
+                        while (it6.hasNext()) {
+                            BKR bkr = AbstractC25329B9x.A0P(it6).A0B;
+                            if (bkr == BKR.A06 || bkr == BKR.A0K || bkr == BKR.A0R) {
+                                return;
+                            }
+                        }
+                        C29727Czs c29727Czs = (C29727Czs) optional2.get();
+                        synchronized (c29727Czs) {
+                            AbstractC466525s.A1A(C28671Mg.A00(AbstractC25328B9w.A0p(c29727Czs.A03)), "sciek/key");
+                        }
+                        return;
+                    }
+                    return;
+                } catch (Throwable th) {
+                    try {
+                        throw th;
+                    } catch (Throwable th2) {
+                        AbstractC015307g.A00(c15tA0D, th);
+                        throw th2;
+                    }
+                }
+            case 2:
+                C12890hv c12890hv3 = (C12890hv) this.A00;
+                C25522BHl c25522BHl = (C25522BHl) c12890hv3.A0C.get();
+                C29159Cpl c29159Cpl = (C29159Cpl) this.A01;
+                C000700h.A0A(c29159Cpl, 0);
+                C14380ku c14380ku3 = c25522BHl.A06;
+                C27944CMr c27944CMrA07 = c14380ku3.A07(c29159Cpl.A02, c29159Cpl.A00.A05);
+                AbstractC466325q.A1B(c27944CMrA07 == null ? "null" : c27944CMrA07, "SyncdBootstrapManager/prepareCriticalDataUpload bootstrapId: ", AnonymousClass000.A08());
+                C25519BHi c25519BHi = c25522BHl.A05;
+                C29622Cxx c29622Cxx = c29159Cpl.A01;
+                DeviceJid deviceJid = c29622Cxx.A0A;
+                C000700h.A06(deviceJid);
+                AbstractC466225p.A0x(c25519BHi.A07).CJc(new RunnableC30948DfR(deviceJid, c25519BHi, 17));
+                C15250mV c15250mV2 = c25522BHl.A0A;
+                List listA02 = c15250mV2.A02(c29622Cxx);
+                c15250mV2.A0C.CJc(new RunnableC30938DfH(listA02, c29622Cxx, c27944CMrA07, deviceJid, c15250mV2, 5));
+                C000700h.A06(listA02);
+                C14260ki c14260ki2 = c25522BHl.A09;
+                com.whatsapp.infra.logging.Log.i("SyncdKeyManager/shareAllKeys");
+                LinkedHashSet linkedHashSetA03 = c14260ki2.A04.A03();
+                if (linkedHashSetA03.isEmpty()) {
+                    if (c14260ki2.A07.A0w(27528)) {
+                        com.whatsapp.infra.logging.Log.i("SyncdKeyManager/shareAllKeys: no keys available, generating new key");
+                        c14260ki2.A05();
+                        c14380ku2 = c14260ki2.A06;
+                        size = 1;
+                    }
+                    c11810fy2 = c25522BHl.A07;
+                    if (AbstractC466525s.A01(C11810fy.A00(c11810fy2), "syncd_bootstrap_state") == 0) {
+                        if (c27944CMrA07 != null) {
+                            c25522BHl.A00 = new C28615CgO(c27944CMrA07);
+                            C14380ku.A05(c27944CMrA07, c14380ku3, 1);
+                        }
+                        ((C14420ky) C05C.A02(c25522BHl.A02)).A00();
+                        com.whatsapp.infra.logging.Log.i("SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap triggered for release");
+                        hashSetA1D = AbstractC465925m.A1D();
+                        arrayListA0W = AbstractC32971bt.A0W();
+                        interfaceC001500s = c25522BHl.A03.A00;
+                        it = ((BKK) interfaceC001500s.get()).A03().iterator();
+                        while (it.hasNext()) {
+                            strA11 = AbstractC466425r.A11(it);
+                            bjgA01 = ((BKK) interfaceC001500s.get()).A01(strA11);
+                            if (bjgA01 == null) {
+                                com.whatsapp.infra.logging.Log.e("SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap handler not found");
+                            } else if (!C1JH.A01.contains(bjgA01.A0E())) {
+                                if (bjgA01 instanceof C25589BKe) {
+                                    listA1A = ((C25589BKe) bjgA01).A0U(listA02);
+                                } else if (bjgA01 instanceof C25588BKd) {
+                                    listA1A = ((C25588BKd) bjgA01).A0U(listA02);
+                                } else {
+                                    listA1A = AbstractC02550Br.A1A(bjgA01.A0G(false));
+                                }
+                                arrayListA0W.addAll(listA1A);
+                                AbstractC466325q.A1M(AnonymousClass000.A08(), "SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap adding mutations for ", bjgA01.getClass().getCanonicalName());
+                                hashSetA1D.add(strA11);
+                            }
+                        }
+                        c25522BHl.A08.A08(arrayListA0W);
+                        c11810fy2.A08(hashSetA1D);
+                        c11810fy2.A04(1);
+                    } else {
+                        c25522BHl.A04.A02(true, null);
+                    }
+                    c12890hv3.A0R();
+                    return;
+                }
+                LinkedHashMap linkedHashMapA15 = AbstractC466425r.A14(AbstractC002201c.A00(linkedHashSetA03));
+                for (Object obj4 : linkedHashSetA03) {
+                    linkedHashMapA15.put(((C28823CkF) obj4).A01, obj4);
+                }
+                c14260ki2.A0C(deviceJid, linkedHashMapA15, false);
+                c14380ku2 = c14260ki2.A06;
+                size = linkedHashMapA15.size();
+                C27071BtS c27071BtS = new C27071BtS();
+                c27071BtS.A00 = Long.valueOf(size);
+                c14380ku2.A03.CBh(c27071BtS);
+                c11810fy2 = c25522BHl.A07;
+                if (AbstractC466525s.A01(C11810fy.A00(c11810fy2), "syncd_bootstrap_state") == 0) {
+                    if (c27944CMrA07 != null) {
+                        c25522BHl.A00 = new C28615CgO(c27944CMrA07);
+                        C14380ku.A05(c27944CMrA07, c14380ku3, 1);
+                    }
+                    ((C14420ky) C05C.A02(c25522BHl.A02)).A00();
+                    com.whatsapp.infra.logging.Log.i("SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap triggered for release");
+                    hashSetA1D = AbstractC465925m.A1D();
+                    arrayListA0W = AbstractC32971bt.A0W();
+                    interfaceC001500s = c25522BHl.A03.A00;
+                    it = ((BKK) interfaceC001500s.get()).A03().iterator();
+                    while (it.hasNext()) {
+                        strA11 = AbstractC466425r.A11(it);
+                        bjgA01 = ((BKK) interfaceC001500s.get()).A01(strA11);
+                        if (bjgA01 == null) {
+                            com.whatsapp.infra.logging.Log.e("SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap handler not found");
+                        } else if (!C1JH.A01.contains(bjgA01.A0E())) {
+                            if (bjgA01 instanceof C25589BKe) {
+                                listA1A = ((C25589BKe) bjgA01).A0U(listA02);
+                            } else if (bjgA01 instanceof C25588BKd) {
+                                listA1A = ((C25588BKd) bjgA01).A0U(listA02);
+                            } else {
+                                listA1A = AbstractC02550Br.A1A(bjgA01.A0G(false));
+                            }
+                            arrayListA0W.addAll(listA1A);
+                            AbstractC466325q.A1M(AnonymousClass000.A08(), "SyncdBootstrapManager/prepareAppStateSyncCriticalBootstrap adding mutations for ", bjgA01.getClass().getCanonicalName());
+                            hashSetA1D.add(strA11);
+                        }
+                    }
+                    c25522BHl.A08.A08(arrayListA0W);
+                    c11810fy2.A08(hashSetA1D);
+                    c11810fy2.A04(1);
+                } else {
+                    c25522BHl.A04.A02(true, null);
+                }
+                c12890hv3.A0R();
+                return;
+            case 3:
+                com.whatsapp.infra.logging.Log.i("sync-manager/doPreCompanionLogoutTask timeout");
+                ((IVV) this.A01).A0e(AbstractC466125o.A11());
+                return;
+            default:
+                C30431DSs c30431DSsA00 = C12890hv.A00((C12890hv) this.A00);
+                java.util.Map map = (java.util.Map) this.A01;
+                if (map.isEmpty()) {
+                    throw AbstractC32971bt.A0O("sync-request-handler/sendRequest: mutation map is empty");
+                }
+                ArrayList arrayListA0W6 = AbstractC32971bt.A0W();
+                Iterator itA1F = AbstractC466625t.A1F(map);
+                while (itA1F.hasNext()) {
+                    java.util.Map.Entry entryA0Y = AbstractC32971bt.A0Y(itA1F);
+                    C17800qi c17800qi = c30431DSsA00.A0A;
+                    String strA12 = AbstractC466425r.A12(entryA0Y);
+                    List list = (List) entryA0Y.getValue();
+                    C000700h.A0B(strA12, list);
+                    IVV ivv = new IVV();
+                    if (list.isEmpty()) {
+                        ivv.A0e(new C28679ChX(strA12, Collections.emptyList(), null, null, null).A00());
+                    } else {
+                        try {
+                            C17430q7 c17430q7 = c17800qi.A00;
+                            byte[] bArr4 = null;
+                            int size2 = 0;
+                            int size3 = 0;
+                            int size4 = 0;
+                            byte[] bArr5 = null;
+                            C0AG c0ag = (C0AG) AbstractC017108c.A03(C00W.A00(c17430q7.A05), 1393);
+                            int size5 = list.size();
+                            StringBuilder sbA09 = AnonymousClass000.A08();
+                            sbA09.append("SyncEncryptionHelper/encryptMutations for collectionName: ");
+                            sbA09.append(strA12);
+                            AbstractC466325q.A1E("; size=", sbA09, size5);
+                            ArrayList arrayListA0W7 = AbstractC32971bt.A0W();
+                            InterfaceC001500s interfaceC001500s2 = c17430q7.A03.A00;
+                            C14260ki c14260ki3 = (C14260ki) interfaceC001500s2.get();
+                            C28823CkF c28823CkFA04 = c14260ki3.A04();
+                            if (c28823CkFA04 == null && (c28823CkFA04 = c14260ki3.A05()) == null) {
+                                throw new C27300BxE("Missing active key exception", null);
+                            }
+                            LinkedHashSet linkedHashSetA1F2 = AbstractC465925m.A1F();
+                            ArrayList arrayListA0W8 = AbstractC32971bt.A0W();
+                            LinkedHashSet linkedHashSetA1F3 = AbstractC465925m.A1F();
+                            C29612Cxc c29612Cxc3 = c28823CkFA04.A01;
+                            linkedHashSetA1F2.add(c29612Cxc3);
+                            Iterator it7 = list.iterator();
+                            while (it7.hasNext()) {
+                                C1JB c1jbA0Q2 = AbstractC25329B9x.A0Q(it7);
+                                if (c1jbA0Q2.A00 == null) {
+                                    c1jbA0Q2.A00 = c29612Cxc3;
+                                }
+                                C1JB c1jbA0B2 = ((C14400kw) C05C.A02(c17430q7.A04)).A0B(c1jbA0Q2.A03());
+                                C25595BKk c25595BKk = c1jbA0Q2.A05;
+                                if (c25595BKk == C25595BKk.A03) {
+                                    if (c1jbA0B2 != null) {
+                                        C29612Cxc c29612Cxc4 = c1jbA0B2.A00;
+                                        if (c29612Cxc4 == null) {
+                                            throw AbstractC465925m.A15("Required value was null.");
+                                        }
+                                        if (!c29612Cxc4.equals(c1jbA0Q2.A00)) {
+                                            C27296BxA c27296BxAA00 = C17430q7.A00(c1jbA0B2);
+                                            linkedHashSetA1F3.add(c27296BxAA00.A00);
+                                            AbstractC466625t.A1W(c27296BxAA00, new D1N(c27296BxAA00), arrayListA0W7);
+                                            C29612Cxc c29612Cxc5 = ((C1JB) c27296BxAA00).A00;
+                                            if (c29612Cxc5 != null) {
+                                                linkedHashSetA1F2.add(c29612Cxc5);
+                                            }
+                                        }
+                                    }
+                                } else if (c25595BKk == C25595BKk.A02) {
+                                    if (c1jbA0B2 == null) {
+                                        AbstractC466325q.A1A(c1jbA0Q2.A00(), "SyncEncryptionHelper/encryptMutations trying to send a REMOVE mutation for no existing confirmed SEND mutation ", AnonymousClass000.A08());
+                                        C27086Bth c27086Bth = new C27086Bth();
+                                        c27086Bth.A01 = 17;
+                                        c27086Bth.A02 = c1jbA0Q2.A00().value;
+                                        arrayListA0W8.add(c27086Bth);
+                                        if (c1jbA0Q2.A00() == C1JF.OutContactAction) {
+                                            C016207r c016207r = c17430q7.A09;
+                                            if (c016207r.A0w(25508) && c016207r.A0Y(28170) == 1) {
+                                                c0ag.A0f("syncd_out_contact_lone_remove", AnonymousClass000.A05("collection=", strA12, AnonymousClass000.A08()), false);
+                                            }
+                                        }
+                                    } else {
+                                        C29612Cxc c29612Cxc6 = c1jbA0B2.A00;
+                                        if (c29612Cxc6 == null) {
+                                            throw AbstractC465925m.A15("Required value was null.");
+                                        }
+                                        if (!c29612Cxc6.equals(c1jbA0Q2.A00)) {
+                                            linkedHashSetA1F3.add(c1jbA0Q2.A03());
+                                            c1jbA0Q2.A00 = c1jbA0B2.A00;
+                                        }
+                                    }
+                                }
+                                D1N d1n2 = new D1N(c1jbA0Q2);
+                                AbstractC466625t.A1W(c1jbA0Q2, d1n2, arrayListA0W7);
+                                C29612Cxc c29612Cxc7 = d1n2.A02;
+                                if (c29612Cxc7 != null) {
+                                    linkedHashSetA1F2.add(c29612Cxc7);
+                                }
+                            }
+                            C14420ky c14420ky = c17430q7.A07;
+                            if (c14420ky.A01.A0G()) {
+                                ArrayList<C27296BxA> arrayListA0W9 = AbstractC32971bt.A0W();
+                                Iterator it8 = list.iterator();
+                                while (it8.hasNext()) {
+                                    C1JB c1jbA0Q3 = AbstractC25329B9x.A0Q(it8);
+                                    if (c1jbA0Q3 instanceof AbstractC26896BqY) {
+                                        AbstractC26896BqY abstractC26896BqY = (AbstractC26896BqY) c1jbA0Q3;
+                                        c29060Co7A02 = AbstractC27980COc.A00(c14420ky, abstractC26896BqY).A00;
+                                        if (!c29060Co7A02.A05) {
+                                            abstractC02700Ci = c29060Co7A02.A02;
+                                            if (C0D0.A0f(abstractC02700Ci)) {
+                                                chatJid = abstractC26896BqY.A00;
+                                                if (!C000700h.areEqual(abstractC02700Ci, chatJid)) {
+                                                    str = c29060Co7A02.A04;
+                                                    if (str == null && !linkedHashSetA1F3.contains(str) && (c1jbA0B = ((C14400kw) C05C.A02(c17430q7.A04)).A0B(str)) != null) {
+                                                        arrayListA0W9.add(C17430q7.A00(c1jbA0B));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else if (c1jbA0Q3 instanceof AbstractC26895BqX) {
+                                        AbstractC26895BqX abstractC26895BqX = (AbstractC26895BqX) c1jbA0Q3;
+                                        C29101Com c29101ComA01 = AbstractC29209Cql.A01(abstractC26895BqX, c14420ky);
+                                        if (!c29101ComA01.A06) {
+                                            AbstractC02700Ci abstractC02700Ci2 = c29101ComA01.A02;
+                                            if (C0D0.A0f(abstractC02700Ci2) && !C000700h.areEqual(abstractC02700Ci2, abstractC26895BqX.getChatJid())) {
+                                                str = c29101ComA01.A05;
+                                                if (str == null) {
+                                                }
+                                            }
+                                        }
+                                    } else if (c1jbA0Q3 instanceof AbstractC27299BxD) {
+                                        AbstractC27299BxD abstractC27299BxD2 = (AbstractC27299BxD) c1jbA0Q3;
+                                        c29060Co7A02 = AbstractC29633CyB.A02(abstractC27299BxD2, c14420ky);
+                                        if (!c29060Co7A02.A05) {
+                                            abstractC02700Ci = c29060Co7A02.A02;
+                                            if (C0D0.A0f(abstractC02700Ci)) {
+                                                chatJid = abstractC27299BxD2.getChatJid();
+                                                if (!C000700h.areEqual(abstractC02700Ci, chatJid)) {
+                                                    str = c29060Co7A02.A04;
+                                                    if (str == null) {
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                for (C27296BxA c27296BxA : arrayListA0W9) {
+                                    linkedHashSetA1F3.add(c27296BxA.A00);
+                                    AbstractC466625t.A1W(c27296BxA, new D1N(c27296BxA), arrayListA0W7);
+                                    C29612Cxc c29612Cxc8 = ((C1JB) c27296BxA).A00;
+                                    if (c29612Cxc8 != null) {
+                                        linkedHashSetA1F2.add(c29612Cxc8);
+                                    }
+                                }
+                            }
+                            C016207r c016207r2 = c17430q7.A09;
+                            int iA0Y3 = c016207r2.A0Y(2777);
+                            ArrayList arrayListA0W10 = AbstractC32971bt.A0W();
+                            int i3 = 0;
+                            while (arrayListA0W10.size() < iA0Y3) {
+                                List listA0K = ((C14400kw) C05C.A02(c17430q7.A04)).A0K(strA12, i3, iA0Y3);
+                                if (!listA0K.isEmpty()) {
+                                    i3 += iA0Y3;
+                                    Iterator it9 = listA0K.iterator();
+                                    while (true) {
+                                        if (it9.hasNext()) {
+                                            C1JB c1jbA0Q4 = AbstractC25329B9x.A0Q(it9);
+                                            if (!C000700h.areEqual(c29612Cxc3, c1jbA0Q4.A00)) {
+                                                BA0.A1I(c1jbA0Q4.A03(), c1jbA0Q4, arrayListA0W10, linkedHashSetA1F3);
+                                            }
+                                        }
+                                    }
+                                }
+                                it2 = arrayListA0W10.iterator();
+                                while (it2.hasNext()) {
+                                    c1jbA0Q = AbstractC25329B9x.A0Q(it2);
+                                    C27296BxA c27296BxAA01 = C17430q7.A00(c1jbA0Q);
+                                    D1N d1n3 = new D1N(c27296BxAA01);
+                                    AbstractC466625t.A1W(c27296BxAA01, d1n3, arrayListA0W7);
+                                    c29612Cxc2 = d1n3.A02;
+                                    if (c29612Cxc2 != null) {
+                                        linkedHashSetA1F2.add(c29612Cxc2);
+                                    }
+                                    c1jbA0Q.A00 = c29612Cxc3;
+                                    if (c1jbA0Q instanceof AbstractC27299BxD) {
+                                        abstractC27299BxD = (AbstractC27299BxD) c1jbA0Q;
+                                        if (C0D0.A0f(abstractC27299BxD.getChatJid())) {
+                                            c1jbA00 = AbstractC29633CyB.A00(abstractC27299BxD, c14420ky);
+                                        } else {
+                                            c1jbA00 = c1jbA0Q;
+                                        }
+                                    } else {
+                                        c1jbA00 = c1jbA0Q;
+                                    }
+                                    AbstractC466625t.A1W(c1jbA00, new D1N(c1jbA0Q), arrayListA0W7);
+                                }
+                                linkedHashSetA1F2.size();
+                                linkedHashMapA07 = ((C14260ki) interfaceC001500s2.get()).A07(strA12, linkedHashSetA1F2);
+                                if (!linkedHashMapA07.values().contains(null)) {
+                                    throw new C27300BxE("Missing keys exception", null);
+                                }
+                                Set setEntrySet = linkedHashMapA07.entrySet();
+                                linkedHashMapA14 = AbstractC466425r.A14(AbstractC148896gB.A02(BA1.A03(setEntrySet)));
+                                it3 = setEntrySet.iterator();
+                                while (it3.hasNext()) {
+                                    java.util.Map.Entry entryA0Y2 = AbstractC32971bt.A0Y(it3);
+                                    key = entryA0Y2.getKey();
+                                    value = entryA0Y2.getValue();
+                                    if (key == null && value != null) {
+                                        linkedHashMapA14.put(key, value);
+                                    }
+                                    throw AbstractC465925m.A15("Required value was null.");
+                                }
+                                arrayListA0W2 = AbstractC32971bt.A0W();
+                                arrayListA0W3 = AbstractC32971bt.A0W();
+                                arrayListA0W4 = AbstractC32971bt.A0W();
+                                arrayListA0W5 = AbstractC32971bt.A0W();
+                                linkedHashMapA1E = AbstractC465925m.A1E();
+                                it4 = arrayListA0W7.iterator();
+                                while (it4.hasNext()) {
+                                    C015707m c015707mA19 = AbstractC466425r.A19(it4);
+                                    c1jb = (C1JB) c015707mA19.first;
+                                    d1n = (D1N) c015707mA19.second;
+                                    c29612Cxc = d1n.A02;
+                                    if (c29612Cxc == null && (obj3 = linkedHashMapA07.get(c29612Cxc)) != null) {
+                                        C28823CkF c28823CkF = (C28823CkF) obj3;
+                                        arrayListA0W3.add(c1jb);
+                                        try {
+                                            C28333Cai c28333CaiANe = ((InterfaceC17500qE) C05C.A02(c17430q7.A02)).ANe(c28823CkF, d1n);
+                                            GeneratedMessageLite.Builder builderCreateBuilder = C26209BeE.DEFAULT_INSTANCE.createBuilder();
+                                            bArr2 = c28333CaiANe.A03;
+                                            ByteString byteString = ByteString.EMPTY;
+                                            ByteString byteStringA0M = AbstractC25330B9y.A0M(builderCreateBuilder, bArr2);
+                                            C26209BeE c26209BeE = (C26209BeE) builderCreateBuilder.instance;
+                                            c26209BeE.bitField0_ |= 1;
+                                            c26209BeE.blob_ = byteStringA0M;
+                                            GeneratedMessageLite.Builder builderCreateBuilder2 = C26210BeF.DEFAULT_INSTANCE.createBuilder();
+                                            ByteString byteStringA0M2 = AbstractC25330B9y.A0M(builderCreateBuilder2, c28333CaiANe.A02);
+                                            C26210BeF c26210BeF = (C26210BeF) builderCreateBuilder2.instance;
+                                            c26210BeF.bitField0_ |= 1;
+                                            c26210BeF.blob_ = byteStringA0M2;
+                                            GeneratedMessageLite.Builder builderCreateBuilder3 = C26208BeD.DEFAULT_INSTANCE.createBuilder();
+                                            ByteString byteStringA0M3 = AbstractC25330B9y.A0M(builderCreateBuilder3, c28333CaiANe.A01.A00);
+                                            C26208BeD c26208BeD = (C26208BeD) builderCreateBuilder3.instance;
+                                            c26208BeD.bitField0_ |= 1;
+                                            c26208BeD.id_ = byteStringA0M3;
+                                            GeneratedMessageLite.Builder builderA0O = AbstractC25330B9y.A0O(C26483Bih.DEFAULT_INSTANCE);
+                                            C26483Bih c26483Bih = (C26483Bih) builderA0O.instance;
+                                            C26209BeE c26209BeE2 = (C26209BeE) builderCreateBuilder.build();
+                                            c26209BeE2.getClass();
+                                            c26483Bih.index_ = c26209BeE2;
+                                            c26483Bih.bitField0_ |= 1;
+                                            C26483Bih c26483Bih2 = (C26483Bih) AbstractC466425r.A0I(builderA0O);
+                                            C26210BeF c26210BeF2 = (C26210BeF) builderCreateBuilder2.build();
+                                            c26210BeF2.getClass();
+                                            c26483Bih2.value_ = c26210BeF2;
+                                            c26483Bih2.bitField0_ |= 2;
+                                            C26483Bih c26483Bih3 = (C26483Bih) AbstractC466425r.A0I(builderA0O);
+                                            C26208BeD c26208BeD2 = (C26208BeD) builderCreateBuilder3.build();
+                                            c26208BeD2.getClass();
+                                            c26483Bih3.keyId_ = c26208BeD2;
+                                            c26483Bih3.bitField0_ |= 4;
+                                            GeneratedMessageLite.Builder builderCreateBuilder4 = C26375Bgx.DEFAULT_INSTANCE.createBuilder();
+                                            EnumC25596BKl enumC25596BKl = c28333CaiANe.A00.A00;
+                                            C26375Bgx c26375Bgx = (C26375Bgx) AbstractC466425r.A0I(builderCreateBuilder4);
+                                            c26375Bgx.operation_ = enumC25596BKl.getNumber();
+                                            c26375Bgx.bitField0_ |= 1;
+                                            C26375Bgx c26375Bgx2 = (C26375Bgx) AbstractC466425r.A0I(builderCreateBuilder4);
+                                            C26483Bih c26483Bih4 = (C26483Bih) builderA0O.build();
+                                            c26483Bih4.getClass();
+                                            c26375Bgx2.record_ = c26483Bih4;
+                                            c26375Bgx2.bitField0_ |= 2;
+                                            AbstractC25329B9x.A1F(builderCreateBuilder4, arrayListA0W2);
+                                            bArr3 = c28333CaiANe.A04;
+                                            c1jb.A01 = bArr3;
+                                            if (d1n.A01 == C25595BKk.A03) {
+                                                arrayListA0W4.add(bArr3);
+                                                arrayListA0W5.add(bArr2);
+                                            }
+                                            linkedHashMapA1E.put(c1jb.A03(), bArr2);
+                                        } catch (C26940BrG e) {
+                                            com.whatsapp.infra.logging.Log.e("SyncEncryptionHelper/encryptMutations: ", e);
+                                            throw new C27303BxH(null, null, strA12, null, null, null, null, 10);
+                                        } catch (C27305BxJ e2) {
+                                            com.whatsapp.infra.logging.Log.e("SyncEncryptionHelper/encryptMutations: ", e2);
+                                            throw new C27303BxH(null, null, strA12, null, null, null, null, 10);
+                                        }
+                                    }
+                                    throw AbstractC465925m.A15("Required value was null.");
+                                }
+                                InterfaceC001500s interfaceC001500s3 = c17430q7.A01.A00;
+                                bArrA0A = ((C17450q9) interfaceC001500s3.get()).A0A(strA12);
+                                zA1U = AbstractC466225p.A1U(c016207r2.A0w(6614) ? 1 : 0);
+                                String[] strArrA02 = AbstractC29737D0g.A02(arrayListA0W3);
+                                C000700h.A06(strArrA02);
+                                mapA0I = ((C14400kw) C05C.A02(c17430q7.A04)).A0I(strA12, strArrA02);
+                                c016207r2.A0w(624);
+                                linkedHashSetA1F = AbstractC465925m.A1F();
+                                List listA1E = AbstractC02550Br.A1E(mapA0I.values());
+                                byte[] bArr6 = C17430q7.A0E;
+                                bArrA00 = CPO.A00(AbstractC02550Br.A1A(listA1E), bArrA0A, bArr6, false);
+                                byte[] bArrA01 = CPO.A00(AbstractC02550Br.A1A(arrayListA0W4), bArrA00, bArr6, true);
+                                if (zA1U) {
+                                    bArr4 = bArrA0A;
+                                    bArr5 = bArrA00;
+                                    size2 = arrayListA0W4.size();
+                                    size4 = mapA0I.size() - linkedHashSetA1F.size();
+                                    size3 = linkedHashSetA1F.size();
+                                }
+                                if (arrayListA0W2.isEmpty()) {
+                                    c0ag.A0f("syncd_empty_patch", AnonymousClass000.A05("name=", strA12, AnonymousClass000.A08()), false);
+                                }
+                                lA02 = ((C17450q9) interfaceC001500s3.get()).A02(strA12);
+                                if (lA02 != null) {
+                                    jLongValue = lA02.longValue();
+                                } else {
+                                    jLongValue = 0;
+                                }
+                                long j2 = jLongValue + 1;
+                                InterfaceC001500s interfaceC001500s4 = c17430q7.A02.A00;
+                                byte[] bArrADf = ((InterfaceC17500qE) interfaceC001500s4.get()).ADf(c28823CkFA04, strA12, bArrA01, j2);
+                                c1z7 = new C1Z7(C0CD.A0G(C0CD.A0J(C31052Dh7.A00(8), AbstractC02550Br.A0h(arrayListA0W3))));
+                                arrayListA0y = null;
+                                if (c1z7.hasNext()) {
+                                    next = c1z7.next();
+                                    while (c1z7.hasNext()) {
+                                        next = AnonymousClass027.A09((byte[]) next, (byte[]) c1z7.next());
+                                    }
+                                } else {
+                                    next = null;
+                                }
+                                bArr = (byte[]) next;
+                                if (bArr == null) {
+                                    bArr = new byte[0];
+                                }
+                                byte[] bArrADa = ((InterfaceC17500qE) interfaceC001500s4.get()).ADa(c28823CkFA04, strA12, bArr, bArrADf, j2);
+                                jSONArrayOptJSONArray = c016207r2.A0j(27124).optJSONArray("allowlist");
+                                if (jSONArrayOptJSONArray != null) {
+                                    length2 = jSONArrayOptJSONArray.length();
+                                    arrayListA0y2 = AbstractC81763lf.A0y(length2);
+                                    for (i = 0; i < length2; i++) {
+                                        obj2 = jSONArrayOptJSONArray.get(i);
+                                        if (obj2 != null) {
+                                            throw AbstractC465925m.A17("null cannot be cast to non-null type kotlin.String");
+                                        }
+                                        arrayListA0y2.add(obj2);
+                                    }
+                                } else {
+                                    arrayListA0y2 = null;
+                                }
+                                jSONArrayOptJSONArray2 = c016207r2.A0j(27126).optJSONArray("allowlist");
+                                if (jSONArrayOptJSONArray2 != null) {
+                                    length = jSONArrayOptJSONArray2.length();
+                                    arrayListA0y = AbstractC81763lf.A0y(length);
+                                    for (i2 = 0; i2 < length; i2++) {
+                                        obj = jSONArrayOptJSONArray2.get(i2);
+                                        if (obj != null) {
+                                            throw AbstractC465925m.A17("null cannot be cast to non-null type kotlin.String");
+                                        }
+                                        arrayListA0y.add(obj);
+                                    }
+                                }
+                                boolean z = interfaceC001500s4.get() instanceof C29347Ct1;
+                                c28679ChX = new C28679ChX(strA12, arrayListA0W3, arrayListA0y2, arrayListA0y, bArrA01);
+                                c28679ChX.A0C = arrayListA0W2;
+                                c28679ChX.A06 = null;
+                                c28679ChX.A0J = bArrADf;
+                                c28679ChX.A0I = bArrADa;
+                                c28679ChX.A04 = c29612Cxc3;
+                                c28679ChX.A03 = c28823CkFA04.A00;
+                                c28679ChX.A0D = linkedHashMapA14;
+                                c28679ChX.A08 = Long.valueOf(j2);
+                                C08Y c08y = c17430q7.A0A;
+                                c28679ChX.A07 = Integer.valueOf(c08y.Ao1());
+                                c28679ChX.A0E = !c08y.BJQ();
+                                c28679ChX.A0F = z;
+                                c28679ChX.A0B = arrayListA0W8;
+                                c28679ChX.A05 = (C17990r1) C05C.A02(c17430q7.A00);
+                                if (zA1U) {
+                                    c28679ChX.A0G = bArr4;
+                                    c28679ChX.A0H = bArr5;
+                                    c28679ChX.A00 = size2;
+                                    c28679ChX.A02 = size4;
+                                    c28679ChX.A01 = size3;
+                                }
+                                c28408CbvA00 = c28679ChX.A00();
+                                C016207r c016207r3 = c17800qi.A01;
+                                iA0Y = c016207r3.A0Y(14494);
+                                long jA01 = AbstractC465925m.A01(c016207r3, 14495) * 1000;
+                                c26637BlC = c28408CbvA00.A01;
+                                if (c26637BlC != null) {
+                                    throw AbstractC465925m.A15("Required value was null.");
+                                }
+                                int serializedSize = c26637BlC.getSerializedSize();
+                                if ((c28408CbvA00.A05.size() <= iA0Y || serializedSize > jA01) && serializedSize > AbstractC465925m.A01(c016207r3, 5097) * 1000) {
+                                    GeneratedMessageLite.Builder builderCreateBuilder5 = C26153BdK.DEFAULT_INSTANCE.createBuilder();
+                                    iterable = c26637BlC.mutations_;
+                                    if (iterable == null) {
+                                        iterable = C002401f.A00;
+                                    }
+                                    Iterable iterable2 = iterable;
+                                    c26153BdK = (C26153BdK) AbstractC466425r.A0I(builderCreateBuilder5);
+                                    protobufList = c26153BdK.mutations_;
+                                    if (!protobufList.isModifiable()) {
+                                        c26153BdK.mutations_ = GeneratedMessageLite.mutableCopy(protobufList);
+                                    }
+                                    AbstractMessageLite.Builder.addAll(iterable2, (List) c26153BdK.mutations_);
+                                    C30572DYg c30572DYg = new C30572DYg(c28679ChX, ivv);
+                                    try {
+                                        C26153BdK c26153BdK2 = (C26153BdK) builderCreateBuilder5.build();
+                                        c17800qi.A02.A00(c30572DYg, c26153BdK2.toByteArray(), c26153BdK2.mutations_.size());
+                                    } catch (C26897BqZ e3) {
+                                        e = new C27300BxE("prepare-syncd-mutations-helper/startPrepareJob/onError: IOException", e3);
+                                        ivv.A0f(e);
+                                    }
+                                } else {
+                                    ivv.A0e(c28408CbvA00);
+                                }
+                            }
+                            it2 = arrayListA0W10.iterator();
+                            while (it2.hasNext()) {
+                                c1jbA0Q = AbstractC25329B9x.A0Q(it2);
+                                C27296BxA c27296BxAA02 = C17430q7.A00(c1jbA0Q);
+                                D1N d1n4 = new D1N(c27296BxAA02);
+                                AbstractC466625t.A1W(c27296BxAA02, d1n4, arrayListA0W7);
+                                c29612Cxc2 = d1n4.A02;
+                                if (c29612Cxc2 != null) {
+                                    linkedHashSetA1F2.add(c29612Cxc2);
+                                }
+                                c1jbA0Q.A00 = c29612Cxc3;
+                                if (c1jbA0Q instanceof AbstractC27299BxD) {
+                                    abstractC27299BxD = (AbstractC27299BxD) c1jbA0Q;
+                                    if (C0D0.A0f(abstractC27299BxD.getChatJid())) {
+                                        c1jbA00 = AbstractC29633CyB.A00(abstractC27299BxD, c14420ky);
+                                    } else {
+                                        c1jbA00 = c1jbA0Q;
+                                    }
+                                } else {
+                                    c1jbA00 = c1jbA0Q;
+                                }
+                                AbstractC466625t.A1W(c1jbA00, new D1N(c1jbA0Q), arrayListA0W7);
+                            }
+                            linkedHashSetA1F2.size();
+                            linkedHashMapA07 = ((C14260ki) interfaceC001500s2.get()).A07(strA12, linkedHashSetA1F2);
+                            if (!linkedHashMapA07.values().contains(null)) {
+                                throw new C27300BxE("Missing keys exception", null);
+                            }
+                            Set setEntrySet2 = linkedHashMapA07.entrySet();
+                            linkedHashMapA14 = AbstractC466425r.A14(AbstractC148896gB.A02(BA1.A03(setEntrySet2)));
+                            it3 = setEntrySet2.iterator();
+                            while (it3.hasNext()) {
+                                java.util.Map.Entry entryA0Y3 = AbstractC32971bt.A0Y(it3);
+                                key = entryA0Y3.getKey();
+                                value = entryA0Y3.getValue();
+                                if (key == null) {
+                                    throw AbstractC465925m.A15("Required value was null.");
+                                }
+                                linkedHashMapA14.put(key, value);
+                            }
+                            arrayListA0W2 = AbstractC32971bt.A0W();
+                            arrayListA0W3 = AbstractC32971bt.A0W();
+                            arrayListA0W4 = AbstractC32971bt.A0W();
+                            arrayListA0W5 = AbstractC32971bt.A0W();
+                            linkedHashMapA1E = AbstractC465925m.A1E();
+                            it4 = arrayListA0W7.iterator();
+                            while (it4.hasNext()) {
+                                C015707m c015707mA110 = AbstractC466425r.A19(it4);
+                                c1jb = (C1JB) c015707mA110.first;
+                                d1n = (D1N) c015707mA110.second;
+                                c29612Cxc = d1n.A02;
+                                if (c29612Cxc == null) {
+                                    throw AbstractC465925m.A15("Required value was null.");
+                                }
+                                C28823CkF c28823CkF2 = (C28823CkF) obj3;
+                                arrayListA0W3.add(c1jb);
+                                C28333Cai c28333CaiANe2 = ((InterfaceC17500qE) C05C.A02(c17430q7.A02)).ANe(c28823CkF2, d1n);
+                                GeneratedMessageLite.Builder builderCreateBuilder6 = C26209BeE.DEFAULT_INSTANCE.createBuilder();
+                                bArr2 = c28333CaiANe2.A03;
+                                ByteString byteString2 = ByteString.EMPTY;
+                                ByteString byteStringA0M4 = AbstractC25330B9y.A0M(builderCreateBuilder6, bArr2);
+                                C26209BeE c26209BeE3 = (C26209BeE) builderCreateBuilder6.instance;
+                                c26209BeE3.bitField0_ |= 1;
+                                c26209BeE3.blob_ = byteStringA0M4;
+                                GeneratedMessageLite.Builder builderCreateBuilder7 = C26210BeF.DEFAULT_INSTANCE.createBuilder();
+                                ByteString byteStringA0M5 = AbstractC25330B9y.A0M(builderCreateBuilder7, c28333CaiANe2.A02);
+                                C26210BeF c26210BeF3 = (C26210BeF) builderCreateBuilder7.instance;
+                                c26210BeF3.bitField0_ |= 1;
+                                c26210BeF3.blob_ = byteStringA0M5;
+                                GeneratedMessageLite.Builder builderCreateBuilder8 = C26208BeD.DEFAULT_INSTANCE.createBuilder();
+                                ByteString byteStringA0M6 = AbstractC25330B9y.A0M(builderCreateBuilder8, c28333CaiANe2.A01.A00);
+                                C26208BeD c26208BeD3 = (C26208BeD) builderCreateBuilder8.instance;
+                                c26208BeD3.bitField0_ |= 1;
+                                c26208BeD3.id_ = byteStringA0M6;
+                                GeneratedMessageLite.Builder builderA0O2 = AbstractC25330B9y.A0O(C26483Bih.DEFAULT_INSTANCE);
+                                C26483Bih c26483Bih5 = (C26483Bih) builderA0O2.instance;
+                                C26209BeE c26209BeE4 = (C26209BeE) builderCreateBuilder6.build();
+                                c26209BeE4.getClass();
+                                c26483Bih5.index_ = c26209BeE4;
+                                c26483Bih5.bitField0_ |= 1;
+                                C26483Bih c26483Bih6 = (C26483Bih) AbstractC466425r.A0I(builderA0O2);
+                                C26210BeF c26210BeF4 = (C26210BeF) builderCreateBuilder7.build();
+                                c26210BeF4.getClass();
+                                c26483Bih6.value_ = c26210BeF4;
+                                c26483Bih6.bitField0_ |= 2;
+                                C26483Bih c26483Bih7 = (C26483Bih) AbstractC466425r.A0I(builderA0O2);
+                                C26208BeD c26208BeD4 = (C26208BeD) builderCreateBuilder8.build();
+                                c26208BeD4.getClass();
+                                c26483Bih7.keyId_ = c26208BeD4;
+                                c26483Bih7.bitField0_ |= 4;
+                                GeneratedMessageLite.Builder builderCreateBuilder9 = C26375Bgx.DEFAULT_INSTANCE.createBuilder();
+                                EnumC25596BKl enumC25596BKl2 = c28333CaiANe2.A00.A00;
+                                C26375Bgx c26375Bgx3 = (C26375Bgx) AbstractC466425r.A0I(builderCreateBuilder9);
+                                c26375Bgx3.operation_ = enumC25596BKl2.getNumber();
+                                c26375Bgx3.bitField0_ |= 1;
+                                C26375Bgx c26375Bgx4 = (C26375Bgx) AbstractC466425r.A0I(builderCreateBuilder9);
+                                C26483Bih c26483Bih8 = (C26483Bih) builderA0O2.build();
+                                c26483Bih8.getClass();
+                                c26375Bgx4.record_ = c26483Bih8;
+                                c26375Bgx4.bitField0_ |= 2;
+                                AbstractC25329B9x.A1F(builderCreateBuilder9, arrayListA0W2);
+                                bArr3 = c28333CaiANe2.A04;
+                                c1jb.A01 = bArr3;
+                                if (d1n.A01 == C25595BKk.A03) {
+                                    arrayListA0W4.add(bArr3);
+                                    arrayListA0W5.add(bArr2);
+                                }
+                                linkedHashMapA1E.put(c1jb.A03(), bArr2);
+                            }
+                            InterfaceC001500s interfaceC001500s5 = c17430q7.A01.A00;
+                            bArrA0A = ((C17450q9) interfaceC001500s5.get()).A0A(strA12);
+                            zA1U = AbstractC466225p.A1U(c016207r2.A0w(6614) ? 1 : 0);
+                            String[] strArrA03 = AbstractC29737D0g.A02(arrayListA0W3);
+                            C000700h.A06(strArrA03);
+                            mapA0I = ((C14400kw) C05C.A02(c17430q7.A04)).A0I(strA12, strArrA03);
+                            c016207r2.A0w(624);
+                            linkedHashSetA1F = AbstractC465925m.A1F();
+                            List listA1E2 = AbstractC02550Br.A1E(mapA0I.values());
+                            byte[] bArr7 = C17430q7.A0E;
+                            bArrA00 = CPO.A00(AbstractC02550Br.A1A(listA1E2), bArrA0A, bArr7, false);
+                            byte[] bArrA02 = CPO.A00(AbstractC02550Br.A1A(arrayListA0W4), bArrA00, bArr7, true);
+                            if (zA1U) {
+                                bArr4 = bArrA0A;
+                                bArr5 = bArrA00;
+                                size2 = arrayListA0W4.size();
+                                size4 = mapA0I.size() - linkedHashSetA1F.size();
+                                size3 = linkedHashSetA1F.size();
+                            }
+                            if (arrayListA0W2.isEmpty()) {
+                                c0ag.A0f("syncd_empty_patch", AnonymousClass000.A05("name=", strA12, AnonymousClass000.A08()), false);
+                            }
+                            lA02 = ((C17450q9) interfaceC001500s5.get()).A02(strA12);
+                            if (lA02 != null) {
+                                jLongValue = lA02.longValue();
+                            } else {
+                                jLongValue = 0;
+                            }
+                            long j3 = jLongValue + 1;
+                            InterfaceC001500s interfaceC001500s6 = c17430q7.A02.A00;
+                            byte[] bArrADf2 = ((InterfaceC17500qE) interfaceC001500s6.get()).ADf(c28823CkFA04, strA12, bArrA02, j3);
+                            c1z7 = new C1Z7(C0CD.A0G(C0CD.A0J(C31052Dh7.A00(8), AbstractC02550Br.A0h(arrayListA0W3))));
+                            arrayListA0y = null;
+                            if (c1z7.hasNext()) {
+                                next = null;
+                            } else {
+                                next = c1z7.next();
+                                while (c1z7.hasNext()) {
+                                    next = AnonymousClass027.A09((byte[]) next, (byte[]) c1z7.next());
+                                }
+                            }
+                            bArr = (byte[]) next;
+                            if (bArr == null) {
+                                bArr = new byte[0];
+                            }
+                            byte[] bArrADa2 = ((InterfaceC17500qE) interfaceC001500s6.get()).ADa(c28823CkFA04, strA12, bArr, bArrADf2, j3);
+                            jSONArrayOptJSONArray = c016207r2.A0j(27124).optJSONArray("allowlist");
+                            if (jSONArrayOptJSONArray != null) {
+                                length2 = jSONArrayOptJSONArray.length();
+                                arrayListA0y2 = AbstractC81763lf.A0y(length2);
+                                while (i < length2) {
+                                    obj2 = jSONArrayOptJSONArray.get(i);
+                                    if (obj2 != null) {
+                                        throw AbstractC465925m.A17("null cannot be cast to non-null type kotlin.String");
+                                    }
+                                    arrayListA0y2.add(obj2);
+                                }
+                            } else {
+                                arrayListA0y2 = null;
+                            }
+                            jSONArrayOptJSONArray2 = c016207r2.A0j(27126).optJSONArray("allowlist");
+                            if (jSONArrayOptJSONArray2 != null) {
+                                length = jSONArrayOptJSONArray2.length();
+                                arrayListA0y = AbstractC81763lf.A0y(length);
+                                while (i2 < length) {
+                                    obj = jSONArrayOptJSONArray2.get(i2);
+                                    if (obj != null) {
+                                        throw AbstractC465925m.A17("null cannot be cast to non-null type kotlin.String");
+                                    }
+                                    arrayListA0y.add(obj);
+                                }
+                            }
+                            boolean z2 = interfaceC001500s6.get() instanceof C29347Ct1;
+                            c28679ChX = new C28679ChX(strA12, arrayListA0W3, arrayListA0y2, arrayListA0y, bArrA02);
+                            c28679ChX.A0C = arrayListA0W2;
+                            c28679ChX.A06 = null;
+                            c28679ChX.A0J = bArrADf2;
+                            c28679ChX.A0I = bArrADa2;
+                            c28679ChX.A04 = c29612Cxc3;
+                            c28679ChX.A03 = c28823CkFA04.A00;
+                            c28679ChX.A0D = linkedHashMapA14;
+                            c28679ChX.A08 = Long.valueOf(j3);
+                            C08Y c08y2 = c17430q7.A0A;
+                            c28679ChX.A07 = Integer.valueOf(c08y2.Ao1());
+                            c28679ChX.A0E = !c08y2.BJQ();
+                            c28679ChX.A0F = z2;
+                            c28679ChX.A0B = arrayListA0W8;
+                            c28679ChX.A05 = (C17990r1) C05C.A02(c17430q7.A00);
+                            if (zA1U) {
+                                c28679ChX.A0G = bArr4;
+                                c28679ChX.A0H = bArr5;
+                                c28679ChX.A00 = size2;
+                                c28679ChX.A02 = size4;
+                                c28679ChX.A01 = size3;
+                            }
+                            c28408CbvA00 = c28679ChX.A00();
+                            C016207r c016207r4 = c17800qi.A01;
+                            iA0Y = c016207r4.A0Y(14494);
+                            long jA02 = AbstractC465925m.A01(c016207r4, 14495) * 1000;
+                            c26637BlC = c28408CbvA00.A01;
+                            if (c26637BlC != null) {
+                                throw AbstractC465925m.A15("Required value was null.");
+                            }
+                            int serializedSize2 = c26637BlC.getSerializedSize();
+                            if (c28408CbvA00.A05.size() <= iA0Y) {
+                                GeneratedMessageLite.Builder builderCreateBuilder10 = C26153BdK.DEFAULT_INSTANCE.createBuilder();
+                                iterable = c26637BlC.mutations_;
+                                if (iterable == null) {
+                                    iterable = C002401f.A00;
+                                }
+                                Iterable iterable3 = iterable;
+                                c26153BdK = (C26153BdK) AbstractC466425r.A0I(builderCreateBuilder10);
+                                protobufList = c26153BdK.mutations_;
+                                if (!protobufList.isModifiable()) {
+                                    c26153BdK.mutations_ = GeneratedMessageLite.mutableCopy(protobufList);
+                                }
+                                AbstractMessageLite.Builder.addAll(iterable3, (List) c26153BdK.mutations_);
+                                C30572DYg c30572DYg2 = new C30572DYg(c28679ChX, ivv);
+                                C26153BdK c26153BdK3 = (C26153BdK) builderCreateBuilder10.build();
+                                c17800qi.A02.A00(c30572DYg2, c26153BdK3.toByteArray(), c26153BdK3.mutations_.size());
+                            } else {
+                                GeneratedMessageLite.Builder builderCreateBuilder11 = C26153BdK.DEFAULT_INSTANCE.createBuilder();
+                                iterable = c26637BlC.mutations_;
+                                if (iterable == null) {
+                                    iterable = C002401f.A00;
+                                }
+                                Iterable iterable4 = iterable;
+                                c26153BdK = (C26153BdK) AbstractC466425r.A0I(builderCreateBuilder11);
+                                protobufList = c26153BdK.mutations_;
+                                if (!protobufList.isModifiable()) {
+                                    c26153BdK.mutations_ = GeneratedMessageLite.mutableCopy(protobufList);
+                                }
+                                AbstractMessageLite.Builder.addAll(iterable4, (List) c26153BdK.mutations_);
+                                C30572DYg c30572DYg3 = new C30572DYg(c28679ChX, ivv);
+                                C26153BdK c26153BdK4 = (C26153BdK) builderCreateBuilder11.build();
+                                c17800qi.A02.A00(c30572DYg3, c26153BdK4.toByteArray(), c26153BdK4.mutations_.size());
+                            }
+                        } catch (CLD e4) {
+                            e = e4;
+                        }
+                        ivv.A0f(e);
+                    }
+                    arrayListA0W6.add(ivv);
+                }
+                H8E h8e = new H8E(arrayListA0W6);
+                h8e.A0a(new C30176DIv(c30431DSsA00, 12));
+                h8e.A0b(new C30176DIv(c30431DSsA00, 13));
+                return;
+        }
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C2W(ImmutableSet immutableSet, C12890hv c12890hv) {
+        super("SyncManager/onDeviceRemoved");
+        this.A01 = immutableSet;
+        this.A00 = c12890hv;
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C2W(C29159Cpl c29159Cpl, C12890hv c12890hv) {
+        super("SyncManager/CriticalDataUploadManager/startObserver");
+        this.A01 = c29159Cpl;
+        this.A00 = c12890hv;
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C2W(C12890hv c12890hv, java.util.Map map) {
+        super("SyncManager/prepareAndSendRequest");
+        this.A01 = map;
+        this.A00 = c12890hv;
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C2W(C25521BHk c25521BHk, BJC bjc) {
+        super("SyncdUpdateHelper/onLocaleChanged");
+        this.A01 = bjc;
+        this.A00 = c25521BHk;
+    }
+}

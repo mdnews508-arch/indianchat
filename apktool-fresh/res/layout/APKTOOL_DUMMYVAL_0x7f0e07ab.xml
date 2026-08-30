@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070593" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070593">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1215dd" style="@style/APKTOOL_DUMMYVAL_0x7f15023a" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/encryption_key_info_info" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215dc" style="@style/APKTOOL_DUMMYVAL_0x7f150232" />
+            <RelativeLayout android:id="@id/enc_key_background" style="@style/APKTOOL_DUMMYVAL_0x7f150235">
+                <com.whatsapp.ui.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e2" android:id="@id/encryption_key_info_middle_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="false" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+                <FrameLayout android:id="@id/encryption_key_info_encryption_key_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/encryption_key_info_bottom_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215db" style="@style/APKTOOL_DUMMYVAL_0x7f150236" />
+</LinearLayout>

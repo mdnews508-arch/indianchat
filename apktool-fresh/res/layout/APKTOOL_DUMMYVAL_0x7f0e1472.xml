@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSFab android:id="@id/side_rail_fab_second" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12238a" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0402f4" style="@style/APKTOOL_DUMMYVAL_0x7f1505d5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

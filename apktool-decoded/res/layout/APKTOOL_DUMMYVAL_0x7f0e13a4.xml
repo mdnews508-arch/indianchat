@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/typing_indicator_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ti_facepile_holder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/face_pile_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13a2" android:inflatedId="@id/face_pile" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/ti_bubble_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13a3" android:inflatedId="@id/ti_bubble" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f29" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f28" />
+    <ViewStub android:id="@id/ti_bubble_avd_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13a1" android:inflatedId="@id/ti_bubble" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f29" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f28" />
+</LinearLayout>

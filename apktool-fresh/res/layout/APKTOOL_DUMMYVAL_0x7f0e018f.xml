@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="center" android:id="@id/album_item_video_play_frame" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1434" android:inflatedId="@id/album_item_video_play_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center|left|top" android:id="@id/motion_photo_icon_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cec" android:inflatedId="@id/motion_photo_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07042e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07042e" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07042d" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07042d" />
+    <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/album_item_hd_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a9" android:inflatedId="@id/album_item_hd_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" />
+    <View android:id="@id/album_item_bottom_shadow" android:background="@drawable/balloon_media_botshade" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/album_item_date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/album_item_broadcast_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0533" android:inflatedId="@id/album_item_broadcast_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/album_item_date" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/album_item_status" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="19.0dip" android:layout_height="10.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:scaleType="center" />
+    </LinearLayout>
+</merge>

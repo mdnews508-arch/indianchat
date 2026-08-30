@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.areffects.tray.nativeuicontrol.ArEffectsNativeUiPicker android:id="@id/native_picker" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.collections.centeredrecyclerview.CenteredSelectionRecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/native_picker_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+    <View android:layout_gravity="center" android:id="@id/native_picker_selection_ring" android:background="@drawable/ar_effects_native_picker_selection_ring" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700ae" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700ae" android:importantForAccessibility="no" />
+</com.whatsapp.areffects.tray.nativeuicontrol.ArEffectsNativeUiPicker>

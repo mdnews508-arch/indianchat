@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_optin_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/reach_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ab4" android:inflatedId="@id/reach_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/interop_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f121fe2" app:APKTOOL_DUMMYVAL_0x7f04068b="body2" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f12437b" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/vec_ic_power" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/notif_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="@string/APKTOOL_DUMMYVAL_0x7f123547" app:APKTOOL_DUMMYVAL_0x7f04068b="body2" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f12354c" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f0406b1="wds_switch" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/wa_ic_notifications_1" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    </LinearLayout>
+</ScrollView>

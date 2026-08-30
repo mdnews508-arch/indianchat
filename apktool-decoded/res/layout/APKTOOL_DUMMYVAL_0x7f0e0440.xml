@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contact_form_wds_content" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070339" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137a" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/keyboard_aware_save_button" android:layout_below="@id/toolbar">
+        <include android:id="@id/contact_form_fields" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0453" />
+    </androidx.core.widget.NestedScrollView>
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/keyboard_aware_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070336" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070339" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070336" android:text="@string/APKTOOL_DUMMYVAL_0x7f123876" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    <com.indianchat.ui.coreui.CircularProgressBar android:id="@id/keyboard_aware_save_in_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_alignTop="@id/keyboard_aware_save_button" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.components.CircularRevealView android:layout_gravity="center_horizontal" android:id="@id/paper_clip_layout" android:background="@android:color/transparent" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.BoundedLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0703d0" indianchat:APKTOOL_DUMMYVAL_0x7f04096b="?APKTOOL_DUMMYVAL_0x7f040063">
+        <com.indianchat.conversation.ui.ConversationAttachmentContentView android:id="@id/conversation_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.indianchat.ui.coreui.BoundedLinearLayout>
+</com.indianchat.ui.coreui.components.CircularRevealView>

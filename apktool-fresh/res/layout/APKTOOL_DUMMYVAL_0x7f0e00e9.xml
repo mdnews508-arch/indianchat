@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/proactive_message_settings_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/tool_bar" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/pm_control_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/tool_bar" app:APKTOOL_DUMMYVAL_0x7f04068b="body2" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f124d77" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406b1="wds_switch" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/wds_ic_ai_chat" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

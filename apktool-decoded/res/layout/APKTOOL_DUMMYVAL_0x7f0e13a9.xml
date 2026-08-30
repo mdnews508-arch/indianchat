@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/universal_tool_switch_button_container" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f40" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f40" />
+    <View android:id="@id/universal_tool_divider" android:background="@drawable/new_text_entry_divider" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_height="fill_parent" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/universal_tool_recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+</merge>

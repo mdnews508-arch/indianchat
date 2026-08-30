@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/filter_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071145"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_holder" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/view_stub_for_document_info" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e074c" android:inflatedId="@id/inflatedDocumentInfo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070a89" />
+        <com.whatsapp.mediacomposer.doodle.ImagePreviewContentLayout android:layout_gravity="center" android:id="@id/thumb_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124ede" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c22" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0757" />
+    </FrameLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0753" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

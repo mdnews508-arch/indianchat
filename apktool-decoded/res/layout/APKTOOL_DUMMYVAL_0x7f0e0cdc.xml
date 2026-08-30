@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mlquality_feedback_onboarding_bottom_sheet" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="start|center" android:id="@id/feedback_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/feedback_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1242e8" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+        </FrameLayout>
+        <ViewStub android:id="@id/feedback_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040160="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f040161="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" app:APKTOOL_DUMMYVAL_0x7f0407d3="false" />
+        <ViewStub android:id="@id/feedback_additional_feedback_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1390" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/feedback_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1242e5" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:enabled="false" android:id="@id/feedback_submit_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:text="@string/APKTOOL_DUMMYVAL_0x7f1240b6" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

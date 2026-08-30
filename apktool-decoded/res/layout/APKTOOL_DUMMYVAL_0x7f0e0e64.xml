@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d">
+        <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="center|left" android:id="@id/back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124da6" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_arrow_back_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060296" style="?APKTOOL_DUMMYVAL_0x7f040015" />
+        <FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageView android:id="@id/fbpay_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/fbpay_logo" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15063c" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060294" android:gravity="center_horizontal" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218ba" android:textAllCaps="false" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        </FrameLayout>
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center|right" android:id="@id/lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_fbpay_lock_gray" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060296" />
+    </FrameLayout>
+</merge>

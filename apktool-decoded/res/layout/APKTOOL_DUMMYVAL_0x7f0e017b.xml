@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/details_bottom_sheet_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="start" android:id="@id/ai_planner_bottom_sheet_close_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060892" />
+            <com.indianchat.ui.coreui.WaTabLayout android:layout_gravity="center_horizontal" android:id="@id/details_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cc4" app:APKTOOL_DUMMYVAL_0x7f04083b="@drawable/rich_response_details_bottom_sheet_tab_background" app:APKTOOL_DUMMYVAL_0x7f040843="@color/APKTOOL_DUMMYVAL_0x7f060017" app:APKTOOL_DUMMYVAL_0x7f040856="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+        </FrameLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/details_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

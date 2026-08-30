@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.indianchat.ui.coreui.base.WaImageView android:gravity="center_vertical" android:id="@id/booking_reminder_close_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:tint="@color/APKTOOL_DUMMYVAL_0x7f06030f" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/booking_reminder_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123668" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" style="@style/APKTOOL_DUMMYVAL_0x7f150131" />
+    </FrameLayout>
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:gravity="center" android:id="@id/booking_reminder_education" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207b9" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/booking_reminder_preset_options_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/booking_reminder_duration_custom" android:text="@string/APKTOOL_DUMMYVAL_0x7f123674" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" style="@style/APKTOOL_DUMMYVAL_0x7f15012b" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

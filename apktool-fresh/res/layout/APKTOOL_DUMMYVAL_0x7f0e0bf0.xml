@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButtonToggleGroup android:orientation="vertical" android:id="@id/material_clock_period_toggle" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708fb" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708f8" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124f9b" app:APKTOOL_DUMMYVAL_0x7f040148="@id/material_clock_period_am_button" app:APKTOOL_DUMMYVAL_0x7f04073b="true" app:APKTOOL_DUMMYVAL_0x7f0407d5="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/material_clock_period_am_button" android:layout_width="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124fa4" android:insetTop="8.0dip" style="?APKTOOL_DUMMYVAL_0x7f0404ec" />
+    <com.google.android.material.button.MaterialButton android:id="@id/material_clock_period_pm_button" android:layout_width="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124fa5" android:insetBottom="8.0dip" style="?APKTOOL_DUMMYVAL_0x7f0404ec" />
+</com.google.android.material.button.MaterialButtonToggleGroup>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.payments.common.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:APKTOOL_DUMMYVAL_0x7f0401df="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0401e2="0.0dip" />
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/account_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/business_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/business_section_header" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fd8" style="@style/APKTOOL_DUMMYVAL_0x7f15024b" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e85" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073a" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/payment_methods_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/banks_and_cards" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fd2" style="@style/APKTOOL_DUMMYVAL_0x7f15024b" />
+                <ListView android:id="@id/methods_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060746" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0131" />
+            </LinearLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0edd" />
+            <LinearLayout android:orientation="vertical" android:id="@id/pin_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073a" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/title_settings_section" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fd5" style="@style/APKTOOL_DUMMYVAL_0x7f15024b" />
+                    <FrameLayout android:orientation="vertical" android:id="@id/country_specific_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/change_pin" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6c" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6c" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/change_pin_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b7d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b7d" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d5e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_lock" />
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fc5" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fingerprint_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6c" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6c" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/fingerprint_setting_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b7d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b7d" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d5e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/settings_fingerprint_icon" />
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fc7" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+                        <com.indianchat.ui.wds.components.toggle.WDSSwitch android:theme="@style/APKTOOL_DUMMYVAL_0x7f15024c" android:id="@id/toggle_fingerprint" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/account_actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073a" />
+                <LinearLayout android:orientation="vertical" android:id="@id/account_actions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/title_account_actions_section" android:text="@string/APKTOOL_DUMMYVAL_0x7f122fba" style="@style/APKTOOL_DUMMYVAL_0x7f15024b" />
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10c1" />
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10ac" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060295" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:text="@string/APKTOOL_DUMMYVAL_0x7f1234c4" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

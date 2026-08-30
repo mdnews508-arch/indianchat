@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ee" android:linksClickable="false" android:id="@id/transcription_text_view" android:focusable="true" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body1" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/transcription_expand_icon_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c7f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f0e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070f10" />
+</merge>

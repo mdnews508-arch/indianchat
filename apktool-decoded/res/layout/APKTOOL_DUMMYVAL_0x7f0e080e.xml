@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.actiontile.WDSActionTileGroup android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.actiontile.WDSActionTile android:icon="@drawable/vec_ic_chat" android:id="@id/non_wa_invitee_action_sms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:text="@string/APKTOOL_DUMMYVAL_0x7f1217de" android:layout_weight="1.0" />
+    <com.indianchat.ui.wds.components.actiontile.WDSActionTile android:icon="@drawable/ic_call_white" android:id="@id/non_wa_invitee_action_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:text="@string/APKTOOL_DUMMYVAL_0x7f1217dd" android:layout_weight="1.0" />
+</com.indianchat.ui.wds.components.actiontile.WDSActionTileGroup>

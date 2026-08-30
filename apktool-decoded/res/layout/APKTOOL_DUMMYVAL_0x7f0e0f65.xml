@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/poll_option_check_box" android:inflatedId="@id/poll_option_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.coreui.WaEditText android:textColorHint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/poll_option_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionNext" android:importantForAccessibility="yes" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04028f="outline" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+                <ViewStub android:id="@id/poll_option_text_area_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f6c" android:inflatedId="@id/poll_option_text_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+                <ViewStub android:layout_gravity="end|center" android:id="@id/poll_option_media_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f64" android:inflatedId="@id/poll_option_media_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <ViewStub android:id="@id/duplicated_option" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f5f" android:inflatedId="@id/duplicated_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071149" />
+        <ViewStub android:id="@id/max_option_text_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f62" android:inflatedId="@id/max_option_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071149" />
+    </LinearLayout>
+    <ViewStub android:id="@id/poll_option_media" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f63" android:inflatedId="@id/poll_option_media" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bb3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bb3" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+    <ViewStub android:id="@id/poll_option_handle" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f60" android:inflatedId="@id/poll_option_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_wa_background" />
+    <foreground>
+        <inset android:drawable="@mipmap/ic_wa_foreground" android:inset="0.99999905%" />
+    </foreground>
+    <monochrome android:drawable="@drawable/vec_ic_wa_monochrome" />
+</adaptive-icon>

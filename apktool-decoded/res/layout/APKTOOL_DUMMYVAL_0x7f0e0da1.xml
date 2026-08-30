@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0401e3="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f040817="?APKTOOL_DUMMYVAL_0x7f040a06" app:APKTOOL_DUMMYVAL_0x7f040818="1.0sp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/chat_bubble_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="start" android:id="@id/newsletter_violation_category_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                <com.indianchat.ui.wds.components.button.WDSButtonGroup android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407d1="2">
+                    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/newsletter_delete_message_btn" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122713" app:APKTOOL_DUMMYVAL_0x7f040009="destructive" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+                    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/newsletter_see_options_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227f7" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+                </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

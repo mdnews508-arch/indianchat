@@ -1,0 +1,25 @@
+.class public LX/GfT;
+.super Landroid/widget/ArrayAdapter;
+.source ""
+
+
+# virtual methods
+.method public getItemId(I)J
+    .locals 2
+
+    .line 0
+    int-to-long v0, p1
+
+    .line 1
+    return-wide v0
+.end method
+
+.method public hasStableIds()Z
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x1
+
+    .line 1
+    return v0
+.end method

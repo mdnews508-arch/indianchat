@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/document_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070410">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/document_info_container" android:background="?APKTOOL_DUMMYVAL_0x7f0409f6" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.coreui.base.WaImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_file_unknown" android:scaleType="fitCenter" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="15.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12126f" android:maxLines="@null" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.indianchat.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07016a" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07016a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070168" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+            <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505db" />
+            </LinearLayout>
+        </com.indianchat.ui.coreui.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+package X;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final class G8A implements InterfaceC146726cS {
+    @Override // X.InterfaceC146726cS
+    public String BOj() {
+        return "whatsapp_user_is_youth_linked";
+    }
+
+    @Override // X.InterfaceC146726cS
+    public InterfaceC001400r Cdo() {
+        return GB7.A00(27);
+    }
+}

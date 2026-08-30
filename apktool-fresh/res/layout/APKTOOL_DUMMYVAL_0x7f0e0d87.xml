@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/invite_followers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122695" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_person_add" app:APKTOOL_DUMMYVAL_0x7f040923="outline" app:APKTOOL_DUMMYVAL_0x7f0409a3="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

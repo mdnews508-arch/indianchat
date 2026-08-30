@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/good_feedback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:src="@drawable/vec_ic_thumb_up" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1237cf" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bad_feedback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:src="@drawable/vec_ic_thumb_down" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1237ce" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+</LinearLayout>

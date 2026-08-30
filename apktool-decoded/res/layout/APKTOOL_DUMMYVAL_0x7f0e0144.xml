@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/ar_duration_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04026d="visible" app:APKTOOL_DUMMYVAL_0x7f040585="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f040586="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c9="true" style="@style/APKTOOL_DUMMYVAL_0x7f150639" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/ar_duration_subtitle" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:text="@string/APKTOOL_DUMMYVAL_0x7f121633" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <RadioGroup android:orientation="vertical" android:id="@id/ar_duration_radio_group" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</LinearLayout>

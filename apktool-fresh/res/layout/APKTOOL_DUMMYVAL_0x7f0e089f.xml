@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.settings.SettingsRowIconText android:id="@id/settings_turn_off" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="@color/APKTOOL_DUMMYVAL_0x7f060731" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/vec_ic_highlight_off" app:APKTOOL_DUMMYVAL_0x7f040769="@string/APKTOOL_DUMMYVAL_0x7f123c4b" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f12436e" style="@style/APKTOOL_DUMMYVAL_0x7f1503bf" />
+        <com.whatsapp.settings.SettingsRowIconText android:id="@id/settings_allowed_apps" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="@color/APKTOOL_DUMMYVAL_0x7f060731" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/vec_ic_phone_android" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f123af4" style="@style/APKTOOL_DUMMYVAL_0x7f1503bf" />
+        <com.whatsapp.settings.SettingsRowIconText android:id="@id/settings_unified_inbox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="@color/APKTOOL_DUMMYVAL_0x7f060731" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/vec_ic_unified_inbox" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f123af8" style="@style/APKTOOL_DUMMYVAL_0x7f1503bf" />
+        <com.whatsapp.settings.SettingsRowIconText android:id="@id/groups_privacy_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="@color/APKTOOL_DUMMYVAL_0x7f060731" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/ic_group" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f123b6e" style="@style/APKTOOL_DUMMYVAL_0x7f1503bf" />
+    </LinearLayout>
+</ScrollView>

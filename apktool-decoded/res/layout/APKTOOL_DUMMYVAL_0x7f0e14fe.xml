@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.metaai.ui.asset.MetaAiRingImageView android:layout_gravity="center" android:id="@id/voice_setting_static_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" app:APKTOOL_DUMMYVAL_0x7f04053c="meta_ai_ring" />
+</FrameLayout>

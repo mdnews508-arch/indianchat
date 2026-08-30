@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.bottomsheet.WDSBottomSheetHandleView android:layout_gravity="center_horizontal" android:id="@id/wds_bottom_sheet_handle_view" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07103c" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wds_bottom_sheet_handle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

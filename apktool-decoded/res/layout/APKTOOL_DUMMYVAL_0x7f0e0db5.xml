@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/invite_followers_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/invite_followers_icon" android:background="@drawable/primary_light_circle_background" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_person_add_filled" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" style="@style/APKTOOL_DUMMYVAL_0x7f1502bd" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/invite_followers_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122013" android:layout_toRightOf="@id/invite_followers_icon" android:layout_centerVertical="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+</RelativeLayout>

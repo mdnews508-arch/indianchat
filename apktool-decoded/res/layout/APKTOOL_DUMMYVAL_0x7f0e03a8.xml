@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_restriction_loading" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.progressindicator.WDSCircularProgressView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071097" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071097" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124ded" app:APKTOOL_DUMMYVAL_0x7f0403e7="true" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/contact_info_about_and_phone_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_info_about_and_phone_v2_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/list_phone_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_call" />
+        <com.indianchat.ui.coreui.ListItemWithLeftIcon android:id="@id/list_about_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wds_ic_sticky_note_2" />
+        <ViewStub android:id="@id/list_birthday_item_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0459" android:inflatedId="@id/list_birthday_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.InfoCard>

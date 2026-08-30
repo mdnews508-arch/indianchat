@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bill_summary_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bill_details" android:background="@color/APKTOOL_DUMMYVAL_0x7f0600e9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/bill_summary_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+    <View android:id="@id/shadow_top" android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <include android:id="@id/bill_summary_total_amount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f1c" />
+    <LinearLayout android:id="@id/continue_button_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07011e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07011e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07011e">
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/continue_button" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f1205ea" android:maxLines="1" style="@style/APKTOOL_DUMMYVAL_0x7f1505cc" />
+    </LinearLayout>
+    <include android:id="@id/bbps_branding_footer" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070709" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0210" />
+</LinearLayout>

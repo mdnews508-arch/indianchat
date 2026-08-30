@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07067d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07067d" android:stateListAnimator="@null" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f070676" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0401e3="0.0dip" app:APKTOOL_DUMMYVAL_0x7f040817="@color/APKTOOL_DUMMYVAL_0x7f0602b5" app:APKTOOL_DUMMYVAL_0x7f040818="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.gallery.ui.RotatableThumbnailImageView android:id="@id/selected_media_item_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</com.google.android.material.card.MaterialCardView>

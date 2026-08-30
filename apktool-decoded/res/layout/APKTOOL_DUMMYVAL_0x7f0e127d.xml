@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070e11"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/views_pill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1287" />
+    <FrameLayout android:id="@id/ad_creation_button" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040455="@id/share_button" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1503fd">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/ad_creation_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_campaign" app:APKTOOL_DUMMYVAL_0x7f0408c4="@android:color/white" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/share_button" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1503fd">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_share" app:APKTOOL_DUMMYVAL_0x7f0408c4="@android:color/white" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

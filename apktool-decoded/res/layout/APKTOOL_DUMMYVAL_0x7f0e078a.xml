@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.emoji.EmojiContainerView android:layout_gravity="center" android:id="@id/emoji_preview_container" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07058a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07058a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/emoji" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070588" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070588" android:scaleType="centerCrop" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e8d" />
+</com.indianchat.emoji.EmojiContainerView>

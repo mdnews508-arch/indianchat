@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/error_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1206a5" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/load_categories_btn" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0704fc" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0704fc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0704fc" android:text="@string/APKTOOL_DUMMYVAL_0x7f1206fe" app:APKTOOL_DUMMYVAL_0x7f04086f="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f15015c" />
+</LinearLayout>

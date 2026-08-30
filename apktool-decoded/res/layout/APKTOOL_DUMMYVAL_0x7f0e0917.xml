@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/google_mode_categories" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_category" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+    <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/google_mode_description" android:visibility="gone" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ac3" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_store" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+</LinearLayout>

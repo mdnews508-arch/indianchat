@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e065c" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e135a" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0aa9" />
+        <View android:id="@id/button_div" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+        <com.indianchat.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveMessageButton android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

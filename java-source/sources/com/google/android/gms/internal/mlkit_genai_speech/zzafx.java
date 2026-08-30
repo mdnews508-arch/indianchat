@@ -1,0 +1,245 @@
+package com.google.android.gms.internal.mlkit_genai_speech;
+
+import X.AbstractC81803lj;
+import X.AbstractC81823ll;
+import X.J27;
+import X.J2A;
+import X.J2B;
+import X.J2C;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: loaded from: classes10.dex */
+public final class zzafx {
+    public static final zzafx zzA;
+    public static final zzafx zzB;
+    public static final zzafx zzC;
+    public static final zzafx zzD;
+    public static final zzafx zzE;
+    public static final zzafx zzF;
+    public static final zzafx zzG;
+    public static final zzafx zzH;
+    public static final zzafx zzI;
+    public static final zzafx zzJ;
+    public static final zzafx zzK;
+    public static final zzafx zzL;
+    public static final zzafx zzM;
+    public static final zzafx zzN;
+    public static final zzafx zzO;
+    public static final zzafx zzP;
+    public static final zzafx zzQ;
+    public static final zzafx zzR;
+    public static final zzafx zzS;
+    public static final zzafx zzT;
+    public static final zzafx zzU;
+    public static final zzafx zzV;
+    public static final zzafx zzW;
+    public static final zzafx zzX;
+    public static final zzafx zzY;
+    public static final zzafx[] zzZ;
+    public static final zzafx zza;
+    public static final /* synthetic */ zzafx[] zzaa;
+    public static final zzafx zzb;
+    public static final zzafx zzc;
+    public static final zzafx zzd;
+    public static final zzafx zze;
+    public static final zzafx zzf;
+    public static final zzafx zzg;
+    public static final zzafx zzh;
+    public static final zzafx zzi;
+    public static final zzafx zzj;
+    public static final zzafx zzk;
+    public static final zzafx zzl;
+    public static final zzafx zzm;
+    public static final zzafx zzn;
+    public static final zzafx zzo;
+    public static final zzafx zzp;
+    public static final zzafx zzq;
+    public static final zzafx zzr;
+    public static final zzafx zzs;
+    public static final zzafx zzt;
+    public static final zzafx zzu;
+    public static final zzafx zzv;
+    public static final zzafx zzw;
+    public static final zzafx zzx;
+    public static final zzafx zzy;
+    public static final zzafx zzz;
+    public final int zzab;
+
+    static {
+        zzags zzagsVar = zzags.zze;
+        zzafx zzafxVarA0J = J27.A0J(zzagsVar, "DOUBLE", 0, 1);
+        zza = zzafxVarA0J;
+        zzags zzagsVar2 = zzags.zzd;
+        zzafx zzafxVar = new zzafx("FLOAT", 1, 1, 1, zzagsVar2);
+        zzb = zzafxVar;
+        zzags zzagsVar3 = zzags.zzc;
+        zzafx zzafxVarA0J2 = J27.A0J(zzagsVar3, "INT64", 2, 1);
+        zzc = zzafxVarA0J2;
+        zzafx zzafxVarA0J3 = J27.A0J(zzagsVar3, "UINT64", 3, 1);
+        zzd = zzafxVarA0J3;
+        zzags zzagsVar4 = zzags.zzb;
+        zzafx zzafxVarA0J4 = J27.A0J(zzagsVar4, "INT32", 4, 1);
+        zze = zzafxVarA0J4;
+        zzafx zzafxVarA0J5 = J27.A0J(zzagsVar3, "FIXED64", 5, 1);
+        zzf = zzafxVarA0J5;
+        zzafx zzafxVarA0J6 = J27.A0J(zzagsVar4, "FIXED32", 6, 1);
+        zzg = zzafxVarA0J6;
+        zzags zzagsVar5 = zzags.zzf;
+        zzafx zzafxVarA0J7 = J27.A0J(zzagsVar5, "BOOL", 7, 1);
+        zzh = zzafxVarA0J7;
+        zzags zzagsVar6 = zzags.zzg;
+        zzafx zzafxVarA0J8 = J27.A0J(zzagsVar6, "STRING", 8, 1);
+        zzi = zzafxVarA0J8;
+        zzags zzagsVar7 = zzags.zzj;
+        zzafx zzafxVarA0J9 = J27.A0J(zzagsVar7, "MESSAGE", 9, 1);
+        zzj = zzafxVarA0J9;
+        zzags zzagsVar8 = zzags.zzh;
+        zzafx zzafxVarA0J10 = J27.A0J(zzagsVar8, "BYTES", 10, 1);
+        zzk = zzafxVarA0J10;
+        zzafx zzafxVarA0J11 = J27.A0J(zzagsVar4, "UINT32", 11, 1);
+        zzl = zzafxVarA0J11;
+        zzags zzagsVar9 = zzags.zzi;
+        zzafx zzafxVarA0J12 = J27.A0J(zzagsVar9, "ENUM", 12, 1);
+        zzm = zzafxVarA0J12;
+        zzafx zzafxVarA0J13 = J27.A0J(zzagsVar4, "SFIXED32", 13, 1);
+        zzn = zzafxVarA0J13;
+        zzafx zzafxVarA0J14 = J27.A0J(zzagsVar3, "SFIXED64", 14, 1);
+        zzo = zzafxVarA0J14;
+        zzafx zzafxVarA0J15 = J27.A0J(zzagsVar4, "SINT32", 15, 1);
+        zzp = zzafxVarA0J15;
+        zzafx zzafxVarA0J16 = J27.A0J(zzagsVar3, "SINT64", 16, 1);
+        zzq = zzafxVarA0J16;
+        zzafx zzafxVarA0J17 = J27.A0J(zzagsVar7, "GROUP", 17, 1);
+        zzr = zzafxVarA0J17;
+        zzafx zzafxVarA0J18 = J27.A0J(zzagsVar, "DOUBLE_LIST", 18, 2);
+        zzs = zzafxVarA0J18;
+        zzafx zzafxVarA0J19 = J27.A0J(zzagsVar2, "FLOAT_LIST", 19, 2);
+        zzt = zzafxVarA0J19;
+        zzafx zzafxVarA0J20 = J27.A0J(zzagsVar3, "INT64_LIST", 20, 2);
+        zzu = zzafxVarA0J20;
+        zzafx zzafxVarA0J21 = J27.A0J(zzagsVar3, "UINT64_LIST", 21, 2);
+        zzv = zzafxVarA0J21;
+        zzafx zzafxVarA0J22 = J27.A0J(zzagsVar4, "INT32_LIST", 22, 2);
+        zzw = zzafxVarA0J22;
+        zzafx zzafxVarA0J23 = J27.A0J(zzagsVar3, "FIXED64_LIST", 23, 2);
+        zzx = zzafxVarA0J23;
+        zzafx zzafxVarA0J24 = J27.A0J(zzagsVar4, "FIXED32_LIST", 24, 2);
+        zzy = zzafxVarA0J24;
+        zzafx zzafxVarA0J25 = J27.A0J(zzagsVar5, "BOOL_LIST", 25, 2);
+        zzz = zzafxVarA0J25;
+        zzafx zzafxVarA0J26 = J27.A0J(zzagsVar6, "STRING_LIST", 26, 2);
+        zzA = zzafxVarA0J26;
+        zzafx zzafxVarA0J27 = J27.A0J(zzagsVar7, "MESSAGE_LIST", 27, 2);
+        zzB = zzafxVarA0J27;
+        zzafx zzafxVarA0J28 = J27.A0J(zzagsVar8, "BYTES_LIST", 28, 2);
+        zzC = zzafxVarA0J28;
+        zzafx zzafxVarA0J29 = J27.A0J(zzagsVar4, "UINT32_LIST", 29, 2);
+        zzD = zzafxVarA0J29;
+        zzafx zzafxVarA0J30 = J27.A0J(zzagsVar9, "ENUM_LIST", 30, 2);
+        zzE = zzafxVarA0J30;
+        zzafx zzafxVarA0J31 = J27.A0J(zzagsVar4, "SFIXED32_LIST", 31, 2);
+        zzF = zzafxVarA0J31;
+        zzafx zzafxVarA0J32 = J27.A0J(zzagsVar3, "SFIXED64_LIST", 32, 2);
+        zzG = zzafxVarA0J32;
+        zzafx zzafxVarA0J33 = J27.A0J(zzagsVar4, "SINT32_LIST", 33, 2);
+        zzH = zzafxVarA0J33;
+        zzafx zzafxVarA0J34 = J27.A0J(zzagsVar3, "SINT64_LIST", 34, 2);
+        zzI = zzafxVarA0J34;
+        zzafx zzafxVarA0J35 = J27.A0J(zzagsVar, "DOUBLE_LIST_PACKED", 35, 3);
+        zzJ = zzafxVarA0J35;
+        zzafx zzafxVarA0J36 = J27.A0J(zzagsVar2, "FLOAT_LIST_PACKED", 36, 3);
+        zzK = zzafxVarA0J36;
+        zzafx zzafxVarA0J37 = J27.A0J(zzagsVar3, "INT64_LIST_PACKED", 37, 3);
+        zzL = zzafxVarA0J37;
+        zzafx zzafxVarA0J38 = J27.A0J(zzagsVar3, "UINT64_LIST_PACKED", 38, 3);
+        zzM = zzafxVarA0J38;
+        zzafx zzafxVarA0J39 = J27.A0J(zzagsVar4, "INT32_LIST_PACKED", 39, 3);
+        zzN = zzafxVarA0J39;
+        zzafx zzafxVarA0J40 = J27.A0J(zzagsVar3, "FIXED64_LIST_PACKED", 40, 3);
+        zzO = zzafxVarA0J40;
+        zzafx zzafxVarA0J41 = J27.A0J(zzagsVar4, "FIXED32_LIST_PACKED", 41, 3);
+        zzP = zzafxVarA0J41;
+        zzafx zzafxVarA0J42 = J27.A0J(zzagsVar5, "BOOL_LIST_PACKED", 42, 3);
+        zzQ = zzafxVarA0J42;
+        zzafx zzafxVarA0J43 = J27.A0J(zzagsVar4, "UINT32_LIST_PACKED", 43, 3);
+        zzR = zzafxVarA0J43;
+        zzafx zzafxVarA0J44 = J27.A0J(zzagsVar9, "ENUM_LIST_PACKED", 44, 3);
+        zzS = zzafxVarA0J44;
+        zzafx zzafxVarA0J45 = J27.A0J(zzagsVar4, "SFIXED32_LIST_PACKED", 45, 3);
+        zzT = zzafxVarA0J45;
+        zzafx zzafxVarA0J46 = J27.A0J(zzagsVar3, "SFIXED64_LIST_PACKED", 46, 3);
+        zzU = zzafxVarA0J46;
+        zzafx zzafxVarA0J47 = J27.A0J(zzagsVar4, "SINT32_LIST_PACKED", 47, 3);
+        zzV = zzafxVarA0J47;
+        zzafx zzafxVarA0J48 = J27.A0J(zzagsVar3, "SINT64_LIST_PACKED", 48, 3);
+        zzW = zzafxVarA0J48;
+        zzafx zzafxVarA0J49 = J27.A0J(zzagsVar7, "GROUP_LIST", 49, 2);
+        zzX = zzafxVarA0J49;
+        zzafx zzafxVarA0J50 = J27.A0J(zzags.zza, "MAP", 50, 4);
+        zzY = zzafxVarA0J50;
+        zzafx[] zzafxVarArr = new zzafx[51];
+        zzafxVarArr[0] = zzafxVarA0J;
+        zzafxVarArr[1] = zzafxVar;
+        zzafxVarArr[2] = zzafxVarA0J2;
+        zzafxVarArr[3] = zzafxVarA0J3;
+        zzafxVarArr[4] = zzafxVarA0J4;
+        zzafxVarArr[5] = zzafxVarA0J5;
+        zzafxVarArr[6] = zzafxVarA0J6;
+        zzafxVarArr[7] = zzafxVarA0J7;
+        zzafxVarArr[8] = zzafxVarA0J8;
+        zzafxVarArr[9] = zzafxVarA0J9;
+        zzafxVarArr[10] = zzafxVarA0J10;
+        J2A.A1D(zzafxVarA0J11, zzafxVarA0J12, zzafxVarA0J13, zzafxVarArr);
+        AbstractC81823ll.A1S(zzafxVarA0J14, zzafxVarA0J15, zzafxVarA0J16, zzafxVarArr);
+        J2A.A1E(zzafxVarA0J17, zzafxVarA0J18, zzafxVarA0J19, zzafxVarArr);
+        zzafxVarArr[20] = zzafxVarA0J20;
+        zzafxVarArr[21] = zzafxVarA0J21;
+        zzafxVarArr[22] = zzafxVarA0J22;
+        zzafxVarArr[23] = zzafxVarA0J23;
+        zzafxVarArr[24] = zzafxVarA0J24;
+        zzafxVarArr[25] = zzafxVarA0J25;
+        zzafxVarArr[26] = zzafxVarA0J26;
+        zzafxVarArr[27] = zzafxVarA0J27;
+        zzafxVarArr[28] = zzafxVarA0J28;
+        AbstractC81803lj.A1L(zzafxVarA0J29, zzafxVarA0J30, zzafxVarArr);
+        zzafxVarArr[31] = zzafxVarA0J31;
+        zzafxVarArr[32] = zzafxVarA0J32;
+        zzafxVarArr[33] = zzafxVarA0J33;
+        zzafxVarArr[34] = zzafxVarA0J34;
+        zzafxVarArr[35] = zzafxVarA0J35;
+        J2B.A1I(zzafxVarA0J36, zzafxVarA0J37, zzafxVarA0J38, zzafxVarArr);
+        zzafxVarArr[39] = zzafxVarA0J39;
+        zzafxVarArr[40] = zzafxVarA0J40;
+        zzafxVarArr[41] = zzafxVarA0J41;
+        zzafxVarArr[42] = zzafxVarA0J42;
+        J2C.A1G(zzafxVarA0J43, zzafxVarA0J44, zzafxVarA0J45, zzafxVarA0J46, zzafxVarArr);
+        zzafxVarArr[47] = zzafxVarA0J47;
+        zzafxVarArr[48] = zzafxVarA0J48;
+        zzafxVarArr[49] = zzafxVarA0J49;
+        zzafxVarArr[50] = zzafxVarA0J50;
+        zzaa = zzafxVarArr;
+        zzafx[] zzafxVarArrValues = values();
+        zzafx[] zzafxVarArr2 = new zzafx[zzafxVarArrValues.length];
+        zzZ = zzafxVarArr2;
+        for (zzafx zzafxVar2 : zzafxVarArrValues) {
+            zzafxVarArr2[zzafxVar2.zzab] = zzafxVar2;
+        }
+    }
+
+    public static zzafx[] values() {
+        return (zzafx[]) zzaa.clone();
+    }
+
+    public final int zza() {
+        return this.zzab;
+    }
+
+    public zzafx(String str, int i, int i2, int i3, zzags zzagsVar) {
+        super(str, i);
+        this.zzab = i2;
+        if (i3 == 1) {
+            zzags zzagsVar2 = zzags.zza;
+        }
+    }
+}

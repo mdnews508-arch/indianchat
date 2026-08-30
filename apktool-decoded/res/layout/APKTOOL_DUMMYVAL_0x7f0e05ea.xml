@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.WaFrameLayout android:id="@id/order_message_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f4">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/order_via_catalog_header" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05e6" android:inflatedId="@id/order_via_catalog_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070b0f">
+                <FrameLayout android:id="@id/thumb_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/thumb" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707b0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707ae" android:scaleType="centerCrop" />
+                    <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/progress" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="true" app:APKTOOL_DUMMYVAL_0x7f04021b="@color/APKTOOL_DUMMYVAL_0x7f060746" app:APKTOOL_DUMMYVAL_0x7f04021c="@color/APKTOOL_DUMMYVAL_0x7f0604fe" app:APKTOOL_DUMMYVAL_0x7f04021d="@color/APKTOOL_DUMMYVAL_0x7f060746" app:APKTOOL_DUMMYVAL_0x7f04021e="@color/APKTOOL_DUMMYVAL_0x7f0604ff" app:APKTOOL_DUMMYVAL_0x7f04021f="1.0dip" app:APKTOOL_DUMMYVAL_0x7f040220="10.0" />
+                </FrameLayout>
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="left" android:layout_gravity="left" android:id="@id/order_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/order_icon" android:lineSpacingMultiplier="1.08" />
+                    <com.indianchat.ui.coreui.base.WaImageView android:gravity="center" android:id="@id/order_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_alignTop="@id/order_title" android:layout_alignBottom="@id/order_title" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_shopping_cart_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040727" android:ellipsize="end" android:gravity="center" android:id="@id/order_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_marginTop="3.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/order_title" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body2" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.indianchat.ui.coreui.WaFrameLayout>
+</merge>

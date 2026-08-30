@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07049a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07049a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070499" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070499" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0700c0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0700c0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/active_indicator" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01c3" android:inflatedId="@id/active_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700be" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700be" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0700bd" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150209" />
+</LinearLayout>

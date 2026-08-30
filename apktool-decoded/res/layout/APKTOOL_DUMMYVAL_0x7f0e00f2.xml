@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rich_order_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rich_order_recyclerview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/view_order_button_container" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.button.WDSButton android:gravity="center" android:id="@id/view_order_button" android:layout_width="fill_parent" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_open_in_new" indianchat:APKTOOL_DUMMYVAL_0x7f040923="filled" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rich_order_loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/rich_order_loading_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061d" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:gravity="center" android:id="@id/rich_order_loading_textview" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12382b" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" />
+    </LinearLayout>
+</FrameLayout>

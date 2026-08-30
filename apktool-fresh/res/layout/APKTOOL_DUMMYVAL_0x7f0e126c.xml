@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/status_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/status_unavailable" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12bf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/title_protection" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    <include android:id="@id/header" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e126d" />
+    <ViewStub android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/action_link_button_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e129d" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005b" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07005c" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07005c" />
+    <ViewStub android:id="@id/status_playback_accessibility_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1265" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

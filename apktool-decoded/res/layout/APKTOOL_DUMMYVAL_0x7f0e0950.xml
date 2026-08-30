@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/avatar" style="@style/APKTOOL_DUMMYVAL_0x7f1501d0" />
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+                    <ViewStub android:id="@id/pending_invites_subtitle_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f2b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/invite_label" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f121d0e" style="@style/APKTOOL_DUMMYVAL_0x7f15027b" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/invite_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123660" indianchat:APKTOOL_DUMMYVAL_0x7f040009="normal" indianchat:APKTOOL_DUMMYVAL_0x7f040923="borderless" indianchat:APKTOOL_DUMMYVAL_0x7f0409a3="normal" />
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/group_participant_picker_push_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:gravity="left" android:layout_gravity="left" android:id="@id/status" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f1502c1" />
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150448" android:id="@id/push_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

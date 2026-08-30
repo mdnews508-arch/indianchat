@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center|left" android:id="@id/conversation_row_reminder_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_notifications" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0402f4" android:layout_gravity="center|left" android:id="@id/reminder_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0703f1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body2" />
+    </LinearLayout>
+</LinearLayout>

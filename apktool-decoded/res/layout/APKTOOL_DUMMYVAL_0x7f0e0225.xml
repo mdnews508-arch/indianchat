@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ripple_with_settings_background" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07070c"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_currency_symbol_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:src="@drawable/wds_ic_currency_rupee" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a2b" android:maxLines="2" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+</LinearLayout>

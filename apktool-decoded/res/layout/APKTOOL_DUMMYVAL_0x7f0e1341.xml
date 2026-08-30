@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/survey_conversation_banner" android:background="?APKTOOL_DUMMYVAL_0x7f04013e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/survey_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:text="@string/APKTOOL_DUMMYVAL_0x7f1240de" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:elevation="4.0dip">
+        <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="right" android:id="@id/survey_conversation_banner_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f1240dc" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="right" android:id="@id/survey_conversation_banner_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f1240dd" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" />
+    </LinearLayout>
+</LinearLayout>

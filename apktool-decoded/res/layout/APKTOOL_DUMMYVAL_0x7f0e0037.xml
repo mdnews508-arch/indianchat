@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/action_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1440" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/rate_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1469" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</merge>

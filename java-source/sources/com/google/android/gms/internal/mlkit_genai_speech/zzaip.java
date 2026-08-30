@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.mlkit_genai_speech;
+
+import X.J2A;
+import java.lang.reflect.Field;
+import java.security.PrivilegedExceptionAction;
+import sun.misc.Unsafe;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class zzaip implements PrivilegedExceptionAction {
+    @Override // java.security.PrivilegedExceptionAction
+    public final /* bridge */ /* synthetic */ Object run() {
+        Field[] declaredFields = Unsafe.class.getDeclaredFields();
+        int length = declaredFields.length;
+        for (int i = 0; i < length; i++) {
+            Object objA0e = J2A.A0e(declaredFields, i);
+            if (Unsafe.class.isInstance(objA0e)) {
+                return Unsafe.class.cast(objA0e);
+            }
+        }
+        return null;
+    }
+}

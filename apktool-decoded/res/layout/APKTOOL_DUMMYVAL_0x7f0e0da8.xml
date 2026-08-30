@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/newsletter_followers_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+    <LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" style="@style/APKTOOL_DUMMYVAL_0x7f150253">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_followers_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150257" />
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/newsletter_followers_search" android:background="?APKTOOL_DUMMYVAL_0x7f04000b" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="-12.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f123943" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_search_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+    </LinearLayout>
+    <ViewStub android:id="@id/invite_followers_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0db5" android:inflatedId="@id/newsletter_info_invite_followers_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/invite_admins_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/invite_admins_icon" android:background="@drawable/primary_light_circle_background" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_add_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" style="@style/APKTOOL_DUMMYVAL_0x7f1502bd" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/invite_admins_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122004" android:layout_toRightOf="@id/invite_admins_icon" android:layout_centerVertical="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </RelativeLayout>
+    <com.indianchat.group.ui.components.InviteViaLinkView android:id="@id/newsletter_invite_via_link_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5" />
+</LinearLayout>

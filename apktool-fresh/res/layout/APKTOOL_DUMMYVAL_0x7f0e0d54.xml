@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout android:gravity="center_horizontal" android:id="@id/mute_bottom_sheet_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040256="@string/APKTOOL_DUMMYVAL_0x7f1250ef" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f1250ee" app:APKTOOL_DUMMYVAL_0x7f040443="view" />
+            <RadioGroup android:id="@id/mute_duration_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/mute_duration_eight_hours" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/mute_duration_one_week" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/mute_duration_always" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RadioGroup>
+            <View android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/mute_mention_everyone_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1225e8" style="@style/APKTOOL_DUMMYVAL_0x7f150426" />
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/mute_mention_everyone_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1225e9" style="@style/APKTOOL_DUMMYVAL_0x7f150426" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch android:id="@id/mute_mention_everyone_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409d7="vertical">
+            <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/mute_done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1229c2" />
+            <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/mute_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124ddc" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+    </FrameLayout>
+</LinearLayout>

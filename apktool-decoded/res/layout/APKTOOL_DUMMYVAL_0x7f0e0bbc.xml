@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ee" android:ellipsize="start" android:id="@id/location_host_view" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

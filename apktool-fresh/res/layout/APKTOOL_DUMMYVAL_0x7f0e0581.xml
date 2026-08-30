@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f07063d" android:minHeight="20.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/flow_response_bg" android:background="@drawable/conversation_row_flows_termination_message_v2_bubble_background" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07063e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f0701e2" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07063e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dcc">
+            <FrameLayout android:id="@id/flow_response_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040455="@id/flow_response_title_subtitle_layout" app:APKTOOL_DUMMYVAL_0x7f04045e="packed" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <View android:id="@id/flow_response_icon_circular_bg" android:background="@drawable/bubble_circle_outgoing" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0701e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701e7" />
+                <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/flow_response_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07063f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07063f" android:scaleType="centerInside" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0602a4" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/flow_response_title_subtitle_layout" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" app:APKTOOL_DUMMYVAL_0x7f04044a="true" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040455="@id/flow_response_status_layout" app:APKTOOL_DUMMYVAL_0x7f040466="@id/flow_response_icon_layout" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0602a7" android:ellipsize="end" android:id="@id/flow_response_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textStyle="normal" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0602a5" android:ellipsize="end" android:id="@id/flow_response_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/flow_response_status_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040466="@id/flow_response_title_subtitle_layout">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055e" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/flow_response_button_divider" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0701e2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0701e2" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060894" android:gravity="center" android:id="@id/flow_response_view_response" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121993" />
+    </LinearLayout>
+</merge>

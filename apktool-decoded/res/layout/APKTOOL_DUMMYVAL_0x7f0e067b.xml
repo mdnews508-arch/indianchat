@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="start|center" android:id="@id/conversations_filter_start_fade_gradient" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07047b" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <View android:layout_gravity="end|center" android:id="@id/conversations_filter_fade_gradient" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07047b" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <FrameLayout android:layout_gravity="end|center" android:id="@id/conversations_filter_pinned_button_container" android:background="?APKTOOL_DUMMYVAL_0x7f0404b3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/group_chat_info_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070da5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.privateai.ui.PrivateAiBadgeContainer android:layout_gravity="center" android:id="@id/private_ai_badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f04008a="0.53" whatsapp:APKTOOL_DUMMYVAL_0x7f04008b="small">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/wdsProfilePicture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" whatsapp:APKTOOL_DUMMYVAL_0x7f040635="small" />
+    </com.whatsapp.privateai.ui.PrivateAiBadgeContainer>
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:layout_gravity="start|center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+            </LinearLayout>
+            <ViewStub android:layout_gravity="end|center" android:id="@id/secondary_name_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+            <ViewStub android:layout_gravity="end|center" android:id="@id/owner" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0936" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+            <ViewStub android:layout_gravity="end|center" android:id="@id/secondary_name_alternative_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+        </LinearLayout>
+        <ViewStub android:id="@id/participant_label_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e50" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:gravity="start" android:layout_gravity="start" android:id="@id/community_new" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e132e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0707d3" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="left" android:layout_gravity="left" android:id="@id/status" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f1502c1" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/group_chat_info_pin_indicator" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0934" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041e" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="APKTOOL_DUMMYVAL_0x7f0c0007">1</integer>
+    <integer name="APKTOOL_DUMMYVAL_0x7f0c003b">60</integer>
+    <integer name="APKTOOL_DUMMYVAL_0x7f0c003c">40</integer>
+    <integer name="APKTOOL_DUMMYVAL_0x7f0c0040">50</integer>
+    <integer name="APKTOOL_DUMMYVAL_0x7f0c0041">50</integer>
+</resources>

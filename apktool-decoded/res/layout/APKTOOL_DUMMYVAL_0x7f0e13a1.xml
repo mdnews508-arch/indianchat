@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f29" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f28"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/typing_indicator_avd" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/profile_photo_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/business_profile_photo_bg" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/profile_photo_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525f">
+        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/wds_profile_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125173" app:APKTOOL_DUMMYVAL_0x7f040635="xx_large" />
+        <ViewStub android:layout_gravity="center" android:id="@id/contact_info_profile_video_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0465" android:inflatedId="@id/contact_info_profile_video" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:layout_gravity="start|center|top" android:id="@id/contact_info_presence_dot" android:background="@drawable/contact_info_presence_dot_online" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070343" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070343" android:importantForAccessibility="no" />
+</merge>

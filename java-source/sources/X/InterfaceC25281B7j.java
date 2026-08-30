@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.B7j, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes6.dex */
+public interface InterfaceC25281B7j extends B37 {
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125298" app:APKTOOL_DUMMYVAL_0x7f0403ea="?APKTOOL_DUMMYVAL_0x7f0409e2" app:APKTOOL_DUMMYVAL_0x7f0403f0="@dimen/APKTOOL_DUMMYVAL_0x7f0710ed" app:APKTOOL_DUMMYVAL_0x7f0408f7="@dimen/APKTOOL_DUMMYVAL_0x7f070fe2" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/suspended_group_delete_media_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/APKTOOL_DUMMYVAL_0x7f125226" />
+</FrameLayout>

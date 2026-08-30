@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/meta_ai_lock_badge" android:background="@drawable/summary_lock_badge_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070ec7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ec7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710fd" android:scaleType="fitCenter" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_private_processing_ai_lock_sparkle_fill" />
+</FrameLayout>

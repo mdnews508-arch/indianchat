@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center|left" android:id="@id/conversation_row_lto_offer_icon" android:background="@drawable/circle_shade_big" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitCenter" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0608d9" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f0605a9" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_gift_card" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605af" android:id="@id/offer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/lto_expiration" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/coupon_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/quick_promotion_video_view" android:background="?APKTOOL_DUMMYVAL_0x7f0409e6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/video_player_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.videoplayback.FbHeroPlaybackControlView android:id="@id/quick_promotion_video_control" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.videoplayback.ExoPlayerErrorFrame android:id="@id/exoplayer_error_elements" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:layout_gravity="bottom|center" android:id="@id/quick_promotion_cta_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070f7c" app:APKTOOL_DUMMYVAL_0x7f040009="media" />
+    <ViewStub android:id="@id/video_end_overlay_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1435" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

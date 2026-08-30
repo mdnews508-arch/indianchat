@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton android:layout_gravity="top" android:id="@id/uc_bottomsheet_close" android:background="@null" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060891" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close_themed" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/uc_bottomsheet_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12227f" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/uc_bottomsheet_sut_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    </LinearLayout>
+    <View android:id="@id/uc_bottomsheet_close_placeholder" android:visibility="invisible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" />
+</LinearLayout>

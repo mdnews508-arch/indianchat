@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/pix_key_icon" android:background="@drawable/icon_circle_background" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pix_logo_filled_v2" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <com.indianchat.ui.coreui.base.WaTextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/pix_key_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.indianchat.ui.coreui.base.WaTextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/pix_key_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:id="@id/pix_key_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/business_profile_info_activity_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/APKTOOL_DUMMYVAL_0x7f1502bb" />
+        <com.indianchat.ui.coreui.InfoCard android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+            <com.indianchat.business.biz.BusinessHoursView android:id="@id/business_hours" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_categories" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_category" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_description_v2" android:visibility="gone" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ac3" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_store" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_location" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_location_on" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_link" android:tag="website" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_public" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_link_2" android:tag="website" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_public" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/business_email" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_mail" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+        </com.indianchat.ui.coreui.InfoCard>
+        <com.indianchat.ui.coreui.InfoCard android:id="@id/brand_link_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/brand_link" android:tag="website" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_public" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+            <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/brand_link_2" android:tag="website" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_public" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+        </com.indianchat.ui.coreui.InfoCard>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.conversationrow.contextcard.GroupPhotoHeader android:id="@id/inline_header_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0703a7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703a7" android:src="@drawable/avatar_group" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0703a6" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f1501e5" android:ellipsize="end" android:id="@id/inline_header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f1501e3" android:ellipsize="end" android:id="@id/inline_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textAlignment="viewStart" />
+    </LinearLayout>
+</merge>

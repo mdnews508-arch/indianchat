@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/contact_info_security_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/wamo_business_info_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/phone_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1569" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/business_hours_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1567" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/category_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1564" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/description_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1565" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/business_address_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1562" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/web_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e156a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

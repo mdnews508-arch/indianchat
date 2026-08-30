@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/action_bar" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137c" />
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501dc">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+            <ViewStub android:id="@id/reachout_timelocks_banner_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1064" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/share_groups_education_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e11d3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:orientation="vertical" android:id="@id/warning" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_gravity="center" android:id="@id/warning_text" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                <View android:layout_gravity="bottom" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07035e" />
+            </FrameLayout>
+            <ViewStub android:id="@id/request_contact_info_card" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10bf" android:inflatedId="@id/request_contact_info_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ViewStub android:id="@id/selected_list_stub" android:inflatedId="@id/selected_list" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d33" />
+                <ViewStub android:id="@id/contact_list_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <include android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d11" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.fab.WDSFab android:id="@id/next_btn" android:visibility="invisible" android:src="@drawable/ic_fab_next" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125105" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505d3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07020f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07020e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/multi_select_button" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1251c8" app:APKTOOL_DUMMYVAL_0x7f040009="calling" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_check_white_small" app:APKTOOL_DUMMYVAL_0x7f040923="filled" app:APKTOOL_DUMMYVAL_0x7f0409a3="large" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d3a" android:textColor="@android:color/white" android:layout_gravity="bottom|center|right" android:id="@id/selected_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:gravity="center" android:id="@id/text_pmta_manage_account" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150635" />
+    <View android:id="@id/pmta_profile_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+</LinearLayout>

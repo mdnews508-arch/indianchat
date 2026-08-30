@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.evolvedabout.ui.bubble.AboutChatViewBubble android:id="@id/me_tab_about_bubble" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f070915" app:APKTOOL_DUMMYVAL_0x7f04016b="bottom" app:APKTOOL_DUMMYVAL_0x7f04051d="@dimen/APKTOOL_DUMMYVAL_0x7f070917" app:APKTOOL_DUMMYVAL_0x7f040543="@dimen/APKTOOL_DUMMYVAL_0x7f070918"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

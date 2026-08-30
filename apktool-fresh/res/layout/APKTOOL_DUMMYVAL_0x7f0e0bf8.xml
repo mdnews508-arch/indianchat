@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/me_tab_account_switcher_chevron_stub" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/account_switcher_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071149" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_keyboard_arrow_down" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040771" />
+    <ViewStub android:id="@id/me_tab_account_switcher_chevron_soft_badge_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e002f" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

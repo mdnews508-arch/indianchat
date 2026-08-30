@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/APKTOOL_DUMMYVAL_0x7f060054"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f07109b" />
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060054" />
+            <stroke android:width="1.0dip" android:color="@color/APKTOOL_DUMMYVAL_0x7f060054" />
+        </shape>
+    </item>
+</ripple>

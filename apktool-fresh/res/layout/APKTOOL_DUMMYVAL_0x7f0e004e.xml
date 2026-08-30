@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150230"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="240.0dip" android:layout_height="32.0dip" />
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="328.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+        <View android:background="@drawable/contact_name_shimmer" android:layout_width="328.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113f">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07068b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07068b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07068b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07068b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07068b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e004d" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

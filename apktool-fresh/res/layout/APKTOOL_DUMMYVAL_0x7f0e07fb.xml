@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout android:layout_gravity="center" android:id="@id/empty_state" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040256="@string/APKTOOL_DUMMYVAL_0x7f1217be" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_smb_ill_calendar_schedule_location_event" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f1217bf" app:APKTOOL_DUMMYVAL_0x7f040443="card" app:APKTOOL_DUMMYVAL_0x7f040628="@string/APKTOOL_DUMMYVAL_0x7f1217bd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

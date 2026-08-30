@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.eventsv2.ui.coverimage.EventCoverImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705c8" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04020f="@dimen/APKTOOL_DUMMYVAL_0x7f07109d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

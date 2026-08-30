@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:horizonos="http://schemas.horizonos/sdk">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/call_notification_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.indianchat.chatinfo.view.custom.ChatInfoLayoutV2 android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <ListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:listSelector="@drawable/chat_info_list_selector" android:drawSelectorOnTop="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" android:transitionGroup="true" />
+                <FrameLayout android:gravity="center_vertical" android:id="@id/header" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionGroup="true">
+                    <ViewStub android:layout_gravity="center|top" android:id="@id/contact_info_about_bubble_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0458" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125173" />
+                    <View android:layout_gravity="bottom" android:id="@id/bottom_shade" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <View android:layout_gravity="top" android:id="@id/top_shade" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+                    <View android:id="@id/photo_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" horizonos:importantForInteraction="no" />
+                    <ViewStub android:layout_gravity="bottom" android:id="@id/sheet_top_bezel_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0469" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d" app:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15058b" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+                    <FrameLayout android:layout_gravity="center" android:id="@id/subject_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070002">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.indianchat.ui.coreui.components.ScalingFrameLayout android:layout_gravity="bottom|center" android:id="@id/conversation_contact_name_scaler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f">
+                                <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/conversation_contact_name" style="@style/APKTOOL_DUMMYVAL_0x7f1501cb" />
+                            </com.indianchat.ui.coreui.components.ScalingFrameLayout>
+                        </LinearLayout>
+                        <com.indianchat.chatinfo.view.custom.CollapsingProfilePhotoView android:id="@id/collapsing_profile_photo_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.indianchat.chatinfo.view.custom.ChatInfoLayoutV2>
+        </FrameLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/floating_cta_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e155f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

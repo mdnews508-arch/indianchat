@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/APKTOOL_DUMMYVAL_0x7f060892" android:pathData="M12,21q-3.2,0-5.6,-1.9Q4,17.2 3.3,14.2a0.7,0.7 0,0 1,0.2,-0.7,1 1,0 0,1 0.7,-0.4q0.4,0 0.7,0.2t0.5,0.6q0.6,2.3 2.5,3.7T12,19q2.9,0 5,-2T19,12t-2,-5T12,5a6.8,6.8 0,0 0,-3.2 0.8A7.4,7.4 0,0 0,6.3 8H8q0.4,0 0.7,0.3Q9,8.6 9,9t-0.3,0.7Q8.4,10 8,10H4q-0.4,0-0.7,-0.3Q3,9.4 3,9V5q0,-0.4 0.3,-0.7Q3.6,4 4,4t0.7,0.3Q5,4.6 5,5v1.4a8.7,8.7 0,0 1,3.1,-2.5A8.9,8.9 0,0 1,12 3q1.9,0 3.5,0.7a9.2,9.2 0,0 1,2.9 1.9,9.2 9.2,0 0,1 1.9,2.9A8.7,8.7 0,0 1,21 12q0,1.9-0.7,3.5a9.2,9.2 0,0 1,-1.9 2.9,9.2 9.2,0 0,1-2.9,1.9A8.7,8.7 0,0 1,12 21m1,-9.4 2.5,2.5q0.3,0.3 0.3,0.7t-0.3,0.7q-0.3,0.3-0.7,0.3t-0.7,-0.3l-2.8,-2.8q-0.1,-0.2-0.2,-0.3Q11,12.2 11,12V8q0,-0.4 0.3,-0.7Q11.6,7 12,7t0.7,0.3Q13,7.6 13,8z" />
+    <path android:fillColor="@color/APKTOOL_DUMMYVAL_0x7f0608e7" android:pathData="M18,6m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+</vector>

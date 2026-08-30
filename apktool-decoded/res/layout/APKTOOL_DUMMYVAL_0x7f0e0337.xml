@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:indianchat="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/call_details_contact_photos_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14b4" android:inflatedId="@id/call_details_contact_photos" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0701fc" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701fc" />
+    <ViewStub android:id="@id/cluster_contact_photos_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1493" android:inflatedId="@id/cluster_contact_photos" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0701fc" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701fc" />
+    <ViewStub android:id="@id/call_screening_transcription_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e033d" android:inflatedId="@id/call_screening_transcription_view" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701fe" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0706e0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0706e0" />
+    <ViewStub android:id="@id/lonely_state_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0338" android:inflatedId="@id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+</merge>

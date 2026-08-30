@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150273"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070492" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d07" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/header">
+        <View android:layout_gravity="center" android:id="@id/photo_container" android:background="@drawable/business_avatar_template" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/business_row_content" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707c1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_toRightOf="@id/photo_container" android:layout_centerVertical="true">
+            <View android:id="@id/business_header" android:background="@drawable/business_line_template" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <View android:id="@id/business_sub_text" android:background="@drawable/business_line_template" android:paddingRight="7.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

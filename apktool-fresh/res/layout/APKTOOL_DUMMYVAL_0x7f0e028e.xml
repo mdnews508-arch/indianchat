@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/br_transaction_detail_download_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120889" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/br_transaction_detail_share_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f12088d" style="@style/APKTOOL_DUMMYVAL_0x7f1505c8" />
+</LinearLayout>

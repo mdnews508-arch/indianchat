@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/pix_key_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e121a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/pix_key_divider" android:background="@color/APKTOOL_DUMMYVAL_0x7f060898" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071160" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:text="@string/APKTOOL_DUMMYVAL_0x7f123e72" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/amount_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dcb" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dcb">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="42.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/currency_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+                <com.indianchat.ui.coreui.WaEditText android:textSize="42.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:textColorHint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="start|center" android:id="@id/total_amount_input" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:inputType="numberDecimal" android:importantForAutofill="no" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/members_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.indianchat.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409d7="vertical">
+            <com.indianchat.ui.coreui.WaButtonWithLoader android:id="@id/send_request_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/send_pix_key_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123e74" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+        </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+    </FrameLayout>
+</LinearLayout>

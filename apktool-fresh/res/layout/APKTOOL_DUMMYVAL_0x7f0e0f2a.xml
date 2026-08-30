@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/pen_mode_view_gradient_background" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070553"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thin" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b8f" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12004f" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/pen_mode_thin" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_medium" android:background="@drawable/pen_mode_selected_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b8f" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120031" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/pen_mode_medium" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thick" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b8f" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12004e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/pen_mode_thick" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_blur" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07012a" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b90" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120020" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/pen_mode_blur" />
+    <Space android:id="@id/pen_mode_blur_space" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

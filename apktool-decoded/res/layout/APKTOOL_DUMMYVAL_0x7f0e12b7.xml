@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060341" android:gravity="center" android:layout_gravity="center" android:id="@id/squid_upsell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Adopt a new super cool squid" android:fontFamily="@font/roboto_medium_numbers" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0608e5" android:gravity="center" android:layout_gravity="center" android:id="@id/squid_click_here" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click here" android:fontFamily="@font/roboto_medium_numbers" />
+</LinearLayout>

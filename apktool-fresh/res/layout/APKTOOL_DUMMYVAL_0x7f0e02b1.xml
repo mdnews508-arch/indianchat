@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/business_compliance_frame_layout" android:background="?APKTOOL_DUMMYVAL_0x7f0400f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/business_compliance_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/business_compliance_network_error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070179" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070179">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/business_compliance_network_error_text" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:text="@string/APKTOOL_DUMMYVAL_0x7f120922" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" style="@style/APKTOOL_DUMMYVAL_0x7f1501c4" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:gravity="center" android:layout_gravity="center" android:id="@id/business_compliance_network_error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:text="@string/APKTOOL_DUMMYVAL_0x7f12092f" app:APKTOOL_DUMMYVAL_0x7f04048a="@dimen/APKTOOL_DUMMYVAL_0x7f0710ba" style="@style/APKTOOL_DUMMYVAL_0x7f15013f" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/business_compliance_wrapper_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011f="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/business_compliance_recyclerview" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

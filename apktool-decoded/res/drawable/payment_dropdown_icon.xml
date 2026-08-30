@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_arrow_drop_down" android:tint="?APKTOOL_DUMMYVAL_0x7f0405de" />
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/root"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/backgroundHolder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113a" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071139" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071136" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071138" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071137" style="@style/APKTOOL_DUMMYVAL_0x7f1505f6">
+        <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="center" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040a36="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505f7" />
+        <com.indianchat.ui.wds.components.edittext.WDSEditText android:theme="@style/APKTOOL_DUMMYVAL_0x7f1505f9" android:id="@id/search_src_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f1505f8" />
+        <com.indianchat.ui.coreui.base.WaImageButton android:layout_gravity="center" android:id="@id/trailing_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f040a36="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505fa" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.text.ShadowDimsTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:layout_gravity="center_horizontal" android:id="@id/filter_swipe_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_caret_up" android:drawablePadding="@dimen/APKTOOL_DUMMYVAL_0x7f070626" app:APKTOOL_DUMMYVAL_0x7f040783="@color/APKTOOL_DUMMYVAL_0x7f06010a" app:APKTOOL_DUMMYVAL_0x7f040785="1.0dip" app:APKTOOL_DUMMYVAL_0x7f040786="6.0dip" />
+</merge>

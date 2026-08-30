@@ -1,0 +1,107 @@
+package X;
+
+import java.util.Set;
+
+/* JADX INFO: renamed from: X.Hb6, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes9.dex */
+public abstract class AbstractC39547Hb6 {
+    public static final Set A00;
+    public static final Set A01;
+    public static final Set A02;
+    public static final Set A03;
+
+    static {
+        Integer[] numArr = new Integer[23];
+        boolean zA1b = AbstractC466725u.A1b(numArr, 188);
+        numArr[1] = 193;
+        numArr[2] = 201;
+        numArr[3] = 228;
+        numArr[4] = 235;
+        numArr[5] = 77;
+        numArr[6] = 232;
+        numArr[7] = 206;
+        numArr[8] = 211;
+        numArr[9] = 195;
+        numArr[10] = 76;
+        numArr[11] = 65;
+        numArr[12] = 19;
+        numArr[13] = 30;
+        numArr[14] = 62;
+        numArr[15] = 190;
+        numArr[16] = 178;
+        numArr[17] = Integer.valueOf(C26698BmO.POLL_RESULT_SNAPSHOT_MESSAGE_V3_FIELD_NUMBER);
+        numArr[18] = 220;
+        AbstractC466425r.A1U(numArr, 61, 19);
+        numArr[20] = 179;
+        numArr[21] = 154;
+        Set setA1H = AbstractC148856g7.A1H(234, numArr, 22);
+        A02 = setA1H;
+        Integer[] numArr2 = new Integer[31];
+        AbstractC466425r.A1U(numArr2, 43, zA1b ? 1 : 0);
+        AbstractC466425r.A1U(numArr2, 46, 1);
+        AbstractC466425r.A1U(numArr2, 48, 2);
+        AbstractC466425r.A1U(numArr2, 53, 3);
+        AbstractC466425r.A1U(numArr2, 162, 4);
+        AbstractC466425r.A1U(numArr2, 152, 5);
+        AbstractC466425r.A1U(numArr2, 49, 6);
+        AbstractC466425r.A1U(numArr2, 50, 7);
+        AbstractC466425r.A1U(numArr2, 57, 8);
+        AbstractC466425r.A1U(numArr2, 63, 9);
+        AbstractC466425r.A1U(numArr2, 73, 10);
+        AbstractC148906gC.A1H(numArr2, 51, 11, 20, 12);
+        AbstractC466425r.A1U(numArr2, C26698BmO.BOT_PLATFORM_REGISTRATION_SUCCESS_MESSAGE_FIELD_NUMBER, 13);
+        AbstractC466425r.A1U(numArr2, 239, 14);
+        AbstractC466425r.A1U(numArr2, 244, 15);
+        AbstractC466425r.A1U(numArr2, 245, 16);
+        AbstractC466425r.A1U(numArr2, 84, 17);
+        numArr2[18] = 174;
+        AbstractC466425r.A1U(numArr2, C26698BmO.STATUS_QUOTED_MESSAGE_FIELD_NUMBER, 19);
+        AbstractC466425r.A1U(numArr2, 98, 20);
+        numArr2[21] = AbstractC466525s.A0l();
+        numArr2[22] = 42;
+        AbstractC466425r.A1U(numArr2, C26698BmO.NEWSLETTER_FOLLOWER_INVITE_MESSAGE_FIELD_NUMBER, 23);
+        numArr2[24] = 100;
+        numArr2[25] = Integer.valueOf(C26698BmO.SPOILER_MESSAGE_FIELD_NUMBER);
+        numArr2[26] = 89;
+        numArr2[27] = 56;
+        numArr2[28] = 238;
+        Integer numValueOf = Integer.valueOf(C26698BmO.NEWSLETTER_FOLLOWER_INVITE_MESSAGE_V2_FIELD_NUMBER);
+        numArr2[29] = numValueOf;
+        Set setA1H2 = AbstractC148856g7.A1H(210, numArr2, 30);
+        A00 = setA1H2;
+        A01 = AbstractC03010Dw.A07(setA1H2, setA1H);
+        Integer[] numArr3 = new Integer[38];
+        AbstractC148906gC.A1H(numArr3, 2, zA1b ? 1 : 0, 3, 1);
+        AbstractC148906gC.A1H(numArr3, 5, 2, 6, 3);
+        AbstractC148906gC.A1H(numArr3, 8, 4, 9, 5);
+        AbstractC148906gC.A1H(numArr3, 10, 6, 11, 7);
+        AbstractC148906gC.A1H(numArr3, 12, 8, 13, 9);
+        AbstractC148906gC.A1H(numArr3, 41, 10, 23, 11);
+        AbstractC466425r.A1U(numArr3, 24, 12);
+        AbstractC466425r.A1U(numArr3, 25, 13);
+        numArr3[14] = 30;
+        AbstractC466425r.A1U(numArr3, 32, 15);
+        AbstractC466425r.A1U(numArr3, 33, 16);
+        AbstractC466425r.A1U(numArr3, 36, 17);
+        numArr3[18] = 56;
+        numArr3[19] = 238;
+        AbstractC466425r.A1U(numArr3, 67, 20);
+        numArr3[21] = 75;
+        numArr3[22] = 58;
+        AbstractC466425r.A1U(numArr3, 64, 23);
+        numArr3[24] = 81;
+        numArr3[25] = 211;
+        numArr3[26] = 93;
+        numArr3[27] = 229;
+        numArr3[28] = 153;
+        numArr3[29] = numValueOf;
+        AbstractC466425r.A1U(numArr3, 92, 30);
+        numArr3[31] = 154;
+        numArr3[32] = 234;
+        numArr3[33] = 232;
+        numArr3[34] = 236;
+        numArr3[35] = 249;
+        numArr3[36] = 250;
+        A03 = AbstractC148856g7.A1H(138, numArr3, 37);
+    }
+}

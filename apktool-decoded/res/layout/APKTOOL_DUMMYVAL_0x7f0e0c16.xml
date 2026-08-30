@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/media_caption_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/left_button_spacer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1480" android:inflatedId="@id/left_button_spacer" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07021b" android:layout_height="0.0dip" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/left_button_holder" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/counter" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1478" android:inflatedId="@id/counter" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/emoji_picker_btn" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1479" android:inflatedId="@id/emoji_picker_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/keyboard_btn" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1479" android:inflatedId="@id/keyboard_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/add_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1476" android:inflatedId="@id/add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.indianchat.mentions.ui.MentionableEntry android:scrollbarThumbVertical="?APKTOOL_DUMMYVAL_0x7f0409ff" android:textColor="?APKTOOL_DUMMYVAL_0x7f04052b" android:textColorHint="?APKTOOL_DUMMYVAL_0x7f040529" android:layout_gravity="center_vertical" android:id="@id/caption" android:background="@color/APKTOOL_DUMMYVAL_0x7f060162" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07021e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07021e" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07021c" android:hint="@string/APKTOOL_DUMMYVAL_0x7f124d67" android:maxLines="6" android:layout_weight="1.0" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124d68" style="?APKTOOL_DUMMYVAL_0x7f04028e" />
+    <ViewStub android:id="@id/view_once_toggle_spacer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1480" android:inflatedId="@id/view_once_toggle_spacer" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07021d" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/view_once_toggle" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1486" android:inflatedId="@id/view_once_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/status_mentions" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1481" android:inflatedId="@id/status_mentions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

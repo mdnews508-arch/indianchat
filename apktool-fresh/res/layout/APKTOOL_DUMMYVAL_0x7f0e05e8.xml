@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaFrameLayout android:id="@id/invite_layout" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05e9" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.WaFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/dialpad_button_number" style="@style/APKTOOL_DUMMYVAL_0x7f15021f" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/dialpad_button_letters" style="@style/APKTOOL_DUMMYVAL_0x7f15021e" />
+</merge>

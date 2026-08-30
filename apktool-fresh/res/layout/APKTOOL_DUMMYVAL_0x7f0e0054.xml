@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/actions_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/settings_section_header_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e094b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/chat_info_activity_storage_details" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0059" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07071c" android:text="@string/APKTOOL_DUMMYVAL_0x7f1247f1" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <ViewStub android:id="@id/meta_ai_voice_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0057" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/meta_ai_generated_images_of_you_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.WaDelegatedViewStub android:id="@id/maiba_ai_presence_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/mute_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_notifications" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f122386" />
+        <ViewStub android:id="@id/notifications_and_sounds_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0058" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/media_visibility_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0056" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/call_permission_setting_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wa_ic_call" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f123ae5" />
+        <ViewStub android:id="@id/meta_ai_memory_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cb1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/ai_proactive_message_control_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0178" android:inflatedId="@id/ai_proactive_message_control_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/meta_ai_tasks_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cb8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.StarredMessageInfoView android:id="@id/starred_messages_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.KeptMessagesInfoView android:id="@id/kept_messages_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.ScheduledMessagesInfoView android:id="@id/scheduled_messages_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/reported_to_admin_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/vec_ic_report_to_admin" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f121c44" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/payment_transactions_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f122e8d" />
+        <ViewStub android:id="@id/meta_ai_app_connections_row" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c9a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

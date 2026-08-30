@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.KeyboardPopupLayout android:id="@id/send_payment_keyboard_popup_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/payment_tabs" android:background="?APKTOOL_DUMMYVAL_0x7f040593" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" indianchat:APKTOOL_DUMMYVAL_0x7f040649="@color/APKTOOL_DUMMYVAL_0x7f060746" indianchat:APKTOOL_DUMMYVAL_0x7f040843="?APKTOOL_DUMMYVAL_0x7f0409e2" indianchat:APKTOOL_DUMMYVAL_0x7f040853="?APKTOOL_DUMMYVAL_0x7f04062e" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f17" />
+</com.indianchat.ui.coreui.KeyboardPopupLayout>

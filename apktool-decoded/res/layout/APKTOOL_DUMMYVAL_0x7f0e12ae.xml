@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/status_reactions_new_grid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060992" android:layout_gravity="center_horizontal" android:id="@id/status_reactions_nux_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123f78" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/status_reactions_type_toggle_container_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b1" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/status_reactions_viewpager_type_toggle_container_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b2" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ViewStub android:layout_gravity="center" android:id="@id/avatar_grid_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12af" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <ViewStub android:layout_gravity="center" android:id="@id/new_emoji_grid_viewstub" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12a9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/reaction_viewpager_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e106c" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:layout_gravity="center" android:id="@id/squid_description_info" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/link_preview_message_container" android:background="?APKTOOL_DUMMYVAL_0x7f0401d7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/link_preview_message_container_background" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070216">
+        <FrameLayout android:orientation="horizontal" android:id="@id/web_page_preview_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_weight="0.0" />
+        <FrameLayout android:id="@id/link_message_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.indianchat.mentions.ui.MentionableEntry android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:gravity="center_vertical" android:id="@id/link_message_text_entry" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:hint="@string/APKTOOL_DUMMYVAL_0x7f124ed0" android:maxLines="4" android:inputType="textCapSentences|textMultiLine" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

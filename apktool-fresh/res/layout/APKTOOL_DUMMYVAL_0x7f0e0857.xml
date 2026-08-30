@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/filter_bottom_sheet_content_new" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/tab_content_container" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07062c">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/filter_selector_new" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07062b" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07062d" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07062b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07062d" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07095b" />
+            <ViewStub android:id="@id/styles_selector_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e132c" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/edit_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/edit_selector_m1_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e076e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/ai_editor_tabs_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0155" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/imagine_input_prompt_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0152" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <View android:id="@id/bottom_spacing" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+</FrameLayout>

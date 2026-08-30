@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:src="@drawable/wds_picto_chats_shield_alert" android:contentDescription="@null" android:importantForAccessibility="no" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710cf" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f123893" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f123891" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+        <com.indianchat.ui.wds.components.button.WDSButtonGroup android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409d7="auto">
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/scam_opt_in_confirm_settings_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/scam_opt_in_confirm_close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040923="filled" />
+        </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</ScrollView>

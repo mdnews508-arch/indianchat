@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.analytics.uxlogging.components.LoggingAwareLinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/floating_cta_container" android:background="?APKTOOL_DUMMYVAL_0x7f0409e2" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.analytics.uxlogging.components.LoggingAwareLinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/floating_cta_inner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/floating_cta_thumbnail_container" android:layout_width="36.0dip" android:layout_height="36.0dip">
+            <ImageView android:id="@id/floating_cta_thumbnail" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="centerCrop" />
+            <View android:background="@drawable/wamo_cta_thumbnail_border" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/floating_cta_link_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061c" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a04" android:ellipsize="end" android:id="@id/floating_cta_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    </com.indianchat.analytics.uxlogging.components.LoggingAwareLinearLayout>
+</com.indianchat.analytics.uxlogging.components.LoggingAwareLinearLayout>

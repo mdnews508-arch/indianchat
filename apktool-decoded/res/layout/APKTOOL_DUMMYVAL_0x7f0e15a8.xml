@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/banner_icon" android:visibility="gone" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1505ed" />
+    <com.indianchat.ui.coreui.base.text.ReadMoreTextView android:id="@id/banner_text" app:APKTOOL_DUMMYVAL_0x7f040682="@color/APKTOOL_DUMMYVAL_0x7f060890" style="@style/APKTOOL_DUMMYVAL_0x7f1505ee" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/dismiss_icon" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121439" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="@style/APKTOOL_DUMMYVAL_0x7f1505ec" />
+</merge>

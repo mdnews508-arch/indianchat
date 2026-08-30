@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/ongoing_media_control_btn" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/inline_audio_play" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12515b" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0600c8" />
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/ongoing_media_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150446" />
+</LinearLayout>

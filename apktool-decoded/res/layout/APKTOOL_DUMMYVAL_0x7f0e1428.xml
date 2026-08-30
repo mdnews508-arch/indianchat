@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/progress_bar_title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_large_title2" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/video_download_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="0" app:APKTOOL_DUMMYVAL_0x7f0403ea="@color/APKTOOL_DUMMYVAL_0x7f060878" app:APKTOOL_DUMMYVAL_0x7f0408ef="@color/APKTOOL_DUMMYVAL_0x7f06084e" app:APKTOOL_DUMMYVAL_0x7f0408f7="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+</LinearLayout>

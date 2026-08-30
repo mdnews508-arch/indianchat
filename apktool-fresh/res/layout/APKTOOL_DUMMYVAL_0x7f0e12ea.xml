@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/sticker_pack_preview_bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/sticker_pack_preview_bottom_sheet_layout" android:background="@drawable/wds_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/pack_preview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040586="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f040825="true" app:APKTOOL_DUMMYVAL_0x7f0408c9="true" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/details_container_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12ed" android:inflatedId="@id/details_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501dc" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e91" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e91" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/divider" android:background="?APKTOOL_DUMMYVAL_0x7f0401fa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+        <ViewStub android:id="@id/update_pack_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12f1" android:inflatedId="@id/update_pack_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/premium_upsell_text" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+            <ViewStub android:id="@id/download_btn" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12ef" android:inflatedId="@id/download_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/pack_download_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12f0" android:inflatedId="@id/pack_download_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+            <ViewStub android:id="@id/delete_btn" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12eb" android:inflatedId="@id/delete_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/pack_delete_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12f0" android:inflatedId="@id/pack_delete_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

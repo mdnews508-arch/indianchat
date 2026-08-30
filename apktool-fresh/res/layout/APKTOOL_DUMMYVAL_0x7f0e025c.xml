@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/icon_container" android:background="@drawable/bookmarks_item_view_icon_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e7" android:tint="?APKTOOL_DUMMYVAL_0x7f040a00" android:contentDescription="@null" />
+    </FrameLayout>
+    <Space android:id="@id/spacing" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:breakStrategy="high_quality" android:hyphenationFrequency="none" app:APKTOOL_DUMMYVAL_0x7f04006e="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" app:APKTOOL_DUMMYVAL_0x7f040071="uniform" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</merge>

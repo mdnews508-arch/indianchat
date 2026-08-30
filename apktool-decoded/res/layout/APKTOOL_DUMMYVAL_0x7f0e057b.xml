@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/secondary_action_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b5" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/secondary_action" android:background="?android:selectableItemBackground" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409aa" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0601f8" android:gravity="center" android:id="@id/secondary_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121707" />
+    </LinearLayout>
+</LinearLayout>

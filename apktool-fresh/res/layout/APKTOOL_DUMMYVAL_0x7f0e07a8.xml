@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070593" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070593">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/enc_backup_enabled_landing_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070596" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070595" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/enc_backup_enabled_landing_title" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215d5" style="@style/APKTOOL_DUMMYVAL_0x7f15023a" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/enc_backup_enabled_landing_privacy_notice" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215f4" android:lineSpacingExtra="@dimen/APKTOOL_DUMMYVAL_0x7f070580" style="@style/APKTOOL_DUMMYVAL_0x7f150232" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/enc_backup_enabled_landing_restore_notice" android:text="@string/APKTOOL_DUMMYVAL_0x7f121601" android:lineSpacingExtra="@dimen/APKTOOL_DUMMYVAL_0x7f070580" style="@style/APKTOOL_DUMMYVAL_0x7f150232" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/enc_backup_enabled_landing_password_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215cf" style="@style/APKTOOL_DUMMYVAL_0x7f150237" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/enc_backup_enabled_landing_protect_another_way_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215d1" style="@style/APKTOOL_DUMMYVAL_0x7f150237" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/enc_backup_enabled_landing_disable_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215d2" style="@style/APKTOOL_DUMMYVAL_0x7f15023b" />
+</LinearLayout>

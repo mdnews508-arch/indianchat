@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bg" android:background="@drawable/txn_details_rounded_error_blurb_bg" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:rotation="180.0" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wa_ic_info" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06074c" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </LinearLayout>
+</FrameLayout>

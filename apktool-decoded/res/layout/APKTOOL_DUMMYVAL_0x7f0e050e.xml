@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:id="@id/media_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.conversationrow.album.ConversationRowImageAndVideoAlbumGridFrame android:id="@id/media_grid" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="center|left|top" android:id="@id/thumb_0" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040969="?APKTOOL_DUMMYVAL_0x7f0409f3" app:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f2">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e018e" />
+        </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+        <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="center|right|top" android:id="@id/thumb_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040969="?APKTOOL_DUMMYVAL_0x7f0409f3" app:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f2">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e018e" />
+        </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+        <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="bottom|center|left" android:id="@id/thumb_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040969="?APKTOOL_DUMMYVAL_0x7f0409f3" app:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f2">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e018e" />
+        </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+        <com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="bottom|center|right" android:id="@id/thumb_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040969="?APKTOOL_DUMMYVAL_0x7f0409f3" app:APKTOOL_DUMMYVAL_0x7f04096a="?APKTOOL_DUMMYVAL_0x7f0409f2">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e018e" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/more" style="@style/APKTOOL_DUMMYVAL_0x7f1501ed" />
+        </com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+    </com.indianchat.conversationrow.album.ConversationRowImageAndVideoAlbumGridFrame>
+    <ViewStub android:layout_gravity="center" android:id="@id/media_control" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05d3" android:inflatedId="@id/media_control" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.indianchat.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>

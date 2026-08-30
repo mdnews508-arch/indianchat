@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07048b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/community_stack_pile_bottom_crescents" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07048f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07048b" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center|right" android:id="@id/parent_group_profile_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070491" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070491" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07048c" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center|right" android:id="@id/subgroup_pile_over" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070491" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070491" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07048c" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_community_avatar_stacked_frame_border" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040095" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="72.0dip" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView android:gravity="center" android:layout_gravity="center" android:id="@id/banner_icon" android:background="@drawable/banner_info_circle" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07010b" android:layout_width="48.0dip" android:layout_height="48.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e4" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/banner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/banner_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b18" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/button_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0601b2" />
+    </FrameLayout>
+</LinearLayout>

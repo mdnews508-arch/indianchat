@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:id="@id/skin_tone_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:rowCount="2" android:columnCount="5" android:useDefaultMargins="true" />
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/default_emoji" android:background="@drawable/multi_skin_tone_emoji_selector" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070589" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a2a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a2a" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/selected_emoji" android:background="@drawable/multi_skin_tone_emoji_selector" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070589" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a2a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a2a" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" />
+    </LinearLayout>
+</merge>

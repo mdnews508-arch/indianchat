@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/meta_ai_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07014d">
+            <ViewStub android:layout_gravity="center" android:id="@id/meta_ai_static_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0267" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ae0" />
+            <ViewStub android:layout_gravity="center" android:id="@id/meta_ai_animated_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0266" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+            <ViewStub android:layout_gravity="center" android:id="@id/meta_ai_welcome_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0cc6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/empty_state_suggestions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/inline_tos_message" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0265" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

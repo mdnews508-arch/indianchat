@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13dc" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/uc_action_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.FAQTextView android:gravity="center_horizontal" android:id="@id/user_control_desc" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+                <com.whatsapp.ui.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:gravity="center" android:id="@id/uc_stop_resume_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124059" android:maxLines="1" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f04048a="20.0sp" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+                <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/uc_block_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1243d8" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f040009="destructive" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_block" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

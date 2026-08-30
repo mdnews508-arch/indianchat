@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip" app:APKTOOL_DUMMYVAL_0x7f04058b="false">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="top" android:id="@id/icon" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_block" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+            <com.indianchat.ui.coreui.components.TextAndDateLayout android:layout_gravity="start|center" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9">
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:textStyle="italic" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ee" android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/message_text" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" app:APKTOOL_DUMMYVAL_0x7f04027d="?APKTOOL_DUMMYVAL_0x7f0409ee" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055d" />
+            </com.indianchat.ui.coreui.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

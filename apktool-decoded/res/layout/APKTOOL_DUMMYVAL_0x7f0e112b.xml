@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.text.FinalBackspaceAwareEntry android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:layout_gravity="center_vertical" android:id="@id/search_input" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d17" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070d00" android:maxLines="1" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

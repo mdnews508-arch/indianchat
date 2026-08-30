@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_download" android:id="@id/action_download" android:title="@string/APKTOOL_DUMMYVAL_0x7f124d70" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+    <item android:icon="@drawable/vec_ic_share" android:id="@id/action_share" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251eb" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+</menu>

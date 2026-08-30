@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070768" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dc1" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dc4" />
+            <com.whatsapp.ui.coreui.SectionHeaderView android:id="@id/insights_growth_info" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040780="@string/APKTOOL_DUMMYVAL_0x7f122781" style="@style/APKTOOL_DUMMYVAL_0x7f1502f9" />
+            <com.whatsapp.chatinfo.newsletter.insights.view.InsightsSectionView android:id="@id/insights_growth_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.chatinfo.newsletter.insights.view.InsightsItemView android:id="@id/insights_growth_net_follows" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1250ff" app:APKTOOL_DUMMYVAL_0x7f04027d="@color/APKTOOL_DUMMYVAL_0x7f060327" />
+                <com.whatsapp.chatinfo.newsletter.insights.view.InsightsItemView android:id="@id/insights_growth_follows" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:text="@string/APKTOOL_DUMMYVAL_0x7f1250fe" app:APKTOOL_DUMMYVAL_0x7f04027d="@color/APKTOOL_DUMMYVAL_0x7f060325" />
+                <com.whatsapp.chatinfo.newsletter.insights.view.InsightsItemView android:id="@id/insights_growth_unfollows" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:text="@string/APKTOOL_DUMMYVAL_0x7f125101" app:APKTOOL_DUMMYVAL_0x7f04027d="@color/APKTOOL_DUMMYVAL_0x7f06032a" />
+                <com.whatsapp.chatinfo.newsletter.insights.view.chart.LineChartView android:id="@id/insights_growth_line_chart" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07075b" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            </com.whatsapp.chatinfo.newsletter.insights.view.InsightsSectionView>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@id/insights_growth_date_card" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f070752">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/insights_growth_date_text" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</ScrollView>

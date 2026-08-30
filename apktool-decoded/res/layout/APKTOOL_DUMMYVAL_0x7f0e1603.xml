@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.WaLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1602" />
+    <com.indianchat.ui.coreui.WaLinearLayout android:orientation="horizontal" android:id="@id/wfal_settings_row" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="top" android:id="@id/account_center_meta_lockup_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d68" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d68" android:scaleType="fitCenter" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wds_ic_logo_meta" indianchat:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+        <com.indianchat.ui.coreui.WaLinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d67">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061b" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/wfal_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6a" android:text="@string/APKTOOL_DUMMYVAL_0x7f124ca1" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061d" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/wfal_subtitle_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124c9f" />
+        </com.indianchat.ui.coreui.WaLinearLayout>
+    </com.indianchat.ui.coreui.WaLinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1602" />
+</com.indianchat.ui.coreui.WaLinearLayout>

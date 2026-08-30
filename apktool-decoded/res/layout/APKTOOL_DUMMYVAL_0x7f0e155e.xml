@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/header" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/wamo_biz_profile_scroll_view" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+            <com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/email_card" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" app:APKTOOL_DUMMYVAL_0x7f0403c7="@null" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="center" android:background="@drawable/wamo_biz_profile_photo_stroke" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/wds_profile_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dcc" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125173" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525f" app:APKTOOL_DUMMYVAL_0x7f040635="xx_large" />
+                    </FrameLayout>
+                    <com.indianchat.ui.coreui.util.InlineBadgedTextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710cb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="center" android:id="@id/business_name" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" />
+                </LinearLayout>
+            </com.indianchat.ui.coreui.InfoCard>
+            <com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/wamo_fb_info_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+                <com.indianchat.ui.coreui.ListItemWithLeftIcon android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061b" android:id="@id/wamo_fb_info" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f124b85" />
+            </com.indianchat.ui.coreui.InfoCard>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1563" />
+            <com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/facebook_page_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+                <ViewStub android:id="@id/facebook_page_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1566" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.indianchat.ui.coreui.InfoCard>
+            <com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/instagram_page_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+                <ViewStub android:id="@id/instagram_page_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1568" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.indianchat.ui.coreui.InfoCard>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageButton android:layout_gravity="start|center|top" android:id="@id/wamo_biz_back_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="?APKTOOL_DUMMYVAL_0x7f04000d" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" android:src="@drawable/ic_back_shadow" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124da6" android:accessibilityTraversalBefore="@id/wamo_biz_profile_scroll_view" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/floating_cta_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e155f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

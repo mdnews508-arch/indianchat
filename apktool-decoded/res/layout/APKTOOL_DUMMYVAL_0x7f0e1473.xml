@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/conversation_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.wallpaper.WDSWallpaper android:id="@id/placeholder_background" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.28" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/image_placeholder" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706c0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706c0" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_star" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/txt_placeholder_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0703fb" android:text="@string/APKTOOL_DUMMYVAL_0x7f121118" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703fa">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/e2ee_description_image" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_lock_small_3" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0608ba" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:gravity="center_horizontal" android:id="@id/txt_home_placeholder_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070571" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070572" android:text="@string/APKTOOL_DUMMYVAL_0x7f121117" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: loaded from: classes6.dex */
+public interface B40 {
+    Long B4R();
+}

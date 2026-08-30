@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/bb_edit_with_ai_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1205c8" app:APKTOOL_DUMMYVAL_0x7f040009="media" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/wds_ic_ai" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" app:APKTOOL_DUMMYVAL_0x7f0409a3="small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

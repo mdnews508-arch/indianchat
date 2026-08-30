@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:background="@drawable/conversation_row_call_log_bubble_background" android:layout_width="220.0dip" android:layout_height="120.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_play_arrow_small_2" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07016a" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07016a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/broadcast_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0533" android:inflatedId="@id/broadcast_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0401fb" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505db" />
+                <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/status" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

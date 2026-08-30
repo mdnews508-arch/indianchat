@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f40" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f40" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070645" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070645"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.mediacomposer.doodle.universaltoolpicker.color.ColorToolPickerItemView android:layout_gravity="center" android:id="@id/color_item_view" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702bb" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702bb" />
+</FrameLayout>

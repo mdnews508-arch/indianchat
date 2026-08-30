@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/select_list_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.indianchat.ui.coreui.base.WaImageView android:gravity="center_vertical" android:id="@id/booking_confirmation_close_button" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:tint="@color/APKTOOL_DUMMYVAL_0x7f06030f" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/booking_confirmation_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207b7" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" style="@style/APKTOOL_DUMMYVAL_0x7f150131" />
+    </FrameLayout>
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <FrameLayout android:id="@id/booking_confirmation_details_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

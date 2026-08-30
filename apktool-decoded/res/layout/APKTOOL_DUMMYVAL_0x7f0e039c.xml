@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_footer_qp_upsell_layout_content" android:background="@drawable/footer_bg" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/chat_footer_upsell_title" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.indianchat.ui.wds.components.button.WDSButtonGroup android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/chat_footer_upsell_action_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407d1="0">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/chat_footer_upsell_secondary_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12510a" app:APKTOOL_DUMMYVAL_0x7f040923="outline" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/chat_footer_upsell_primary_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040923="outline" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+    </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

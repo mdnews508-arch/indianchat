@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon android:id="@id/meta_ai_tasks_chat_info_left_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04049c="@string/APKTOOL_DUMMYVAL_0x7f122467" app:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/wa_ic_schedule" app:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f122466"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

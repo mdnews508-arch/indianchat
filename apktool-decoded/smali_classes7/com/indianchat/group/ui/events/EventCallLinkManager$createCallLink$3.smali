@@ -1,0 +1,244 @@
+.class public final Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;
+.super LX/0Xh;
+.source ""
+
+# interfaces
+.implements LX/09l;
+
+
+# annotations
+.annotation runtime Lkotlin/coroutines/jvm/internal/DebugMetadata;
+    c = "com.indianchat.group.ui.events.EventCallLinkManager$createCallLink$3"
+    f = "EventCallLinkManager.kt"
+    i = {}
+    l = {}
+    m = "invokeSuspend"
+    n = {}
+    s = {}
+.end annotation
+
+
+# instance fields
+.field public final synthetic $eventStartTimeMillis:J
+
+.field public final synthetic $isVideoCallLink:Z
+
+.field public final synthetic $waitingRoomEnabled:Z
+
+.field public label:I
+
+.field public final synthetic this$0:LX/DCe;
+
+
+# direct methods
+.method public constructor <init>(LX/DCe;LX/0Xd;JZZ)V
+    .locals 1
+
+    .line 0
+    iput-object p1, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->this$0:LX/DCe;
+
+    .line 1
+    .line 2
+    iput-boolean p5, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$isVideoCallLink:Z
+
+    .line 3
+    .line 4
+    iput-wide p3, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$eventStartTimeMillis:J
+
+    .line 5
+    .line 6
+    iput-boolean p6, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$waitingRoomEnabled:Z
+
+    .line 7
+    .line 8
+    const/4 v0, 0x2
+
+    .line 9
+    invoke-direct {p0, v0, p2}, LX/0Xh;-><init>(ILX/0Xd;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;LX/0Xd;)LX/0Xd;
+    .locals 7
+
+    .line 0
+    iget-object v1, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->this$0:LX/DCe;
+
+    .line 1
+    .line 2
+    iget-boolean v5, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$isVideoCallLink:Z
+
+    .line 3
+    .line 4
+    iget-wide v3, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$eventStartTimeMillis:J
+
+    .line 5
+    .line 6
+    iget-boolean v6, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$waitingRoomEnabled:Z
+
+    .line 7
+    .line 8
+    new-instance v0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;
+
+    .line 9
+    .line 10
+    move-object v2, p2
+
+    .line 11
+    invoke-direct/range {v0 .. v6}, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;-><init>(LX/DCe;LX/0Xd;JZZ)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 0
+    invoke-static {p2, p1, p0}, LX/25r;->A1A(Ljava/lang/Object;Ljava/lang/Object;LX/0Xf;)LX/0Xd;
+
+    .line 1
+    .line 2
+    .line 3
+    move-result-object v1
+
+    .line 4
+    check-cast v1, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;
+
+    .line 5
+    .line 6
+    sget-object v0, LX/05S;->A00:LX/05S;
+
+    .line 7
+    .line 8
+    invoke-virtual {v1, v0}, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    return-object v0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 9
+
+    .line 0
+    iget v0, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->label:I
+
+    .line 1
+    .line 2
+    if-nez v0, :cond_0
+
+    .line 3
+    .line 4
+    invoke-static {p1}, LX/0ZR;->A01(Ljava/lang/Object;)V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object v0, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->this$0:LX/DCe;
+
+    .line 8
+    .line 9
+    iget-object v2, v0, LX/DCe;->A00:LX/DIH;
+
+    .line 10
+    .line 11
+    iget-boolean v5, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$isVideoCallLink:Z
+
+    .line 12
+    .line 13
+    iget-wide v0, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$eventStartTimeMillis:J
+
+    .line 14
+    .line 15
+    invoke-static {v0, v1}, LX/25s;->A06(J)J
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-wide v6
+
+    .line 19
+    iget-boolean v8, p0, Lcom/indianchat/group/ui/events/EventCallLinkManager$createCallLink$3;->$waitingRoomEnabled:Z
+
+    .line 20
+    .line 21
+    const-string v4, ""
+
+    .line 22
+    .line 23
+    new-instance v3, Lcom/indianchat/calling/infra/voipcalling/CallLinkInfo;
+
+    .line 24
+    .line 25
+    invoke-direct/range {v3 .. v8}, Lcom/indianchat/calling/infra/voipcalling/CallLinkInfo;-><init>(Ljava/lang/String;ZJI)V
+
+    .line 26
+    .line 27
+    .line 28
+    const/4 v1, 0x0
+
+    .line 29
+    const/4 v0, 0x0
+
+    .line 30
+    invoke-static {v1, v0, v0, v0, v3}, Landroid/os/Message;->obtain(Landroid/os/Handler;IIILjava/lang/Object;)Landroid/os/Message;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v3
+
+    .line 34
+    iget-object v2, v2, LX/DIH;->A02:LX/1l4;
+
+    .line 35
+    .line 36
+    const-string v1, "create_call_link_for_event"
+
+    .line 37
+    .line 38
+    new-instance v0, LX/D2P;
+
+    .line 39
+    .line 40
+    invoke-direct {v0, v3, v1}, LX/D2P;-><init>(Landroid/os/Message;Ljava/lang/String;)V
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {v2, v0}, LX/1l4;->A00(LX/D2P;)V
+
+    .line 44
+    .line 45
+    .line 46
+    sget-object v0, LX/05S;->A00:LX/05S;
+
+    .line 47
+    .line 48
+    return-object v0
+
+    .line 49
+    :cond_0
+    invoke-static {}, LX/000;->A02()Ljava/lang/IllegalStateException;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v0
+
+    .line 53
+    throw v0
+.end method

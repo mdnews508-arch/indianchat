@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f0710a1" style="@style/APKTOOL_DUMMYVAL_0x7f150014">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05e2" />
+            <include android:layout_width="fill_parent" android:layout_height="8.0sp" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:baselineAligned="false" android:weightSum="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2">
+                <include android:layout_width="0.0dip" android:layout_height="8.0sp" android:layout_weight="0.5" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationY="-6.0dip" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:translationZ="2.0dip">
+        <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f070c49" style="@style/APKTOOL_DUMMYVAL_0x7f150014">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070c4e" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071141">
+                <include android:id="@id/preview_reaction_emoji_1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1068" />
+                <include android:id="@id/preview_reaction_emoji_2" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1068" />
+                <include android:id="@id/preview_reaction_emoji_3" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1068" />
+                <include android:id="@id/preview_reaction_emoji_4" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1068" />
+                <include android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:layout_height="8.0sp" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f070c49" style="@style/APKTOOL_DUMMYVAL_0x7f150014">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070c4e" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+                <com.whatsapp.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:src="@drawable/ic_forward_small" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+                <include android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:layout_height="8.0sp" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

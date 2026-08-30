@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="?APKTOOL_DUMMYVAL_0x7f0409c0" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center_horizontal" android:id="@id/triggering_activity_notification_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f12434e" android:textAlignment="center" />
+        <RadioGroup android:layout_gravity="center" android:orientation="vertical" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle android:id="@id/radio_button_all_notifications" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f04065d="@string/APKTOOL_DUMMYVAL_0x7f125271" app:APKTOOL_DUMMYVAL_0x7f04065e="@string/APKTOOL_DUMMYVAL_0x7f125273" />
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle android:id="@id/radio_button_relevant_notifications" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f04065d="@string/APKTOOL_DUMMYVAL_0x7f125272" app:APKTOOL_DUMMYVAL_0x7f04065e="@string/APKTOOL_DUMMYVAL_0x7f125274" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

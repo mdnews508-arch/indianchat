@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ff8" />
+    <include android:orientation="horizontal" android:id="@id/auto_crosspost_setting_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1552" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ff8" />
+</LinearLayout>

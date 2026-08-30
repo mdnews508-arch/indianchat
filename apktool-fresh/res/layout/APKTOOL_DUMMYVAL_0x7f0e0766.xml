@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:text="@string/APKTOOL_DUMMYVAL_0x7f122347" style="@style/APKTOOL_DUMMYVAL_0x7f15061e" />
+    <androidx.cardview.widget.CardView android:id="@id/member_tag_preview_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04011d="@android:color/transparent" app:APKTOOL_DUMMYVAL_0x7f04011e="@dimen/APKTOOL_DUMMYVAL_0x7f0710a1" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bgView" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0969" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tag_preview_bubble" android:background="@drawable/bubble_circle_incoming" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e2">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="14.0sp" android:id="@id/preview_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" />
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/member_tag_preview_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:text="@string/APKTOOL_DUMMYVAL_0x7f122348" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6">
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+                    <include android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:baselineAligned="false" android:weightSum="1.0">
+                        <include android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_weight="0.5" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c8c" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

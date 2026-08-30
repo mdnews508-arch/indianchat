@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.WaAsyncImageButton android:layout_gravity="center" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1251cc" app:APKTOOL_DUMMYVAL_0x7f0407f1="@drawable/input_send" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" app:APKTOOL_DUMMYVAL_0x7f040a36="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

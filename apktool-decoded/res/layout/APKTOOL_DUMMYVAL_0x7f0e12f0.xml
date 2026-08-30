@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.CircularProgressBar android:layout_width="36.0dip" android:layout_height="36.0dip" android:indeterminate="true" app:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f040220="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

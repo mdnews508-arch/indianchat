@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingTop="5.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_more_row" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/chevron" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e18" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_keyboard_arrow_down" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="center" android:id="@id/view_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f1248b6" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+    </LinearLayout>
+    <com.indianchat.payments.common.ui.viewholder.PaymentTransactionStatusTimelineView android:id="@id/timeline_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

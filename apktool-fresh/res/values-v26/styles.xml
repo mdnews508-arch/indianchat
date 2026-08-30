@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150076" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b7" />
+    <style name="APKTOOL_DUMMYVAL_0x7f15007a" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b8" />
+    <style name="APKTOOL_DUMMYVAL_0x7f1500f7" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b9" />
+    <style name="APKTOOL_DUMMYVAL_0x7f1504c6" parent="@style/APKTOOL_DUMMYVAL_0x7f1504bb">
+        <item name="android:windowBackground">?APKTOOL_DUMMYVAL_0x7f0400bb</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">?APKTOOL_DUMMYVAL_0x7f0400bb</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1505f8" parent="@style/APKTOOL_DUMMYVAL_0x7f1505f6">
+        <item name="android:textAppearance">@style/APKTOOL_DUMMYVAL_0x7f15061b</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:imeOptions">actionSearch|flagNoExtractUi</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040519">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15068e" parent="@android:style/Widget">
+        <item name="android:background">?APKTOOL_DUMMYVAL_0x7f0401b2</item>
+        <item name="android:stateListAnimator">@animator/APKTOOL_DUMMYVAL_0x7f020000</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500b7" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b3">
+        <item name="APKTOOL_DUMMYVAL_0x7f04019e">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500b8" parent="@style/APKTOOL_DUMMYVAL_0x7f1500b4">
+        <item name="APKTOOL_DUMMYVAL_0x7f04019e">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500b9" parent="@style/APKTOOL_DUMMYVAL_0x7f1500c1">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

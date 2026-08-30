@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e23" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/APKTOOL_DUMMYVAL_0x7f0608c2" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710a7" />
+    <TextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0606dd" android:id="@id/respond_button" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f125218" android:fontFamily="@dimen/APKTOOL_DUMMYVAL_0x7f0710d8" />
+</merge>

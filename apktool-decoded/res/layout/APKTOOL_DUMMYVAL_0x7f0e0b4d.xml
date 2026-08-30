@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/button_start_chat" android:layout_width="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f123e8a" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/not_now_button" android:layout_width="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12510a" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/button_start_chat" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_no_matches_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/search_no_matches" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.multiplecontactpicker.contact.picker.MultipleContactPickerErrorView android:id="@id/error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/moreText" android:visibility="gone" android:inflatedId="@id/moreText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/contacts_empty_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e079e" android:inflatedId="@id/contacts_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/contacts_empty_permission_denied_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0791" android:inflatedId="@id/contacts_empty_permission_denied" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/new_call_blocking_null_state" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d6b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

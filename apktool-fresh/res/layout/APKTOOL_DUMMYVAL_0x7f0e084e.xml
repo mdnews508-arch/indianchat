@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.videoplayback.ZoomableVideoContainer android:id="@id/zoomable_video_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.whatsapp.videoplayback.ZoomableVideoContainer>
+    <View android:id="@id/thumbnailBackground" android:background="?APKTOOL_DUMMYVAL_0x7f0409e6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.mediaview.api.PhotoView android:layout_gravity="center" android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.whatsapp.videoplayback.ExoPlayerErrorFrame android:id="@id/exoplayer_error_elements" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.whatsapp.pushtorecordmedia.MediaProgressRingWithScrubber android:id="@id/playback_progress_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <com.whatsapp.videoplayback.FbHeroPlaybackControlView android:id="@id/controlView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

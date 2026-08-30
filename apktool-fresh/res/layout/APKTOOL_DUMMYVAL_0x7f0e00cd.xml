@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040298="0.0dip">
+        <include android:id="@id/toolbar_holder" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137c" />
+        <FrameLayout android:id="@id/persistent_search_holder" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.collections.ObservableRecyclerView android:id="@id/filter_list" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+        <View android:layout_gravity="bottom" android:id="@id/filter_divider" android:background="?APKTOOL_DUMMYVAL_0x7f040a06" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.ui.coreui.collections.ObservableRecyclerView android:id="@id/newsletter_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a" />
+    <ViewStub android:id="@id/discovery_list_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0735" android:inflatedId="@id/discovery_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

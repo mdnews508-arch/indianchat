@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.search.WDSSearchView android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071139" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071136" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/country_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:choiceMode="none" android:layout_weight="9.0" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605af" android:gravity="center" android:layout_gravity="center" android:id="@id/country_no_results_view" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f122873" android:layout_weight="9.0" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+</LinearLayout>

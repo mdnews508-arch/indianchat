@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f1241fd" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/themes_recyler_view" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.indianchat.ui.wds.components.list.footer.WDSSectionFooter android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f040377="@string/APKTOOL_DUMMYVAL_0x7f1241fe" />
+        <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f1241d9" />
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/list_item_message_color" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f1241ee" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_chat_wds" style="@style/APKTOOL_DUMMYVAL_0x7f15079c" />
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/list_item_wallpaper" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f124b31" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_wallpaper" style="@style/APKTOOL_DUMMYVAL_0x7f15079c" />
+    </LinearLayout>
+</ScrollView>

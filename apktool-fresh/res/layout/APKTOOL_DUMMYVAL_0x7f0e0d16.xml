@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/row_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070378" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070361" whatsapp:APKTOOL_DUMMYVAL_0x7f04044e="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040467="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034b" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f040861="false" whatsapp:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+        <com.whatsapp.ui.coreui.components.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+    </FrameLayout>
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f04044e="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040455="@id/actions_container" whatsapp:APKTOOL_DUMMYVAL_0x7f040466="@id/contact_selector" whatsapp:APKTOOL_DUMMYVAL_0x7f04046b="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d19" />
+    <LinearLayout android:id="@id/actions_container" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" whatsapp:APKTOOL_DUMMYVAL_0x7f04044e="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040454="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <include android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d18" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

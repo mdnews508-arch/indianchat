@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/upr_status_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:importantForAccessibility="no" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150620" android:id="@id/upr_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3_emphasized" />
+</LinearLayout>

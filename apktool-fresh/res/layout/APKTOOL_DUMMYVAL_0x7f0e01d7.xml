@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout android:orientation="vertical" android:id="@id/audio_chat_bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0400a5="true" app:APKTOOL_DUMMYVAL_0x7f040446="com.google.android.material.bottomsheet.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/vc_bottom_sheet_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/header_v2_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14dc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/vc_lower_hand_pill_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1402" android:inflatedId="@id/vc_lower_hand_pill" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/confirmation_lobby_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14db" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070f9a" android:layout_weight="1.0" />
+            <ViewStub android:id="@id/call_grid_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14da" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/timeout_state_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14e3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f9e" />
+            <FrameLayout android:id="@id/controls_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070f9b">
+                <ViewStub android:id="@id/voice_chat_footer_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14d7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="center_horizontal" android:id="@id/controls_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1508" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" />
+            </FrameLayout>
+        </LinearLayout>
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/vc_raised_hand_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e140d" android:inflatedId="@id/vc_raised_hand_banner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f9b" />
+    </FrameLayout>
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

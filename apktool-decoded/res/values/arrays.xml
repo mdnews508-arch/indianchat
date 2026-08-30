@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030000">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d44</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d47</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d46</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d45</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030001">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3a</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3b</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d39</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3c</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030002">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3d</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3e</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4d</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d48</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030003">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d56</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030004">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d40</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d38</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d49</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d57</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030005">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d3f</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030006">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d35</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030007">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d37</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4b</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4c</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d52</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030008">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d54</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d43</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d53</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d55</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030009">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d50</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4e</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4f</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d51</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000a">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d41</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000b">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4a</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d36</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000c">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4a</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d65</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d36</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000d">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d42</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d4a</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d65</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124d36</item>
+    </string-array>
+    <string-array name="android_wear_capabilities">
+        <item>wearos_alt_linking_prefill</item>
+        <item>wearos_crscv3_pairing</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000f">
+        <item>A close-up of a pink flower with purple petals.</item>
+        <item>A close-up of a purple light, showing an abstract pattern.</item>
+        <item>Palm trees sitting on meringues with a light pink background.</item>
+        <item>A variety of flowers floating on water.</item>
+        <item>A close-up of neutral colored dandelions.</item>
+        <item>A group of purple fruits.</item>
+        <item></item>
+        <item>A close-up photo of a pink orchid flower with red accents.</item>
+        <item>A close-up of a yellow flower</item>
+        <item>A group of orange &amp; rose gold sunglasses.</item>
+        <item>A close-up of a green leaf.</item>
+        <item>An aerial view of a beach with a body of water, featuring teal colored waves.</item>
+        <item>A group of mint green macarons.</item>
+        <item>A close-up of feathers in an icy blue color.</item>
+        <item>A close-up of a blue fabric, showing an abstract pattern.</item>
+        <item>A blue tiled surface with an abstract pattern.</item>
+        <item></item>
+        <item>A beach with blue water under a clear sky.</item>
+        <item>A close-up of a green plant. The focus is on the details of the leaves.</item>
+        <item>A green field with white lines, resembling a sports field or stadium.</item>
+        <item>A tree standing in water with clouds in the sky</item>
+        <item>A close-up view of a wave in the ocean</item>
+        <item>A group of green vegetables</item>
+        <item></item>
+        <item>A close-up of a pink flower with detailed petals</item>
+        <item>A close-up of an orange fabric, showing an abstract pattern.</item>
+        <item>A close-up of a green plant. The focus is on the shape of the plant.</item>
+        <item>A shadow of a tree against a white wall.</item>
+        <item>A black and white image of sand dunes. Shadows accentuate the curves of the dunes.</item>
+        <item>A close-up of a beach, showing sand dunes and the ocean waves in black and white.</item>
+        <item>Snowy mountain at sunrise.</item>
+        <item>A close-up of a peach-colored drink with ice.</item>
+        <item>Dark green ocean waves.</item>
+        <item>Colorful curtains with a shadow.</item>
+        <item>Ancient stone pyramid.</item>
+        <item>Mosque with tall towers.</item>
+        <item>Bright yellow flowers in a field.</item>
+        <item>City skyline at sunset.</item>
+        <item>Orange sunset over a mountain.</item>
+        <item>Bright city street at night.</item>
+        <item>Desert with a hot air balloon.</item>
+        <item>White sand dunes and blue water.</item>
+        <item>Green rice terraces on a hillside.</item>
+        <item>City skyline with a snowy volcano.</item>
+        <item>Sharp, rocky mountain peak.</item>
+        <item>Many animals grazing in a field.</item>
+        <item>Paris, France, with the Eiffel Tower.</item>
+        <item>Red and orange desert mountains.</item>
+        <item>Two birds flying in front of moon.</item>
+        <item>A tall, red modern building.</item>
+        <item>A single cloud above sand dunes.</item>
+        <item>A fluffy baby swan chick.</item>
+        <item>A big glass dome building.</item>
+        <item>Blue mountains and river.</item>
+        <item>Black and white tulip.</item>
+        <item>Big castle in the desert.</item>
+        <item>Icy blue iceberg in the ocean.</item>
+        <item>Blue ocean waves.</item>
+        <item>Big Ben clock tower at night.</item>
+        <item>Snowy mountain range at night.</item>
+        <item>Colorful shapes.</item>
+        <item>Abstract landscape with sun.</item>
+        <item>Crescent moon in dark sky.</item>
+        <item>Red birds on a black background.</item>
+        <item>Black and white mountain and moon.</item>
+        <item>Tall dark building at night.</item>
+        <item>Taj Mahal at sunset.</item>
+        <item>Yellow flowers on a dark branch.</item>
+        <item>Dark green forest.</item>
+        <item>White flowers on a black background.</item>
+        <item>Neon lines in a dark room.</item>
+        <item>Night city view.</item>
+        <item>Dark green leaf close-up.</item>
+        <item>Dark gray textured background.</item>
+        <item>Dark green leaves on a black background.</item>
+        <item>Lit-up ancient temple at night.</item>
+        <item>Boat on dark water.</item>
+        <item>Swirly light trails in the dark.</item>
+        <item>Dark gray textured background.</item>
+        <item>Black and white flower.</item>
+        <item>Night city lights.</item>
+        <item>Snowy mountains under starry sky.</item>
+        <item>Purple jellyfish in the ocean.</item>
+        <item>Earth from space.</item>
+        <item>Dark flower bud.</item>
+        <item>Dark wavy water.</item>
+        <item>Dark fish in a dark tank.</item>
+        <item>Dark blue sand dunes.</item>
+        <item>Dark sandy hills at night.</item>
+        <item>Dark swirly shapes.</item>
+        <item>Night scene with mountains and moon.</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030010">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030011">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1251d3</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1251d1</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1251d4</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1251d2</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030012">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030013">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12528e</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125293</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030014">
+        <item>Pizza</item>
+        <item>Sushi</item>
+        <item>Burgers</item>
+        <item>Tacos</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030015" />
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030016">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030017">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520d</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520f</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520b</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520a</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520c</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12520e</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125210</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125211</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125209</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125212</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125213</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030018">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030019">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124ece</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124ecd</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124ecc</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03001a">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001b">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602da</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602db</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602dc</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602dd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602de</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602df</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602e0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602e1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d9</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001c">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602cc</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602cf</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602d6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602cd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0602ce</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001d">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605d4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605b8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605e6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605d9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605e2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605cf</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605c2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605bd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605de</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0605ca</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001e">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060879</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03001f">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124ef3</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124db9</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030020">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124ef2</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124db9</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030021">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030022">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030023">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122413</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122417</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030024">
+        <item>me</item>
+        <item>imagine me</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030025">
+        <item>me</item>
+        <item>imagine me</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030026">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060922</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060946</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06098c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060930</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060962</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060910</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06086e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06085f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06093d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0608e6</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030027">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06091f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060948</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06098a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06092d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060964</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060912</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06086a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06085d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060938</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0608eb</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030028">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125165</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125167</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125166</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125164</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030029">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03002a">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124db8</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f124db9</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03002b">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cc</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cf</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607dd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607db</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ce</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607da</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ca</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cb</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607de</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607df</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607dc</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03002c">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607da</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ce</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607db</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607df</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607de</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ca</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cb</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607dd</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cf</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607cc</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607d3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607dc</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607c7</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03002d">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060715</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060714</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060717</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060716</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03002e">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060719</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060718</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071a</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03002f">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06071e</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030030">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060721</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060720</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060723</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060722</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030031">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060725</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060724</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060727</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060726</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030032">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12528b</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f125289</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12528c</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12528a</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030033">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030034">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06091a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060943</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060985</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060929</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06095f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06090d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060865</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060859</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060935</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0608e4</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030035">
+        <item>fdb00c43dbde8b51cb312aa81d3b5fa17713adb94b28f598d77f8eb89daceedf, com.google.android.projection.gearhead</item>
+        <item>70811a3eacfd2e83e18da9bfede52df16ce91f2e69a44d21f18ab66991130771, com.google.android.projection.gearhead</item>
+        <item>1975b2f17177bc89a5dff31f9e64a6cae281a53dc1d1d59b1d147fe1c82afa00, com.google.android.projection.gearhead</item>
+        <item>c241ffbc8e287c4e9a4ad19632ba1b1351ad361d5177b7d7b29859bd2b7fc631, com.google.android.apps.automotive.templates.host</item>
+        <item>dd66deaf312d8daec7adbe85a218ecc8c64f3b152f9b5998d5b29300c2623f61, com.google.android.apps.automotive.templates.host</item>
+        <item>50e603d333c6049a37bd751375d08f3bd0abebd33facd30bd17b64b89658b421, com.google.android.apps.automotive.templates.host</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030036">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ef</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ec</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607fa</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ed</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607eb</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ea</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607ee</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607f7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f0607e2</item>
+    </array>
+</resources>

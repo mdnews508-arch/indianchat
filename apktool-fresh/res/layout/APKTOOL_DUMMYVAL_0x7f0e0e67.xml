@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:gravity="center" android:orientation="vertical" android:id="@id/add_pix_scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:APKTOOL_DUMMYVAL_0x7f04044f="@id/br_bottom_sheet_add_pix_button" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/br_bottom_sheet_pix_input_fields_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/pix_information_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0132" android:inflatedId="@id/pix_information_view_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/smb_pix_information_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1202" android:inflatedId="@id/smb_pix_information_view_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/legal_disclaimer_view_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0b5a" android:inflatedId="@id/legal_disclaimer_view_inflated" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.coreui.WaButtonWithLoader android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:id="@id/br_bottom_sheet_add_pix_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706cc" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f071066" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

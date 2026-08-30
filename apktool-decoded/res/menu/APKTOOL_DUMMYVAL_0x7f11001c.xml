@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/wa_archive_overflow_ic_data_usage" android:id="@id/menuitem_manage_storage" android:title="@string/APKTOOL_DUMMYVAL_0x7f124f90" />
+    <item android:icon="@drawable/wa_archive_overflow_ic_settings" android:id="@id/menuitem_archived_status_settings" android:title="@string/APKTOOL_DUMMYVAL_0x7f125203" />
+    <item android:icon="@drawable/wa_archive_overflow_ic_backup" android:id="@id/menuitem_archived_status_backup" android:title="@string/APKTOOL_DUMMYVAL_0x7f125202" />
+</menu>

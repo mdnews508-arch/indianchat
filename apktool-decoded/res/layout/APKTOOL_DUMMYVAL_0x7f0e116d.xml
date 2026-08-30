@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d2d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d32" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d31">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/contact_row_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d2c" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d2c" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040861="false" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+        <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/close" android:layout_width="21.0dip" android:layout_height="21.0dip">
+            <com.indianchat.ui.coreui.base.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/iv_close" android:background="@drawable/grey_circle" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1236b8" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close_white_small_2" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f04073c" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070d32" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+</LinearLayout>

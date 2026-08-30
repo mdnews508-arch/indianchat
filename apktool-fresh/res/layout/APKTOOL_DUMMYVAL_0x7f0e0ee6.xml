@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_actions" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton android:id="@id/close" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:focusable="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124df4" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_close" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150621" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605af" android:gravity="center" android:id="@id/payment_title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12084c" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b01" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b01" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.payments.productinfra.ui.components.PaymentInfoViewV2 android:id="@id/pix_key_info_view" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e076d" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1186" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10ac" />
+</LinearLayout>

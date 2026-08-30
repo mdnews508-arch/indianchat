@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/event_cover_image_internal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <android.view.View android:id="@id/event_cover_image_dim_overlay" android:background="@color/APKTOOL_DUMMYVAL_0x7f0609a1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/event_cover_image_shimmer_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040795="?APKTOOL_DUMMYVAL_0x7f0409f9" app:APKTOOL_DUMMYVAL_0x7f040797="true" app:APKTOOL_DUMMYVAL_0x7f04079f="?APKTOOL_DUMMYVAL_0x7f040a16">
+        <android.view.View android:background="@drawable/event_cover_image_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <FrameLayout android:id="@id/event_cover_image_error_overlay" android:background="@drawable/event_cover_image_error_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e9b">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:src="@drawable/vec_ic_refresh_v2" android:tint="?APKTOOL_DUMMYVAL_0x7f040a00" android:importantForAccessibility="no" />
+    </FrameLayout>
+</merge>

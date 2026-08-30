@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/wallpaper_preview_container" android:background="@drawable/aura_theme_preview_background" android:layout_width="24.0dip" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_gravity="start" android:id="@id/incoming_bubble" android:background="@drawable/aura_theme_preview_bubble_incoming" android:layout_width="10.0dip" android:layout_height="5.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="2.0dip" />
+        <View android:layout_gravity="end" android:id="@id/outgoing_bubble" android:background="@drawable/aura_theme_preview_bubble_outgoing" android:layout_width="10.0dip" android:layout_height="5.0dip" />
+    </LinearLayout>
+</FrameLayout>

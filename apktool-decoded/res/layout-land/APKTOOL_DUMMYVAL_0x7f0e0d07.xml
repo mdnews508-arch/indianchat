@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/mtrl_picker_header" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0709b4" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0709b4" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0709b4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0709b4" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0709b4" style="?APKTOOL_DUMMYVAL_0x7f0404f5">
+        <FrameLayout android:id="@id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0709ba" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709bd" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0709ba">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d0a" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d09" />
+        </FrameLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d0b" />
+    </LinearLayout>
+    <View android:layout_gravity="end" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709b6" android:layout_height="fill_parent" style="?APKTOOL_DUMMYVAL_0x7f0404f4" />
+</merge>

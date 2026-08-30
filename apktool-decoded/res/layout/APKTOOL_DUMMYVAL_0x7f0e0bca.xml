@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/map_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="left" android:id="@id/full_screen" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121e57" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/btn_map_fullscreen_on" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06084c" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="right" android:id="@id/my_location" android:background="@drawable/map_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122569" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/btn_myl" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06084c" />
+</FrameLayout>

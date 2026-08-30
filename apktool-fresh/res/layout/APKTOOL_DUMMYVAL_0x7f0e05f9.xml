@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.conversation.ui.conversationrow.PaymentInfoMessageView android:orientation="vertical" android:id="@id/payment_info_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/date" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505dd" />
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/status" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/button_div" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+        <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveButtonsRowContentLayout android:id="@id/buttons_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

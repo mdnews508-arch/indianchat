@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d сповіщень</item>
+        <item quantity="one">%1$d сповіщення</item>
+        <item quantity="few">%1$d сповіщення</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">Приховано %1$d рядків</item>
+        <item quantity="one">Приховано %1$d рядок</item>
+        <item quantity="few">Приховано %1$d рядки</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d сторінок</item>
+        <item quantity="one">%1$d сторінка</item>
+        <item quantity="few">%1$d сторінки</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d позначок «Подобається»</item>
+        <item quantity="one">%1$d позначка «Подобається»</item>
+        <item quantity="few">%1$d позначки «Подобається»</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+</resources>

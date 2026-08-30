@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?APKTOOL_DUMMYVAL_0x7f0409f6" />
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0710a0" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:drawable="@drawable/vec_phone_number_preview_placeholder_person" />
+</layer-list>

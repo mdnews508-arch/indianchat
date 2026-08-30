@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f0404ac" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040889" android:textColor="?APKTOOL_DUMMYVAL_0x7f040899" android:ellipsize="marquee" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150459" android:textColor="?APKTOOL_DUMMYVAL_0x7f040899" android:ellipsize="marquee" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <RadioButton android:gravity="top" android:id="@id/radio" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="35.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

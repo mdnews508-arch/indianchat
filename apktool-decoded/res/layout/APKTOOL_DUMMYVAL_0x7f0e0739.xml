@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/choose_dsb" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040689="Test subtext" app:APKTOOL_DUMMYVAL_0x7f04068c="Test Title" />
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/provide_reference_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/processing_fee" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

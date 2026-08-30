@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/stickers_tab_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_horizontal" android:id="@id/stickers_tab_empty_image" android:layout_width="96.0dip" android:layout_height="96.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/sticker_sad_cuppy" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_gravity="center" android:id="@id/stickers_tab_empty_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218b8" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/get_stickers_btn" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:text="@string/APKTOOL_DUMMYVAL_0x7f124008" style="@style/APKTOOL_DUMMYVAL_0x7f1505c5" />
+</LinearLayout>

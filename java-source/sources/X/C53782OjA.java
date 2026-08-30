@@ -1,0 +1,37 @@
+package X;
+
+import com.whatsapp.infra.threadinteractions.ThreadInteractionData;
+
+/* JADX INFO: renamed from: X.OjA, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes11.dex */
+public final /* synthetic */ class C53782OjA implements InterfaceC21950y0, P4V {
+    public static final C53782OjA A00 = new C53782OjA();
+
+    @Override // X.InterfaceC21950y0
+    public final InterfaceC000800i AgF() {
+        return new C05360Nv(1, N09.class, "setIsDeleted", "setIsDeleted()Z", 0);
+    }
+
+    public final boolean equals(Object obj) {
+        if ((obj instanceof P4V) && (obj instanceof InterfaceC21950y0)) {
+            return AbstractC466825v.A1a(obj, AgF());
+        }
+        return false;
+    }
+
+    @Override // X.P4V
+    public /* bridge */ /* synthetic */ boolean BRw(ThreadInteractionData threadInteractionData) {
+        C48600MKm c48600MKmA00 = AbstractC48599MKl.A00(threadInteractionData);
+        N8G n8g = N8G.A0y;
+        Boolean boolA04 = c48600MKmA00.A04(n8g.key);
+        Boolean boolA12 = AbstractC466125o.A12();
+        if (C000700h.areEqual(boolA04, boolA12)) {
+            return false;
+        }
+        return c48600MKmA00.A0A(boolA12, n8g.key);
+    }
+
+    public final int hashCode() {
+        return AgF().hashCode();
+    }
+}

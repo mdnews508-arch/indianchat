@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070fc4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070fc4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/voice_option_non_selected" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070fc1" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070fc0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070fc0" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f04078f="@style/APKTOOL_DUMMYVAL_0x7f1505b7" app:APKTOOL_DUMMYVAL_0x7f040818="@dimen/APKTOOL_DUMMYVAL_0x7f070fc1" />
+</FrameLayout>

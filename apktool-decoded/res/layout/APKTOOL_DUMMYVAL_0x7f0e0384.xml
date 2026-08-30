@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/no_internet_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:gravity="center" android:layout_gravity="center" android:id="@id/no_internet_connection_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228a2" android:lineSpacingExtra="5.0sp" android:letterSpacing="0.02" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/no_internet_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123807" android:letterSpacing="0.09" style="@style/APKTOOL_DUMMYVAL_0x7f1505c6" />
+</LinearLayout>

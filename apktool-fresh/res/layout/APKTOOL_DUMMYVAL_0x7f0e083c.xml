@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070616" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070616" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070615" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070614"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facepile="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.contact.FacepileView android:id="@id/facepile_tooltip_facepile" android:layout_width="wrap_content" android:layout_height="wrap_content" facepile:APKTOOL_DUMMYVAL_0x7f0402f6="@color/APKTOOL_DUMMYVAL_0x7f06028e" facepile:APKTOOL_DUMMYVAL_0x7f0402f7="1.0dip" facepile:APKTOOL_DUMMYVAL_0x7f0402f8="@dimen/APKTOOL_DUMMYVAL_0x7f070612" facepile:APKTOOL_DUMMYVAL_0x7f0402f9="0" facepile:APKTOOL_DUMMYVAL_0x7f0402fa="@dimen/APKTOOL_DUMMYVAL_0x7f070613" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:id="@id/facepile_tooltip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070618" />
+</LinearLayout>

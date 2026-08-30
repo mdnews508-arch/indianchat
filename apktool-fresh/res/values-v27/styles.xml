@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f15038d" parent="@style/APKTOOL_DUMMYVAL_0x7f15011f">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?APKTOOL_DUMMYVAL_0x7f040488</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504b7" parent="@style/APKTOOL_DUMMYVAL_0x7f15050d">
+        <item name="android:navigationBarColor">?APKTOOL_DUMMYVAL_0x7f040488</item>
+        <item name="android:contextPopupMenuStyle">@style/APKTOOL_DUMMYVAL_0x7f1501e6</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504b9" parent="@style/APKTOOL_DUMMYVAL_0x7f1504b7">
+        <item name="android:windowBackground">?APKTOOL_DUMMYVAL_0x7f0409e6</item>
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04000f">@style/APKTOOL_DUMMYVAL_0x7f15077e</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401b2">?APKTOOL_DUMMYVAL_0x7f0409e6</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401b4">@color/APKTOOL_DUMMYVAL_0x7f060746</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0403c0">@drawable/ic_arrow_back_white</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0408da">?APKTOOL_DUMMYVAL_0x7f0409e6</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504e3" parent="@style/APKTOOL_DUMMYVAL_0x7f1504b7">
+        <item name="android:windowBackground">?APKTOOL_DUMMYVAL_0x7f0409e6</item>
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504ef" parent="@style/APKTOOL_DUMMYVAL_0x7f1504da">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150511" parent="@style/APKTOOL_DUMMYVAL_0x7f1504da">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040528">@color/APKTOOL_DUMMYVAL_0x7f0608ab</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040529">@color/APKTOOL_DUMMYVAL_0x7f060891</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04052a">@color/APKTOOL_DUMMYVAL_0x7f060893</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04052b">@color/APKTOOL_DUMMYVAL_0x7f060892</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150532" parent="@style/APKTOOL_DUMMYVAL_0x7f15052b">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401b4">@color/APKTOOL_DUMMYVAL_0x7f06084c</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150533" parent="@style/APKTOOL_DUMMYVAL_0x7f1504da">
+        <item name="android:windowBackground">@color/APKTOOL_DUMMYVAL_0x7f0600fb</item>
+        <item name="android:textColorHint">?APKTOOL_DUMMYVAL_0x7f0409ff</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04000d">@dimen/APKTOOL_DUMMYVAL_0x7f07005e</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04000f">@style/APKTOOL_DUMMYVAL_0x7f150779</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040195">?APKTOOL_DUMMYVAL_0x7f0409e2</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401b2">?APKTOOL_DUMMYVAL_0x7f04062f</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401b4">@color/APKTOOL_DUMMYVAL_0x7f0600fb</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0408da">?APKTOOL_DUMMYVAL_0x7f040a12</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0408de">@style/APKTOOL_DUMMYVAL_0x7f150782</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040953">?APKTOOL_DUMMYVAL_0x7f0409e8</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040954">@style/APKTOOL_DUMMYVAL_0x7f1505c1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150612" parent="@style/APKTOOL_DUMMYVAL_0x7f150120">
+        <item name="android:navigationBarColor">?APKTOOL_DUMMYVAL_0x7f040a12</item>
+        <item name="android:windowLightNavigationBar">@bool/APKTOOL_DUMMYVAL_0x7f050007</item>
+    </style>
+</resources>

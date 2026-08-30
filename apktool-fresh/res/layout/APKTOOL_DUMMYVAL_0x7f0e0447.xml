@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/interop_identifier_icon" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04044e="@id/interop_identifier_input_layout" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="@id/interop_identifier_input_layout" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wa_ic_link" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+    <com.whatsapp.ui.wds.components.textfield.WDSTextField android:id="@id/interop_identifier_input_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070335" app:APKTOOL_DUMMYVAL_0x7f0402af="@drawable/ic_lock" app:APKTOOL_DUMMYVAL_0x7f0402b1="custom" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040466="@id/interop_identifier_icon" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/progress_container" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f1f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f1f" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="false" android:indeterminateOnly="false" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030e" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/close" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124ddc" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030e" />
+</FrameLayout>

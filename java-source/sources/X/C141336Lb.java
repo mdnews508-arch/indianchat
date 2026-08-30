@@ -1,0 +1,18 @@
+package X;
+
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.6Lb, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final /* synthetic */ class C141336Lb extends C05360Nv implements Function1 {
+    public static final C141336Lb A00 = new C141336Lb();
+
+    public C141336Lb() {
+        super(1, C905246l.class, "<init>", "<init>(Lcom/facebook/graphql/modelutil/GraphQLData;)V", 0);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public /* bridge */ /* synthetic */ Object invoke(Object obj) {
+        return new C905246l(AbstractC81783lh.A0b(obj));
+    }
+}

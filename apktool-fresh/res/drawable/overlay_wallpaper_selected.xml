@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:layout_height="fill_parent" android:shape="rectangle">
+            <size android:height="160.0dip" android:width="100.0dip" />
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0710a1" />
+            <stroke android:width="6.0dip" android:color="?APKTOOL_DUMMYVAL_0x7f040a12" />
+        </shape>
+    </item>
+    <item>
+        <shape android:layout_height="fill_parent" android:shape="rectangle">
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f07109c" />
+            <size android:height="160.0dip" android:width="100.0dip" />
+            <stroke android:width="2.0dip" android:color="?APKTOOL_DUMMYVAL_0x7f0409fd" />
+        </shape>
+    </item>
+    <item android:gravity="bottom|center" android:height="16.0dip" android:width="16.0dip" android:bottom="20.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f0608a7" />
+        </shape>
+    </item>
+    <item android:gravity="bottom|center" android:height="24.0dip" android:width="24.0dip" android:drawable="@drawable/wa_ic_check_circle_filled" android:bottom="16.0dip" />
+</layer-list>

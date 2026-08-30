@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/ic_delete_white" android:tint="@color/APKTOOL_DUMMYVAL_0x7f06055f" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_delete_white" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060561" />
+    </item>
+</selector>

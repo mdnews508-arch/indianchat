@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:textColorLink="?APKTOOL_DUMMYVAL_0x7f040a02" android:gravity="center" android:id="@id/backup_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071142" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.indianchat.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/stay_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f12014d" style="@style/APKTOOL_DUMMYVAL_0x7f1505d1" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/move_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f12014a" style="@style/APKTOOL_DUMMYVAL_0x7f1505d1" />
+    </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

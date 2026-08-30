@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07069d" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07021f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="top" style="@style/APKTOOL_DUMMYVAL_0x7f150150" />
+    <LinearLayout android:gravity="start" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/pending_icon" android:layout_width="22.0dip" android:layout_height="wrap_content" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/message_unsent" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0604c2" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/pending_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1223cd" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071149" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_gravity="start" android:id="@id/pending_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1223cc" android:singleLine="false" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+    </LinearLayout>
+</FrameLayout>

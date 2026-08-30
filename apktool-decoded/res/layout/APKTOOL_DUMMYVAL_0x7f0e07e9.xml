@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.text.ReadMoreTextView android:layout_width="fill_parent" android:layout_height="fill_parent" indianchat:APKTOOL_DUMMYVAL_0x7f040680="3" indianchat:APKTOOL_DUMMYVAL_0x7f040682="?APKTOOL_DUMMYVAL_0x7f0409e2" indianchat:APKTOOL_DUMMYVAL_0x7f040683="@string/APKTOOL_DUMMYVAL_0x7f125192" style="@style/APKTOOL_DUMMYVAL_0x7f15061b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" />

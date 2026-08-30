@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.searchui.search.views.MessageThumbView android:id="@id/thumb_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.whatsapp.searchui.search.views.itemviews.MessageGifVideoPlayer android:id="@id/video_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e113a" />
+    <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/button_frame" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070cfb" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cfa" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/button_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070cf9" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:layout_gravity="center_vertical" android:id="@id/media_time" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e113b" />
+</merge>

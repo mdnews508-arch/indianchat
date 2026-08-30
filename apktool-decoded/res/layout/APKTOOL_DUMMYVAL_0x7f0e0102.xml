@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408dd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f04002f" style="@style/APKTOOL_DUMMYVAL_0x7f15058e">
+        <ViewStub android:id="@id/toolbar_sponsor_content_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e121e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.indianchat.ui.wds.components.topbar.WDSToolbar>
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/activity_sponsor_controls_dependent_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/pmta_m1_upgrade_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e49" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/review_privacy_settings_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e49" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/add_contact_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e49" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e121d" />
+            <FrameLayout android:id="@id/sponsor_controls_debug_extension_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

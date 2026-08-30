@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/google_review_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_logo_google_maps" android:importantForAccessibility="no" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/google_review_content" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/google_review_rating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+        <RatingBar android:id="@id/google_review_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:stepSize="0.1" android:isIndicator="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:progressTint="@color/APKTOOL_DUMMYVAL_0x7f0602c5" android:progressBackgroundTint="?APKTOOL_DUMMYVAL_0x7f040a00" style="?android:ratingBarStyleSmall" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:id="@id/google_review_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/google_review_loading" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <View android:background="?APKTOOL_DUMMYVAL_0x7f040a15" android:layout_width="120.0dip" android:layout_height="14.0dip" />
+        <View android:background="?APKTOOL_DUMMYVAL_0x7f040a15" android:layout_width="60.0dip" android:layout_height="14.0dip" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/google_review_info" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121be0" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+</merge>

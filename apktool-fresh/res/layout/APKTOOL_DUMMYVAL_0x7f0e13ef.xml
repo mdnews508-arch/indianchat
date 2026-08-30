@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e9" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/multiselect_background_panel" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12e4" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/stickerContainer" android:background="@drawable/selector_rounded_corners" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7">
+        <com.whatsapp.stickers.StickerView android:layout_gravity="center" android:id="@id/sticker" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705e5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e5" />
+        <ViewStub android:layout_gravity="center" android:id="@id/multiselect_disabled_panel" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12d7" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e7" />
+        <com.whatsapp.aura.branding.AuraBadge android:layout_gravity="end|bottom|center" android:id="@id/exclusive_sticker_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <ViewStub android:layout_gravity="end|center|top" android:id="@id/multiselect_checkmark_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12e5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

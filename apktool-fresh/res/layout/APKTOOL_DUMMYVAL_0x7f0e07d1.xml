@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/cover_image_picker_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup android:id="@id/cover_image_picker_action_tiles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/cover_image_picker_grid" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</LinearLayout>

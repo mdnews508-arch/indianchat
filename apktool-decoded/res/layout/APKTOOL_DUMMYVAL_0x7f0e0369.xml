@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.components.MainChildCoordinatorLayout android:id="@id/camera_coordinator" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040520="@id/bottom_sheet">
+        <View android:id="@id/gradient" android:background="@drawable/camera_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070688" android:layout_alignParentTop="true" />
+        <FrameLayout android:id="@id/bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0400a7="@dimen/APKTOOL_DUMMYVAL_0x7f070a7d" app:APKTOOL_DUMMYVAL_0x7f040446="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <FrameLayout android:id="@id/gallery_container" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/drag_gallery_strip_layout" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070568" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070567">
+                <com.indianchat.camera.DragGalleryStripIndicator android:id="@id/drag_gallery_strip_indicator" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:visibility="invisible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070566" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070565" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/gallery_strip_container" android:focusable="false" android:clickable="false" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07067e">
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/recent_media" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07067e" android:nextFocusForward="@id/camera_mode_tab_layout" />
+            </FrameLayout>
+            <View android:id="@id/invisible_gallery_click_disabler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07067e" android:importantForAccessibility="no" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/camera_actions" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0363" />
+            </RelativeLayout>
+            <com.indianchat.camera.mode.CameraModeTabLayout android:id="@id/camera_mode_tab_layout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060728" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ece" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ecd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nextFocusForward="@id/close_camera_btn" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f04084d="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04084e="0.0dip" />
+            <ViewStub android:id="@id/recording_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e036d" android:inflatedId="@id/recording_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="@id/camera_actions" />
+            <ViewStub android:id="@id/camera_ar_effects_banner" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070110" android:layout_centerHorizontal="true" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="@id/camera_actions" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0371" />
+    </com.indianchat.ui.coreui.components.MainChildCoordinatorLayout>
+    <androidx.fragment.app.FragmentContainerView android:layout_gravity="bottom" android:id="@id/ar_effects_tray_collection_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/hold_still_text_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09b6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

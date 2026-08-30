@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.settings.SettingsRowIconText android:id="@id/wallpaper_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040764="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f040767="@drawable/ic_palette" app:APKTOOL_DUMMYVAL_0x7f04076a="@string/APKTOOL_DUMMYVAL_0x7f121256" style="?APKTOOL_DUMMYVAL_0x7f040765"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

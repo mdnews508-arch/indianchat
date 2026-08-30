@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/product_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:gravity="left" android:id="@id/product_body" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="left" android:id="@id/product_footer" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070469" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/product_content_date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055e" />
+    </FrameLayout>
+    <View android:id="@id/btn_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+</LinearLayout>

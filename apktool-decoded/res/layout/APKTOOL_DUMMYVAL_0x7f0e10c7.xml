@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f040793="true" app:APKTOOL_DUMMYVAL_0x7f040794="1.0" app:APKTOOL_DUMMYVAL_0x7f040795="@color/APKTOOL_DUMMYVAL_0x7f060884" app:APKTOOL_DUMMYVAL_0x7f040797="true" app:APKTOOL_DUMMYVAL_0x7f040799="0.7" app:APKTOOL_DUMMYVAL_0x7f04079a="1000" app:APKTOOL_DUMMYVAL_0x7f04079e="1.0" app:APKTOOL_DUMMYVAL_0x7f04079f="@color/APKTOOL_DUMMYVAL_0x7f060634" app:APKTOOL_DUMMYVAL_0x7f0407a6="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/response_shimmer_circle_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2">
+            <View android:background="@drawable/response_shimmer_bubble_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cb2" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cb1" />
+            <View android:background="@drawable/response_shimmer_bubble_background" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cb1" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc8" />
+            <View android:background="@drawable/response_shimmer_bubble_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cb0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cb1" />
+        </LinearLayout>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

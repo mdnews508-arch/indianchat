@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:contentDescription="@null" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_trash" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/delete_enforced_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" style="@style/APKTOOL_DUMMYVAL_0x7f150621" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="start" android:id="@id/delete_enforced_dialog_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:textAlignment="viewStart" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+</LinearLayout>

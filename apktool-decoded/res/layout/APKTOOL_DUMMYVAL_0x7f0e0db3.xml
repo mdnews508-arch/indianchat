@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070718" />
+    <View android:id="@id/header_bottom_shadow" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1502bb" />
+    <ViewStub android:id="@id/newsletter_details_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d9c" android:inflatedId="@id/newsletter_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d9a" />
+    <ViewStub android:id="@id/newsletter_info_insights_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0db4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/media_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dba" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d85" />
+    <ViewStub android:id="@id/newsletter_info_similar_newsletters_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dbd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0dbc" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0db1" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0da8" />
+</LinearLayout>

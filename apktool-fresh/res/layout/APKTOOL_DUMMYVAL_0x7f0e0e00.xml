@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/newsletter_unmute_nudge_banner_content" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="center_horizontal" android:id="@id/unmute_nudge_banner_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:text="@string/APKTOOL_DUMMYVAL_0x7f124475" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/unmute_nudge_banner_not_now_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124474" android:layout_weight="1.0" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+        <com.whatsapp.ui.coreui.WaButtonWithLoader android:id="@id/unmute_nudge_banner_unmute_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125280" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/lists_switch_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/list_item_text_container" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:gravity="left" android:id="@id/switch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15011d" />
+        <ViewStub android:id="@id/switch_mute_until_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ba7" android:inflatedId="@id/lists_switch_mute_until" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.toggle.WDSSwitch android:id="@id/lists_notification_switch" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</LinearLayout>

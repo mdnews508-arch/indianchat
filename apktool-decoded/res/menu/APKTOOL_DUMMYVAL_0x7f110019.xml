@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_refresh_white" android:id="@id/fun_stickers_try_again" android:title="@string/APKTOOL_DUMMYVAL_0x7f124ed4" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+    <item android:icon="@drawable/ic_do_not_disturb_on" android:id="@id/fun_stickers_clear_all" android:title="@string/APKTOOL_DUMMYVAL_0x7f124ed2" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+    <item android:icon="@drawable/ic_thumb_down" android:id="@id/fun_stickers_report" android:title="@string/APKTOOL_DUMMYVAL_0x7f124ed3" app:APKTOOL_DUMMYVAL_0x7f0403d7="@color/APKTOOL_DUMMYVAL_0x7f06030f" />
+</menu>

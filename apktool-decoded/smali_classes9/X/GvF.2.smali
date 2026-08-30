@@ -1,0 +1,655 @@
+.class public final LX/GvF;
+.super Lcom/google/protobuf/GeneratedMessageLite;
+.source ""
+
+# interfaces
+.implements Lcom/google/protobuf/MessageLiteOrBuilder;
+
+
+# static fields
+.field public static final CHAT_NAME_FIELD_NUMBER:I = 0x2
+
+.field public static final DEFAULT_INSTANCE:LX/GvF;
+
+.field public static final FIRST_UNREAD_MESSAGE_ID_FIELD_NUMBER:I = 0xb
+
+.field public static final FOA_DATA_FIELD_NUMBER:I = 0x12
+
+.field public static final INACTIVE_REASON_FIELD_NUMBER:I = 0x10
+
+.field public static final IS_EPHEMERAL_FIELD_NUMBER:I = 0xf
+
+.field public static final IS_GROUP_FIELD_NUMBER:I = 0x6
+
+.field public static final IS_LATEST_MESSAGE_READ_FIELD_NUMBER:I = 0x4
+
+.field public static final IS_MUTED_FIELD_NUMBER:I = 0xe
+
+.field public static final IS_PINNED_FIELD_NUMBER:I = 0x7
+
+.field public static final IS_READ_ONLY_FIELD_NUMBER:I = 0x5
+
+.field public static final LAST_MESSAGE_ID_FIELD_NUMBER:I = 0xc
+
+.field public static final LATEST_MESSAGE_FIELD_NUMBER:I = 0x3
+
+.field public static final MESSAGES_FIELD_NUMBER:I = 0x9
+
+.field public static final MESSAGE_TYPE_STRING_FIELD_NUMBER:I = 0x8
+
+.field public static volatile PARSER:Lcom/google/protobuf/Parser; = null
+
+.field public static final PROFILE_PICTURE_ETAG_FIELD_NUMBER:I = 0x13
+
+.field public static final PROFILE_PICTURE_PATH_FIELD_NUMBER:I = 0xd
+
+.field public static final SECURE_CHAT_ID_FIELD_NUMBER:I = 0x14
+
+.field public static final THREAD_ID_FIELD_NUMBER:I = 0x1
+
+.field public static final THREAD_LID_ID_FIELD_NUMBER:I = 0x11
+
+.field public static final UNREAD_COUNT_FIELD_NUMBER:I = 0xa
+
+
+# instance fields
+.field public bitField0_:I
+
+.field public chatName_:Ljava/lang/String;
+
+.field public firstUnreadMessageId_:Lcom/google/protobuf/ByteString;
+
+.field public foaData_:Lcom/google/protobuf/ByteString;
+
+.field public inactiveReason_:I
+
+.field public isEphemeral_:Z
+
+.field public isGroup_:Z
+
+.field public isLatestMessageRead_:Z
+
+.field public isMuted_:Z
+
+.field public isPinned_:Z
+
+.field public isReadOnly_:Z
+
+.field public lastMessageId_:Lcom/google/protobuf/ByteString;
+
+.field public latestMessage_:LX/GvG;
+
+.field public messageTypeString_:Ljava/lang/String;
+
+.field public messages_:Lcom/google/protobuf/Internal$ProtobufList;
+
+.field public profilePictureEtag_:J
+
+.field public profilePicturePath_:Ljava/lang/String;
+
+.field public secureChatId_:Ljava/lang/String;
+
+.field public threadId_:Lcom/google/protobuf/ByteString;
+
+.field public threadLidId_:Lcom/google/protobuf/ByteString;
+
+.field public unreadCount_:I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 2
+
+    .line 0
+    new-instance v1, LX/GvF;
+
+    .line 1
+    .line 2
+    invoke-direct {v1}, LX/GvF;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    sput-object v1, LX/GvF;->DEFAULT_INSTANCE:LX/GvF;
+
+    .line 6
+    .line 7
+    const-class v0, LX/GvF;
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lcom/google/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 3
+
+    .line 0
+    invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
+
+    .line 1
+    .line 2
+    .line 3
+    sget-object v2, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
+
+    .line 4
+    .line 5
+    iput-object v2, p0, LX/GvF;->threadId_:Lcom/google/protobuf/ByteString;
+
+    .line 6
+    .line 7
+    const-string v1, ""
+
+    .line 8
+    .line 9
+    iput-object v1, p0, LX/GvF;->chatName_:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    iput-object v1, p0, LX/GvF;->messageTypeString_:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    sget-object v0, Lcom/google/protobuf/ProtobufArrayList;->EMPTY_LIST:Lcom/google/protobuf/ProtobufArrayList;
+
+    .line 14
+    .line 15
+    iput-object v0, p0, LX/GvF;->messages_:Lcom/google/protobuf/Internal$ProtobufList;
+
+    .line 16
+    .line 17
+    iput-object v2, p0, LX/GvF;->firstUnreadMessageId_:Lcom/google/protobuf/ByteString;
+
+    .line 18
+    .line 19
+    iput-object v2, p0, LX/GvF;->lastMessageId_:Lcom/google/protobuf/ByteString;
+
+    .line 20
+    .line 21
+    iput-object v1, p0, LX/GvF;->profilePicturePath_:Ljava/lang/String;
+
+    .line 22
+    .line 23
+    iput-object v2, p0, LX/GvF;->threadLidId_:Lcom/google/protobuf/ByteString;
+
+    .line 24
+    .line 25
+    iput-object v2, p0, LX/GvF;->foaData_:Lcom/google/protobuf/ByteString;
+
+    .line 26
+    .line 27
+    iput-object v1, p0, LX/GvF;->secureChatId_:Ljava/lang/String;
+
+    .line 28
+    .line 29
+    return-void
+.end method
+
+.method public static parseFrom(Ljava/nio/ByteBuffer;)LX/GvF;
+    .locals 1
+
+    .line 0
+    sget-object v0, LX/GvF;->DEFAULT_INSTANCE:LX/GvF;
+
+    .line 1
+    .line 2
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object v0
+
+    .line 6
+    check-cast v0, LX/GvF;
+
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final dynamicMethod(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    .line 0
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+
+    .line 1
+    .line 2
+    .line 3
+    move-result v2
+
+    .line 4
+    const/4 v1, 0x1
+
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    packed-switch v2, :pswitch_data_0
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-static {}, LX/3lf;->A0w()Ljava/lang/UnsupportedOperationException;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    throw v0
+
+    .line 14
+    :pswitch_0
+    invoke-static {v1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    return-object v0
+
+    .line 19
+    :pswitch_1
+    return-object v0
+
+    .line 20
+    :pswitch_2
+    sget-object v0, LX/GvF;->DEFAULT_INSTANCE:LX/GvF;
+
+    .line 21
+    .line 22
+    return-object v0
+
+    .line 23
+    :pswitch_3
+    const/16 v0, 0x16
+
+    .line 24
+    .line 25
+    new-array v2, v0, [Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    invoke-static {v2}, LX/3lg;->A1V([Ljava/lang/Object;)V
+
+    .line 28
+    .line 29
+    .line 30
+    const-string v0, "threadId_"
+
+    .line 31
+    .line 32
+    aput-object v0, v2, v1
+
+    .line 33
+    .line 34
+    const/4 v1, 0x2
+
+    .line 35
+    const-string v0, "chatName_"
+
+    .line 36
+    .line 37
+    aput-object v0, v2, v1
+
+    .line 38
+    .line 39
+    const/4 v1, 0x3
+
+    .line 40
+    const-string v0, "latestMessage_"
+
+    .line 41
+    .line 42
+    aput-object v0, v2, v1
+
+    .line 43
+    .line 44
+    const/4 v1, 0x4
+
+    .line 45
+    const-string v0, "isLatestMessageRead_"
+
+    .line 46
+    .line 47
+    aput-object v0, v2, v1
+
+    .line 48
+    .line 49
+    const/4 v1, 0x5
+
+    .line 50
+    const-string v0, "isReadOnly_"
+
+    .line 51
+    .line 52
+    aput-object v0, v2, v1
+
+    .line 53
+    .line 54
+    const/4 v1, 0x6
+
+    .line 55
+    const-string v0, "isGroup_"
+
+    .line 56
+    .line 57
+    aput-object v0, v2, v1
+
+    .line 58
+    .line 59
+    const/4 v1, 0x7
+
+    .line 60
+    const-string v0, "isPinned_"
+
+    .line 61
+    .line 62
+    aput-object v0, v2, v1
+
+    .line 63
+    .line 64
+    const/16 v1, 0x8
+
+    .line 65
+    .line 66
+    const-string v0, "messageTypeString_"
+
+    .line 67
+    .line 68
+    aput-object v0, v2, v1
+
+    .line 69
+    .line 70
+    const/16 v1, 0x9
+
+    .line 71
+    .line 72
+    const-string v0, "messages_"
+
+    .line 73
+    .line 74
+    aput-object v0, v2, v1
+
+    .line 75
+    .line 76
+    const/16 v1, 0xa
+
+    .line 77
+    .line 78
+    const-class v0, LX/GvG;
+
+    .line 79
+    .line 80
+    aput-object v0, v2, v1
+
+    .line 81
+    .line 82
+    const/16 v1, 0xb
+
+    .line 83
+    .line 84
+    const-string v0, "unreadCount_"
+
+    .line 85
+    .line 86
+    aput-object v0, v2, v1
+
+    .line 87
+    .line 88
+    const/16 v1, 0xc
+
+    .line 89
+    .line 90
+    const-string v0, "firstUnreadMessageId_"
+
+    .line 91
+    .line 92
+    aput-object v0, v2, v1
+
+    .line 93
+    .line 94
+    const/16 v1, 0xd
+
+    .line 95
+    .line 96
+    const-string v0, "lastMessageId_"
+
+    .line 97
+    .line 98
+    aput-object v0, v2, v1
+
+    .line 99
+    .line 100
+    const/16 v1, 0xe
+
+    .line 101
+    .line 102
+    const-string v0, "profilePicturePath_"
+
+    .line 103
+    .line 104
+    aput-object v0, v2, v1
+
+    .line 105
+    .line 106
+    const/16 v1, 0xf
+
+    .line 107
+    .line 108
+    const-string v0, "isMuted_"
+
+    .line 109
+    .line 110
+    aput-object v0, v2, v1
+
+    .line 111
+    .line 112
+    const/16 v1, 0x10
+
+    .line 113
+    .line 114
+    const-string v0, "isEphemeral_"
+
+    .line 115
+    .line 116
+    aput-object v0, v2, v1
+
+    .line 117
+    .line 118
+    const/16 v1, 0x11
+
+    .line 119
+    .line 120
+    const-string v0, "inactiveReason_"
+
+    .line 121
+    .line 122
+    aput-object v0, v2, v1
+
+    .line 123
+    .line 124
+    const/16 v1, 0x12
+
+    .line 125
+    .line 126
+    const-string v0, "threadLidId_"
+
+    .line 127
+    .line 128
+    aput-object v0, v2, v1
+
+    .line 129
+    .line 130
+    const/16 v1, 0x13
+
+    .line 131
+    .line 132
+    const-string v0, "foaData_"
+
+    .line 133
+    .line 134
+    aput-object v0, v2, v1
+
+    .line 135
+    .line 136
+    const/16 v1, 0x14
+
+    .line 137
+    .line 138
+    const-string v0, "profilePictureEtag_"
+
+    .line 139
+    .line 140
+    aput-object v0, v2, v1
+
+    .line 141
+    .line 142
+    const/16 v1, 0x15
+
+    .line 143
+    .line 144
+    const-string v0, "secureChatId_"
+
+    .line 145
+    .line 146
+    aput-object v0, v2, v1
+
+    .line 147
+    .line 148
+    const-string v1, "\u0000\u0014\u0000\u0001\u0001\u0014\u0014\u0000\u0001\u0000\u0001\n\u0002\u1208\u0000\u0003\u1009\u0001\u0004\u1007\u0002\u0005\u1007\u0003\u0006\u1007\u0004\u0007\u1007\u0005\u0008\u1208\u0006\t\u001b\n\u1004\u0007\u000b\u100a\u0008\u000c\u100a\t\r\u1208\n\u000e\u1007\u000b\u000f\u1007\u000c\u0010\u100c\r\u0011\u100a\u000e\u0012\u100a\u000f\u0013\u1002\u0010\u0014\u1208\u0011"
+
+    .line 149
+    .line 150
+    sget-object v0, LX/GvF;->DEFAULT_INSTANCE:LX/GvF;
+
+    .line 151
+    .line 152
+    invoke-static {v0, v1, v2}, Lcom/google/protobuf/GeneratedMessageLite;->newMessageInfo(Lcom/google/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 153
+    .line 154
+    .line 155
+    move-result-object v0
+
+    .line 156
+    return-object v0
+
+    .line 157
+    :pswitch_4
+    new-instance v0, LX/Gts;
+
+    .line 158
+    .line 159
+    invoke-direct {v0}, LX/Gts;-><init>()V
+
+    .line 160
+    .line 161
+    .line 162
+    return-object v0
+
+    .line 163
+    :pswitch_5
+    sget-object v0, LX/GvF;->PARSER:Lcom/google/protobuf/Parser;
+
+    .line 164
+    .line 165
+    if-nez v0, :cond_1
+
+    .line 166
+    .line 167
+    const-class v1, LX/GvF;
+
+    .line 168
+    .line 169
+    monitor-enter v1
+
+    .line 170
+    :try_start_0
+    sget-object v0, LX/GvF;->PARSER:Lcom/google/protobuf/Parser;
+
+    .line 171
+    .line 172
+    if-nez v0, :cond_0
+
+    .line 173
+    .line 174
+    sget-object v0, Lcom/google/protobuf/AbstractParser;->EMPTY_REGISTRY:Lcom/google/protobuf/ExtensionRegistryLite;
+
+    .line 175
+    .line 176
+    sget-object v0, LX/GvF;->DEFAULT_INSTANCE:LX/GvF;
+
+    .line 177
+    .line 178
+    invoke-static {v0}, LX/3lf;->A0b(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;
+
+    .line 179
+    .line 180
+    .line 181
+    move-result-object v0
+
+    .line 182
+    sput-object v0, LX/GvF;->PARSER:Lcom/google/protobuf/Parser;
+
+    .line 183
+    .line 184
+    :cond_0
+    monitor-exit v1
+
+    .line 185
+    return-object v0
+
+    .line 186
+    :catchall_0
+    move-exception v0
+
+    .line 187
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 188
+    throw v0
+
+    .line 189
+    :pswitch_6
+    new-instance v0, LX/GvF;
+
+    .line 190
+    .line 191
+    invoke-direct {v0}, LX/GvF;-><init>()V
+
+    .line 192
+    .line 193
+    .line 194
+    :cond_1
+    return-object v0
+
+    .line 195
+    nop
+
+    .line 196
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+        :pswitch_3
+        :pswitch_6
+        :pswitch_4
+        :pswitch_2
+        :pswitch_5
+    .end packed-switch
+.end method

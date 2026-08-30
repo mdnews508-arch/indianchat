@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070690" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070691" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070691"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.calling.ui.psa.view.GroupCallGroupPhoto android:id="@id/group_photo" android:focusable="false" style="@style/APKTOOL_DUMMYVAL_0x7f1501d0" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?android:textColorPrimary" android:id="@id/group_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07068f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07068f" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_arrow_forward_ios" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0602cb" app:APKTOOL_DUMMYVAL_0x7f040a42="true" />
+</LinearLayout>

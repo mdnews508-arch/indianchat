@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/group_info_create_new_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/chat_info_list_selector" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070719" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070719">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="start|center" android:id="@id/create_new_group_icon" android:background="@drawable/primary_light_circle_background" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_group_add_filled" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a04" style="@style/APKTOOL_DUMMYVAL_0x7f1502bd" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/create_new_group_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121cdf" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/create_new_group_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121cde" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </LinearLayout>
+    </LinearLayout>
+</com.indianchat.ui.coreui.InfoCard>

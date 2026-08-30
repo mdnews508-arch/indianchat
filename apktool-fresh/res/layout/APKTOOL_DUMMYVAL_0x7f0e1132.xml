@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" android:indeterminateOnly="false" app:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07115c" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/loading_state_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dbf" android:text="@string/APKTOOL_DUMMYVAL_0x7f123a81" />
+</LinearLayout>

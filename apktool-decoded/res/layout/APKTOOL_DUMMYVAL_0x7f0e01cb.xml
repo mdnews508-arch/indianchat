@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/ar_setting_header_text" android:inflatedId="@id/ar_setting_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+    <ViewStub android:id="@id/ar_setting_description_text" android:inflatedId="@id/ar_setting_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+    <RadioGroup android:orientation="vertical" android:id="@id/ar_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+    <ViewStub android:id="@id/ar_footer_stub" android:inflatedId="@id/ar_footer_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07012b" />
+</LinearLayout>

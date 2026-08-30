@@ -1,0 +1,18 @@
+package X;
+
+/* JADX INFO: renamed from: X.8HD, reason: invalid class name */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C8HD implements InterfaceC29351Ox {
+    @Override // X.InterfaceC29351Ox
+    public C1DO AID(C1DO c1do, C177797rb c177797rb) {
+        C000700h.A0B(c1do, c177797rb);
+        C1P8 c1p8 = new C1P8(c177797rb.A03, c177797rb.A01);
+        c1p8.A0i(c1do.A0f());
+        return c1p8;
+    }
+
+    @Override // X.InterfaceC29351Ox
+    public boolean BIw(C1DO c1do) {
+        return true;
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:gravity="start" android:id="@id/broadcast_list_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="5.0sp" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:gravity="start" android:id="@id/broadcast_list_recipient_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="4.0sp" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+</LinearLayout>

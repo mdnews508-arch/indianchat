@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.components.RoundCornerProgressBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040666="?APKTOOL_DUMMYVAL_0x7f040a06" app:APKTOOL_DUMMYVAL_0x7f040667="@color/APKTOOL_DUMMYVAL_0x7f060872" app:APKTOOL_DUMMYVAL_0x7f040668="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

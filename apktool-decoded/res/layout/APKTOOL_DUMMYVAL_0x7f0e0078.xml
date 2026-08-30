@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f04044f="@id/footer" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/secret_code_description" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12397a" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f150427" />
+            <include android:id="@id/secret_code_input_layout" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1153" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/footer" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03a4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

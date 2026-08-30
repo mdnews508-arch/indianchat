@@ -1,0 +1,28 @@
+.class public LX/OER;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/Oyf;
+
+
+# instance fields
+.field public final synthetic A00:Landroidx/core/widget/NestedScrollView;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/core/widget/NestedScrollView;)V
+    .locals 0
+
+    .line 0
+    iput-object p1, p0, LX/OER;->A00:Landroidx/core/widget/NestedScrollView;
+
+    .line 1
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method

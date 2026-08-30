@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButtonGroup android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/delete_unblock_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409d7="auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/delete_button_blocked_chat_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212ef" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f040009="destructive" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_delete_white" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/unblock_button_blocked_chat_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12441d" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_block" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+</com.whatsapp.ui.wds.components.button.WDSButtonGroup>

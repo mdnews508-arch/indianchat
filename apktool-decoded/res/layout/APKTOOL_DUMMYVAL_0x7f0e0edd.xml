@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p2p_onboarding_nudge_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:scaleType="fitXY" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_personal" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ed6" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b3f" android:singleLine="true" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ed6" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b3e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/p2p_onboarding_nudge_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122d90" style="@style/APKTOOL_DUMMYVAL_0x7f1505c5" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

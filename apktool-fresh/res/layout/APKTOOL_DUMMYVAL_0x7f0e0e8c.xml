@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070c01"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/savings_offer_info_top_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/order_details_dashed_underline_gray" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfc" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c01">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/apply_savings_offer_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:src="@drawable/vec_ic_add" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/apply_savings_offer_label" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b03" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a04" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+</LinearLayout>

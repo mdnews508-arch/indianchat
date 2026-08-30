@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:ellipsize="end" android:id="@id/link_metadata" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:textAlignment="viewStart" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <ViewStub android:id="@id/suspicious_link_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e134d" android:inflatedId="@id/suspicious_link_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

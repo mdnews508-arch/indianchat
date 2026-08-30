@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@drawable/ctwa_flow_context_loading_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.flows.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@id/ctwa_flow_context_loading_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/toolbar_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.indianchat.ui.wds.components.topbar.WDSToolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f150538" android:id="@id/ctwa_flow_context_loading_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040585="@string/APKTOOL_DUMMYVAL_0x7f124df4" />
+            <View android:id="@id/divider_under_nav_bar" android:layout_below="@id/ctwa_flow_context_loading_toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+            <FrameLayout android:id="@id/loading_error_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="240.0dip" android:layout_below="@id/divider_under_nav_bar" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+                <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/loading" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f0409e2" android:indeterminateTintMode="src_atop" app:APKTOOL_DUMMYVAL_0x7f04021b="?APKTOOL_DUMMYVAL_0x7f04029e" app:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2" app:APKTOOL_DUMMYVAL_0x7f040220="4.0" />
+                <ViewStub android:layout_gravity="center" android:id="@id/error_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" />
+            </FrameLayout>
+        </RelativeLayout>
+    </com.indianchat.flows.ui.PercentageBasedMaxHeightLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

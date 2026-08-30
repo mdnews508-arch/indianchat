@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da5" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="start|center" android:id="@id/wds_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f040635="small" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/view_stub_status_reaction" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12a5" android:inflatedId="@id/status_reaction" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/view_stub_status_reaction_green_heart" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12a6" android:inflatedId="@id/status_reaction" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="start" android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/contact_name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="60.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dbe">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+            <ViewStub android:id="@id/view_stub_contact_number" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12c4" android:inflatedId="@id/view_stub_contact_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dbf" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dbf" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:gravity="center_vertical" android:id="@id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end|center" android:id="@id/view_stub_status_detail_message_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e124c" android:inflatedId="@id/status_detail_message_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

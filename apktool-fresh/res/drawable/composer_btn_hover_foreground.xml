@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@android:color/transparent" />
+    <item android:state_hovered="true">
+        <inset android:insetLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071051" android:insetRight="@dimen/APKTOOL_DUMMYVAL_0x7f071051" android:insetTop="@dimen/APKTOOL_DUMMYVAL_0x7f071052" android:insetBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071052">
+            <shape android:shape="oval">
+                <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f0608ac" />
+            </shape>
+        </inset>
+    </item>
+    <item android:drawable="@android:color/transparent" />
+</selector>

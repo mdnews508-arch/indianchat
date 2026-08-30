@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/media_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03a3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0054" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0467" />
+    <com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/invites_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" style="@style/APKTOOL_DUMMYVAL_0x7f150253">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:ellipsize="end" android:id="@id/invites_title" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07069a" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122059" android:singleLine="true" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150256" />
+            <ViewStub android:id="@id/invites_view_all_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0acb" android:inflatedId="@id/invites_view_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/invites_info" style="@style/APKTOOL_DUMMYVAL_0x7f150254" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/invites_recycler_view" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070699" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070698" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.indianchat.ui.coreui.InfoCard>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0947" />
+    <ViewStub android:id="@id/group_info_create_new_group_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0949" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

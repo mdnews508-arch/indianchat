@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/dialog_clear_messages_all_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/APKTOOL_DUMMYVAL_0x7f124e64" android:singleLine="true" />
+    <com.indianchat.ui.wds.components.radiobutton.WDSRadioButton android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/dialog_clear_messages_media_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124e65" android:singleLine="true" />
+</RadioGroup>

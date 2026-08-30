@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bde" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bde">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="20.0sp" android:id="@id/status_privacy_bottom_sheet_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1239cd" android:singleLine="false" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0403f9="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+                <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center_vertical" android:id="@id/status_privacy_bottom_sheet_new_audience" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f07113b" android:text="@string/APKTOOL_DUMMYVAL_0x7f123f6a" app:APKTOOL_DUMMYVAL_0x7f040009="section_header" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_add_white" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" app:APKTOOL_DUMMYVAL_0x7f0409a3="small" />
+            </LinearLayout>
+            <RadioGroup android:orientation="vertical" android:id="@id/status_privacy_bottom_sheet_radio_group" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ffb" />
+                <ViewStub android:id="@id/audience_layout_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ff5" android:inflatedId="@id/audience_layout_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/close_friend_layout_stub" android:visibility="gone" android:inflatedId="@id/close_friend_layout_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RadioGroup>
+            <ViewStub android:id="@id/reshare_privacy_setting" android:inflatedId="@id/reshare_privacy_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/status_mentions_disclaimer_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1007" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/status_privacy_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ffa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/waffle_privacy_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ffc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/done_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:text="@string/APKTOOL_DUMMYVAL_0x7f124e6c" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ViewStub android:id="@id/footer_layout_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0ff9" android:inflatedId="@id/footer_layout_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

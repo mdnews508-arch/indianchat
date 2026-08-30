@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070002"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center|left" android:id="@id/search_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124da6" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_arrow_back_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="?APKTOOL_DUMMYVAL_0x7f040015" />
+        <ViewStub android:id="@id/category_chip_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0d96" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:minWidth="25.0dip" android:iconifiedByDefault="false" style="@style/APKTOOL_DUMMYVAL_0x7f150680" />
+    </LinearLayout>
+</merge>

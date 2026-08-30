@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/field_icon" android:visibility="gone" android:layout_weight="0.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_info_2" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="@style/APKTOOL_DUMMYVAL_0x7f150140" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/business_field_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.business.biz.catalog.view.EllipsizedTextEmojiLabel android:id="@id/field_textview" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070181" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" style="@style/APKTOOL_DUMMYVAL_0x7f150141" />
+        <FrameLayout android:id="@id/business_profile_field_bottom_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070181" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.whatsapp.business.biz.catalog.view.EllipsizedTextEmojiLabel android:gravity="right" android:id="@id/sub_field_textview" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070181" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150141" />
+</merge>

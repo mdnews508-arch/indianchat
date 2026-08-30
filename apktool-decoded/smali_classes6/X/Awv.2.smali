@@ -1,0 +1,178 @@
+.class public final LX/Awv;
+.super LX/051;
+.source ""
+
+# interfaces
+.implements LX/09l;
+
+
+# instance fields
+.field public final synthetic $$changed:I
+
+.field public final synthetic $$default:I
+
+.field public final synthetic $actions:Lkotlin/jvm/functions/Function3;
+
+.field public final synthetic $centeredTitle:Z
+
+.field public final synthetic $colors:LX/9vq;
+
+.field public final synthetic $expandedHeight:F
+
+.field public final synthetic $modifier:LX/B7K;
+
+.field public final synthetic $navigationIcon:LX/09l;
+
+.field public final synthetic $scrollBehavior:LX/B19;
+
+.field public final synthetic $title:LX/09l;
+
+.field public final synthetic $titleTextStyle:LX/AGJ;
+
+.field public final synthetic $windowInsets:LX/B7N;
+
+
+# direct methods
+.method public constructor <init>(LX/B7N;LX/9vq;LX/B7K;LX/AGJ;LX/09l;LX/09l;Lkotlin/jvm/functions/Function3;FIIZ)V
+    .locals 1
+
+    .line 0
+    const/4 v0, 0x0
+
+    .line 1
+    iput-object p3, p0, LX/Awv;->$modifier:LX/B7K;
+
+    .line 2
+    .line 3
+    iput-object p5, p0, LX/Awv;->$title:LX/09l;
+
+    .line 4
+    .line 5
+    iput-object p4, p0, LX/Awv;->$titleTextStyle:LX/AGJ;
+
+    .line 6
+    .line 7
+    iput-boolean p11, p0, LX/Awv;->$centeredTitle:Z
+
+    .line 8
+    .line 9
+    iput-object p6, p0, LX/Awv;->$navigationIcon:LX/09l;
+
+    .line 10
+    .line 11
+    iput-object p7, p0, LX/Awv;->$actions:Lkotlin/jvm/functions/Function3;
+
+    .line 12
+    .line 13
+    iput p8, p0, LX/Awv;->$expandedHeight:F
+
+    .line 14
+    .line 15
+    iput-object p1, p0, LX/Awv;->$windowInsets:LX/B7N;
+
+    .line 16
+    .line 17
+    iput-object p2, p0, LX/Awv;->$colors:LX/9vq;
+
+    .line 18
+    .line 19
+    iput-object v0, p0, LX/Awv;->$scrollBehavior:LX/B19;
+
+    .line 20
+    .line 21
+    iput p9, p0, LX/Awv;->$$changed:I
+
+    .line 22
+    .line 23
+    iput p10, p0, LX/Awv;->$$default:I
+
+    .line 24
+    .line 25
+    const/4 v0, 0x2
+
+    .line 26
+    invoke-direct {p0, v0}, LX/051;-><init>(I)V
+
+    .line 27
+    .line 28
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 13
+
+    .line 0
+    invoke-static {p1, p2}, LX/8rm;->A0H(Ljava/lang/Object;Ljava/lang/Object;)LX/B7T;
+
+    .line 1
+    .line 2
+    .line 3
+    move-result-object v3
+
+    .line 4
+    iget-object v4, p0, LX/Awv;->$modifier:LX/B7K;
+
+    .line 5
+    .line 6
+    iget-object v6, p0, LX/Awv;->$title:LX/09l;
+
+    .line 7
+    .line 8
+    iget-object v5, p0, LX/Awv;->$titleTextStyle:LX/AGJ;
+
+    .line 9
+    .line 10
+    iget-boolean v12, p0, LX/Awv;->$centeredTitle:Z
+
+    .line 11
+    .line 12
+    iget-object v7, p0, LX/Awv;->$navigationIcon:LX/09l;
+
+    .line 13
+    .line 14
+    iget-object v8, p0, LX/Awv;->$actions:Lkotlin/jvm/functions/Function3;
+
+    .line 15
+    .line 16
+    iget v9, p0, LX/Awv;->$expandedHeight:F
+
+    .line 17
+    .line 18
+    iget-object v1, p0, LX/Awv;->$windowInsets:LX/B7N;
+
+    .line 19
+    .line 20
+    iget-object v2, p0, LX/Awv;->$colors:LX/9vq;
+
+    .line 21
+    .line 22
+    iget v0, p0, LX/Awv;->$$changed:I
+
+    .line 23
+    .line 24
+    invoke-static {v0}, LX/A2r;->A00(I)I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v10
+
+    .line 28
+    iget v11, p0, LX/Awv;->$$default:I
+
+    .line 29
+    .line 30
+    invoke-static/range {v1 .. v12}, Landroidx/compose/material3/AppBarKt;->A01(LX/B7N;LX/9vq;LX/B7T;LX/B7K;LX/AGJ;LX/09l;LX/09l;Lkotlin/jvm/functions/Function3;FIIZ)V
+
+    .line 31
+    .line 32
+    .line 33
+    sget-object v0, LX/05S;->A00:LX/05S;
+
+    .line 34
+    .line 35
+    return-object v0
+.end method

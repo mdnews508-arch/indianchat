@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070a93" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040204" android:gravity="center" android:layout_gravity="end|center" android:id="@id/new_group_suggestions_count" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071144" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="21.0dip" android:minHeight="21.0dip" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070455" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070455"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

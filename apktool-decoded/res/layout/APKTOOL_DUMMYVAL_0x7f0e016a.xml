@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ai_hub_new_prompts_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/new_prompts_scroll_view" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <LinearLayout android:orientation="vertical" android:id="@id/new_prompts_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/new_prompts_greeting_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/new_prompts_greeting_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/new_prompts_greeting_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f12248f" android:includeFontPadding="false" android:textAlignment="viewStart" android:textFontWeight="600" style="@style/APKTOOL_DUMMYVAL_0x7f150624" />
+            </LinearLayout>
+            <com.indianchat.aihub.metaai.product.chip.FullHeightRecyclerView android:id="@id/new_prompts_rows_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/new_prompts_suggestions_recycler_view" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f040442="androidx.recyclerview.widget.LinearLayoutManager" app:APKTOOL_DUMMYVAL_0x7f0407f4="true" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <FrameLayout android:id="@id/image" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <ViewStub android:id="@id/icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003e" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" />
+            <ViewStub android:id="@id/profile_photo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0041" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3_emphasized" />
+            <ViewStub android:id="@id/subtitle" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0043" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ViewStub android:id="@id/text_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0039" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+        <ViewStub android:id="@id/icon_buttons" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" />
+        <ViewStub android:id="@id/trailing_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0044" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+    </LinearLayout>
+    <ViewStub android:id="@id/icon_buttons_footer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0040" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/buttons_below" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+</merge>

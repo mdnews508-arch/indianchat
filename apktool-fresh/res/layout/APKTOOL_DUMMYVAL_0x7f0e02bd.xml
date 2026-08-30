@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/business_hours_icon" android:layout_weight="0.0" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_schedule" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" style="@style/APKTOOL_DUMMYVAL_0x7f150140" />
+    <com.whatsapp.business.biz.BusinessHoursContentView android:id="@id/business_hours_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/business_hours_chevron_icon" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070181" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12094e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_keyboard_arrow_down" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0601df" />
+</merge>

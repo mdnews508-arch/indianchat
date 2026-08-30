@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/voice_note_button" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12034c" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_mic_filled" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0608a7" />
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/send_button" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12034a" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_ai_tab_send_filled" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0608a7" />
+</FrameLayout>

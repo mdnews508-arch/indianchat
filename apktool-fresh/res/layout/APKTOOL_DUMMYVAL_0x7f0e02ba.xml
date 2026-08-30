@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView android:gravity="center" android:id="@id/banner" android:background="@drawable/business_folder_auto_organise_banner_bottom_border" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15061f"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

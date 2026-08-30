@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/newsletter_pinning_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.toggle.WDSSwitch android:id="@id/switch_pin_newsletter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605af" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227af" android:maxLines="1" android:layout_toLeftOf="@id/switch_pin_newsletter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?APKTOOL_DUMMYVAL_0x7f040774" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06066e" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227ae" android:layout_toLeftOf="@id/switch_pin_newsletter" android:layout_below="@id/title" android:layout_alignParentLeft="true" style="?APKTOOL_DUMMYVAL_0x7f040770" />
+</RelativeLayout>

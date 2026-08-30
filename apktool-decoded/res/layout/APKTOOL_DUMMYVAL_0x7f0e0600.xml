@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <com.indianchat.ui.coreui.WaFrameLayout android:background="@drawable/payment_reminder_card_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070b76">
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.indianchat.ui.coreui.base.WaImageView android:background="@drawable/payment_reminder_icon_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f0" android:src="@drawable/wa_ic_schedule" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a00" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/payment_reminder_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+                        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/payment_reminder_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.indianchat.ui.coreui.base.WaImageView android:id="@id/payment_reminder_amount_divider" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710a4" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/payment_reminder_dashed_divider" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_reminder_amount_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122e25" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="end" android:id="@id/payment_reminder_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.indianchat.ui.coreui.WaFrameLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/payment_reminder_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/date" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710a4" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/payment_reminder_solid_divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_reminder_stop_reminder_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12513b">
+                <com.indianchat.ui.coreui.base.WaImageView android:duplicateParentState="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e6" android:src="@drawable/wds_bell_clock_reminder_slash" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06055e" />
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06055e" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12513b" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

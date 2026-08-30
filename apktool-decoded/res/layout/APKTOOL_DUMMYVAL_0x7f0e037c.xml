@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_capture_activity_container" android:background="?APKTOOL_DUMMYVAL_0x7f0406cf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/camera_fragment_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="?APKTOOL_DUMMYVAL_0x7f0406d3" app:APKTOOL_DUMMYVAL_0x7f040453="H,3:4" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <FrameLayout android:id="@id/capture_overlay_fragment_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <FrameLayout android:id="@id/diagnostic_view_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="@id/camera_fragment_container" app:APKTOOL_DUMMYVAL_0x7f040454="@id/camera_fragment_container" app:APKTOOL_DUMMYVAL_0x7f040467="@id/camera_fragment_container" app:APKTOOL_DUMMYVAL_0x7f04046b="@id/camera_fragment_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

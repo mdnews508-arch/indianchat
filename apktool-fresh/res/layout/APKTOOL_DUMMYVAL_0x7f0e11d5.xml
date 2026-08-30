@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/call_notification_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0408da" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04000d" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d" whatsapp:APKTOOL_DUMMYVAL_0x7f040615="@style/APKTOOL_DUMMYVAL_0x7f150590" whatsapp:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f15058d" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501de">
+            <LinearLayout android:orientation="vertical" android:id="@id/share_link_root" android:layout_width="0.0dip" android:layout_height="fill_parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040454="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040467="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader android:id="@id/share_link_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" whatsapp:APKTOOL_DUMMYVAL_0x7f04026e="false" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

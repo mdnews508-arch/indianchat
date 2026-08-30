@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/media_composer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/media_composer_shadow_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.mediaview.api.PhotoView android:layout_gravity="center" android:id="@id/underlying_photo_view_duplicate" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.whatsapp.gallerypicker.PhotoViewPager android:id="@id/pager_legacy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/preview_transition_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/preview_transition" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/expression_sheet_coordinator_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f071149">
+        <View android:layout_gravity="end" android:id="@id/media_tool_label_scrim" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07093d" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <RelativeLayout android:id="@id/preview_decoration" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/remove_frame" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/drag_remove_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="22.0dip" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:layout_gravity="center" android:id="@id/drag_remove" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1236b8" android:drawablePadding="2.0dip" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f040279="@drawable/ic_close_white_large" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/drag_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <com.whatsapp.mediacomposer.ui.app.bottombar.BottomBarView android:id="@id/bottom_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403ea="@color/APKTOOL_DUMMYVAL_0x7f060872" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/link_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:id="@id/icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070771" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070771" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070770" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:gravity="left" android:id="@id/name" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:gravity="left" android:id="@id/link" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/qr_code_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e094f" android:inflatedId="@id/qr_code_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

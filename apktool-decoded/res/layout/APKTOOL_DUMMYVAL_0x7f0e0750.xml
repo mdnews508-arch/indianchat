@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/dogfood_toolbar" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1503b3" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/dogfood_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.indianchat.ui.wds.components.button.WDSButtonGroup android:background="@color/APKTOOL_DUMMYVAL_0x7f060836" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f060836" app:APKTOOL_DUMMYVAL_0x7f0407d1="1">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/dogfood_suppress_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suppress" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/dogfood_submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" />
+    </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e065b" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <RelativeLayout android:id="@id/audio_root_layout" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="78.0dip">
+            <com.whatsapp.conversation.ui.conversationrow.ConversationRowAudioPreview android:layout_gravity="center" android:id="@id/conversation_row_audio_preview" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <com.whatsapp.search.audio.views.itemviews.AudioPlayerView android:id="@id/conversation_row_audio_player_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_toLeftOf="@id/conversation_row_audio_preview" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" whatsapp:APKTOOL_DUMMYVAL_0x7f040730="10.0dip" />
+            <com.whatsapp.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/conversation_row_audio_preview" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" whatsapp:APKTOOL_DUMMYVAL_0x7f04023d="8.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f0403a5="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

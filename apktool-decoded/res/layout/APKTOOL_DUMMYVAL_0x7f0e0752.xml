@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start" android:layout_gravity="start" android:orientation="vertical" android:id="@id/title_subtitle_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="@id/barrier" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0608ba" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f1502c1" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04009c="left" app:APKTOOL_DUMMYVAL_0x7f0401d4="checkbox" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040461="@id/barrier" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</merge>

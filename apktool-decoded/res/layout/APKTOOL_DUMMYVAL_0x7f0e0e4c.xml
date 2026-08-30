@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/page_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/page_indicator_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_progress_grey" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/page_indicator_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_marginEnd="10.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_progress_grey" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060526" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/page_indicator_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_marginEnd="10.0dip" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_progress_grey" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060526" />
+</LinearLayout>

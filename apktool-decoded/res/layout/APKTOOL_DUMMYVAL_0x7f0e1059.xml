@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.WaButtonWithLoader android:gravity="start" android:id="@id/quick_follow_button" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070492" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

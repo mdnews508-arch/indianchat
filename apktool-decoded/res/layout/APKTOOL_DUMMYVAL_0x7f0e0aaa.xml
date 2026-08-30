@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0601f8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/button_content" android:focusable="false" android:layout_width="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0703eb" android:maxLines="1" android:drawablePadding="@dimen/APKTOOL_DUMMYVAL_0x7f070187" app:APKTOOL_DUMMYVAL_0x7f04027d="@color/APKTOOL_DUMMYVAL_0x7f0601f8" style="@style/APKTOOL_DUMMYVAL_0x7f150203" />
+    <com.indianchat.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveButtonsRowContentLayout android:id="@id/buttons_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

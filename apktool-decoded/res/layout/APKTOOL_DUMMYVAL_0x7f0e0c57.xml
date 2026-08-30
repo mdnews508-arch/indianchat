@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/member_suggested_groups_management_toolbar" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04000d" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <ViewStub android:id="@id/warning_container" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c58" android:inflatedId="@id/warning_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/warning_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1503b3" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/member_suggested_groups_management_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1503b3" />
+    <FrameLayout android:id="@id/overall_progress_spinner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" app:APKTOOL_DUMMYVAL_0x7f04021c="@color/APKTOOL_DUMMYVAL_0x7f060538" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/pending_group_suggestion_requests_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/no_pending_suggestions_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c55" android:inflatedId="@id/no_pending_suggestions_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/button_container" android:background="?APKTOOL_DUMMYVAL_0x7f0409ed" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f0409ed">
+        <com.indianchat.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/member_suggested_groups_management_reject_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122338" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/member_suggested_groups_management_approve_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122337" />
+        </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+    </FrameLayout>
+</LinearLayout>

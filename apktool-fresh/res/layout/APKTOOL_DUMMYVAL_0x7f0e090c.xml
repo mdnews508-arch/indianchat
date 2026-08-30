@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/chips_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d07" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070492"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

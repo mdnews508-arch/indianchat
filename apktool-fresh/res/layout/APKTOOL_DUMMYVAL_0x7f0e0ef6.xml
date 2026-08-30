@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup android:layout_gravity="center" android:id="@id/button_group_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f0407d1="1">
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/request_decline_button" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:text="@string/APKTOOL_DUMMYVAL_0x7f122eca" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/request_pay_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f122f4b" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/request_cancel_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f122eba" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/accept_payment_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f122e87" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/retry_withdrawal_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f122f97" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton android:enabled="true" android:id="@id/pause_resume_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f122f4a" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

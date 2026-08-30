@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.view.SquareFrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.StickerView android:id="@id/sticker_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124012" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/overlay_stub" android:background="@drawable/media_hub_thumbnail_rounded_overlay" android:visibility="visible" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c28" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d0a" />
+    <View android:id="@id/selection_overlay" android:background="?APKTOOL_DUMMYVAL_0x7f0400b2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/selection_checkmark_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12fa" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="start|bottom|center" android:id="@id/button_image" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:src="@drawable/ic_sticker" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+        <ViewStub android:id="@id/starred_status" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c27" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+        <ViewStub android:id="@id/kept_status" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c26" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.base.view.SquareFrameLayout>

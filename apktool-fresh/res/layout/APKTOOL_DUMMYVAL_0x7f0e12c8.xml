@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f46" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.collections.ObservableRecyclerView android:id="@id/status_list" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f47" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070f47" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070f47" />
+    <ViewStub android:id="@id/status_in_chats_tooltip_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1255" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

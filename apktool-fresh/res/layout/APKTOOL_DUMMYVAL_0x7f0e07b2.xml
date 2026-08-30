@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/verify_passkey_header_image" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070592" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@id/verify_passkey_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215fb" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline2" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center_vertical" android:id="@id/verify_passkey_paragraph1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215f9" android:lineSpacingExtra="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:gravity="center_vertical" android:id="@id/verify_passkey_paragraph2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215fa" android:lineSpacingExtra="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/verify_passkey_use_passkey_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f1215cb" style="@style/APKTOOL_DUMMYVAL_0x7f150236" />
+    <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/verify_passkey_turn_off_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f121615" style="@style/APKTOOL_DUMMYVAL_0x7f1505c5" />
+</LinearLayout>

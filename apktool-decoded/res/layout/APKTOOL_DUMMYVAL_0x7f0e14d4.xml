@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/virality_activity_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/virality_bottom_sheet" android:background="@drawable/bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="225.0dip" app:APKTOOL_DUMMYVAL_0x7f040446="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <com.indianchat.ui.coreui.WaFrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/progress_text" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124904" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/virality_texts_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center_horizontal" android:id="@id/payment_enabled_or_not_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f124908" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center_horizontal" android:id="@id/virality_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124907" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            </LinearLayout>
+        </com.indianchat.ui.coreui.WaFrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/actionable_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.button.WDSButton android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:id="@id/go_to_payments_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124903" style="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/done_or_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f124e6c" style="@style/APKTOOL_DUMMYVAL_0x7f1505d2" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

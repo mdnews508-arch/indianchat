@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/suspicious_fmx_shield_icon" android:layout_width="132.0dip" android:layout_height="88.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:scaleType="fitCenter" />
+        <com.indianchat.ui.wds.components.textlayout.WDSTextLayout android:layout_gravity="center_horizontal" android:id="@id/suspicious_fmx_bottom_sheet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040443="view" />
+    </LinearLayout>
+    <ImageView android:id="@id/suspicious_fmx_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:src="@drawable/vec_ic_close" android:scaleType="centerInside" android:contentDescription="@android:string/cancel" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+</FrameLayout>

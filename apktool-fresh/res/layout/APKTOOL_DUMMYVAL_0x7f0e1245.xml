@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121110" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_forward_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060892" style="@style/APKTOOL_DUMMYVAL_0x7f150001" />
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e3e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_delete_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060892" style="@style/APKTOOL_DUMMYVAL_0x7f150001" />
+    <ViewStub android:id="@id/more" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1241" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.whatsapp.ui.coreui.WaLinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.textfield.WDSTextField android:id="@id/wa_lead_gen_paragraph_field" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402bf="true" app:APKTOOL_DUMMYVAL_0x7f04089c="multi_line" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

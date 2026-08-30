@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/frame_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0706e1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@drawable/bubble_circle_incoming" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706e5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706e5" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3">
+                <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e8" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0605af" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_person_badge_key_fill" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706e4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3" android:text="@string/APKTOOL_DUMMYVAL_0x7f121eb9" stype="@style/APKTOOL_DUMMYVAL_0x7f15061e" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706e2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0706e3" android:text="@string/APKTOOL_DUMMYVAL_0x7f121eb8" style="@style/APKTOOL_DUMMYVAL_0x7f15061f" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/parental_controls_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040536="@menu/APKTOOL_DUMMYVAL_0x7f110029" app:APKTOOL_DUMMYVAL_0x7f040586="?APKTOOL_DUMMYVAL_0x7f0403c0" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/pmta_add_parent_contact_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f52" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/pmta_m1_upgrade_banner_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f57" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/manage_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <FrameLayout android:id="@id/activity_alerts_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

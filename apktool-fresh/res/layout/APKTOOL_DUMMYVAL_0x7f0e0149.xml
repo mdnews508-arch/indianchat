@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout android:id="@id/age_experience_privacy_nux_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040256="@string/APKTOOL_DUMMYVAL_0x7f1202dd" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_picto_lock_shield_checkmark" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f1202de" app:APKTOOL_DUMMYVAL_0x7f040443="view" app:APKTOOL_DUMMYVAL_0x7f040628="@string/APKTOOL_DUMMYVAL_0x7f1202dc" app:APKTOOL_DUMMYVAL_0x7f040930="@layout/APKTOOL_DUMMYVAL_0x7f0e014a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

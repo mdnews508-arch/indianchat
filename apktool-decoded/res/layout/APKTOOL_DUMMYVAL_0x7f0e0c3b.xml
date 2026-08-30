@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070931" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/recipients_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710ea" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710ea" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_status" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/recipients_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071067" style="@style/APKTOOL_DUMMYVAL_0x7f15061d" />
+</LinearLayout>

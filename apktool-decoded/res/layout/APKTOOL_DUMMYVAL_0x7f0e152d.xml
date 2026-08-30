@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.InfoCard android:id="@id/wa_data_bundle_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.business.biz.BusinessProfileFieldView android:id="@id/google_mode_email" android:visibility="gone" app:APKTOOL_DUMMYVAL_0x7f0400e5="end" app:APKTOOL_DUMMYVAL_0x7f0400e7="@drawable/ic_mail" app:APKTOOL_DUMMYVAL_0x7f0400e8="true" style="@style/APKTOOL_DUMMYVAL_0x7f150142" />
+</com.indianchat.ui.coreui.InfoCard>

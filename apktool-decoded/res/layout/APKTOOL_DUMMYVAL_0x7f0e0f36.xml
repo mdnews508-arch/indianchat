@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b94" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b94" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b94" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/phone_number_prefill_hint_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1233e6" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+    <RadioGroup android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b95" android:id="@id/phone_number_prefill_hint_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b96" />
+</androidx.appcompat.widget.LinearLayoutCompat>

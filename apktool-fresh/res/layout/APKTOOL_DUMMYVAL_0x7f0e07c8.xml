@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/call_type_dialog_disclaimer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07c9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" />
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+        <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton android:id="@id/video_call_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+        <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton android:id="@id/voice_call_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+    </RadioGroup>
+</LinearLayout>

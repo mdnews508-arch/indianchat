@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sticker_store_premium" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/store_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/store_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1306" android:inflatedId="@id/store_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/empty" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12fd" android:inflatedId="@id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

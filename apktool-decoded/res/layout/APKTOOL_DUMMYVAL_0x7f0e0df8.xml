@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/newsletter_status_audio_bubble_background" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa">
+        <ImageView android:id="@id/newsletter_status_audio_profile_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/newsletter_status_audio_mic_icon" android:background="@drawable/mic_background_incoming" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/mic_played" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/newsletter_status_audio_waveform" android:layout_width="fill_parent" android:layout_height="32.0dip" android:scaleType="fitXY" android:importantForAccessibility="no" android:layout_marginStart="74.0dip" android:layout_marginEnd="48.0dip" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="end|center" android:id="@id/newsletter_status_audio_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+</FrameLayout>

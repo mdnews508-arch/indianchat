@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/toggle_container" android:background="@drawable/action_button_background_circle" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/bar_progress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" android:indeterminateTint="@color/APKTOOL_DUMMYVAL_0x7f0605fb" android:indeterminateTintMode="src_atop" />
+    <com.indianchat.ui.coreui.base.WaImageView android:id="@id/bar_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_overview_key" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0605fb" />
+</androidx.appcompat.widget.LinearLayoutCompat>

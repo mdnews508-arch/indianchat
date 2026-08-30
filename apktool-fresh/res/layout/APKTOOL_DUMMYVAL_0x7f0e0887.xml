@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/business_search_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/search_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.chip.Chip android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:id="@id/update_results_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070509" android:text="@string/APKTOOL_DUMMYVAL_0x7f124db5" android:layout_centerHorizontal="true" app:APKTOOL_DUMMYVAL_0x7f040156="@dimen/APKTOOL_DUMMYVAL_0x7f0704fb" app:APKTOOL_DUMMYVAL_0x7f040158="@drawable/ic_refresh_white" app:APKTOOL_DUMMYVAL_0x7f040163="@dimen/APKTOOL_DUMMYVAL_0x7f0704fb" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_row_container" android:background="@drawable/calls_row_expandable_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/wds_call_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040426" app:APKTOOL_DUMMYVAL_0x7f0406a6="true" app:APKTOOL_DUMMYVAL_0x7f0406a7="compact" style="@style/APKTOOL_DUMMYVAL_0x7f150616" />
+    <ViewStub android:id="@id/expanded_actions" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0357" android:inflatedId="@id/expanded_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

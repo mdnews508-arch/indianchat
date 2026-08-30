@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/reg_tablet_intro_login_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:text="@string/APKTOOL_DUMMYVAL_0x7f1235d4" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/vec_ic_qr_code" app:APKTOOL_DUMMYVAL_0x7f0403ca="start" app:APKTOOL_DUMMYVAL_0x7f040923="filled" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/reg_tablet_intro_create_account_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:text="@string/APKTOOL_DUMMYVAL_0x7f1235d3" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+</LinearLayout>

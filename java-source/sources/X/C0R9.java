@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.0R9, reason: invalid class name */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0R9 implements C0BG {
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040737" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/business_rank" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:textAlignment="viewEnd" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" app:APKTOOL_DUMMYVAL_0x7f040369="?APKTOOL_DUMMYVAL_0x7f040373" style="@style/APKTOOL_DUMMYVAL_0x7f1502c0" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e10f7" />
+</LinearLayout>

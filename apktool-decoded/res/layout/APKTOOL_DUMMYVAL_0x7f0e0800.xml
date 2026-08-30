@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:src="@drawable/wa_ic_block" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409ff" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textStyle="italic" android:ellipsize="end" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1217c8" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+</LinearLayout>

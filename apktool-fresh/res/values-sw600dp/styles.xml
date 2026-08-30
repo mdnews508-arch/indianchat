@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504df" parent="@style/APKTOOL_DUMMYVAL_0x7f1504de">
+        <item name="android:backgroundDimAmount">@dimen/APKTOOL_DUMMYVAL_0x7f071037</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040606">@style/APKTOOL_DUMMYVAL_0x7f150339</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040607">0.0dip</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040608">@style/APKTOOL_DUMMYVAL_0x7f15033b</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f040609">@dimen/APKTOOL_DUMMYVAL_0x7f071150</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04060a">@dimen/APKTOOL_DUMMYVAL_0x7f071150</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150696" parent="@style/APKTOOL_DUMMYVAL_0x7f1500f9">
+        <item name="APKTOOL_DUMMYVAL_0x7f04083d">center</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f04084a">fixed</item>
+    </style>
+</resources>

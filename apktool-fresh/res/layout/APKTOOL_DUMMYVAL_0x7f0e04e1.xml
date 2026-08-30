@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fixed_business_context_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" android:outlineProvider="none"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/fmx_v2_card_bottom_divider" android:background="@color/APKTOOL_DUMMYVAL_0x7f060898" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071160" android:importantForAccessibility="no" />
+</FrameLayout>

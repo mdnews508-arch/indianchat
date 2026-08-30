@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.WaImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120ec3" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/green_circle" indianchat:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f04090b" xmlns:indianchat="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

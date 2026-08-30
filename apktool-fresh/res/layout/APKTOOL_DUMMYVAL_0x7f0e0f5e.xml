@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.polls.ui.creator.PollCreatorLayout android:id="@id/main" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:fitsSystemWindows="true" android:layout_width="fill_parent" style="?APKTOOL_DUMMYVAL_0x7f040608"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/toolbar_holder" android:background="?APKTOOL_DUMMYVAL_0x7f0408dd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/out_of_chat_playback_holder" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137c" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0f61" />
+</com.whatsapp.polls.ui.creator.PollCreatorLayout>

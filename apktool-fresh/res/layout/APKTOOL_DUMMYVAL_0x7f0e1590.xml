@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center|top" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ffb" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:indeterminate="true" android:indeterminateOnly="false" app:APKTOOL_DUMMYVAL_0x7f04021b="@color/APKTOOL_DUMMYVAL_0x7f060746" app:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

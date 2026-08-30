@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="bottom" android:id="@id/swipe_variant_button_row_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a3" android:inflatedId="@id/swipe_variant_button_row" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/call_reason_swipe_offset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="88.0dip">
+            <ViewStub android:id="@id/swipe_variant_hint_arrows_row_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a2" android:inflatedId="@id/swipe_variant_hint_arrows_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+            <ViewStub android:id="@id/call_reason_container_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0335" android:inflatedId="@id/call_reason_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <ViewStub android:id="@id/swipe_variant_hint_row_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a6" android:inflatedId="@id/swipe_variant_hint_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/answer_call_tap_variant_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a7" android:inflatedId="@id/answer_call_tap_variant" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/answer_call_slide_variant_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a4" android:inflatedId="@id/answer_call_slide_variant" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+package X;
+
+import org.json.JSONObject;
+
+/* JADX INFO: renamed from: X.EGm, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C32416EGm extends AbstractC16780p1 implements GTL {
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C32416EGm(JSONObject jSONObject) {
+        super(jSONObject);
+        C000700h.A0A(jSONObject, 0);
+    }
+
+    @Override // X.GTL
+    public N8K AZp() {
+        return (N8K) A0A("currency", N8K.A2S);
+    }
+
+    @Override // X.GTL
+    public int ApL() {
+        return AbstractC31894DxJ.A01(this, "offset");
+    }
+
+    @Override // X.GTL
+    public int getValue() {
+        return AbstractC31894DxJ.A01(this, "value");
+    }
+}

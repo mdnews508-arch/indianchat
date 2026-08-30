@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070378" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070361" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contact_photo" android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034b" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:alpha="0.5" app:APKTOOL_DUMMYVAL_0x7f040861="false" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070363" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:layout_gravity="left" android:id="@id/chat_able_contacts_row_name" android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:layout_gravity="left" android:id="@id/chat_able_contacts_row_status" android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+    </LinearLayout>
+</RelativeLayout>

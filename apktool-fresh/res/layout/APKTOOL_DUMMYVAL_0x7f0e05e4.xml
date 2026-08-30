@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversation_row_og_tag_payment_link_content" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/og_tag_payment_link_header" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" android:importantForAccessibility="no" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:textDirection="firstStrong" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070c01" />
+    <include android:id="@id/verify_status_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0644" />
+</LinearLayout>

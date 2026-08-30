@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/end_card_thumbnail_top_gradient" android:paddingTop="10.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="10.0dip" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/end_card_thumbnail_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040635="x_small" />
+</FrameLayout>

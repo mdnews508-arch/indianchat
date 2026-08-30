@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%1$d إشعار</item>
+        <item quantity="one">إشعار واحد</item>
+        <item quantity="two">إشعاران</item>
+        <item quantity="few">%1$d إشعارات</item>
+        <item quantity="many">%1$d إشعارًا</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">تم إخفاء %1$d من السطور</item>
+        <item quantity="one">تم إخفاء سطر واحد (%1$d)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%1$d صفحة</item>
+        <item quantity="one">صفحة واحدة</item>
+        <item quantity="two">صفحتان</item>
+        <item quantity="few">%1$d صفحات</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d تسجيل إعجاب</item>
+        <item quantity="zero">لا توجد تسجيلات إعجاب</item>
+        <item quantity="one">تسجيل إعجاب واحد</item>
+        <item quantity="two">تسجيلا إعجاب</item>
+        <item quantity="few">%1$d تسجيلات إعجاب</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+</resources>

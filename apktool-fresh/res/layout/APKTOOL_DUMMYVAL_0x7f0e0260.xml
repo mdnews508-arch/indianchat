@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView android:textStyle="bold" android:gravity="center" android:id="@id/bot_calendar_invitee_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060892" android:ellipsize="end" android:id="@id/bot_calendar_invitee_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:ellipsize="end" android:id="@id/bot_calendar_invitee_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

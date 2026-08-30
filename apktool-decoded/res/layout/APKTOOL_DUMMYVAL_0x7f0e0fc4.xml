@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501de">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" indianchat:APKTOOL_DUMMYVAL_0x7f040454="parent" indianchat:APKTOOL_DUMMYVAL_0x7f040467="parent" indianchat:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+                <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/dm_setting_header_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ephemeral_nux_illustration" />
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:layout_gravity="center" android:id="@id/dm_description" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" />
+                <View style="?APKTOOL_DUMMYVAL_0x7f040758" />
+                <ViewStub android:id="@id/set_account_header" android:inflatedId="@id/set_account_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" />
+                <com.indianchat.dmsetting.EphemeralSettingListItem android:id="@id/dm_setting_default_message_timer_row" android:background="?APKTOOL_DUMMYVAL_0x7f0404b6" android:layout_width="fill_parent" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_person" indianchat:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f124e6b" />
+                <ViewStub android:id="@id/set_current_chats_header" android:inflatedId="@id/set_current_chats_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0705b8" />
+                <com.indianchat.dmsetting.EphemeralSettingListItem android:id="@id/dm_setting_chat_picker_row" android:background="?APKTOOL_DUMMYVAL_0x7f0404b6" android:layout_width="fill_parent" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f0404a0="@drawable/ic_list_alt" indianchat:APKTOOL_DUMMYVAL_0x7f0404a3="@string/APKTOOL_DUMMYVAL_0x7f124e6a" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

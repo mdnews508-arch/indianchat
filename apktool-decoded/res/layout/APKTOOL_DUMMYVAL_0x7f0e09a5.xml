@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/hd_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a9" android:inflatedId="@id/hd_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/hd_invisible_touch" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09aa" android:inflatedId="@id/hd_invisible_touch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

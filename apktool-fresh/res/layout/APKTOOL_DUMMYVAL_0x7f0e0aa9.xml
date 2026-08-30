@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveAndDateLayout android:id="@id/interactive_and_date_layout" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04003c="true" app:APKTOOL_DUMMYVAL_0x7f04023a="-5.0dip" app:APKTOOL_DUMMYVAL_0x7f04023b="-1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.InteractiveMessageView android:layout_gravity="start" android:orientation="vertical" android:id="@id/interactive_view" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07046a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055e" />
+</com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveAndDateLayout>

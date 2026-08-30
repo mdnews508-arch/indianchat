@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.wds.components.button.WDSButton android:id="@id/status_reshare_button_emphasized" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070e3d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e3d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f123f80" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070e3c" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070e3c" app:APKTOOL_DUMMYVAL_0x7f040009="media" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_add_to_status"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

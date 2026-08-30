@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/external_dir_migration_section" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/setting_manual_external_dir_migration_divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503bb" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:text="@string/APKTOOL_DUMMYVAL_0x7f123b84" style="?APKTOOL_DUMMYVAL_0x7f04076f" />
+    <LinearLayout android:orientation="vertical" android:id="@id/manual_external_dir_migration_layout" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071142" android:paddingTop="15.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1503be">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/manual_external_dir_migration" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122298" style="?APKTOOL_DUMMYVAL_0x7f040774" />
+    </LinearLayout>
+</LinearLayout>

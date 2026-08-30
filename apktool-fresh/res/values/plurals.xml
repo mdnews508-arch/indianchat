@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100000">
+        <item quantity="other">Emoji search returned %d emoji.</item>
+        <item quantity="one">Emoji search returned %d emoji.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100001">
+        <item quantity="other">%1$d excluded</item>
+        <item quantity="one">%1$d excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100002">
+        <item quantity="other">Edit excluded contacts, %1$d currently excluded</item>
+        <item quantity="one">Edit excluded contacts, %1$d currently excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100003">
+        <item quantity="other">%1$s, %2$d unread statuses</item>
+        <item quantity="one">%1$s, %2$d unread status</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100004">
+        <item quantity="other">List of %d items</item>
+        <item quantity="one">List of %d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100005">
+        <item quantity="other">%d more groups in common</item>
+        <item quantity="one">%d more group in common</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100006">
+        <item quantity="other">%1$s, checkbox checked, %2$s votes, you voted</item>
+        <item quantity="one">%1$s, checkbox checked, %2$s vote, you voted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100007">
+        <item quantity="other">%1$s, checkbox not checked, %2$s votes</item>
+        <item quantity="one">%1$s, checkbox not checked, %2$s vote</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100008">
+        <item quantity="other">%1$s, %2$s votes</item>
+        <item quantity="one">%1$s, %2$s vote</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100009">
+        <item quantity="other">Trim from %1$d to %2$d seconds</item>
+        <item quantity="one">Trim from %1$d to %2$d seconds</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000a">
+        <item quantity="other">"%d members can't be added to the community. You can invite them privately to join this group through its invite link."</item>
+        <item quantity="one">"This member can't be added to the community. You can invite them privately to join this group through its invite link."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000b">
+        <item quantity="other">"Couldn't add to %1$d groups"</item>
+        <item quantity="one">"Couldn't add to %1$d group"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000c">
+        <item quantity="other">"Couldn't add %1$s to %2$d groups. You can invite them privately to join."</item>
+        <item quantity="one">"Couldn't add %1$s to %2$d group. You can invite them privately to join."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000d">
+        <item quantity="other">"You can't select more than %1$d groups."</item>
+        <item quantity="one">"You can't select more than %1$d group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000e">
+        <item quantity="other">Requested admin approval for %1$d groups</item>
+        <item quantity="one">Requested admin approval for %1$d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10000f">
+        <item quantity="other">Added to %1$d groups</item>
+        <item quantity="one">Added to %1$d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100010">
+        <item quantity="other">"Couldn't add stickers to \"%s\""</item>
+        <item quantity="one">"Couldn't add sticker to \"%s\""</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100011">
+        <item quantity="other">Adding group statuses…</item>
+        <item quantity="one">Adding group status…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100012">
+        <item quantity="other">Adding %d…</item>
+        <item quantity="one">Adding…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100013">
+        <item quantity="other">A join request from %1$s and %2$d others needs review.</item>
+        <item quantity="one">A join request from %1$s and %2$d other needs review.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100014">
+        <item quantity="other">"Couldn't send the admin invites. Please try again."</item>
+        <item quantity="one">"Couldn't send the admin invite. Please try again."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100015">
+        <item quantity="other">Only %s admin invites were sent.</item>
+        <item quantity="one">Only %s admin invite was sent.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100016">
+        <item quantity="other">"
+Couldn't send invite to %1$s and %2$s others"</item>
+        <item quantity="one">"
+Couldn't send invite to %1$s and %2$s other"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100017">
+        <item quantity="other">Confirm you are %1$d years old</item>
+        <item quantity="one">Confirm you are %1$d year old</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100018">
+        <item quantity="other">Confirm they are %1$d years old</item>
+        <item quantity="one">Confirm they are %1$d year old</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100019">
+        <item quantity="other">Confirm %1$s is %2$d years old</item>
+        <item quantity="one">Confirm %1$s is %2$d year old</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001a">
+        <item quantity="other">Are you %1$d years old?</item>
+        <item quantity="one">Are you %1$d year old?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001b">
+        <item quantity="other">Are they %1$d years old?</item>
+        <item quantity="one">Are they %1$d year old?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001c">
+        <item quantity="other">%1$d years old</item>
+        <item quantity="one">%1$d year old</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001d">
+        <item quantity="other">Delete %1$d chats</item>
+        <item quantity="one">Delete %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001e">
+        <item quantity="other">You can only pin up to %1$d chats</item>
+        <item quantity="one">You can only pin up to %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10001f">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100020">
+        <item quantity="other">Enabled after %d minutes</item>
+        <item quantity="one">Enabled after %d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100021">
+        <item quantity="other">After %d minutes</item>
+        <item quantity="one">After %d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100022">
+        <item quantity="other">Disappears for you in %1$d days</item>
+        <item quantity="one">Disappears for you in %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100023">
+        <item quantity="other">Archive %1$s groups?</item>
+        <item quantity="one">Archive %1$s group?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100025">
+        <item quantity="other">Your audience includes %1$d unique recipients from the lists you selected.</item>
+        <item quantity="one">Your audience includes %1$d unique recipient from the lists you selected.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100026">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100027">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100028">
+        <item quantity="other">"%1$d chats' theme, alert tone and ringtone will be changed."</item>
+        <item quantity="one">"%1$d chat's theme, alert tone and ringtone will be changed."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100029">
+        <item quantity="other">%1$d chats have a custom wallpaper or theme. This will be lost if overridden with list customizations.</item>
+        <item quantity="one">%1$d chat has a custom wallpaper or theme. This will be lost if overridden with list customizations.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002a">
+        <item quantity="other">You can only pin %1$d chats</item>
+        <item quantity="one">You can only pin %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002b">
+        <item quantity="other">You can only pin %1$d chats</item>
+        <item quantity="one">You can only pin %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002c">
+        <item quantity="other">%s joined</item>
+        <item quantity="one">%s joined</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002d">
+        <item quantity="other">%1$d results</item>
+        <item quantity="one">%1$d result</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002e">
+        <item quantity="other">%1$s likes</item>
+        <item quantity="one">%1$s like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10002f">
+        <item quantity="other">%1$s followers</item>
+        <item quantity="one">%1$s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100030">
+        <item quantity="other">%1$d days before</item>
+        <item quantity="one">%1$d day before</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100031">
+        <item quantity="other">%1$d hours before</item>
+        <item quantity="one">%1$d hour before</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100032">
+        <item quantity="other">%1$d weeks before</item>
+        <item quantity="one">%1$d week before</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100034">
+        <item quantity="other">Broadcast List · %d recipients</item>
+        <item quantity="one">Broadcast List · %d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100035">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100036">
+        <item quantity="other">Broadcast or create a new group with a maximum of %1$d people at a time.</item>
+        <item quantity="one">Broadcast or create a new group with a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100037">
+        <item quantity="other">Broadcast to a maximum of %1$d people at a time.</item>
+        <item quantity="one">Broadcast to a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100038">
+        <item quantity="other">%2$d group members are not in your contacts. &lt;font color=#%1$s>&lt;b>Add to contacts&lt;/b>&lt;/font></item>
+        <item quantity="one">%2$d group member is not in your contacts. &lt;font color=#%1$s>&lt;b>Add to contacts&lt;/b>&lt;/font></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100039">
+        <item quantity="other">%d chats archived</item>
+        <item quantity="one">%d chat archived</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003a">
+        <item quantity="other">%d chats deleted</item>
+        <item quantity="one">%d chat deleted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003b">
+        <item quantity="other">Exit %1$d selected groups?</item>
+        <item quantity="one">Exit %1$d selected group?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003c">
+        <item quantity="other">These messages appear in Chats first, then only here after %1$d hours of inactivity. &lt;a href=\"manage-settings\">Manage settings&lt;/a></item>
+        <item quantity="one">These messages appear in Chats first, then only here after %1$d hour of inactivity. &lt;a href=\"manage-settings\">Manage settings&lt;/a></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003d">
+        <item quantity="other">These messages appear in Chats first, then only here after %1$d hours of inactivity. &lt;a href=\"manage-settings\">Manage settings&lt;/a></item>
+        <item quantity="one">These messages appear in Chats first, then only here after %1$d hour of inactivity. &lt;a href=\"manage-settings\">Manage settings&lt;/a></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003e">
+        <item quantity="other">New offers stay in Chats for %1$d hours so you can see them right away.</item>
+        <item quantity="one">New offers stay in Chats for %1$d hour so you can see them right away.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10003f">
+        <item quantity="other">%1$s Followers</item>
+        <item quantity="one">%1$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100040">
+        <item quantity="other">%1$d joined · %2$s</item>
+        <item quantity="one">%1$d joined · %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100041">
+        <item quantity="other">%1$d joined, call duration %2$s</item>
+        <item quantity="one">%1$d joined, call duration %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100042">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100043">
+        <item quantity="other">%1$s, %2$s &amp; %3$d other joined your link</item>
+        <item quantity="one">%1$s, %2$s &amp; %3$d other joined your link</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100044">
+        <item quantity="other">Group · %d members</item>
+        <item quantity="one">Group · %d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100045">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100046">
+        <item quantity="other">%1$d invited</item>
+        <item quantity="one">%1$d invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100047">
+        <item quantity="other">%1$s • %2$d joined</item>
+        <item quantity="one">%1$s • %2$d joined</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100048">
+        <item quantity="other">%1$d invited</item>
+        <item quantity="one">%1$d invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100049">
+        <item quantity="other">%1$d invited · No answer</item>
+        <item quantity="one">%1$d invited · No answer</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004a">
+        <item quantity="other">%1$d invited · %2$s left</item>
+        <item quantity="one">%1$d invited · %2$s left</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004b">
+        <item quantity="other">%1$d invited · You left</item>
+        <item quantity="one">%1$d invited · You left</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004c">
+        <item quantity="other">%1$s · %2$d joined</item>
+        <item quantity="one">%1$s · %2$d joined</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004d">
+        <item quantity="other">%1$d joined · You left</item>
+        <item quantity="one">%1$d joined · You left</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004e">
+        <item quantity="other">%1$d joined</item>
+        <item quantity="one">%1$d joined</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10004f">
+        <item quantity="other">Call %d selected</item>
+        <item quantity="one">Call %d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100050">
+        <item quantity="other">%1$d groups in common</item>
+        <item quantity="one">%1$d group in common</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100051">
+        <item quantity="other">You can only pin up to %1$d chats</item>
+        <item quantity="one">You can only pin up to %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100052">
+        <item quantity="other">You can only pin up to %1$d channels</item>
+        <item quantity="one">You can only pin %1$d channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100053">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100054">
+        <item quantity="other">and %1$d others</item>
+        <item quantity="one">and %1$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100055">
+        <item quantity="other">Loading %1$d of %2$d messages…</item>
+        <item quantity="one">Loading %1$d of %2$d message…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100056">
+        <item quantity="other">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%d contacts&lt;/a>.</item>
+        <item quantity="one">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%d contact&lt;/a>.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100057">
+        <item quantity="other">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%1$d people&lt;/a>.</item>
+        <item quantity="one">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%1$d person&lt;/a>.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100058">
+        <item quantity="other">I want to share updates from the %1$s channel with you on WhatsApp! Download at %2$s</item>
+        <item quantity="one">I want to share an update from the %1$s channel with you on WhatsApp! Download at %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100059">
+        <item quantity="other">%1$d years of chat history</item>
+        <item quantity="one">%1$d year of chat history</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005a">
+        <item quantity="other">%1$d chats deleted</item>
+        <item quantity="one">%1$d chat deleted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005b">
+        <item quantity="other">Clear %d chats?</item>
+        <item quantity="one">Clear this chat?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005c">
+        <item quantity="other">Sending replies is unavailable when the group has over %d members.</item>
+        <item quantity="one">Sending replies is unavailable when the group has over %d member.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005d">
+        <item quantity="other">%1$d replies</item>
+        <item quantity="one">%1$d reply</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005e">
+        <item quantity="other">&lt;a href=\"common-group\">%d groups in common&lt;/a></item>
+        <item quantity="one">&lt;a href=\"common-group\">%d group in common&lt;/a></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10005f">
+        <item quantity="other">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+        <item quantity="one">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100060">
+        <item quantity="other">%d new groups added</item>
+        <item quantity="one">New group added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100061">
+        <item quantity="other">Add %d people to community?</item>
+        <item quantity="one">Add %d person to community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100062">
+        <item quantity="other">Add %d people to group and community?</item>
+        <item quantity="one">Add %d person to group and community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100063">
+        <item quantity="other">"Couldn't add %s to the community announcement group, so they were not added to the community. You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %s to the community announcement group, so they were not added to the community. You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100064">
+        <item quantity="other">"Couldn't add %1s to the community announcement group, so they were not added to the community. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %1s to the community announcement group, so they were not added to the community. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100065">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100066">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100067">
+        <item quantity="other">Please download all the files first.</item>
+        <item quantity="one">Please download the file first.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100068">
+        <item quantity="other">%d community members</item>
+        <item quantity="one">%d community member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100069">
+        <item quantity="other">%s are no longer community admins</item>
+        <item quantity="one">%s is no longer a community admin</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006a">
+        <item quantity="other">You, %s are no longer community admins</item>
+        <item quantity="one">You and %s are no longer community admins</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006b">
+        <item quantity="other">%s are now community admins</item>
+        <item quantity="one">%s is now a community admin</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006c">
+        <item quantity="other">You, %s are now community admins</item>
+        <item quantity="one">You and %s are now community admins</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006d">
+        <item quantity="other">"You can't select more than %1$d members."</item>
+        <item quantity="one">"You can't select more than %1$d member."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006e">
+        <item quantity="other">If approved by community admins, people in these groups will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+        <item quantity="one">If approved by community admins, people in this group will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10006f">
+        <item quantity="other">%1$d groups</item>
+        <item quantity="one">%1$d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100070">
+        <item quantity="other">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+        <item quantity="one">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100071">
+        <item quantity="other">%1$s, %2$s and %3$d more were added</item>
+        <item quantity="one">%1$s, %2$s and %3$d more were added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100072">
+        <item quantity="other">%1$d upcoming</item>
+        <item quantity="one">%1$d upcoming</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100073">
+        <item quantity="other">Choose a phone number registered to your Meta account or enter a different one</item>
+        <item quantity="one">Use the phone number registered to your Meta account or enter a different one</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100074">
+        <item quantity="other">Send %1$d audio messages to %2$s?</item>
+        <item quantity="one">Send %1$d audio message to %2$s?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100075">
+        <item quantity="other">Send %1$d documents to %2$s?</item>
+        <item quantity="one">Send %1$d document to %2$s?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100076">
+        <item quantity="other">Upload %1$d documents to send to %2$s?</item>
+        <item quantity="one">Upload %1$d document to send to %2$s?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100077">
+        <item quantity="other">Share %1$d items with %2$s?</item>
+        <item quantity="one">Share %1$d item with %2$s?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100078">
+        <item quantity="other">%1$d confirmed</item>
+        <item quantity="one">%1$d confirmed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100079">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007a">
+        <item quantity="other">%d members are sharing</item>
+        <item quantity="one">%d member is sharing</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007b">
+        <item quantity="other">You and %d others are sharing</item>
+        <item quantity="one">You and %d other are sharing</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007c">
+        <item quantity="other">%1$s (%2$d messages)</item>
+        <item quantity="one">%1$s (%2$d message)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007d">
+        <item quantity="other">%1$s and %2$d other contacts</item>
+        <item quantity="one">%1$s and %2$d other contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007e">
+        <item quantity="other">last seen %1$d hours ago</item>
+        <item quantity="one">last seen %1$d hour ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10007f">
+        <item quantity="other">last seen %1$d minutes ago</item>
+        <item quantity="one">last seen %1$d minute ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100080">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100081">
+        <item quantity="other">%d online</item>
+        <item quantity="one">%d online</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100082">
+        <item quantity="other">%1$s &amp; %2$d others are typing…</item>
+        <item quantity="one">%1$s &amp; %2$d other are typing…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100083">
+        <item quantity="other">%d chats unarchived</item>
+        <item quantity="one">%d chat unarchived</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100084">
+        <item quantity="other">Voice chat starting in %d seconds…</item>
+        <item quantity="one">Voice chat starting in %d second…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100086">
+        <item quantity="other">You can add %1$d other members of %2$s to your contacts.</item>
+        <item quantity="one">You can add %1$d other member of %2$s to your contacts.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100087">
+        <item quantity="other">You have %1$d scheduled messages that will still be sent even if you delete this chat.</item>
+        <item quantity="one">You have %1$d scheduled message that will still be sent even if you delete this chat.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100088">
+        <item quantity="other">Delete %d chats?</item>
+        <item quantity="one">Delete this chat?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100089">
+        <item quantity="other">Delete %d communities</item>
+        <item quantity="one">Delete community</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008a">
+        <item quantity="other">Delete %d communities?</item>
+        <item quantity="one">Delete this community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008b">
+        <item quantity="other">Delete %d messages?</item>
+        <item quantity="one">Delete %d message?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008c">
+        <item quantity="other">Delete %d updates?</item>
+        <item quantity="one">Delete %d update?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008d">
+        <item quantity="other">Delete %1$d statuses?</item>
+        <item quantity="one">Delete %1$d status?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008e">
+        <item quantity="other">Delete %1$d chats?</item>
+        <item quantity="one">Delete %1$d chat?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10008f">
+        <item quantity="other">Deleting selected chats…</item>
+        <item quantity="one">Deleting selected chat…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100090">
+        <item quantity="other">Deleting %d…</item>
+        <item quantity="one">Deleting…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100091">
+        <item quantity="other">"The description you entered is too long. Enter a description that's %d characters or less and try again."</item>
+        <item quantity="one">"The description you entered is too long. Enter a description that's %d character or less and try again."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100092">
+        <item quantity="other">Clear %d chats</item>
+        <item quantity="one">Clear chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100093">
+        <item quantity="other">Clear chats (%1$s)</item>
+        <item quantity="one">Clear chat (%1$s)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100094">
+        <item quantity="other">All messages in these chats will be deleted. This cannot be undone.</item>
+        <item quantity="one">All messages in this chat will be deleted. This cannot be undone.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100095">
+        <item quantity="other">You can add up to %1$d people to Favorites.</item>
+        <item quantity="one">You can add up to %1$d person to Favorites.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100096">
+        <item quantity="other">%s followers</item>
+        <item quantity="one">%s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100097">
+        <item quantity="other">You applied a %1$s message timer to %2$d of your existing chats.</item>
+        <item quantity="one">You applied a %1$s message timer to %2$d of your existing chats.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100098">
+        <item quantity="other">%1$d chats using disappearing messages</item>
+        <item quantity="one">%1$d chat using disappearing messages</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100099">
+        <item quantity="other">Downloading %d documents</item>
+        <item quantity="one">Downloading document</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009a">
+        <item quantity="other">Downloading %d files</item>
+        <item quantity="one">Downloading file</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009b">
+        <item quantity="other">Downloading %d videos</item>
+        <item quantity="one">Downloading video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009c">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009d">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009e">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10009f">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a0">
+        <item quantity="other">%1$d weeks</item>
+        <item quantity="one">%1$d week</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a2">
+        <item quantity="other">Message privately with your %d WhatsApp contacts, no matter what device they use.</item>
+        <item quantity="one">Message privately with your WhatsApp contacts, no matter what device they use.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a3">
+        <item quantity="other">Chat with your %d WhatsApp contacts, or invite a friend to WhatsApp.</item>
+        <item quantity="one">WhatsApp is better with friends. Use the button below to invite your contacts.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a4">
+        <item quantity="other">Use %1$d-digit encryption key instead</item>
+        <item quantity="one">Use %1$d-digit encryption key instead</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a5">
+        <item quantity="other">%d-digit encryption key</item>
+        <item quantity="one">%d-digit encryption key</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a6">
+        <item quantity="other">Use an automatically created %d-digit key to protect your backup.</item>
+        <item quantity="one">Use an automatically created %d-digit key to protect your backup.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a7">
+        <item quantity="other">If you move to a new device, you can use your %d-digit encryption key to restore your chats.</item>
+        <item quantity="one">If you move to a new device, you can use your %d-digit encryption key to restore your chats.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a8">
+        <item quantity="other">Your backup is protected with a %d-digit encryption-key</item>
+        <item quantity="one">Your backup is protected with a %d-digit encryption-key</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000a9">
+        <item quantity="other">I Saved My %d-digit Key</item>
+        <item quantity="one">I Saved My %d-digit Key</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000aa">
+        <item quantity="other">Did you save your full %d-digit encryption key?</item>
+        <item quantity="one">Did you save your full %d-digit encryption key?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ab">
+        <item quantity="other">Generate your %d-digit key</item>
+        <item quantity="one">Generate your %d-digit key</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ac">
+        <item quantity="other">Must contain at least %1$d characters and 1 letter</item>
+        <item quantity="one">Must contain at least %1$d character and 1 letter</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ad">
+        <item quantity="other">Must contain at least %1$d letters</item>
+        <item quantity="one">Must contain at least %1$d letter</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ae">
+        <item quantity="other">Must contain at least %1$d characters</item>
+        <item quantity="one">Must contain at least %1$d character</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000af">
+        <item quantity="other">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+        <item quantity="one">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b0">
+        <item quantity="other">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b1">
+        <item quantity="other">Use %d-digit encryption key instead</item>
+        <item quantity="one">Use %d-digit encryption key instead</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b2">
+        <item quantity="other">Enter the %d-digit key you use to protect your end-to-end encrypted backup.</item>
+        <item quantity="one">Enter the %d-digit key you use to protect your end-to-end encrypted backup.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b3">
+        <item quantity="other">To begin, enter your %d-digit encryption key.</item>
+        <item quantity="one">To begin, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b4">
+        <item quantity="other">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b5">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b6">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b7">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b8">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000b9">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ba">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000bb">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000bc">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000bd">
+        <item quantity="other">"You couldn't add %d members because they left the group recently. Try again later."</item>
+        <item quantity="one">"You couldn't add %d member because they left the group recently. Try again later."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000be">
+        <item quantity="other">This photo is too small. Please select a photo with height and width of at least %d pixels.</item>
+        <item quantity="one">This photo is too small. Please select a photo with height and width of at least %d pixel.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000bf">
+        <item quantity="other">%d going</item>
+        <item quantity="one">%d going</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c0">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c1">
+        <item quantity="other">%1$d invited</item>
+        <item quantity="one">%1$d invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c2">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c3">
+        <item quantity="other">"%1$d invites weren't sent."</item>
+        <item quantity="one">"%1$d invite wasn't sent."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c4">
+        <item quantity="other">Until %1$d hours after event starts</item>
+        <item quantity="one">Until %1$d hour after event starts</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c5">
+        <item quantity="other">"%1$d guests aren't on WhatsApp. Send a link by SMS. They can respond without the app."</item>
+        <item quantity="one">"%1$d guest isn't on WhatsApp. Send a link by SMS. They can respond without the app."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c6">
+        <item quantity="other">%d upcoming</item>
+        <item quantity="one">%d upcoming</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c7">
+        <item quantity="other">%d upcoming</item>
+        <item quantity="one">%d upcoming</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c8">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000c9">
+        <item quantity="other">%1$d exclusive stickers</item>
+        <item quantity="one">%1$d exclusive sticker</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ca">
+        <item quantity="other">Delete community with %d groups?</item>
+        <item quantity="one">Delete community with %d group?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000cb">
+        <item quantity="other">"Exit group and community?
+You have %1$d unsent messages in this chat."</item>
+        <item quantity="one">"Exit group and community?
+You have %1$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000cd">
+        <item quantity="other">Also exit %d groups</item>
+        <item quantity="one">Also exit %d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ce">
+        <item quantity="other">Also exit %d groups:</item>
+        <item quantity="one">Also exit %d group:</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000cf">
+        <item quantity="other">Facebook • %1$s Likes</item>
+        <item quantity="one">Facebook • %1$s Like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d0">
+        <item quantity="other">%1$s • %2$s Likes</item>
+        <item quantity="one">%1$s • %2$s Like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d1">
+        <item quantity="other">%d members cannot be added because the community is full.</item>
+        <item quantity="one">Member cannot be added because the community is full.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d2">
+        <item quantity="other">%d members cannot be added to the community.</item>
+        <item quantity="one">Member cannot be added to the community.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d3">
+        <item quantity="other">You reached the maximum of %1$d admins for this community</item>
+        <item quantity="one">You reached the maximum of %1$d admin for this community</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d4">
+        <item quantity="other">"%1$d groups can't be added because the community is full"</item>
+        <item quantity="one">"%1$d group can't be added because the community is full"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d5">
+        <item quantity="other">"Couldn't send %d"</item>
+        <item quantity="one">"Couldn't send"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d6">
+        <item quantity="other">"Couldn't add %d"</item>
+        <item quantity="one">"Couldn't add"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d7">
+        <item quantity="other">"Couldn't leave %1$d groups. Try again."</item>
+        <item quantity="one">"Couldn't leave %1$d group. Try again."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d8">
+        <item quantity="other">Try again in %d hours</item>
+        <item quantity="one">Try again in %d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000d9">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000da">
+        <item quantity="other">%1$d stars</item>
+        <item quantity="one">%1$d star</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000db">
+        <item quantity="other">%d files deleted from your device</item>
+        <item quantity="one">%d file deleted from your device</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000dc">
+        <item quantity="other">This status will be sent to your contacts excluding %1$d.</item>
+        <item quantity="one">This status will be sent to your contacts excluding %1$d.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000dd">
+        <item quantity="other">This status will be sent to %1$d contacts.</item>
+        <item quantity="one">This status will be sent to %1$d contact.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000de">
+        <item quantity="other">%1$s Followers</item>
+        <item quantity="one">%1$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000df">
+        <item quantity="other">%1$s Facebook followers</item>
+        <item quantity="one">%1$s Facebook follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e0">
+        <item quantity="other">%1$s Followers</item>
+        <item quantity="one">%1$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e1">
+        <item quantity="other">%1$s Instagram followers</item>
+        <item quantity="one">%1$s Instagram follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e2">
+        <item quantity="other">%1$s • %2$s Followers</item>
+        <item quantity="one">%1$s • %2$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e3">
+        <item quantity="other">%1$d AI images</item>
+        <item quantity="one">%1$d AI image</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e4">
+        <item quantity="other">%1$d captions</item>
+        <item quantity="one">%1$d caption</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e5">
+        <item quantity="other">%1$d documents</item>
+        <item quantity="one">%1$d document</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e6">
+        <item quantity="other">%1$d GIFs</item>
+        <item quantity="one">%1$d GIF</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e7">
+        <item quantity="other">%1$d links</item>
+        <item quantity="one">%1$d link</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e8">
+        <item quantity="other">%1$d others</item>
+        <item quantity="one">%1$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000e9">
+        <item quantity="other">%1$d photos</item>
+        <item quantity="one">%1$d photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ea">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000eb">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ec">
+        <item quantity="other">"Your report will be ready in about %1$d days. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+        <item quantity="one">"Your report will be ready in about %1$d day. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ed">
+        <item quantity="other">GIFs set to default quality</item>
+        <item quantity="one">GIF set to default quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ee">
+        <item quantity="other">%1$d GIFs set to HD quality</item>
+        <item quantity="one">GIF set to HD quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ef">
+        <item quantity="other">%1$d GIFs set to original quality</item>
+        <item quantity="one">GIF set to original quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f0">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f1">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f2">
+        <item quantity="other">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f3">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f4">
+        <item quantity="other">%s joined from the community</item>
+        <item quantity="one">%s joined from the community</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f5">
+        <item quantity="other">Members joined from the community</item>
+        <item quantity="one">A member joined from the community</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f6">
+        <item quantity="other">%1$s, %2$s &amp; %3$d others are on a call</item>
+        <item quantity="one">%1$s, %2$s &amp; %3$d other are on a call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f7">
+        <item quantity="other">Maximum group capacity of %1$d members reached.</item>
+        <item quantity="one">Maximum group capacity of %1$d member reached.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f8">
+        <item quantity="other">Send %1$d audio messages to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d audio message to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000f9">
+        <item quantity="other">Send %1$d documents to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d document to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000fa">
+        <item quantity="other">Share %1$d items with \"%2$s\"?</item>
+        <item quantity="one">Share %1$d item with \"%2$s\"?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000fb">
+        <item quantity="other">Only you and %1$d invited</item>
+        <item quantity="one">Only you and %1$d invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000fc">
+        <item quantity="other">and %1$d invited</item>
+        <item quantity="one">and %1$d invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000fd">
+        <item quantity="other">Send message history to %1$s and %2$d others?</item>
+        <item quantity="one">Send message history to %1$s and %2$d other?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000fe">
+        <item quantity="other">You are sending message history to the selected members.</item>
+        <item quantity="one">You are sending message history to the selected member.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1000ff">
+        <item quantity="other">%1$s already received message history.</item>
+        <item quantity="one">%1$s already received message history.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100100">
+        <item quantity="other">"You can't send %1$s message history."</item>
+        <item quantity="one">"You can't send %1$s message history."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100101">
+        <item quantity="other">Last %1$d</item>
+        <item quantity="one">Last %1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100102">
+        <item quantity="other">&lt;b>Message history:&lt;/b> Send &lt;a href=\"%1$s\">recent messages&lt;/a> to the selected members.</item>
+        <item quantity="one">&lt;b>Message history:&lt;/b> Send &lt;a href=\"%1$s\">recent messages&lt;/a> to the selected member.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100103">
+        <item quantity="other">&lt;b>Message history:&lt;/b> &lt;a href=\"%1$s\">Send recent messages&lt;/a> to the selected members.</item>
+        <item quantity="one">&lt;b>Message history:&lt;/b> &lt;a href=\"%1$s\">Send recent messages&lt;/a> to the selected member.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100104">
+        <item quantity="other">Group · %1d members</item>
+        <item quantity="one">Group · %1d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100105">
+        <item quantity="other">Group · &lt;a href=\"members-ref\">%1d members&lt;/a></item>
+        <item quantity="one">Group · &lt;a href=\"members-ref\">%1d member&lt;/a></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100106">
+        <item quantity="other">%s were added to this group</item>
+        <item quantity="one">%s was added to this group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100107">
+        <item quantity="other">%1$s · %2$d members</item>
+        <item quantity="one">%1$s · %2$d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100108">
+        <item quantity="other">"%d people not shown because they aren't in your contacts"</item>
+        <item quantity="one">"%d person not shown because they aren't in your contacts"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100109">
+        <item quantity="other">Only %1$1d of %2$2d pending requests will be approved because the group has reached capacity.</item>
+        <item quantity="one">Only %1$1d of %2$2d pending request will be approved because the group has reached capacity.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010a">
+        <item quantity="other">"Group name can't be more than %1$d characters."</item>
+        <item quantity="one">"Group name can't be more than %1$d character."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010b">
+        <item quantity="other">%s were added</item>
+        <item quantity="one">%s was added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010c">
+        <item quantity="other">%s are no longer admins</item>
+        <item quantity="one">%s is no longer an admin</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010d">
+        <item quantity="other">You, %s are no longer admins</item>
+        <item quantity="one">You and %s are no longer admins</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010e">
+        <item quantity="other">%s are now admins</item>
+        <item quantity="one">%s is now an admin</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10010f">
+        <item quantity="other">You, %s are now admins</item>
+        <item quantity="one">You and %s are now admins</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100110">
+        <item quantity="other">%s were removed</item>
+        <item quantity="one">%s was removed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100111">
+        <item quantity="other">You invited %s</item>
+        <item quantity="one">You invited %s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100112">
+        <item quantity="other">%2$d requests to join. &lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font></item>
+        <item quantity="one">%2$d request to join. &lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100113">
+        <item quantity="other">%d pending requests</item>
+        <item quantity="one">%d pending request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100114">
+        <item quantity="other">Remove %1$s members</item>
+        <item quantity="one">Remove %1$s member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100115">
+        <item quantity="other">This group has over %1$d members so now only admins can edit the group settings.</item>
+        <item quantity="one">This group has over %1$d member so now only admins can edit the group settings.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100116">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100117">
+        <item quantity="other">You can select up to %1$d groups</item>
+        <item quantity="one">You can only select one group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100118">
+        <item quantity="other">%1$d likes</item>
+        <item quantity="one">%1$d like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100119">
+        <item quantity="other">%1$s and %2$d others added group statuses.</item>
+        <item quantity="one">%1$s and %2$d other added group statuses.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011a">
+        <item quantity="other">You and %1$d others added group statuses.</item>
+        <item quantity="one">You and %1$d other added group statuses.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011b">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011c">
+        <item quantity="other">"You can't select more than %1$d members."</item>
+        <item quantity="one">"You can't select more than %1$d member."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011d">
+        <item quantity="other">%d Groups in common</item>
+        <item quantity="one">%d Group in common</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011e">
+        <item quantity="other">Found %1$d contact cards for this number. Add to your contacts?</item>
+        <item quantity="one">Found %1$d contact card for this number. Add to your contacts?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10011f">
+        <item quantity="other">Hide %d groups?</item>
+        <item quantity="one">Hide %d group?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100120">
+        <item quantity="other">This status will be shared with your contacts excluding %d.</item>
+        <item quantity="one">This status will be shared with your contacts excluding %d.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100121">
+        <item quantity="other">This status will be shared with %d contacts.</item>
+        <item quantity="one">This status will be shared with %d contact.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100122">
+        <item quantity="other">Instagram • %1$s Followers</item>
+        <item quantity="one">Instagram • %1$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100123">
+        <item quantity="other">%1$s • %2$s Followers</item>
+        <item quantity="one">%1$s • %2$s Follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100124">
+        <item quantity="other">%1$d common groups</item>
+        <item quantity="one">%1$d common group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100125">
+        <item quantity="other">Expires in %d days</item>
+        <item quantity="one">Expires in %d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100126">
+        <item quantity="other">Invited %1$d days ago</item>
+        <item quantity="one">Invited %1$d day ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100127">
+        <item quantity="other">%1$s joined using an invite from %2$s</item>
+        <item quantity="one">%1$s joined using an invite from %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100128">
+        <item quantity="other">Invites sent</item>
+        <item quantity="one">Invite sent</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100129">
+        <item quantity="other">%1$d Invited</item>
+        <item quantity="one">%1$d Invited</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10012a">
+        <item quantity="other">%1$s and %2$d others are typing…</item>
+        <item quantity="one">%1$s and %2$d other are typing…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10012b">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10012c">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10012e">
+        <item quantity="other">Choose up to %d photos for your layout.</item>
+        <item quantity="one">Choose up to %d photo for your layout.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10012f">
+        <item quantity="other">Current layout missing %d photos</item>
+        <item quantity="one">Current layout missing %d photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100130">
+        <item quantity="other">%1$d rows by %2$d column, grid</item>
+        <item quantity="one">%1$d row by %2$d column, grid</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100131">
+        <item quantity="other">%1$d rows by %2$d columns, grid</item>
+        <item quantity="one">%1$d row by %2$d columns, grid</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100132">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100133">
+        <item quantity="other">"Couldn't add %1$s and %2$d others to this call and chat."</item>
+        <item quantity="one">"Couldn't add %1$s and %2$d other to this call and chat."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100134">
+        <item quantity="other">"You can't add more than %1$d groups."</item>
+        <item quantity="one">"You can't add more than %1$d group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100135">
+        <item quantity="other">"You can't add more than %1$d groups."</item>
+        <item quantity="one">"You can't add more than %1$d group."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100136">
+        <item quantity="other">You can only add %1$d groups when creating a community. You can add more after this community is created.</item>
+        <item quantity="one">You can only add %1$d group when creating a community. You can add more after this community is created.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100137">
+        <item quantity="other">Add %1$s groups to \"%2$s\"?</item>
+        <item quantity="one">Add %1$s group to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100138">
+        <item quantity="other">Add \"%1$s\", \"%2$s\" &amp; %3$d others to community?</item>
+        <item quantity="one">Add \"%1$s\", \"%2$s\" &amp; %3$d other to community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100139">
+        <item quantity="other">Add these groups to community?</item>
+        <item quantity="one">Add this group to community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013a">
+        <item quantity="other">The people in these groups will be added to the community and its announcement group.</item>
+        <item quantity="one">The people in this group will be added to the community and its announcement group.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013b">
+        <item quantity="other">Add %1$s groups to community?</item>
+        <item quantity="one">Add %1$s group to community?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013c">
+        <item quantity="other">Community • %1$d groups</item>
+        <item quantity="one">Community • %1$d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013d">
+        <item quantity="other">Logging out in %1$d days</item>
+        <item quantity="one">Logging out in %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013e">
+        <item quantity="other">%1$d devices</item>
+        <item quantity="one">%1$d device</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10013f">
+        <item quantity="other">%1$d expiring</item>
+        <item quantity="one">%1$d expiring</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100140">
+        <item quantity="other">%1$d new</item>
+        <item quantity="one">%1$d new</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100141">
+        <item quantity="other">%d connected</item>
+        <item quantity="one">%d connected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100142">
+        <item quantity="other">%s were added to the list</item>
+        <item quantity="one">%s was added to the list</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100143">
+        <item quantity="other">%s were removed from the list</item>
+        <item quantity="one">%s was removed from the list</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100144">
+        <item quantity="other">Added to lists</item>
+        <item quantity="one">Added to list</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100145">
+        <item quantity="other">Removed from lists</item>
+        <item quantity="one">Removed from list</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100146">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100148">
+        <item quantity="other">Sharing in %d chats</item>
+        <item quantity="one">Sharing in %d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100149">
+        <item quantity="other">Location marker for %s</item>
+        <item quantity="one">Location marker for %s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10014a">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10014b">
+        <item quantity="other">%d people stopped sharing</item>
+        <item quantity="one">%d person stopped sharing</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10014c">
+        <item quantity="other">Accurate to %d meters</item>
+        <item quantity="one">Accurate to %d meter</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10014e">
+        <item quantity="other">Manage %1$d invites</item>
+        <item quantity="one">Manage %1$d invite</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10014f">
+        <item quantity="other">"Can't send more than %d audio messages at a time"</item>
+        <item quantity="one">"Can't send more than %d audio message at a time"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100150">
+        <item quantity="other">Photos set to default quality</item>
+        <item quantity="one">Photo set to default quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100151">
+        <item quantity="other">%1$d photos set to HD quality</item>
+        <item quantity="one">Photo set to HD quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100152">
+        <item quantity="other">%1$d photos set to original quality</item>
+        <item quantity="one">Photo set to original quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100153">
+        <item quantity="other">%d new group suggestions</item>
+        <item quantity="one">%d new group suggestion</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100154">
+        <item quantity="other">%d group suggestions</item>
+        <item quantity="one">%d group suggestion</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100155">
+        <item quantity="other">%d group suggestions</item>
+        <item quantity="one">%d group suggestion</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100156">
+        <item quantity="other">%d pending groups</item>
+        <item quantity="one">%d pending group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100157">
+        <item quantity="other">You have %d minutes to start and then finish editing a message.</item>
+        <item quantity="one">You have %d minute to start and then finish editing a message.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100159">
+        <item quantity="other">"With WhatsApp open, it can take up to %1$d minutes before you can search messages using your glasses.
+
+Search messages using your glasses by saying things like “Hey Meta, what was that shop Ron recommended last week?”"</item>
+        <item quantity="one">"With WhatsApp open, it can take up to %1$d minute before you can search messages using your glasses.
+
+Search messages using your glasses by saying things like “Hey Meta, what was that shop Ron recommended last week?”"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015a">
+        <item quantity="other">%d messages copied</item>
+        <item quantity="one">%d message copied</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015b">
+        <item quantity="other">%d messages deleted</item>
+        <item quantity="one">%d message deleted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015c">
+        <item quantity="other">%d messages deleted for me</item>
+        <item quantity="one">Message deleted for me</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015d">
+        <item quantity="other">%d messages forwarded to chat.</item>
+        <item quantity="one">%d message forwarded to chat.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015e">
+        <item quantity="other">Some people cannot receive calls with Meta AI. Remove Meta AI to add them to this call.</item>
+        <item quantity="one">A person cannot receive calls with Meta AI. Remove Meta AI to add them to this call.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10015f">
+        <item quantity="other">%d minutes left</item>
+        <item quantity="one">1 minute left</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100160">
+        <item quantity="other">☎ %1$2d missed calls from %2$1s</item>
+        <item quantity="one">☎ Missed call from %1s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100161">
+        <item quantity="other">☎ %d missed calls</item>
+        <item quantity="one">☎ Missed call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100162">
+        <item quantity="other">☎ %1$2d missed video calls from %2$1s</item>
+        <item quantity="one">☎ Missed video call from %1s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100163">
+        <item quantity="other">☎ %d missed video calls</item>
+        <item quantity="one">☎ Missed video call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100164">
+        <item quantity="other">☎ %1$2d missed voice calls from %2$1s</item>
+        <item quantity="one">☎ Missed voice call from %1s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100165">
+        <item quantity="other">☎ %d missed voice calls</item>
+        <item quantity="one">☎ Missed voice call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100166">
+        <item quantity="other">%d missed calls</item>
+        <item quantity="one">%d missed call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100167">
+        <item quantity="other">%d missed voice calls</item>
+        <item quantity="one">%d missed voice call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100168">
+        <item quantity="other">%d missed voice chats</item>
+        <item quantity="one">%d missed voice chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100169">
+        <item quantity="other">Items set to default quality</item>
+        <item quantity="one">Item set to default quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016a">
+        <item quantity="other">%1$d items set to HD quality</item>
+        <item quantity="one">Item set to HD quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016b">
+        <item quantity="other">Items set to HD quality</item>
+        <item quantity="one">Item set to HD quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016c">
+        <item quantity="other">%1$d items set to original quality</item>
+        <item quantity="one">Item set to original quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016d">
+        <item quantity="other">Items set to original quality</item>
+        <item quantity="one">Item set to original quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016e">
+        <item quantity="other">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+        <item quantity="one">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10016f">
+        <item quantity="other">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+        <item quantity="one">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100170">
+        <item quantity="other">%d groups added</item>
+        <item quantity="one">Group added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100171">
+        <item quantity="other">%d suggestions canceled</item>
+        <item quantity="one">Suggestion canceled</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100172">
+        <item quantity="other">%d groups rejected</item>
+        <item quantity="one">Group rejected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100173">
+        <item quantity="other">You can only share with up to %1$d chats</item>
+        <item quantity="one">You can only share with up to %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100174">
+        <item quantity="other">"You're both in &lt;a href=\"common-group\">%1$d groups including %2$s&lt;/a>"</item>
+        <item quantity="one">"You're both in &lt;a href=\"common-group\">%1$d group including %2$s&lt;/a>"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100175">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100176">
+        <item quantity="other">Mute channels</item>
+        <item quantity="one">Mute channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100177">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100178">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100179">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017a">
+        <item quantity="other">At least %d contacts must be selected</item>
+        <item quantity="one">At least %d contact must be selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017b">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017c">
+        <item quantity="other">%d added</item>
+        <item quantity="one">%d added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017d">
+        <item quantity="other">%d Groups in common</item>
+        <item quantity="one">%d Group in common</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017e">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10017f">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100180">
+        <item quantity="other">%d more</item>
+        <item quantity="one">%d more</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100181">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100182">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">%1$d of %2$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100183">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100184">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100185">
+        <item quantity="other">Remove %d stickers?</item>
+        <item quantity="one">Remove %d sticker?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100186">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100187">
+        <item quantity="other">%1$d stickers added to \"%2$s\"</item>
+        <item quantity="one">%1$d sticker added to \"%2$s\"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100188">
+        <item quantity="other">%d stickers moved to top</item>
+        <item quantity="one">%d sticker moved to top</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100189">
+        <item quantity="other">%1$d/%2$d stickers</item>
+        <item quantity="one">%1$d/%2$d stickers</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018a">
+        <item quantity="other">%d stickers removed</item>
+        <item quantity="one">%d sticker removed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018b">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018c">
+        <item quantity="other">%1$d votes</item>
+        <item quantity="one">%1$d vote</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018d">
+        <item quantity="other">%1$d others</item>
+        <item quantity="one">%1$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018e">
+        <item quantity="other">You can only select %1$d contacts</item>
+        <item quantity="one">You can only select %1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10018f">
+        <item quantity="other">Add up to %d people</item>
+        <item quantity="one">Add up to %d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100190">
+        <item quantity="other">%1$s forwards</item>
+        <item quantity="one">%1$s forward</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100191">
+        <item quantity="other">"Your report will be ready in about %1$d days. You'll have a few weeks to download your report after it's available.
+
+Your report will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+        <item quantity="one">"Your report will be ready in about %1$d day. You'll have a few weeks to download your report after it's available.
+
+Your report will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100192">
+        <item quantity="other">Insights for last %1$d days</item>
+        <item quantity="one">Insights for last %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100193">
+        <item quantity="other">%s listeners</item>
+        <item quantity="one">%s listener</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100194">
+        <item quantity="other">%1$s reactions</item>
+        <item quantity="one">%1$s reaction</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100195">
+        <item quantity="other">%s viewers</item>
+        <item quantity="one">%s viewer</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100196">
+        <item quantity="other">%1$s forwards: %2$s</item>
+        <item quantity="one">%1$s forward: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100197">
+        <item quantity="other">%1$s forwards of your update</item>
+        <item quantity="one">%1$s forward of your update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100198">
+        <item quantity="other">%1$s responses to: %2$s</item>
+        <item quantity="one">%1$s response to: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100199">
+        <item quantity="other">%1$s responses to %2$s</item>
+        <item quantity="one">%1$s response to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019a">
+        <item quantity="other">%1$s reactions to: %2$s</item>
+        <item quantity="one">%1$s reaction to: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019b">
+        <item quantity="other">%1$s reactions to your update</item>
+        <item quantity="one">%1$s reaction to your update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019c">
+        <item quantity="other">%1$s responses to: %2$s</item>
+        <item quantity="one">%1$s response to: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019d">
+        <item quantity="other">%1$s responses to %2$s</item>
+        <item quantity="one">%1$s response to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019e">
+        <item quantity="other">%1$s votes in: %2$s</item>
+        <item quantity="one">%1$s vote in: %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10019f">
+        <item quantity="other">%1$s votes in %2$s</item>
+        <item quantity="one">%1$s vote in %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a0">
+        <item quantity="other">🎉 Your channel has %1$s followers</item>
+        <item quantity="one">🎉 Your channel has %1$s new follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a1">
+        <item quantity="other">You can only share to %1$d channels.</item>
+        <item quantity="one">You can only share to %1$d channel.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a2">
+        <item quantity="other">%s reactions from contacts</item>
+        <item quantity="one">%s reaction from contacts</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a3">
+        <item quantity="other">%1$s responses</item>
+        <item quantity="one">%1$s response</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a4">
+        <item quantity="other">%1$d of %2$d verified channels</item>
+        <item quantity="zero">%1$d of %2$d verified channels</item>
+        <item quantity="one">%1$d of %2$d verified channels</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a5">
+        <item quantity="other">%1$d of 1 verified channel</item>
+        <item quantity="zero">%1$d of 1 verified channel</item>
+        <item quantity="one">%1$d of 1 verified channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a6">
+        <item quantity="other">%1$d likes</item>
+        <item quantity="one">%1$d like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a7">
+        <item quantity="other">%d unread</item>
+        <item quantity="one">%d unread</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a8">
+        <item quantity="other">Media cleared from %1$d channels</item>
+        <item quantity="one">Media cleared from %1$d channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001a9">
+        <item quantity="other">Clear media from %1$d channels?</item>
+        <item quantity="one">Clear media from %1$d channel?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001aa">
+        <item quantity="other">Channel • %s followers</item>
+        <item quantity="one">Channel • %s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ab">
+        <item quantity="other">Channel • %s new updates</item>
+        <item quantity="one">Channel • %s new update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ac">
+        <item quantity="other">%s followers</item>
+        <item quantity="one">%s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ad">
+        <item quantity="other">%1$s and %2$d more files</item>
+        <item quantity="one">%1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ae">
+        <item quantity="other">from %1$s and %2$d more files</item>
+        <item quantity="one">from %1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001af">
+        <item quantity="other">Missed calls</item>
+        <item quantity="one">Missed call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b0">
+        <item quantity="other">%d new messages</item>
+        <item quantity="one">%d new message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b1">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b2">
+        <item quantity="other">%1$s from %2$d chats</item>
+        <item quantity="one">%1$s from %2$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b3">
+        <item quantity="other">%1$s from %2$d channels</item>
+        <item quantity="one">%1$s from %2$d channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b4">
+        <item quantity="other">You have several notifications about your payments account or activity.</item>
+        <item quantity="one">You have one notification about your payments account or activity.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b5">
+        <item quantity="other">%1$s New messages</item>
+        <item quantity="one">%1$s New message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b6">
+        <item quantity="other">%1$s %2$s: New messages</item>
+        <item quantity="one">%1$s %2$s: New message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b7">
+        <item quantity="other">New messages from %1$d chats</item>
+        <item quantity="one">New messages from %1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b8">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b9">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ba">
+        <item quantity="other">%d HD items</item>
+        <item quantity="one">%d HD item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001bb">
+        <item quantity="other">%d pages</item>
+        <item quantity="one">%d page</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001bc">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001bd">
+        <item quantity="other">%d HD photos</item>
+        <item quantity="one">%d HD photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001be">
+        <item quantity="other">%d replies</item>
+        <item quantity="one">1 reply</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001bf">
+        <item quantity="other">%1$d rows</item>
+        <item quantity="one">%1$d row</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c0">
+        <item quantity="other">Sent %1$d photos</item>
+        <item quantity="one">Sent %1$d photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c1">
+        <item quantity="other">Sent %1$d videos</item>
+        <item quantity="one">Sent %1$d video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c2">
+        <item quantity="other">%d sheets</item>
+        <item quantity="one">%d sheet</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c3">
+        <item quantity="other">%d slides</item>
+        <item quantity="one">%d slide</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c4">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c5">
+        <item quantity="other">%d HD videos</item>
+        <item quantity="one">%d HD video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c6">
+        <item quantity="other">%d views</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c7">
+        <item quantity="other">%1$d of %2$d members voted</item>
+        <item quantity="one">%1$d of %2$d members voted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c8">
+        <item quantity="other">You have %1$d contacts on WhatsApp</item>
+        <item quantity="one">You have %1$d contact on WhatsApp</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001c9">
+        <item quantity="other">&lt;b>%1$s&lt;/b> and %2$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> and %2$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ca">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001cb">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001cc">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001cd">
+        <item quantity="other">%1$d chats</item>
+        <item quantity="one">%1$d chat</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ce">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this community."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this community."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001cf">
+        <item quantity="other">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this community."</item>
+        <item quantity="one">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this community."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d0">
+        <item quantity="other">Community · %1$d groups</item>
+        <item quantity="one">Community · %1$d group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d1">
+        <item quantity="other">last seen %1$d hours ago</item>
+        <item quantity="one">last seen %1$d hour ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d2">
+        <item quantity="other">last seen %1$d minutes ago</item>
+        <item quantity="one">last seen %1$d minute ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d3">
+        <item quantity="other">%1$s &amp; %2$d others</item>
+        <item quantity="one">%1$s &amp; %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d4">
+        <item quantity="other">"%d members not displayed because they aren't in your contacts"</item>
+        <item quantity="one">"%d member not displayed because they aren't in your contacts"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d5">
+        <item quantity="other">%d remaining</item>
+        <item quantity="one">%d remaining</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d6">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d7">
+        <item quantity="other">People who left or were removed in the last %d days. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+        <item quantity="one">People who left or were removed in the last %d day. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d8">
+        <item quantity="other">%d attempts remaining</item>
+        <item quantity="one">%d attempt remaining</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001d9">
+        <item quantity="other">%d attempts left. You’ll need to set up payments again after too many incorrect attempts.</item>
+        <item quantity="one">%d attempt left. You’ll need to set up payments again after too many incorrect attempts.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001da">
+        <item quantity="other">After %1$d months</item>
+        <item quantity="one">After %1$d month</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001db">
+        <item quantity="other">"You can't invite more than %1$d people to payments at a time."</item>
+        <item quantity="one">"You can't invite more than %1$d person to payments at a time."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001dc">
+        <item quantity="other">You can only send %d payment requests each day. Try again later.</item>
+        <item quantity="one">You can only send %d payment request each day. Try again later.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001dd">
+        <item quantity="other">expires in %1$s</item>
+        <item quantity="one">expires in %1$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001de">
+        <item quantity="other">Sending invites to %1$d contacts</item>
+        <item quantity="one">Sending invite to %1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001df">
+        <item quantity="other">%1$s requested %2$s from %3$s</item>
+        <item quantity="one">%1$s requested %2$s from %3$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e0">
+        <item quantity="other">You requested %1$s from %2$s</item>
+        <item quantity="one">You requested %1$s from %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e1">
+        <item quantity="other">%1$s requested %2$s from You</item>
+        <item quantity="one">%1$s requested %2$s from You</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e4">
+        <item quantity="other">Pending requests</item>
+        <item quantity="one">Pending request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e5">
+        <item quantity="other">%1$s sent %2$s to %3$s</item>
+        <item quantity="one">%1$s sent %2$s to %3$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e6">
+        <item quantity="other">You sent %1$s to %2$s</item>
+        <item quantity="one">You sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e7">
+        <item quantity="other">%1$s sent %2$s to You</item>
+        <item quantity="one">%1$s sent %2$s to You</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e8">
+        <item quantity="other">%1$s sent you %2$s.</item>
+        <item quantity="one">%1$s sent you %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001e9">
+        <item quantity="other">Sent you %1$s. Tap to accept.</item>
+        <item quantity="one">Sent you %1$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ea">
+        <item quantity="other">Sent %1$s to %2$s</item>
+        <item quantity="one">Sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001eb">
+        <item quantity="other">Sent %1$s to You</item>
+        <item quantity="one">Sent %1$s to You</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ec">
+        <item quantity="other">%1$s sent you %2$s. Tap to accept.</item>
+        <item quantity="one">%1$s sent you %2$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ed">
+        <item quantity="other">Invite sent %1$d days ago</item>
+        <item quantity="one">Invite sent %1$d day ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ee">
+        <item quantity="other">Invite sent %1$d weeks ago</item>
+        <item quantity="one">Invite sent %1$d week ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ef">
+        <item quantity="other">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d group suggestions</item>
+        <item quantity="one">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d group suggestion</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f0">
+        <item quantity="other">Pin channels</item>
+        <item quantity="one">Pin channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f1">
+        <item quantity="other">%1$d groups in common</item>
+        <item quantity="one">%1$d group in common</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f2">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f3">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f4">
+        <item quantity="other">Many options have %1$d votes. %2$s.</item>
+        <item quantity="one">Many options have %1$d vote. %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f5">
+        <item quantity="other">Top vote count %1$s %2$d votes. %3$s.</item>
+        <item quantity="one">Top vote count %1$s %2$d vote. %3$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f6">
+        <item quantity="other">Ends in %1$d days</item>
+        <item quantity="one">Ends in %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f7">
+        <item quantity="other">Ends in %1$dh</item>
+        <item quantity="one">Ends in %1$dh</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f8">
+        <item quantity="other">%1$d options • %2$s</item>
+        <item quantity="one">%1$d option • %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001f9">
+        <item quantity="other">%1$d votes</item>
+        <item quantity="one">%1$d vote</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001fa">
+        <item quantity="other">+ %d more options</item>
+        <item quantity="one">+ 1 more option</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001fb">
+        <item quantity="other">%1$s people</item>
+        <item quantity="one">%1$s person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001fc">
+        <item quantity="other">%1$s and %2$s others</item>
+        <item quantity="one">%1$s and %2$s other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001fd">
+        <item quantity="other">%1$d contacts included</item>
+        <item quantity="one">%1$d contact included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001fe">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001ff">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100200">
+        <item quantity="other">Profile picture deleted across %1$d profiles</item>
+        <item quantity="one">Profile picture deleted across %1$d profile</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100201">
+        <item quantity="other">Delete your profile picture across %1$d profiles?</item>
+        <item quantity="one">Delete your profile picture across %1$d profile?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100202">
+        <item quantity="other">"The %s emoji aren't allowed in your name."</item>
+        <item quantity="one">"The %s emoji isn't allowed in your name."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100203">
+        <item quantity="other">Only %d of these items are currently available.</item>
+        <item quantity="one">Only %d of these items is currently available.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100204">
+        <item quantity="other">"You've sent %1$d broadcasts this month. You'll be able to send more on %2$s."</item>
+        <item quantity="one">"You've sent %1$d broadcast this month. You'll be able to send more on %2$s."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100205">
+        <item quantity="other">"You've sent %1$d broadcasts this month. You'll be able to send more on %2$s.&lt;br>&lt;br>If you're a business, you can get advanced messaging tools on the &lt;a href=\"%3$s\">WhatsApp Business app&lt;/a>."</item>
+        <item quantity="one">"You've sent %1$d broadcast this month. You'll be able to send more on %2$s.&lt;br>&lt;br>If you're a business, you can get advanced messaging tools on the &lt;a href=\"%3$s\">WhatsApp Business app&lt;/a>."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100206">
+        <item quantity="other">Limit of %1$s groups reached</item>
+        <item quantity="one">Limit of %1$s group reached</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100207">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100208">
+        <item quantity="other">All %1$s reactions tab</item>
+        <item quantity="one">All %1$s reaction tab</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100209">
+        <item quantity="other">%1$s %2$s reactions tab</item>
+        <item quantity="one">%1$s %2$s reaction tab</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020a">
+        <item quantity="other">All %1$s</item>
+        <item quantity="one">All %1$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020b">
+        <item quantity="other">%s reactions</item>
+        <item quantity="one">%s reaction</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020c">
+        <item quantity="other">%1$s +%2$s others @ %3$s</item>
+        <item quantity="one">%1$s +%2$s other @ %3$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020d">
+        <item quantity="other">%1$s +%2$s others</item>
+        <item quantity="one">%1$s +%2$s other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020e">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10020f">
+        <item quantity="other">Your code needs to be %d digits.</item>
+        <item quantity="one">Your code needs to be %d digit.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100210">
+        <item quantity="other">"Don't forget to join our community %1$s on WhatsApp! This invite is good for %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join our community %1$s on WhatsApp! This invite is good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100211">
+        <item quantity="other">"Don't forget to join our group chat %1$s on WhatsApp! This invite is good for %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join our group chat %1$s on WhatsApp! This invite is good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100212">
+        <item quantity="other">"Don't forget to join %1$s on WhatsApp! This invite expires in %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join %1$s on WhatsApp! This invite expires in %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100213">
+        <item quantity="other">"Don't forget to join our community on WhatsApp! This invite is good for %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp! This invite is good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100214">
+        <item quantity="other">"Don't forget to join our community on WhatsApp! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100215">
+        <item quantity="other">"Don't forget to join our community on WhatsApp, the world's most popular messaging app! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp, the world's most popular messaging app! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100216">
+        <item quantity="other">"Don't forget to join our group chat on WhatsApp! This invite is good for %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group chat on WhatsApp! This invite is good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100217">
+        <item quantity="other">"Don't forget to join our group on WhatsApp! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group on WhatsApp! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100218">
+        <item quantity="other">"Don't forget to join our group chat on WhatsApp, the world's most popular messaging app! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group chat on WhatsApp, the world's most popular messaging app! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100219">
+        <item quantity="other">In %d hours</item>
+        <item quantity="one">In %d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021a">
+        <item quantity="other">%1$s tried to reach you %2$d days ago</item>
+        <item quantity="one">%1$s tried to reach you %2$d day ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021b">
+        <item quantity="other">%1$s tried to reach you %2$d hours ago</item>
+        <item quantity="one">%1$s tried to reach you %2$d hour ago</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021c">
+        <item quantity="other">Remove %1$d stickers from \"%2$s\"?</item>
+        <item quantity="one">Remove %1$d sticker from \"%2$s\"?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021d">
+        <item quantity="other">%1$s and %2$s others replied to your announcement message</item>
+        <item quantity="one">%1$s and %2$s other replied to your announcement message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021e">
+        <item quantity="other">%1$s and %2$s others replied to your announcement messages</item>
+        <item quantity="one">%1$s and %2$s other replied to your announcement messages</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10021f">
+        <item quantity="other">Sent for review by &lt;font color=#%1$s>%2$d members&lt;/font></item>
+        <item quantity="one">Sent for review by &lt;font color=#%1$s>%2$d member&lt;/font></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100220">
+        <item quantity="other">"The last %d messages from this group will be forwarded to WhatsApp, excluding any replies to announcements. 
+
+If you exit this group and delete the chat, messages will only be removed from this device and your devices on the newer versions of WhatsApp. 
+
+No one in this group will be notified."</item>
+        <item quantity="one">"The last %d message from this group will be forwarded to WhatsApp, excluding any replies to announcements. 
+
+If you exit this group and delete the chat, messages will only be removed from this device and your devices on the newer versions of WhatsApp. 
+
+No one in this group will be notified."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100221">
+        <item quantity="other">The last %d messages from this group will be forwarded to WhatsApp, excluding any replies to announcements. No one in this group will be notified.</item>
+        <item quantity="one">The last %d message from this group will be forwarded to WhatsApp, excluding any replies to announcements. No one in this group will be notified.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100222">
+        <item quantity="other">You can request a new code in &lt;b>%d hours&lt;/b></item>
+        <item quantity="one">You can request a new code in &lt;b>%d hour&lt;/b></item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100223">
+        <item quantity="other">People in these groups will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+        <item quantity="one">People in this group will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100224">
+        <item quantity="other">%1$d Items</item>
+        <item quantity="one">%1$d Item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100225">
+        <item quantity="other">Order summary (%1$d items)</item>
+        <item quantity="one">Order summary (%1$d item)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100226">
+        <item quantity="other">You can only save up to %1$d items at once.</item>
+        <item quantity="one">You can only save up to %1$d item at once.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100227">
+        <item quantity="other">%s are also in this group</item>
+        <item quantity="one">%s is also in this group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100228">
+        <item quantity="other">%s are also in this group</item>
+        <item quantity="one">%s is also in this group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100229">
+        <item quantity="other">%1$d messages found</item>
+        <item quantity="one">%1$d message found</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022a">
+        <item quantity="other">%d selected recipients</item>
+        <item quantity="one">%d selected recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022b">
+        <item quantity="other">"Hey, join our community %1$s on WhatsApp! Here's an invite link — it's good for %2$d days. %3$s"</item>
+        <item quantity="one">"Hey, join our community %1$s on WhatsApp! Here's an invite link — it's good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022c">
+        <item quantity="other">Documents need to have less than %d pages.</item>
+        <item quantity="one">Documents need to have less than %d page.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022d">
+        <item quantity="other">"Hey, join our group chat %1$s on WhatsApp! Here's an invite link — it's good for %2$d days. %3$s"</item>
+        <item quantity="one">"Hey, join our group chat %1$s on WhatsApp! Here's an invite link — it's good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022e">
+        <item quantity="other">"Hey, join our community on WhatsApp! Here's an invite link — it's good for %1$d days. %2$s"</item>
+        <item quantity="one">"Hey, join our community on WhatsApp! Here's an invite link — it's good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10022f">
+        <item quantity="other">"You're invited to join a community on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"You're invited to join a community on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100230">
+        <item quantity="other">"Hey, join our group chat on WhatsApp! Here's an invite link — it's good for %1$d days. %2$s"</item>
+        <item quantity="one">"Hey, join our group chat on WhatsApp! Here's an invite link — it's good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100231">
+        <item quantity="other">"You're invited to join a group chat on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"You're invited to join a group chat on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100232">
+        <item quantity="other">Send invites via SMS</item>
+        <item quantity="one">Send invite via SMS</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100233">
+        <item quantity="other">Send SMS invites?</item>
+        <item quantity="one">Send SMS invite?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100234">
+        <item quantity="other">Send %d media items</item>
+        <item quantity="one">Send %d media</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100235">
+        <item quantity="other">"%1$d items couldn't be sent"</item>
+        <item quantity="one">"%1$d item couldn't be sent"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100236">
+        <item quantity="other">%1$d videos you selected will be trimmed to %2$d MB in size.</item>
+        <item quantity="one">A video you selected will be trimmed to %2$d MB in size.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100237">
+        <item quantity="other">Long videos will be trimmed</item>
+        <item quantity="one">Long video will be trimmed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100238">
+        <item quantity="other">View videos</item>
+        <item quantity="one">View video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100239">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023a">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023b">
+        <item quantity="other">Sending %1$d audio files to %2$s</item>
+        <item quantity="one">Sending %1$d audio to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023c">
+        <item quantity="other">Sending %d audio files</item>
+        <item quantity="one">Sending %d audio</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023d">
+        <item quantity="other">Sending %1$d files to %2$s</item>
+        <item quantity="one">Sending %1$d file to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023e">
+        <item quantity="other">Sending %d files</item>
+        <item quantity="one">Sending %d file</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10023f">
+        <item quantity="other">Sending %1$d GIFs to %2$s</item>
+        <item quantity="one">Sending %1$d GIF to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100240">
+        <item quantity="other">Sending %d GIFs</item>
+        <item quantity="one">Sending %d GIF</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100241">
+        <item quantity="other">Sending group status updates…</item>
+        <item quantity="one">Sending group status update…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100242">
+        <item quantity="other">Sending %1$d photos to %2$s</item>
+        <item quantity="one">Sending %1$d photo to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100243">
+        <item quantity="other">Sending %d photos</item>
+        <item quantity="one">Sending %d photo</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100244">
+        <item quantity="other">Sending %d…</item>
+        <item quantity="one">Sending…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100245">
+        <item quantity="other">Sending %1$d sticker packs to %2$s</item>
+        <item quantity="one">Sending %1$d sticker pack to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100246">
+        <item quantity="other">Sending %d sticker packs</item>
+        <item quantity="one">Sending %d sticker pack</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100247">
+        <item quantity="other">Sending %1$d stickers to %2$s</item>
+        <item quantity="one">Sending %1$d sticker to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100248">
+        <item quantity="other">Sending %d stickers</item>
+        <item quantity="one">Sending %d sticker</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100249">
+        <item quantity="other">Sending %1$d videos to %2$s</item>
+        <item quantity="one">Sending %1$d video to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024a">
+        <item quantity="other">Sending %d videos</item>
+        <item quantity="one">Sending %d video</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024b">
+        <item quantity="other">%1$d pending connection requests</item>
+        <item quantity="one">%1$d pending connection request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024c">
+        <item quantity="other">%s backed up</item>
+        <item quantity="one">%s backed up</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024d">
+        <item quantity="other">%s to be uploaded</item>
+        <item quantity="one">%s to be uploaded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024e">
+        <item quantity="other">%1$s incoming</item>
+        <item quantity="one">%1$s incoming</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10024f">
+        <item quantity="other">%1$s outgoing</item>
+        <item quantity="one">%1$s outgoing</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100250">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100251">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100252">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100253">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100254">
+        <item quantity="other">"Can't share more than %d media items."</item>
+        <item quantity="one">"Can't share more than %d media item."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100255">
+        <item quantity="other">Groups you can join</item>
+        <item quantity="one">Group you can join</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025a">
+        <item quantity="other">%d new statuses</item>
+        <item quantity="one">%d new status</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025b">
+        <item quantity="other">This version of WhatsApp needs to be updated in %d days. Update to the latest version?</item>
+        <item quantity="one">This version of WhatsApp needs to be updated in %d day. Update to the latest version?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025c">
+        <item quantity="other">Updates will be kept on your device for up to %d days and can be used to create ads on Facebook &amp; Instagram. Only you can see your archived updates.</item>
+        <item quantity="one">Updates will be kept on your device for up to %d day and can be used to create ads on Facebook &amp; Instagram. Only you can see your archived updates.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025d">
+        <item quantity="other">Only share with - %d included</item>
+        <item quantity="one">Only share with - %d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025e">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10025f">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100260">
+        <item quantity="other">Close friends - %d included</item>
+        <item quantity="one">Close friends - %d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100261">
+        <item quantity="other">Contacts except - %d excluded</item>
+        <item quantity="one">Contacts except - %d excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100262">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100263">
+        <item quantity="other">%1$d included</item>
+        <item quantity="one">%1$d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100264">
+        <item quantity="other">%1$d contacts included</item>
+        <item quantity="one">%1$d contact included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100265">
+        <item quantity="other">Status (%d included)</item>
+        <item quantity="one">Status (%d included)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100266">
+        <item quantity="other">Status (%d excluded)</item>
+        <item quantity="one">Status (%d excluded)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100267">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100268">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100269">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026a">
+        <item quantity="other">%1$s &amp; %2$d more</item>
+        <item quantity="one">%1$s &amp; %2$d more</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026b">
+        <item quantity="other">Hide for %1$d days</item>
+        <item quantity="one">Hide for %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026c">
+        <item quantity="other">Statuses hidden for %1$d days</item>
+        <item quantity="one">Statuses hidden for %1$d day</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026d">
+        <item quantity="other">Hide statuses for %1$d days?</item>
+        <item quantity="one">Hide statuses for %1$d day?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026e">
+        <item quantity="other">%1$s and %2$d others</item>
+        <item quantity="one">%1$s and %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10026f">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100270">
+        <item quantity="other">%1$d mentions is the limit</item>
+        <item quantity="one">%1$d mentions is the limit</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100271">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100272">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100273">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100274">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100275">
+        <item quantity="other">Share status with a maximum of %1$d people at a time.</item>
+        <item quantity="one">Share status with a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100276">
+        <item quantity="other">%1$s &amp; %2$d others online</item>
+        <item quantity="one">%1$s &amp; %2$d other online</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100277">
+        <item quantity="other">%d responses</item>
+        <item quantity="one">%d response</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100278">
+        <item quantity="other">%d sticker reactions</item>
+        <item quantity="one">%d sticker reaction</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100279">
+        <item quantity="other">%1$d replies</item>
+        <item quantity="one">%1$d reply</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027a">
+        <item quantity="other">%1$d sticker responses</item>
+        <item quantity="one">%1$d sticker response</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027b">
+        <item quantity="other">Deleting %1$d statuses…</item>
+        <item quantity="one">Deleting %1$d status…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027c">
+        <item quantity="other">%1$s stickers</item>
+        <item quantity="one">%1$s sticker</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027d">
+        <item quantity="other">%d stickers</item>
+        <item quantity="one">%d sticker</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027e">
+        <item quantity="other">This will remove the whole sticker pack, including %d stickers.</item>
+        <item quantity="one">This will remove the whole sticker pack, including %d sticker.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10027f">
+        <item quantity="other">Stickers already in \"%1$s\"</item>
+        <item quantity="one">Sticker already in \"%1$s\"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100280">
+        <item quantity="other">%d stickers</item>
+        <item quantity="one">%d sticker</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100281">
+        <item quantity="other">"%d channels not displayed because they're taking up a small amount of storage"</item>
+        <item quantity="one">%d channel not displayed because it is taking up a small amount of storage</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100282">
+        <item quantity="other">"%d chats not displayed because they're taking up a small amount of storage"</item>
+        <item quantity="one">%d chat not displayed because it is taking up a small amount of storage</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100283">
+        <item quantity="other">%s deleted</item>
+        <item quantity="one">%s deleted</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100284">
+        <item quantity="other">Free</item>
+        <item quantity="one">Free</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100285">
+        <item quantity="other">Used</item>
+        <item quantity="one">Used</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100286">
+        <item quantity="other">"These members can't be added directly. Send them a private invite to join."</item>
+        <item quantity="one">"This member can't be added directly. Send them a private invite to join."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100287">
+        <item quantity="other">"These members can't be added directly. Send them a private invite to join. Message history will not be shared."</item>
+        <item quantity="one">"This member can't be added directly. Send them a private invite to join. Message history will not be shared."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100288">
+        <item quantity="other">View all (%1$d more)</item>
+        <item quantity="one">View all (%1$d more)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100289">
+        <item quantity="other">%d apps selected</item>
+        <item quantity="one">%d app selected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028a">
+        <item quantity="other">If the groups are approved by an admin, the people in these groups will be added to the community and its announcement group.</item>
+        <item quantity="one">If the group is approved by an admin, the people in this group will be added to the community and its announcement group.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028b">
+        <item quantity="other">Only %1$d of %2$d group suggestions could be sent for admin approval.</item>
+        <item quantity="one">Only %1$d of %2$d group suggestions could be sent for admin approval.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028c">
+        <item quantity="other">Summarize %1$d unread</item>
+        <item quantity="one">Summarize %1$d unread</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028d">
+        <item quantity="other">Groups deleted.</item>
+        <item quantity="one">Group deleted.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028e">
+        <item quantity="other">Delete %d groups?</item>
+        <item quantity="one">Delete %d group?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10028f">
+        <item quantity="other">%d suspicious links</item>
+        <item quantity="one">%d suspicious link</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100290">
+        <item quantity="other">%3$s deactivated the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">%3$s deactivated the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100291">
+        <item quantity="other">Groups \"%1$s\" &amp; %2$d others were deactivated</item>
+        <item quantity="one">Groups \"%1$s\" &amp; %2$d other were deactivated</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100292">
+        <item quantity="other">You deactivated the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">You deactivated the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100293">
+        <item quantity="other">%2$s deactivated %1$d groups</item>
+        <item quantity="one">%2$s deactivated a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100294">
+        <item quantity="other">%1$d groups were deactivated</item>
+        <item quantity="one">A group was deactivated</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100295">
+        <item quantity="other">You deactivated %1$d groups</item>
+        <item quantity="one">You deactivated a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100296">
+        <item quantity="other">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100297">
+        <item quantity="other">%3$s added the groups %1$s, %2$s &amp; %4$d others</item>
+        <item quantity="one">%3$s added the groups %1$s, %2$s &amp; %4$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100298">
+        <item quantity="other">Groups \"%1$s,\" \"%2$s\" &amp; %4$d others were added</item>
+        <item quantity="one">Groups \"%1$s,\" \"%2$s\" &amp; %4$d other were added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100299">
+        <item quantity="other">Groups %1$s, %2$s &amp; %4$d others were added</item>
+        <item quantity="one">Groups %1$s, %2$s &amp; %4$d other were added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029a">
+        <item quantity="other">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029b">
+        <item quantity="other">You added the groups %1$s, %2$s &amp; %4$d others</item>
+        <item quantity="one">You added the groups %1$s, %2$s &amp; %4$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029c">
+        <item quantity="other">%2$s added %1$d groups</item>
+        <item quantity="one">%2$s added a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029d">
+        <item quantity="other">%2$s added %1$d groups</item>
+        <item quantity="one">%2$s added a group. View group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029e">
+        <item quantity="other">%1$d groups were added</item>
+        <item quantity="one">A group was added</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10029f">
+        <item quantity="other">%1$d groups were added</item>
+        <item quantity="one">A group was added. View group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a0">
+        <item quantity="other">You added %1$d groups</item>
+        <item quantity="one">You added a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a1">
+        <item quantity="other">You added %1$d groups</item>
+        <item quantity="one">You added a group. View group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a2">
+        <item quantity="other">%3$s removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">%3$s removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a3">
+        <item quantity="other">Groups \"%1$s\" &amp; %2$d others were removed</item>
+        <item quantity="one">Groups \"%1$s\" &amp; %2$d other were removed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a4">
+        <item quantity="other">You removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">You removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a5">
+        <item quantity="other">%2$s removed %1$d groups</item>
+        <item quantity="one">%2$s removed a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a6">
+        <item quantity="other">%1$d groups were removed</item>
+        <item quantity="one">A group was removed</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a7">
+        <item quantity="other">You removed %1$d groups</item>
+        <item quantity="one">You removed a group</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a8">
+        <item quantity="other">%s new updates</item>
+        <item quantity="one">%s new update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002a9">
+        <item quantity="other">New messages will disappear from this chat after %d days.</item>
+        <item quantity="one">New messages will disappear from this chat after %d day.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002aa">
+        <item quantity="other">New messages will disappear from this chat after %d hours.</item>
+        <item quantity="one">New messages will disappear from this chat after %d hour.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ab">
+        <item quantity="other">New messages will disappear from this chat after %d minutes.</item>
+        <item quantity="one">New messages will disappear from this chat after %d minute.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ac">
+        <item quantity="other">New messages will disappear from this chat after %d seconds.</item>
+        <item quantity="one">New messages will disappear from this chat after %d second.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ad">
+        <item quantity="other">%d new updates</item>
+        <item quantity="one">%d new update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ae">
+        <item quantity="other">%d viewed updates</item>
+        <item quantity="one">%d viewed update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002af">
+        <item quantity="other">"%1$s's status. %2$d new updates"</item>
+        <item quantity="one">"%1$s's status. %2$d new update"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b0">
+        <item quantity="other">"%1$s's status. %2$d viewed updates"</item>
+        <item quantity="one">"%1$s's status. %2$d viewed update"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b1">
+        <item quantity="other">%d characters remaining</item>
+        <item quantity="one">%d character remaining</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b2">
+        <item quantity="other">Text sent to My Status will be trimmed to the first %d characters.</item>
+        <item quantity="one">Text sent to My Status will be trimmed to the first %d character.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b3">
+        <item quantity="other">Text shared to My Status will be trimmed to the first %d characters.</item>
+        <item quantity="one">Text shared to My Status will be trimmed to the first %d character.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b4">
+        <item quantity="other">%s left</item>
+        <item quantity="one">%s left</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b5">
+        <item quantity="other">%1$s members were added to %2$s</item>
+        <item quantity="one">%1$s was added to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b6">
+        <item quantity="other">%1$s members were added to %2$s</item>
+        <item quantity="one">%1$s was added to %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b7">
+        <item quantity="other">%1$s members added to your contacts.</item>
+        <item quantity="one">%1$s member added to your contacts.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b8">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002b9">
+        <item quantity="other">You have %1$s to respond to this request</item>
+        <item quantity="one">You have %1$s to respond to this request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ba">
+        <item quantity="other">%1$s has %2$s to respond to your request</item>
+        <item quantity="one">%1$s has %2$s to respond to your request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002bb">
+        <item quantity="other">%1$s has %2$s to accept this payment</item>
+        <item quantity="one">%1$s has %2$s to accept this payment</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002bc">
+        <item quantity="other">You have %1$s to accept this payment</item>
+        <item quantity="one">You have %1$s to accept this payment</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002bd">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002be">
+        <item quantity="other">%1$d members, %2$s</item>
+        <item quantity="one">%1$d member, %2$s</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002bf">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c0">
+        <item quantity="other">%1$d members,</item>
+        <item quantity="one">%1$d member,</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c1">
+        <item quantity="other">Are you sure you want to unfollow %s channels?</item>
+        <item quantity="one">Are you sure you want to unfollow %s channel?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c2">
+        <item quantity="other">Are you sure you want to unfollow %s channels? Stars will be removed from updates in these channels.</item>
+        <item quantity="one">Are you sure you want to unfollow %s channel? Stars will be removed from updates in this channel.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c3">
+        <item quantity="other">"Messages expire after %1$d hours if the person you invited hasn't joined."</item>
+        <item quantity="one">"Messages expire after %1$d hour if the person you invited hasn't joined."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c4">
+        <item quantity="other">Unmute channels</item>
+        <item quantity="one">Unmute channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c5">
+        <item quantity="other">Unpin channels</item>
+        <item quantity="one">Unpin channel</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c6">
+        <item quantity="other">%d unread messages</item>
+        <item quantity="one">%d unread message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c7">
+        <item quantity="other">You have %1$d unread messages from %2$s, %3$s and more.</item>
+        <item quantity="one">You have %1$d unread message from %2$s, %3$s and more.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c8">
+        <item quantity="other">You have %1$d unread messages from %2$s.</item>
+        <item quantity="one">You have %1$d unread message from %2$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002c9">
+        <item quantity="other">You have %1$d unread messages from %2$s and %3$s.</item>
+        <item quantity="one">You have %1$d unread message from %2$s and %3$s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ca">
+        <item quantity="other">%1$d unread responses</item>
+        <item quantity="one">%1$d unread response</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002cb">
+        <item quantity="other">%d unread updates</item>
+        <item quantity="one">%d unread update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002cc">
+        <item quantity="other">%1$s has %2$d new statuses.</item>
+        <item quantity="one">%1$s has %2$d new status.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002cd">
+        <item quantity="other">%1$s has %2$d new status updates.</item>
+        <item quantity="one">%1$s has %2$d new status update.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ce">
+        <item quantity="other">New statuses</item>
+        <item quantity="one">New status</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002cf">
+        <item quantity="other">New status updates</item>
+        <item quantity="one">New status update</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d0">
+        <item quantity="other">"Don't miss these updates"</item>
+        <item quantity="one">"Don't miss this update"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d1">
+        <item quantity="other">You have %1$d unsent messages in selection.</item>
+        <item quantity="one">You have %1$d unsent message in selection.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d2">
+        <item quantity="other">"Exit group: \"%1$s\"?
+You have %2$d unsent messages in this chat"</item>
+        <item quantity="one">"Exit group: \"%1$s\"?
+You have %2$d unsent message in this chat"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d3">
+        <item quantity="other">%1$d referrals sent</item>
+        <item quantity="one">%1$d referral sent</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d4">
+        <item quantity="other">You have %1$s to approve this request</item>
+        <item quantity="one">You have %1$s to approve this request</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d5">
+        <item quantity="other">Verified merchant • Send up to ₹%1$d Lakhs</item>
+        <item quantity="one">Verified merchant • Send up to ₹%1$d Lakh</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d6">
+        <item quantity="other">Payment accounts (%1$d)</item>
+        <item quantity="one">Payment accounts (%1$d)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d7">
+        <item quantity="other">%d talking now</item>
+        <item quantity="one">%d connected</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002d8">
+        <item quantity="other">Enter %1$d-character code, %2$d of %1$d</item>
+        <item quantity="one">Enter %1$d-character code, %2$d of %1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002da">
+        <item quantity="other">Ongoing video call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing video call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002db">
+        <item quantity="other">%d missed video calls</item>
+        <item quantity="one">%d missed video call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002dc">
+        <item quantity="other">Videos set to default quality</item>
+        <item quantity="one">Video set to default quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002dd">
+        <item quantity="other">%1$d videos set to HD quality</item>
+        <item quantity="one">Video set to HD quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002de">
+        <item quantity="other">%1$d videos set to original quality</item>
+        <item quantity="one">Video set to original quality</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002df">
+        <item quantity="other">Video trimmed to first %1$d seconds</item>
+        <item quantity="one">Video trimmed to first %1$d second</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e0">
+        <item quantity="other">Video will be trimmed to the first %d seconds.</item>
+        <item quantity="one">Video will be trimmed to the first %d second.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e1">
+        <item quantity="other">View all (%d more)</item>
+        <item quantity="one">View all (%d more)</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e2">
+        <item quantity="other">%d views</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e3">
+        <item quantity="other">View %d more</item>
+        <item quantity="one">View one more</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e4">
+        <item quantity="other">View %1$d replies</item>
+        <item quantity="one">View replies</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e5">
+        <item quantity="other">Viewed by %d</item>
+        <item quantity="one">Viewed by %d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e6">
+        <item quantity="other">"You're the only one here. Voice chat ending in %1d seconds."</item>
+        <item quantity="one">"You're the only one here. Voice chat ending in %1d second."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e7">
+        <item quantity="other">Ongoing voice chat - Waiting for others… This voice chat will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing voice chat - Waiting for others… This voice chat will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e8">
+        <item quantity="other">Time extended by %1d minutes. Waiting for people to join.</item>
+        <item quantity="one">Time extended by %1d minute. Waiting for people to join.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002e9">
+        <item quantity="other">%1$d hands are raised</item>
+        <item quantity="one">%1$d hand is raised</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ea">
+        <item quantity="other">Ongoing voice call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing voice call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002eb">
+        <item quantity="other">You can only add %1$d people to this call.</item>
+        <item quantity="one">You can only add %1$d person to this call.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ec">
+        <item quantity="other">Add people</item>
+        <item quantity="one">Add person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ed">
+        <item quantity="other">"Couldn't add %1$s &amp; %2$d others"</item>
+        <item quantity="one">"Couldn't add %1$s &amp; %2$d other"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ee">
+        <item quantity="other">"Couldn't add %s"</item>
+        <item quantity="one">"Couldn't add %s"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ef">
+        <item quantity="other">Everyone in the call needs the latest version of WhatsApp for calls with %d people</item>
+        <item quantity="one">Everyone in the call needs the latest version of WhatsApp for calls with %d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f0">
+        <item quantity="other">"Several people are using an old version of WhatsApp.
+
+To start calls with %d people, everyone in the call needs the latest version of WhatsApp."</item>
+        <item quantity="one">"Several people are using an old version of WhatsApp.
+
+To start calls with %d person, everyone in the call needs the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f1">
+        <item quantity="other">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d people, everyone in the call needs the latest version of WhatsApp."</item>
+        <item quantity="one">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d person, everyone in the call needs the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f2">
+        <item quantity="other">"%1$s can't join WhatsApp group calls right now."</item>
+        <item quantity="one">"%1$s can't join WhatsApp group calls right now."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f3">
+        <item quantity="other">"Couldn't place call. WhatsApp only supports a maximum of %d people in a group call"</item>
+        <item quantity="one">"Couldn't place call. WhatsApp only supports a maximum of %d person in a group call"</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f4">
+        <item quantity="other">%s joined.</item>
+        <item quantity="one">%s joined.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f5">
+        <item quantity="other">%s invited to the call</item>
+        <item quantity="one">%s invited to the call</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f6">
+        <item quantity="other">%s were invited.</item>
+        <item quantity="one">%s was invited.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f7">
+        <item quantity="other">"%1$s can't receive WhatsApp calls right now."</item>
+        <item quantity="one">"%1$s can't receive WhatsApp calls right now."</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f8">
+        <item quantity="other">%1$d people have requested to join</item>
+        <item quantity="one">%1$d person has requested to join</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002f9">
+        <item quantity="other">Approve %1$d participants to join this call?</item>
+        <item quantity="one">Approve %1$d participant to join this call?</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002fa">
+        <item quantity="other">Want to join your call link</item>
+        <item quantity="one">Wants to join your call link</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002fb">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002fc">
+        <item quantity="other">%1$d participants approved</item>
+        <item quantity="one">%1$d participant approved</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002fd">
+        <item quantity="other">Facebook Page · %1$s followers</item>
+        <item quantity="one">Facebook Page · %1$s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002fe">
+        <item quantity="other">Instagram · %1$s followers</item>
+        <item quantity="one">Instagram · %1$s follower</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1002ff">
+        <item quantity="other">Facebook Page · %1$s likes</item>
+        <item quantity="one">Facebook Page · %1$s like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100300">
+        <item quantity="other">You created broadcast list \"%1$s\" with %2$d recipients</item>
+        <item quantity="one">You created broadcast list \"%1$s\" with %2$d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100301">
+        <item quantity="other">You created a broadcast list with %d recipients</item>
+        <item quantity="one">You created a broadcast list with %d recipient</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100302">
+        <item quantity="other">%s joined using your invite</item>
+        <item quantity="one">%s joined using your invite</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100303">
+        <item quantity="other">You can only change this setting once every %d hours.</item>
+        <item quantity="one">You can only change this setting once every %d hour.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100304">
+        <item quantity="other">%1$d tasks need review</item>
+        <item quantity="one">%1$d task needs review</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100305">
+        <item quantity="other">+%1$d more items</item>
+        <item quantity="one">+%1$d more item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100306">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100307">
+        <item quantity="other">Expires in %1$d hours</item>
+        <item quantity="one">Expires in %1$d hour</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100308">
+        <item quantity="other">Expires in %1$d minutes</item>
+        <item quantity="one">Expires in %1$d minute</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f100309">
+        <item quantity="other">%d notifications</item>
+        <item quantity="one">%d notification</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030a">
+        <item quantity="other">%1$d unread messages</item>
+        <item quantity="one">%1$d unread message</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030b">
+        <item quantity="other">%d lines hidden</item>
+        <item quantity="one">%d line hidden</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030c">
+        <item quantity="other">%d pages</item>
+        <item quantity="one">%d page</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030d">
+        <item quantity="other">%1$d likes</item>
+        <item quantity="one">%1$d like</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030e">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f10030f">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+</resources>

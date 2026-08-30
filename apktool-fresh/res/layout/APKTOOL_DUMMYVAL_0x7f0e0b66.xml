@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bf9" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bf9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/message_business_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b83" app:APKTOOL_DUMMYVAL_0x7f040009="media" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

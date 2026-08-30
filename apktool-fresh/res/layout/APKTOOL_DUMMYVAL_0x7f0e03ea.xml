@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/community_home_tabs" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/community_suspended_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040480="enterAlways|scroll" app:APKTOOL_DUMMYVAL_0x7f04083b="@drawable/tab_unselected_indicator" app:APKTOOL_DUMMYVAL_0x7f04083d="fill" app:APKTOOL_DUMMYVAL_0x7f040848="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04084a="fixed" app:APKTOOL_DUMMYVAL_0x7f040850="@null" app:APKTOOL_DUMMYVAL_0x7f040853="?APKTOOL_DUMMYVAL_0x7f04062e" app:APKTOOL_DUMMYVAL_0x7f040855="@style/APKTOOL_DUMMYVAL_0x7f150455" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070222" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070220" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070220">
+            <ProgressBar android:layout_gravity="center" android:id="@id/gdrive_looking_for_backup_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070221" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f0409e2" android:indeterminateTintMode="src_atop" style="?android:progressBarStyleLarge" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textSize="18.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="center" android:id="@id/gdrive_lookup_for_backups_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f040371" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

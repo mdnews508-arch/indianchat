@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.base.WaImageView android:gravity="center" android:id="@id/no_call_action_info" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" android:src="@drawable/wa_ic_info" android:scaleType="center" android:tint="?APKTOOL_DUMMYVAL_0x7f0409fd" style="@style/APKTOOL_DUMMYVAL_0x7f150656"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/business_pill_1" android:background="@drawable/contact_card_business_pill_background" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/business_pill_icon_1" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="?APKTOOL_DUMMYVAL_0x7f0409fe" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/business_pill_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="?APKTOOL_DUMMYVAL_0x7f0409af" />
+    </LinearLayout>
+    <Space android:id="@id/business_pill_space_1_2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/business_pill_2" android:background="@drawable/contact_card_business_pill_background" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/business_pill_icon_2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="?APKTOOL_DUMMYVAL_0x7f0409fe" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/business_pill_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="?APKTOOL_DUMMYVAL_0x7f0409af" />
+    </LinearLayout>
+    <Space android:id="@id/business_pill_space_overflow" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/business_pill_overflow" android:background="@drawable/contact_card_business_pill_background" android:focusable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12512b">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/business_pill_overflow_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/vec_ic_keyboard_arrow_down" android:tint="?APKTOOL_DUMMYVAL_0x7f0409fe" />
+    </LinearLayout>
+</LinearLayout>

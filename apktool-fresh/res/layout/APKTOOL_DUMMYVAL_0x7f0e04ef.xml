@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0706cf" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040794="0.4" app:APKTOOL_DUMMYVAL_0x7f040798="left_to_right" app:APKTOOL_DUMMYVAL_0x7f04079a="1200" app:APKTOOL_DUMMYVAL_0x7f04079e="0.6" app:APKTOOL_DUMMYVAL_0x7f0407a2="400" app:APKTOOL_DUMMYVAL_0x7f0407a6="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706d0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0706d1" />
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706d0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0706d1" />
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="192.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706d0" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

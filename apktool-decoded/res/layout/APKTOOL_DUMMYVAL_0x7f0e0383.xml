@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/catalog_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:id="@id/catalog_list_product_image" style="@style/APKTOOL_DUMMYVAL_0x7f15036d" />
+        <ViewStub android:id="@id/hidden_item_indicator_stub" android:inflatedId="@id/hidden_item_indicator" style="@style/APKTOOL_DUMMYVAL_0x7f15036d" />
+        <ViewStub android:layout_gravity="start|center|top" android:id="@id/corner_indicator_stub" android:inflatedId="@id/corner_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <com.indianchat.ui.coreui.components.SelectionCheckView android:layout_gravity="end|bottom|center" android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d3f" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113f">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/catalog_list_product_title" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f15036f" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c1" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060693" android:ellipsize="end" android:id="@id/catalog_list_product_description" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/catalog_list_product_price" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f15036e" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:id="@id/catalog_list_product_variant_description" android:duplicateParentState="true" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:textAllCaps="true" style="@style/APKTOOL_DUMMYVAL_0x7f150371" />
+    </LinearLayout>
+</merge>

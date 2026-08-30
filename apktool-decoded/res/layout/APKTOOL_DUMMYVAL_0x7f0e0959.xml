@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/membership_approval_request_row" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.privateai.ui.PrivateAiBadgeContainer android:id="@id/private_ai_badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/avatar" style="@style/APKTOOL_DUMMYVAL_0x7f1501cd" />
+    </com.indianchat.privateai.ui.PrivateAiBadgeContainer>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <ViewStub android:layout_gravity="left" android:id="@id/subtitle" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e095a" android:inflatedId="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="left" android:id="@id/groups_in_common" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e095a" android:inflatedId="@id/groups_in_common" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="left" android:id="@id/added_by_other_user" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e095a" android:inflatedId="@id/added_by_other_user" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.indianchat.group.product.CustomGroupMembershipApprovalRequestRejectWDSButton android:id="@id/reject_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" />
+    <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_check_white" app:APKTOOL_DUMMYVAL_0x7f040923="tonal" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_gravity="end|center" android:id="@id/request_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" style="@style/APKTOOL_DUMMYVAL_0x7f15027c" />
+</LinearLayout>

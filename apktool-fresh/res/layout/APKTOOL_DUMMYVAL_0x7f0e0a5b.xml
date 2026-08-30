@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_loading_skeleton" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f071151"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_contact" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040635="small" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/header_loading_shimmer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f150317">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/payment_loading_box" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b73" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b75" />
+            <View android:background="@drawable/payment_loading_box" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b73" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b74" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

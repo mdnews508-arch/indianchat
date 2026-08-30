@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/ic_center_shadow" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e35" android:minHeight="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/reply_bar_tappable" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="start|center" android:id="@id/incoming_reactions_chip_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1278" android:inflatedId="@id/incoming_reactions_chip_stub" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <LinearLayout android:layout_gravity="bottom|center" android:id="@id/reply_bar_background" android:background="@drawable/ib_new_round" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dd8" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f0608be">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0608b9" android:layout_gravity="start|center" android:id="@id/reply_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122945" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+            <androidx.recyclerview.widget.RecyclerView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ViewStub android:id="@id/view_stub_status_reshare_button_inline" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b5" android:inflatedId="@id/status_reshare_button_container_inline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+        <ViewStub android:id="@id/view_stub_status_like_button" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12b4" android:inflatedId="@id/status_like_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+    </LinearLayout>
+</FrameLayout>

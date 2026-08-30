@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/newsletter_impact_item_1" style="@style/APKTOOL_DUMMYVAL_0x7f1502f4">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/newsletter_impact_item_icon_1" style="@style/APKTOOL_DUMMYVAL_0x7f1502f3" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_impact_item_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/newsletter_impact_item_2" style="@style/APKTOOL_DUMMYVAL_0x7f1502f4">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/newsletter_impact_item_icon_2" style="@style/APKTOOL_DUMMYVAL_0x7f1502f3" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_impact_item_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+    <ViewStub android:id="@id/newsletter_where_this_happened" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0da3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122768" android:lineSpacingExtra="5.0sp" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/newsletter_impact_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    </LinearLayout>
+</LinearLayout>

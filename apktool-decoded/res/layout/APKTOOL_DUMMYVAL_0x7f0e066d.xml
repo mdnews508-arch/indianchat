@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.conversation.ui.ConversationsContainer android:orientation="vertical" android:id="@id/conversation_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.list.WDSList android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150280" />
+    <ViewStub android:id="@id/empty_search_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0681" android:inflatedId="@id/empty_search_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/banner_holder_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08d2" android:inflatedId="@id/banner_holder_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ecc" />
+    <ViewStub android:id="@id/interop_folder_holder_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08d2" android:inflatedId="@id/interop_folder_holder_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/conversations_empty_no_contacts_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08d2" android:inflatedId="@id/conversations_empty_no_contacts_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/conversations_empty_permission_denied_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08d2" android:inflatedId="@id/conversations_empty_permission_denied_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/conversations_empty_nux_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08d2" android:inflatedId="@id/conversations_empty_nux_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.indianchat.conversation.ui.ConversationsContainer>

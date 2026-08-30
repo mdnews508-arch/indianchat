@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f29" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f28"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/typing_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0707cf" app:APKTOOL_DUMMYVAL_0x7f0404ca="true" app:APKTOOL_DUMMYVAL_0x7f0404d4="true" app:APKTOOL_DUMMYVAL_0x7f0404d6="@raw/typing_indicator" app:APKTOOL_DUMMYVAL_0x7f0404d9="restart" />
+</FrameLayout>

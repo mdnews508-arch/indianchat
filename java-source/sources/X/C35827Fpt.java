@@ -1,0 +1,39 @@
+package X;
+
+/* JADX INFO: renamed from: X.Fpt, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C35827Fpt implements GIB {
+    public final String A00;
+    public final String A01;
+
+    public boolean equals(Object obj) {
+        if (this != obj) {
+            if (obj instanceof C35827Fpt) {
+                C35827Fpt c35827Fpt = (C35827Fpt) obj;
+                if (!C000700h.areEqual(this.A01, c35827Fpt.A01) || !C000700h.areEqual(this.A00, c35827Fpt.A00)) {
+                }
+            }
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        return AbstractC466425r.A05(this.A00, AbstractC466425r.A04(this.A01));
+    }
+
+    public String toString() {
+        String str = this.A01;
+        String str2 = this.A00;
+        StringBuilder sbA08 = AnonymousClass000.A08();
+        sbA08.append("Preset(url=");
+        sbA08.append(str);
+        return AbstractC32971bt.A0S(", handle=", str2, sbA08);
+    }
+
+    public C35827Fpt(String str, String str2) {
+        C000700h.A0B(str, str2);
+        this.A01 = str;
+        this.A00 = str2;
+    }
+}

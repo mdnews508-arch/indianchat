@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ui.wds.components.search.WDSSearchView android:id="@id/add_to_contacts_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f123929" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/add_to_contacts_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07114a" android:indeterminate="true" app:APKTOOL_DUMMYVAL_0x7f0403ea="@color/APKTOOL_DUMMYVAL_0x7f060872" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/add_to_contacts_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.fab.WDSFab android:layout_gravity="end|bottom|center" android:id="@id/add_to_contacts_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:src="@drawable/ic_check_white_small" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12105d" style="@style/APKTOOL_DUMMYVAL_0x7f1505d3" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

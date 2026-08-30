@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/report_spam_dialog_root" android:background="@drawable/spam_report_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/report_spam_dialog_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/report_icon" android:layout_width="24.0sp" android:layout_height="24.0sp" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:tint="?APKTOOL_DUMMYVAL_0x7f0409ff" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_thumb_down" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/report_spam_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12373f" android:accessibilityHeading="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/report_spam_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f12372f" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/block_container" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <CheckBox android:id="@id/block_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/block_checkbox_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12372b" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+                    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/block_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12372a" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub android:id="@id/report_spam_data_sharing_label_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06cd" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+                <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/report_spam_dialog_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124ddc" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+                <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/report_spam_dialog_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1251b4" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/report_spam_dialog_loading" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12377d" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1_emphasized" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <ProgressBar android:id="@id/loader" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12364b" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

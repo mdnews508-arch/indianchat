@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/transcription_locale_selection_recycler_view" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/transcription_locale_selection_message" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1242f0" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+    <FrameLayout android:id="@id/transcription_locale_selection_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.indianchat.ui.wds.components.button.WDSButton android:enabled="false" android:id="@id/transcription_locale_selection_transcribe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:text="@string/APKTOOL_DUMMYVAL_0x7f1242f1" app:APKTOOL_DUMMYVAL_0x7f040923="filled" />
+</LinearLayout>

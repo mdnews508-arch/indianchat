@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/icon_view_stub" android:inflatedId="@id/icon_view" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070928" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070928" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <com.whatsapp.communitymedia.itemviews.MediaMessageTitleView android:ellipsize="end" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f04044a="true" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f04045d="@dimen/APKTOOL_DUMMYVAL_0x7f07032c" app:APKTOOL_DUMMYVAL_0x7f040466="@id/icon_view" app:APKTOOL_DUMMYVAL_0x7f04046b="@id/icon_view" style="?APKTOOL_DUMMYVAL_0x7f0409aa" />
+    <ViewStub android:id="@id/subtitle_view_stub" android:inflatedId="@id/subtitle_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f04044a="true" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f04045d="@dimen/APKTOOL_DUMMYVAL_0x7f07032c" app:APKTOOL_DUMMYVAL_0x7f040466="@id/icon_view" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/title_view" />
+</merge>

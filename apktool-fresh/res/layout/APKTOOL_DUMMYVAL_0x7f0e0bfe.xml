@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/profile_info_scroll_view" android:background="?APKTOOL_DUMMYVAL_0x7f040757" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501de">
+        <FrameLayout android:gravity="center" android:id="@id/profile_photo_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071105" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071105" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+            <include android:id="@id/me_tab_cover_photo_container" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07091a" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0bfd" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07111a">
+                <FrameLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bca" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149">
+                    <View android:layout_gravity="center" android:id="@id/profile_photo_border" android:background="@drawable/me_tab_profile_photo_border" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bc8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bc8" android:importantForAccessibility="no" />
+                    <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/photo_btn" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bc9" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bc9" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f125173" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525f" app:APKTOOL_DUMMYVAL_0x7f04085e="@color/APKTOOL_DUMMYVAL_0x7f060493" app:APKTOOL_DUMMYVAL_0x7f04085f="@dimen/APKTOOL_DUMMYVAL_0x7f071130" app:APKTOOL_DUMMYVAL_0x7f040862="-1.0dip" />
+                </FrameLayout>
+                <ProgressBar android:layout_gravity="center" android:id="@id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+                <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/change_photo_btn_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0395" android:inflatedId="@id/change_photo_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/profile_photo_container">
+            <ViewStub android:layout_gravity="center" android:id="@id/profile_info_edit_btn_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1022" android:inflatedId="@id/profile_info_edit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1023" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

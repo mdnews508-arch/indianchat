@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search_white" android:id="@id/menuitem_search" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251bf" app:APKTOOL_DUMMYVAL_0x7f0407af="always" />
+    <item android:icon="@drawable/ic_action_sort" android:enabled="true" android:id="@id/menuitem_sort" android:visible="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251fa" app:APKTOOL_DUMMYVAL_0x7f0407af="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:icon="@null" android:id="@id/menuitem_sort_by_name" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251f9" />
+                <item android:icon="@null" android:id="@id/menuitem_sort_by_date" android:title="@string/APKTOOL_DUMMYVAL_0x7f1251f7" />
+            </group>
+        </menu>
+    </item>
+</menu>

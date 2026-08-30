@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.search.audio.views.itemviews.VoiceNoteProfileAvatarView android:id="@id/search_row_newsletter_audio_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f071150" indianchat:APKTOOL_DUMMYVAL_0x7f0403cf="@drawable/mic_background_incoming" indianchat:APKTOOL_DUMMYVAL_0x7f0403d0="@color/APKTOOL_DUMMYVAL_0x7f060684" indianchat:APKTOOL_DUMMYVAL_0x7f0403d2="@dimen/APKTOOL_DUMMYVAL_0x7f07114a" indianchat:APKTOOL_DUMMYVAL_0x7f040638="48.0dip" />
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.search.audio.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@id/search_row_newsletter_audio_controls" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f0405ff="54.0dip" indianchat:APKTOOL_DUMMYVAL_0x7f040641="44.0dip" indianchat:APKTOOL_DUMMYVAL_0x7f04072f="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+        <com.indianchat.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom|center|left" android:id="@id/search_row_newsletter_audio_metadata" android:paddingLeft="54.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" indianchat:APKTOOL_DUMMYVAL_0x7f04023e="7.0dip" indianchat:APKTOOL_DUMMYVAL_0x7f0403a5="false" />
+    </FrameLayout>
+</merge>

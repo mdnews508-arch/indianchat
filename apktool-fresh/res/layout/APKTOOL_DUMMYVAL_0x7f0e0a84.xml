@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.insights.InsightsTileViewGroup android:orientation="horizontal" android:id="@id/send_money_tiles_view_group" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151">
+        <com.whatsapp.ui.coreui.insights.InsightsTileView android:id="@id/tile_scan_qr_code" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0408c2="@string/APKTOOL_DUMMYVAL_0x7f121f1f" />
+        <com.whatsapp.ui.coreui.insights.InsightsTileView android:id="@id/tile_pay_mobile_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0408c2="@string/APKTOOL_DUMMYVAL_0x7f121f1e" />
+        <com.whatsapp.ui.coreui.insights.InsightsTileView android:id="@id/tile_view_account_balance" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071140" app:APKTOOL_DUMMYVAL_0x7f0408c2="@string/APKTOOL_DUMMYVAL_0x7f121f20" />
+    </com.whatsapp.ui.coreui.insights.InsightsTileViewGroup>
+</LinearLayout>

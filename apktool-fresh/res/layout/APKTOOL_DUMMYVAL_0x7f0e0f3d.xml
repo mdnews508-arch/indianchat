@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ce5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ce5" android:tint="?APKTOOL_DUMMYVAL_0x7f0406f4" android:rotationY="@integer/APKTOOL_DUMMYVAL_0x7f0c003d" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ce5" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_message_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+        <TextView android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0406e0" />
+        <TextView android:gravity="center" android:id="@id/tv_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="bottom|center" android:id="@android:id/button3" android:background="@drawable/sc_camera_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07114e" android:elevation="4.0dip" />
+    </FrameLayout>
+</FrameLayout>

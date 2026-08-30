@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e137c" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040298="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_filters_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040480="enterAlways|scroll|snap">
+                <HorizontalScrollView android:id="@id/payment_filters" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040447="pin">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.whatsapp.payments.common.ui.widget.MultiExclusionChipGroup android:id="@id/payment_filter_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070b67" app:APKTOOL_DUMMYVAL_0x7f0407d3="true" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="true" app:APKTOOL_DUMMYVAL_0x7f040444="@id/appBarLayout" app:APKTOOL_DUMMYVAL_0x7f040445="bottom" app:APKTOOL_DUMMYVAL_0x7f040446="@string/APKTOOL_DUMMYVAL_0x7f124d7a">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/transaction_list_header_container" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/transaction_list_header_container_separator" android:background="?APKTOOL_DUMMYVAL_0x7f0409ec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b7a" />
+                <LinearLayout android:orientation="vertical" android:id="@id/transaction_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <com.whatsapp.ui.coreui.StickyHeadersRecyclerView android:id="@id/transaction_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" app:APKTOOL_DUMMYVAL_0x7f0407c7="0.0dip" />
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/empty_list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/empty_container_image" android:layout_width="48.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" app:APKTOOL_DUMMYVAL_0x7f04044f="@id/empty_container_text" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f04046d="packed" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_txn_empty" />
+                            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/empty_container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f123007" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040461="parent" app:APKTOOL_DUMMYVAL_0x7f040465="parent" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/empty_container_image" app:APKTOOL_DUMMYVAL_0x7f04046d="packed" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </FrameLayout>
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:gravity="center" android:id="@id/bottom_button" android:background="?APKTOOL_DUMMYVAL_0x7f040900" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                </LinearLayout>
+                <ScrollView android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122f2d" />
+                </ScrollView>
+                <com.whatsapp.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateOnly="true" app:APKTOOL_DUMMYVAL_0x7f04021b="@android:color/transparent" app:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.StickyHeadersRecyclerView android:id="@id/grid" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071145" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060746" android:nestedScrollingEnabled="true" app:APKTOOL_DUMMYVAL_0x7f0407c7="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

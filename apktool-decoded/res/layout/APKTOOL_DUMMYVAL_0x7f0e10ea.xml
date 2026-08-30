@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rich_response_map_container_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/rich_response_map_frame" android:background="@drawable/rich_response_code_block_border" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cd5" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070cd6" android:clipToOutline="true" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/rich_response_map_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" indianchat:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/map_loading" />
+        <com.indianchat.metaai.plugins.RichResponseMapView android:id="@id/rich_response_map_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061d" android:gravity="center_vertical" android:id="@id/rich_response_map_annotation_data" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

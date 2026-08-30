@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07012c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1501dc">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1211ee" style="@style/APKTOOL_DUMMYVAL_0x7f1503c3" />
+        <LinearLayout android:id="@id/status_layout" style="@style/APKTOOL_DUMMYVAL_0x7f1503c2">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/status_tv" style="@style/APKTOOL_DUMMYVAL_0x7f1503c4" />
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/status_tv_edit_icon" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1214fd" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_edit" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f0409e2" style="@style/APKTOOL_DUMMYVAL_0x7f1503b9" />
+        </LinearLayout>
+        <View android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1239ad" style="@style/APKTOOL_DUMMYVAL_0x7f1503c3" />
+        <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+        <View android:id="@id/list_empty" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

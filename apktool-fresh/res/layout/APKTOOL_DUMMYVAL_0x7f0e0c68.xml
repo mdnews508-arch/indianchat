@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/mentions_row_selector" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070947"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.privateai.ui.PrivateAiBadgeContainer android:id="@id/private_ai_badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:id="@id/contact_photo" style="@style/APKTOOL_DUMMYVAL_0x7f1501ce" />
+        </com.whatsapp.privateai.ui.PrivateAiBadgeContainer>
+        <ViewStub android:id="@id/subgroup_photo" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e14cd" android:inflatedId="@id/subgroup_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f1501ce" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0707d7">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:gravity="center_vertical" android:id="@id/primary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:layout_toStartOf="@id/secondary_name" android:layout_alignParentStart="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150448" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/secondary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:maxLines="1" android:layout_alignTop="@id/primary_name" android:layout_alignBottom="@id/primary_name" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc6" android:layout_alignParentEnd="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502bf" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/primary_name" style="@style/APKTOOL_DUMMYVAL_0x7f1502bf" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/separator" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+</FrameLayout>

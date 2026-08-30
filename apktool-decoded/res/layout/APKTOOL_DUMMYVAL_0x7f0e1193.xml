@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/badge_setting_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:src="@drawable/wds_picto_indianchat_badge" android:importantForAccessibility="no" />
+        <com.indianchat.ui.wds.components.list.header.WDSSectionHeader android:id="@id/badge_setting_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d67" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f120400" />
+        <RadioGroup android:orientation="vertical" android:id="@id/badge_setting_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071147">
+            <com.indianchat.ui.coreui.radio.RadioButtonWithSubtitle android:id="@id/badge_setting_show_until_viewed" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04065c="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f04065e="@string/APKTOOL_DUMMYVAL_0x7f124dab" />
+            <com.indianchat.ui.coreui.radio.RadioButtonWithSubtitle android:id="@id/badge_setting_clear_on_open" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04065c="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f04065e="@string/APKTOOL_DUMMYVAL_0x7f124daa" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

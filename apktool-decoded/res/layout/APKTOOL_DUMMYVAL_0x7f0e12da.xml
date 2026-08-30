@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/sticker_expressions_tab_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/stickers_result_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/multiselect_toolbar_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12dc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.ui.coreui.AutoFitGridRecyclerView android:id="@id/items" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f04003e="@dimen/APKTOOL_DUMMYVAL_0x7f0705e9" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snack_bar_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/sticker_tray_footer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1308" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/sticker_tray_footer_dynamic_thumbnails" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1309" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+    <ViewStub android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/stickers_search_no_results_stub" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070e80" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12d8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/stickers_tab_empty_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e12d9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

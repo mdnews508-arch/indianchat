@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/progress_dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/progress_dialog_horizontal_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:indeterminate="false" style="?android:progressBarStyleHorizontal" />
+</LinearLayout>

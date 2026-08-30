@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/list_bottom_shadow" style="@style/APKTOOL_DUMMYVAL_0x7f1502bb" />
+    <com.whatsapp.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/other_phones_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <FrameLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" style="@style/APKTOOL_DUMMYVAL_0x7f150253">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f120fd1" style="@style/APKTOOL_DUMMYVAL_0x7f150256" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/other_phones_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard android:id="@id/favorite_contact_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/favorite_contact_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07071c">
+            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/favorite_contact_icon" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_favourite" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06066e" style="@style/APKTOOL_DUMMYVAL_0x7f1501c8" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="17.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:gravity="center|left" android:id="@id/favorite_contact_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12190f" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard android:id="@id/list_contact_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/list_contact_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07071c">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/list_contact_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_list_icon" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="17.0sp" android:id="@id/list_contact_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120245" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard android:id="@id/block_contact_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/block_contact_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07071c">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/block_contact_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070da3" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_block" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="17.0sp" android:id="@id/block_contact_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120713" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard android:id="@id/report_contact_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403c6="?APKTOOL_DUMMYVAL_0x7f040a12" style="@style/APKTOOL_DUMMYVAL_0x7f150290">
+        <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/report_contact_btn" style="@style/APKTOOL_DUMMYVAL_0x7f1501ca">
+                <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/report_contact_icon" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_thumb_down" style="@style/APKTOOL_DUMMYVAL_0x7f1501c8" />
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/report_contact_text" android:text="@string/APKTOOL_DUMMYVAL_0x7f123723" style="@style/APKTOOL_DUMMYVAL_0x7f1501c9" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <ViewStub android:id="@id/unified_stop_report_block_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13a7" android:inflatedId="@id/unified_stop_report_block_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

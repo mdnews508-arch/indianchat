@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/conversation_row_lto_offer_content_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07047a" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07047a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.conversation.ui.conversationrow.businessmessaging.limitedtimeoffer.LimitedTimeOfferView android:id="@id/conversation_row_lto_offer_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

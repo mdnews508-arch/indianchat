@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/payment_background_card_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04011d="?APKTOOL_DUMMYVAL_0x7f040a12" app:APKTOOL_DUMMYVAL_0x7f04011e="4.0dip" app:APKTOOL_DUMMYVAL_0x7f04011f="0.0dip" app:APKTOOL_DUMMYVAL_0x7f040453="H,8:5" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <com.indianchat.ui.coreui.base.WaImageView android:id="@id/background_theme" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/retry_download_icon" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705f5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705f4" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_download_white_small" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/asset_download_progress" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705f9" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705f8" android:indeterminate="true" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+package X;
+
+/* JADX INFO: renamed from: X.4nt, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class AbstractC104984nt {
+    public static String A00(int i) {
+        switch (i) {
+            case 1918:
+                return "GENAI_PERSONAS_PLATFORM_GEN_KNOWLEDGE_RETRIEVE_RESULTS";
+            case 3241:
+                return "GENAI_PERSONAS_PLATFORM_GEN_CAN_VIEW_PERSONA_SET_PROFILE_ID";
+            case 3277:
+                return "GENAI_PERSONAS_PLATFORM_GEN_NETEGO_BID";
+            case 3439:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_LOAD_PERSONA";
+            case 4026:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_FOR_WA_BOT_ID";
+            case 4041:
+                return "GENAI_PERSONAS_PLATFORM_GEN_BEHAVIOR_GRAPH_URI_FROM_EMBODIMENT_ID";
+            case 4195:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONAS_FROM_PERSONA_SETS";
+            case 4288:
+                return "GENAI_PERSONAS_PLATFORM_GEN_QUICK_CREATE_PERSONA";
+            case 5305:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_DETAILS";
+            case 5406:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_FOR_PROFILE";
+            case 6222:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_LOCATION";
+            case 6784:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_CLONE_KNOWLEDGE";
+            case 7523:
+                return "GENAI_PERSONAS_PLATFORM_GEN_CATEGORIZED_PERSONAS";
+            case 7840:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_GENDER_NAME";
+            case 7857:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UPDATE_PERSONA_FROM_CHAT";
+            case 7859:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_INTERESTS";
+            case 8135:
+                return "GENAI_PERSONAS_PLATFORM_GEN_CAN_VIEW_PERSONA_PROFILE";
+            case 8189:
+                return "GENAI_PERSONAS_PLATFORM_SERVER_INTERACTION";
+            case 8240:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_CANCEL_REVIEW_FOR_MOBILE";
+            case 8724:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_FROM_ID";
+            case 8799:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_UPDATE_PUBLISHED_PERSONA_IMAGE";
+            case 9067:
+                return "GENAI_PERSONAS_PLATFORM_CREATE_CHARACTER_ACTIVITY_THREAD";
+            case 9625:
+                return "GENAI_PERSONAS_PLATFORM_QUICK_CREATION_WITH_QUIZ_ANSWERS";
+            case 9904:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONAS_IMAGE_GENERATED_FROM_IMAGE_PROMPT";
+            case 10029:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_UPDATE_PERSONA_PROVIDED_ATTRIBUTES";
+            case 10339:
+                return "GENAI_PERSONAS_PLATFORM_GEN_SUBMIT_PUBLIC_GENAI_PERSONA_FOR_REVIEW";
+            case 10457:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONALIZED_COOLDOWN";
+            case 10773:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PREAMBLE_DIALOG";
+            case 11306:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_VERSION_FROM_SEARCH_UNICORN";
+            case 11353:
+                return "GENAI_PERSONAS_PLATFORM_GEN_QUICK_CREATE_PERSONA_COMPLETE_CREATION";
+            case 11708:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONA_LAYOUT";
+            case 11934:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UPDATE_PERSONA_AUDIENCE_AND_VISIBILITY";
+            case 12596:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_BIOGRAPHY_INTERESTS_V2";
+            case 13366:
+                return "GENAI_PERSONAS_PLATFORM_GET_PERSONAS_THRIFT";
+            case 13492:
+                return "GENAI_PERSONAS_PLATFORM_GEN_AUTOGENERATE_PERSONA_ATTRIBUTES";
+            case 13581:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_FIRST_NAME";
+            case 13913:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_UNPUBLISH_PERSONA_FOR_MOBILE";
+            case 13982:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_LOAD_PERSONAS";
+            case 14283:
+                return "GENAI_PERSONAS_PLATFORM_GEN_SAVE_PERSONA_CHANGES_MOBILE";
+            case 14481:
+                return "GENAI_PERSONAS_PLATFORM_GEN_PERSONAS";
+            case 14491:
+                return "GENAI_PERSONAS_PLATFORM_GET_CATEGORIZED_PERSONAS_THRIFT";
+            case 14979:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_BIOGRAPHY_INTERESTS";
+            case 15156:
+                return "GENAI_PERSONAS_PLATFORM_GEN_FB_WEB_CIFU_FEED_UNITS";
+            case 15407:
+                return "GENAI_PERSONAS_PLATFORM_GEN_BEHAVIOR_GRAPH_FROM_EMBODIMENT_ID";
+            case 15415:
+                return "GENAI_PERSONAS_PLATFORM_CIFU_NETEGO_RENDER_UNIT";
+            case 15523:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_GROUP_CHAT_SELECT_BOT_TO_RESPOND";
+            case 15788:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_DELETE_PERSONA";
+            case 16173:
+                return "GENAI_PERSONAS_PLATFORM_GEN_P13N_CURRENT_TIME";
+            case 16195:
+                return "GENAI_PERSONAS_PLATFORM_GEN_UGC_REVERT_PERSONA_TO_PUBLISHED";
+            default:
+                return "UNDEFINED_QPL_EVENT";
+        }
+    }
+}

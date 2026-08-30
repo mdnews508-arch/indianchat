@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.calling.ui.dialer.DialpadKeyTextView android:id="@id/dialpad_key_number" style="@style/APKTOOL_DUMMYVAL_0x7f15021a" />
+    <com.indianchat.calling.ui.dialer.DialpadKeyTextView android:id="@id/dialpad_key_letters" style="@style/APKTOOL_DUMMYVAL_0x7f15021b" />
+</merge>

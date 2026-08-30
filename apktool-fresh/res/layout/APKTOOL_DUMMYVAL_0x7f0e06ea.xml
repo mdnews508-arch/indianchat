@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/delete_account_other_options_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212b8" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/delete_account_change_device_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f123ae8" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_send_to_mobile" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/delete_account_change_number_item" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f123ae9" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/call_log_bubble_voice_call_outgoing" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+    <ViewStub android:id="@id/delete_account_extra_options_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06e8" android:inflatedId="@id/delete_account_extra_options" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

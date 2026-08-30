@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070f82" android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070f82" />
+    <gradient android:startColor="@color/APKTOOL_DUMMYVAL_0x7f060851" android:endColor="@color/APKTOOL_DUMMYVAL_0x7f06096f" android:angle="270.0" android:type="linear" android:tileMode="clamp" />
+</shape>

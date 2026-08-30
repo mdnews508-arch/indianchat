@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0707c1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070492"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0707be" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070492" android:layout_alignParentLeft="true">
+        <com.indianchat.ui.coreui.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contactpicker_row_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034a" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f040861="false" app:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/contactpicker_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.indianchat.ui.coreui.base.TextEmojiLabel android:layout_gravity="start|center" android:id="@id/contactpicker_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="?APKTOOL_DUMMYVAL_0x7f04088c" />
+            </FrameLayout>
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center|right" android:id="@id/contactpicker_row_push_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.0" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

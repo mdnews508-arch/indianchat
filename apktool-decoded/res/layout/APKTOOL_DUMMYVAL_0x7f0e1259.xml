@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.status.updates.ui.StatusItemLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070df6" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070df6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center|left" android:id="@id/contact_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc9" android:scaleType="centerCrop" indianchat:APKTOOL_DUMMYVAL_0x7f040634="circle" indianchat:APKTOOL_DUMMYVAL_0x7f040635="large" />
+        <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/status_badge_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e122e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        <View android:layout_gravity="bottom|center|right" android:id="@id/badge_click_surface" android:layout_width="35.0dip" android:layout_height="35.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124fac" />
+    </FrameLayout>
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710c7" android:ellipsize="end" android:gravity="center" android:id="@id/contact_name" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070eee" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e59" android:layout_height="wrap_content" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f1501bd" />
+</com.indianchat.status.updates.ui.StatusItemLinearLayout>

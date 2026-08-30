@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@drawable/conversation_row_context_card_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/header_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121581" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    <com.indianchat.ui.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407d1="1">
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/add_members_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121580" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_person_add" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/dismiss_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121433" app:APKTOOL_DUMMYVAL_0x7f0403c9="@drawable/ic_check_circle" app:APKTOOL_DUMMYVAL_0x7f040923="outline" />
+    </com.indianchat.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

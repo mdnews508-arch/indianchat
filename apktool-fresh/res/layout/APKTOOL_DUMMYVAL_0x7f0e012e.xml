@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_campaign" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030a" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:id="@id/disclaimer_body_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc2" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_group_small" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030a" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120e23" />
+    </LinearLayout>
+</LinearLayout>

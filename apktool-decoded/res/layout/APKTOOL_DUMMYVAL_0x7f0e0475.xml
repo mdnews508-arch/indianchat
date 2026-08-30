@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.contact.ui.picker.view.ContactPickerChipGroupScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070352"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.chip.WDSChipGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.indianchat.contact.ui.picker.view.ContactPickerChipGroupScrollView>

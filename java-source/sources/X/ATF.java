@@ -1,0 +1,26 @@
+package X;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class ATF implements B9G {
+    public static final ATF A00 = new ATF();
+
+    @Override // X.InterfaceC25247B5s
+    public /* synthetic */ boolean BHl() {
+        return false;
+    }
+
+    @Override // X.InterfaceC25247B5s
+    public /* synthetic */ boolean BMi() {
+        return false;
+    }
+
+    @Override // X.B9G
+    public C0DF getContact() {
+        return null;
+    }
+
+    @Override // X.InterfaceC25247B5s
+    public /* synthetic */ int getWamUJSection() {
+        return 10;
+    }
+}

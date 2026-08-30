@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.WaViewPager android:id="@id/pending_participants_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/pending_participants_loading" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710f8" android:indeterminate="true" style="?android:progressBarStyle" />
+</FrameLayout>

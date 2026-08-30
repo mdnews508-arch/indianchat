@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.areffects.tray.nativeuicontrol.ArEffectsNativeUiControlRow android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0700b4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/native_picker_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01bc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/native_slider_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01be" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700b3" android:layout_height="wrap_content" />
+</com.indianchat.areffects.tray.nativeuicontrol.ArEffectsNativeUiControlRow>

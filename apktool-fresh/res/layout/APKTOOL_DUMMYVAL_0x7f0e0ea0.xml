@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/order_detail_shimmer_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a13" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070afd" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070afb" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070afd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/shimmer_order_description" android:background="@drawable/category_loading_bg" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070aff" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b03" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b00" android:layout_width="120.0dip" android:layout_height="14.0dip" android:layout_centerHorizontal="true" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/dashed_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070afd" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b03" android:layout_below="@id/shimmer_order_description" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/order_details_dashed_underline_gray" />
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

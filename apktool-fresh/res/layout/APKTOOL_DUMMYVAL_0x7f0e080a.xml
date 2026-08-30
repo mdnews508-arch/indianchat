@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/location_map_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040794="0.75" app:APKTOOL_DUMMYVAL_0x7f040799="0.3" app:APKTOOL_DUMMYVAL_0x7f04079a="1200" app:APKTOOL_DUMMYVAL_0x7f04079e="1.0" app:APKTOOL_DUMMYVAL_0x7f0407a0="0.1" app:APKTOOL_DUMMYVAL_0x7f0407a2="300" app:APKTOOL_DUMMYVAL_0x7f0407a6="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.locationsharing.location.WaMapView android:id="@id/location_map" android:background="@drawable/bg_map_rounded" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705d2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0705d1" />
+    <View android:id="@id/location_map_shimmer_overlay" android:background="@drawable/bg_map_rounded" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705d2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0705d1" />
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.conversationslist.FillListViewContainer android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.wds.components.textlayout.WDSTextLayout android:id="@id/no_locked_filter_cta_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/ic_chat_lock_settings" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f125107" app:APKTOOL_DUMMYVAL_0x7f040443="card" />
+        <com.indianchat.ui.wds.components.button.WDSButton android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061e" android:gravity="center" android:id="@id/no_locked_filter_cta_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07114a" android:text="@string/APKTOOL_DUMMYVAL_0x7f124887" style="@style/APKTOOL_DUMMYVAL_0x7f1505c5" />
+    </LinearLayout>
+</com.indianchat.conversationslist.FillListViewContainer>

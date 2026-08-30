@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071147" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" style="@style/APKTOOL_DUMMYVAL_0x7f150769"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:gravity="start" android:id="@id/secret_code_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" />
+</com.google.android.material.textfield.TextInputLayout>

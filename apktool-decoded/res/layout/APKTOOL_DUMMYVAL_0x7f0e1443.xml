@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.button.WDSButton android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e8" android:id="@id/button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+    <ViewStub android:id="@id/loader_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1442" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:layout_alignLeft="@id/button_view" android:layout_alignTop="@id/button_view" android:layout_alignRight="@id/button_view" android:layout_alignBottom="@id/button_view" android:layout_centerInParent="true" />
+</merge>

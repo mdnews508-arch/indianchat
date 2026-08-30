@@ -1,0 +1,30 @@
+package X;
+
+import android.graphics.Bitmap;
+
+/* JADX INFO: renamed from: X.584, reason: invalid class name */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract /* synthetic */ class AnonymousClass584 {
+    public static final /* synthetic */ int[] A00;
+
+    static {
+        int[] iArr = new int[Bitmap.Config.values().length];
+        try {
+            AbstractC81793li.A1I(Bitmap.Config.ARGB_8888, iArr);
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            AbstractC81793li.A1J(Bitmap.Config.RGB_565, iArr);
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            iArr[Bitmap.Config.ARGB_4444.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            iArr[Bitmap.Config.ALPHA_8.ordinal()] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+        A00 = iArr;
+    }
+}

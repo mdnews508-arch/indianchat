@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.WaListView android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:fadeScrollbars="false" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228c6" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_fragment" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:layout_gravity="center_vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="56.0dip" android:touchscreenBlocksFocus="false" style="@style/APKTOOL_DUMMYVAL_0x7f15058e">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="24.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/meta_ai_search_bar_image" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_search_white" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+            <com.whatsapp.searchui.search.views.TokenizedSearchInput android:id="@id/search_input_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+    <View android:id="@id/divider" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <Space android:id="@id/space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f071150" />
+    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f12525a" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/result_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d14" />
+    <com.whatsapp.searchui.search.views.ProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f125259" />
+</LinearLayout>

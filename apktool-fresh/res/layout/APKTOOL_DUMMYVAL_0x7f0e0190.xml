@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/alert_card_item_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="34.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/alert_card_info_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/alert_card_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071149" style="@style/APKTOOL_DUMMYVAL_0x7f15001f" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/alert_card_item_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f15001a" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/alert_action_cta" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150019" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/alert_dismiss_cta" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150019" />
+        </LinearLayout>
+        <View android:background="@color/APKTOOL_DUMMYVAL_0x7f0608b5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" />
+    </LinearLayout>
+</LinearLayout>

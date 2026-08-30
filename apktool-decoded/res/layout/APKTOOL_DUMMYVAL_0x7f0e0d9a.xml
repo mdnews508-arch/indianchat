@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.InfoCard android:orientation="vertical" android:id="@id/description_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150291"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indianchat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/has_description_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.newsletter.ui.components.NewsletterDescriptionView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06075f" android:id="@id/group_description" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040680="3" app:APKTOOL_DUMMYVAL_0x7f040682="?APKTOOL_DUMMYVAL_0x7f0409e2" app:APKTOOL_DUMMYVAL_0x7f040683="@string/APKTOOL_DUMMYVAL_0x7f125192" />
+            <ProgressBar android:id="@id/change_description_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
+        </LinearLayout>
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409e2" android:id="@id/no_description_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120207" style="@style/APKTOOL_DUMMYVAL_0x7f1502c3" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/creation_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.InfoCard>

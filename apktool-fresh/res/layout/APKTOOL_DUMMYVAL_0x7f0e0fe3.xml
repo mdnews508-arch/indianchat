@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150251">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150252">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/description_row_one_icon" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_call" style="@style/APKTOOL_DUMMYVAL_0x7f150214" />
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150215">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/make_and_manage_calls" android:text="@string/APKTOOL_DUMMYVAL_0x7f12227a" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f150250" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150252">
+            <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/description_row_two_icon" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_call_log" style="@style/APKTOOL_DUMMYVAL_0x7f150214" />
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150215">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/access_phone_call_logs" android:text="@string/APKTOOL_DUMMYVAL_0x7f12009e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f150250" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColorLink="?APKTOOL_DUMMYVAL_0x7f040a02" android:gravity="bottom|center" android:id="@id/flash_call_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070636" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070636" android:text="@string/APKTOOL_DUMMYVAL_0x7f1220c0" android:lineSpacingMultiplier="1.25" style="@style/APKTOOL_DUMMYVAL_0x7f15061f" />
+</LinearLayout>

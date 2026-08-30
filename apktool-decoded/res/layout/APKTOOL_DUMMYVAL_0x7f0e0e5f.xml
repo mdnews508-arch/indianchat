@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d1" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d2" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d3" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d4" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d5" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d6" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d7" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+    <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/passkey_prologue_code_d8" style="@style/APKTOOL_DUMMYVAL_0x7f1503f1" />
+</GridLayout>

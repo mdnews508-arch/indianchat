@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/item_previous_backup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/item_previous_backup_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton android:id="@id/item_previous_backup_delete" android:background="?APKTOOL_DUMMYVAL_0x7f040738" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_trash" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1233fa" />
+</LinearLayout>

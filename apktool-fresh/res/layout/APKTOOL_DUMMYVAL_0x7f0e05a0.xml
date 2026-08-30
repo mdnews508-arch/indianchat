@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/signup_confirmation_header" android:background="@drawable/conversation_row_booking_confirmation_bubble_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07016c" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07016c">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/signup_confirmation_header_content_wrapper" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3">
+                <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto android:id="@id/signup_confirmation_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_contact_colorable" app:APKTOOL_DUMMYVAL_0x7f040635="small" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061e" android:layout_gravity="start" android:id="@id/signup_confirmation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15061f" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="start" android:id="@id/signup_confirmation_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

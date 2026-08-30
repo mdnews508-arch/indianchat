@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/paa_request_dialog_root" android:background="@drawable/paa_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_section" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/image_delete" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0710e4" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_delete" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f0601cb" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122beb" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_headline1" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:text="@string/APKTOOL_DUMMYVAL_0x7f122bea" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/checkbox_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+            <com.indianchat.ui.coreui.checkbox.RtlCheckBox android:id="@id/report_contact_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:id="@id/report_contact_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122c7c" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060891" android:id="@id/report_contact_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122c7b" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071152">
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f124ddc" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071150" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:id="@id/decline_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122be8" app:APKTOOL_DUMMYVAL_0x7f040923="borderless" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/loading_section_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0e43" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

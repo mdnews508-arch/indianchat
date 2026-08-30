@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.conversation.sidechat.SideChatDragHandleLayout android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/side_chat_drag_handle" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d88" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f123d1f" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d8b" android:accessibilityTraversalBefore="@android:id/list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/side_chat_nav_controls_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e11f4" android:inflatedId="@id/side_chat_nav_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:background="@drawable/side_chat_drag_handle" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d8a" android:layout_height="fill_parent" />
+</com.indianchat.conversation.sidechat.SideChatDragHandleLayout>

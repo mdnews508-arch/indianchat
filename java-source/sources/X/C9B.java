@@ -1,0 +1,20 @@
+package X;
+
+import com.whatsapp.calling.voipcalling.Voip;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class C9B extends AbstractC30650DaW {
+    @Override // X.C1P3
+    public InterfaceC198128lD AtH(C1DO c1do) {
+        C000700h.A0A(c1do, 0);
+        String strAgA = AbstractC29780D2f.A05(c1do) ? this.A02.AgA(c1do) : ((C27439BzV) c1do).A0t();
+        if (strAgA == null) {
+            strAgA = Voip.REJECT_REASON_DECLINED;
+        }
+        return AbstractC25328B9w.A0y(strAgA);
+    }
+
+    public C9B() {
+        super((InterfaceC31750Duk) C00S.A03(66440));
+    }
+}

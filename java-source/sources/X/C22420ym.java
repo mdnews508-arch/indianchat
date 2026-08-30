@@ -1,0 +1,60 @@
+package X;
+
+/* JADX INFO: renamed from: X.0ym, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public final class C22420ym implements InterfaceC04400Kd {
+    @Override // X.InterfaceC04400Kd
+    public /* bridge */ /* synthetic */ void AQa(C0KX c0kx, InterfaceC04370Ka interfaceC04370Ka) {
+        C000700h.A0A(interfaceC04370Ka, 0);
+        interfaceC04370Ka.CFK("newsletter_subscribers", "newsletter_subscribers_by_type_index", "\n          CREATE INDEX IF NOT EXISTS newsletter_subscribers_by_type_index \n            ON newsletter_subscribers (\n              chat_row_id, \n              type_of_fetch\n            )\n        ");
+    }
+
+    @Override // X.InterfaceC04400Kd
+    public /* bridge */ /* synthetic */ void AQd(C0KX c0kx, C0KZ c0kz) {
+        C000700h.A0A(c0kz, 0);
+        C04420Kf c04420Kf = new C04420Kf();
+        c04420Kf.A02 = "_id";
+        EnumC04440Kh enumC04440Kh = EnumC04440Kh.INTEGER;
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A08 = true;
+        c04420Kf.A02 = "chat_row_id";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A06 = true;
+        c04420Kf.A02 = "jid_row_id";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A02 = "display_name";
+        EnumC04440Kh enumC04440Kh2 = EnumC04440Kh.TEXT;
+        c04420Kf.A00 = enumC04440Kh2;
+        c04420Kf.A02 = "profile_picture_direct_path";
+        c04420Kf.A00 = enumC04440Kh2;
+        c04420Kf.A02 = "subscription_time";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A02 = "role";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A06 = true;
+        c04420Kf.A03(0);
+        c04420Kf.A02 = "type_of_fetch";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A06 = true;
+        c04420Kf.A03(0);
+        c04420Kf.A02 = "fetched_time";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A06 = true;
+        c04420Kf.A03(0);
+        c04420Kf.A02 = "admin_profile_id";
+        c04420Kf.A00 = enumC04440Kh2;
+        c04420Kf.A02 = "admin_profile_name";
+        c04420Kf.A00 = enumC04440Kh2;
+        c04420Kf.A02 = "admin_profile_picture_id";
+        c04420Kf.A00 = enumC04440Kh;
+        c04420Kf.A02 = "admin_profile_picture_url";
+        c04420Kf.A00 = enumC04440Kh2;
+        c0kz.CFY("newsletter_subscribers", c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00(), c04420Kf.A00());
+    }
+
+    @Override // X.InterfaceC04400Kd
+    public /* bridge */ /* synthetic */ void AQf(InterfaceC04380Kb interfaceC04380Kb) {
+        C000700h.A0A(interfaceC04380Kb, 0);
+        interfaceC04380Kb.CFa("newsletter_subscribers", AbstractC04530Kq.A00("newsletter", "newsletter_subscribers", "chat_row_id=old.chat_row_id"));
+    }
+}

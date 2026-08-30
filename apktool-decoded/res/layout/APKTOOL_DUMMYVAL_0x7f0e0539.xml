@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dynamic_reply_buttons_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07046c" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040202" android:id="@id/title_text_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07046b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071141" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.indianchat.conversationrow.buttons.DynamicButtonsRowContentLayout android:id="@id/dynamic_reply_buttons_message_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" />
+        <com.indianchat.conversationrow.buttons.NativeFlowButtonsRowContentLayout android:id="@id/native_flow_action_button_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0aac" />
+    </LinearLayout>
+</merge>

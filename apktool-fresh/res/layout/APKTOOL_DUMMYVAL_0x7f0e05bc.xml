@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+    <com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout android:layout_gravity="center_vertical" android:id="@id/map_frame" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070425" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07047a" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07047a" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07047a" android:layout_marginBottom="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/map_loading" />
+        <com.whatsapp.locationsharing.location.WaMapView android:id="@id/map_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da0" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da1" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da1" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f04085e="?APKTOOL_DUMMYVAL_0x7f0404bd" whatsapp:APKTOOL_DUMMYVAL_0x7f04085f="1.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f040861="false" whatsapp:APKTOOL_DUMMYVAL_0x7f040862="@dimen/APKTOOL_DUMMYVAL_0x7f070d9f" />
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070da1" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070da1" whatsapp:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/live_location_expired_contact_mask" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12111c" whatsapp:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_chat_body2" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton android:id="@id/control_btn" style="@style/APKTOOL_DUMMYVAL_0x7f1501f0" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        </FrameLayout>
+    </com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>
+    <RelativeLayout android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/live_location_info_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05bd" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.components.TextAndDateLayout android:id="@id/text_and_date" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textAppearance="?APKTOOL_DUMMYVAL_0x7f0409a9" android:layout_gravity="left" android:id="@id/live_location_caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07047a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0703f4" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703f3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/broadcast_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0533" android:inflatedId="@id/broadcast_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/date" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/status" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:id="@id/btn_divider" android:visibility="gone" android:layout_marginTop="-4.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1503b1" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel android:textColor="?APKTOOL_DUMMYVAL_0x7f0404c1" android:layout_gravity="center" android:id="@id/stop_share_btn" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12220c" style="@style/APKTOOL_DUMMYVAL_0x7f150203" />
+</LinearLayout>

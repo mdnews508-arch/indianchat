@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/canvas" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/media_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+        <FrameLayout android:id="@id/video_player_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:id="@id/video_player_frame_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <com.whatsapp.pushtorecordmedia.MediaProgressRing android:layout_gravity="center" android:id="@id/preview_progress_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040194="?APKTOOL_DUMMYVAL_0x7f0409e8" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c22" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0757" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0753" />
+            <FrameLayout android:layout_gravity="center|top" android:id="@id/trim_info_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/trim_info" android:background="@drawable/video_preview_label_background" android:visibility="invisible" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113f" style="@style/APKTOOL_DUMMYVAL_0x7f1505ae" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/video_controls" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07005e" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/video_tools" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.mediacomposer.ui.app.VideoTimelineView android:id="@id/timeline_view" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="1.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:focusable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" app:APKTOOL_DUMMYVAL_0x7f040957="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f040958="2.0dip" app:APKTOOL_DUMMYVAL_0x7f040959="@color/APKTOOL_DUMMYVAL_0x7f06079b" app:APKTOOL_DUMMYVAL_0x7f04095a="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f04095b="?APKTOOL_DUMMYVAL_0x7f0409e8" app:APKTOOL_DUMMYVAL_0x7f04095c="6.0dip" app:APKTOOL_DUMMYVAL_0x7f04095d="8.0dip" />
+                    <RelativeLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <FrameLayout android:id="@id/mute_video_button" android:background="@drawable/video_preview_label_background" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="28.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f071150">
+                            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/mute_video" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_volume_up" app:APKTOOL_DUMMYVAL_0x7f0408c4="?APKTOOL_DUMMYVAL_0x7f040a1f" />
+                        </FrameLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/video_metadata_container" android:background="@drawable/video_preview_label_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/mute_video_button">
+                            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/duration" style="@style/APKTOOL_DUMMYVAL_0x7f1505ae" />
+                            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/bullet_size" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f124e1e" style="@style/APKTOOL_DUMMYVAL_0x7f1505ae" />
+                            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/size" style="@style/APKTOOL_DUMMYVAL_0x7f1505ae" />
+                        </LinearLayout>
+                        <com.whatsapp.ui.coreui.base.WaImageView android:id="@id/video_gif_toggle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f071151" android:layout_alignParentRight="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124872" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_gif_off" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center" android:id="@id/play" android:background="@drawable/exo_player_gray_circle" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f123289" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_video_play" />
+            </FrameLayout>
+            <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/bottom_tool_cluster_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0c3f" android:inflatedId="@id/bottom_tool_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070939" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07093a" />
+        </FrameLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/trim_bottom_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1396" android:inflatedId="@id/trim_bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center|top" android:id="@id/video_gif_toggle_new" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e1429" android:inflatedId="@id/video_gif_toggle_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+        <ViewStub android:layout_gravity="center|top" android:id="@id/video_trim_title_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e143a" android:inflatedId="@id/video_trim_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071151" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

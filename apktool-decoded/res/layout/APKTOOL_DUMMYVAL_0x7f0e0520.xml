@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.conversation.ui.conversationrow.audio.TranscriptionView android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f1d" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070f17" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070f16" app:APKTOOL_DUMMYVAL_0x7f04058b="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,67 @@
+package com.google.android.gms.internal.mlkit_genai_speech;
+
+import X.J27;
+import X.J2A;
+import X.J2B;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class zzaon extends zzagg implements zzaho {
+    public static final zzaon zzb;
+    public static volatile zzahv zze;
+    public int zzf;
+    public zzago zzg = zzahx.zzb;
+    public zzamy zzh;
+    public zzaqr zzi;
+    public zzany zzj;
+
+    static {
+        zzaon zzaonVar = new zzaon();
+        zzb = zzaonVar;
+        zzagg.zzD(zzaon.class, zzaonVar);
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_genai_speech.zzagg
+    public final Object zzb(int i, Object obj, Object obj2) throws Throwable {
+        zzahv zzahvVarA0K;
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 2) {
+            Object[] objArrA1b = J2B.A1b(6);
+            J2A.A1I(zzarb.class, objArrA1b, 2, 3, 4);
+            objArrA1b[5] = "zzj";
+            return J27.A0N(zzb, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000\u0003ဉ\u0001\u0004ဉ\u0002", objArrA1b);
+        }
+        if (i2 == 3) {
+            return new zzaon();
+        }
+        Throwable th = null;
+        if (i2 == 4) {
+            return new zzaom(zzb);
+        }
+        if (i2 == 5) {
+            return zzb;
+        }
+        if (i2 == 6) {
+            zzahv zzahvVar = zze;
+            if (zzahvVar != null) {
+                return zzahvVar;
+            }
+            synchronized (zzaon.class) {
+                try {
+                    zzahvVarA0K = zze;
+                    if (zzahvVarA0K == null) {
+                        zzaeq zzaeqVar = zzaeq.$redex_init_class;
+                        zzahvVarA0K = J27.A0K(zzb);
+                        zze = zzahvVarA0K;
+                    }
+                } catch (Throwable th2) {
+                    th = th2;
+                }
+            }
+            return zzahvVarA0K;
+        }
+        throw th;
+    }
+}

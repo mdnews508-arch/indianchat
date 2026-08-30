@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView android:focusable="true" android:clickable="true" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd" whatsapp:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_history" whatsapp:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f06030f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

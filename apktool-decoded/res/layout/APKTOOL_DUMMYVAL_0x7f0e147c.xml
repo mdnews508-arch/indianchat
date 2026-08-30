@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501dc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.contact.ui.picker.BidiContactListView android:id="@id/contact_list_view" android:background="@android:color/transparent" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070346" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070347" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046a="@id/contact_list_view">
+        <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+        <LinearLayout android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/share_link_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/contacts_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="center" android:id="@id/invite_empty_description" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0706cc" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dcd" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0706cc" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dca" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f150425" />
+            <com.indianchat.ui.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/button_open_permission_settings" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc4" android:text="@string/APKTOOL_DUMMYVAL_0x7f123140" style="@style/APKTOOL_DUMMYVAL_0x7f1505c3" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

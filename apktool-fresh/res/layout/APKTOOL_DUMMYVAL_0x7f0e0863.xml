@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView android:id="@id/status_reaction_green_heart" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060876" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f123f2e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/vec_ic_favourite_filled"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

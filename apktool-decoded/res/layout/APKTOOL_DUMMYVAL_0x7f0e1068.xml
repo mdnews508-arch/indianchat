@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.reactions.ui.conversation.conversationrow.ReactionEmojiSlotLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.base.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:gravity="center" android:id="@id/reaction_bubble_emoji_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/reaction_bubble_emoji_lottie" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c4c" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c4c" android:importantForAccessibility="no" />
+</com.indianchat.reactions.ui.conversation.conversationrow.ReactionEmojiSlotLayout>

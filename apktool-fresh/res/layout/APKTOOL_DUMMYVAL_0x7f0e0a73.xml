@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/payment_methods_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader android:id="@id/payment_methods_section_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" app:APKTOOL_DUMMYVAL_0x7f040036="@drawable/vec_ic_add" app:APKTOOL_DUMMYVAL_0x7f040037="@string/APKTOOL_DUMMYVAL_0x7f1234b4" app:APKTOOL_DUMMYVAL_0x7f04003a="iconTextButton" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f122fd2" app:APKTOOL_DUMMYVAL_0x7f0403aa="emphasized" />
+    <ViewStub android:id="@id/banner_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b7b" />
+    <ListView android:id="@id/methods_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060746" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0131" />
+</LinearLayout>

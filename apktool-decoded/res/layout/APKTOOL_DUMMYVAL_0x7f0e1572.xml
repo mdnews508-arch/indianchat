@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0404b6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/wamo_loading_bar" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dca" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dca" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dc7" android:indeterminate="true" indianchat:APKTOOL_DUMMYVAL_0x7f04021b="@color/APKTOOL_DUMMYVAL_0x7f060746" indianchat:APKTOOL_DUMMYVAL_0x7f04021c="?APKTOOL_DUMMYVAL_0x7f0409e2" indianchat:APKTOOL_DUMMYVAL_0x7f04044e="parent" indianchat:APKTOOL_DUMMYVAL_0x7f040465="parent" indianchat:APKTOOL_DUMMYVAL_0x7f04046b="parent" style="?android:progressBarStyle" xmlns:indianchat="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

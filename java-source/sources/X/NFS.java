@@ -1,0 +1,12 @@
+package X;
+
+import android.graphics.BlendMode;
+import android.graphics.BlendModeColorFilter;
+import android.graphics.ColorFilter;
+
+/* JADX INFO: loaded from: classes11.dex */
+public abstract class NFS {
+    public static ColorFilter A00(Object obj, int i) {
+        return new BlendModeColorFilter(i, (BlendMode) obj);
+    }
+}

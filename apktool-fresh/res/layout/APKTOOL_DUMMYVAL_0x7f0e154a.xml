@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox android:id="@id/wa_lead_gen_option_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem android:id="@id/wa_lead_gen_option_list_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f0406a7="standard" app:APKTOOL_DUMMYVAL_0x7f0406b7="no_space" />
+</LinearLayout>

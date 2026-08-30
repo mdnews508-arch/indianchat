@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070414">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/group_welcome_message_from_admins_header" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e1f" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061a" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a00" android:id="@id/group_welcome_message_body" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_gravity="end" android:id="@id/group_welcome_message_automated_label" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071140" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e1d" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" />
+        <View android:id="@id/button_div" android:background="?APKTOOL_DUMMYVAL_0x7f0409ff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:alpha="0.1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409fe" android:gravity="center" android:id="@id/group_welcome_message_button" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07041f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e1e" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2_emphasized" />
+    </LinearLayout>
+</merge>

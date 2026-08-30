@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/sticker_grid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="3" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_one" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_two" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_three" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_four" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_five" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+    <com.indianchat.stickers.StickerView android:id="@id/sticker_six" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071152" style="@style/APKTOOL_DUMMYVAL_0x7f150412" />
+</GridLayout>

@@ -1,0 +1,10 @@
+package X;
+
+/* JADX INFO: renamed from: X.5r3, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C130765r3 implements C6ZF {
+    @Override // X.C6ZF
+    public int ApC(int i) {
+        return (i < 0 || i > 1) ? 5 : 1;
+    }
+}

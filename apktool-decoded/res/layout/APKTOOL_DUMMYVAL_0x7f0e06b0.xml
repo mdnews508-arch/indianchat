@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/crossposting_upsell_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:layout_below="@id/container" />
+    <ViewStub android:id="@id/crossposting_updates_appswitch_upsell_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13b8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/container" />
+    <ViewStub android:id="@id/crossposting_updates_waffle_upsell_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0703b4" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" android:layout_below="@id/container" />
+</merge>

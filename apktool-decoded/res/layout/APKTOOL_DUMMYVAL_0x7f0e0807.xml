@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/event_list_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0808" android:inflatedId="@id/event_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/empty_state_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0806" android:inflatedId="@id/empty_state" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/error_state_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07fc" android:inflatedId="@id/error_state" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/loading_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0803" android:inflatedId="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

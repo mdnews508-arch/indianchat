@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.indianchat.ui.coreui.CircularProgressBar android:layout_gravity="center" android:id="@id/time_till_end_progress_bar" android:layout_width="120.0dip" android:layout_height="120.0dip" android:indeterminateOnly="false" app:APKTOOL_DUMMYVAL_0x7f04021b="@color/APKTOOL_DUMMYVAL_0x7f060892" app:APKTOOL_DUMMYVAL_0x7f04021c="@color/APKTOOL_DUMMYVAL_0x7f060892" app:APKTOOL_DUMMYVAL_0x7f040220="40.0" app:APKTOOL_DUMMYVAL_0x7f040221="@color/APKTOOL_DUMMYVAL_0x7f060892" />
+    <com.indianchat.ui.coreui.base.WaImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_alignBottom="@id/time_till_end_progress_bar" android:layout_alignEnd="@id/time_till_end_progress_bar" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/wds_warning_badge_pictograms" />
+</RelativeLayout>

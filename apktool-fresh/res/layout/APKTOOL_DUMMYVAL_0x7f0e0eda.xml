@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/payment_method_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_method_provider_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b6e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b6e" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f0706cc" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122fc2" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/av_bank" />
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/account_number_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_weight="1.0">
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:id="@id/payment_branding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218ba" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_method_name_shimmer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040793="false" app:APKTOOL_DUMMYVAL_0x7f040794="0.5" app:APKTOOL_DUMMYVAL_0x7f040795="?APKTOOL_DUMMYVAL_0x7f040a00">
+                            <com.whatsapp.ui.wds.components.textview.WDSTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:layout_gravity="start" android:id="@id/payment_method_bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" android:lineHeight="24.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1502c2" />
+                        </com.facebook.shimmer.ShimmerFrameLayout>
+                    </LinearLayout>
+                    <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_gravity="start" android:id="@id/payment_method_offer_details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+                </LinearLayout>
+                <com.whatsapp.ui.coreui.CopyableTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/payment_method_account_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:id="@id/payment_method_provider_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body2" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="end|center" android:id="@id/payment_method_decorate_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_check_small" />
+            <RadioButton android:layout_gravity="end|center" android:id="@id/payment_method_radio_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060746" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b6d" />
+</merge>

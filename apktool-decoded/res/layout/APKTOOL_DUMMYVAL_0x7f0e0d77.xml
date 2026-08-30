@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/emoji_btn">
+        <com.indianchat.ui.coreui.WaEditText android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColorHint="?APKTOOL_DUMMYVAL_0x7f0409ff" android:ellipsize="end" android:id="@id/group_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f121d63" android:maxLines="1" android:lines="1" android:singleLine="true" android:inputType="textCapSentences" android:imeOptions="actionDone" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f071152" app:APKTOOL_DUMMYVAL_0x7f04028f="outline" style="@style/APKTOOL_DUMMYVAL_0x7f1505f0" />
+        <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:gravity="start|clip_vertical" android:id="@id/subject_counter_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/group_name" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body3" />
+    </RelativeLayout>
+    <com.indianchat.ui.coreui.base.WaImageButton android:id="@id/emoji_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e8c" android:layout_alignParentEnd="true" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_mood_black" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060307" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+</RelativeLayout>

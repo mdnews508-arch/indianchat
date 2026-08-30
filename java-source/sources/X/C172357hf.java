@@ -1,0 +1,104 @@
+package X;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.7hf, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C172357hf {
+    public final int A00;
+    public final int A01;
+    public final long A02;
+    public final long A03;
+    public final long A04;
+    public final long A05;
+    public final C1QO A06;
+    public final C181737yN A07;
+    public final C181737yN A08;
+    public final C149746hh A09;
+    public final C1838184w A0A;
+    public final C1DO A0B;
+    public final C29545CwP A0C;
+    public final C29545CwP A0D;
+    public final C80I A0E;
+    public final C177837rf A0F;
+    public final C181427xq A0G;
+    public final C1CI A0H;
+    public final C26221Cj A0I;
+    public final C176497pV A0J;
+    public final InterfaceC200258oe A0K;
+    public final C177557rD A0L;
+    public final Boolean A0M;
+    public final Boolean A0N;
+    public final Integer A0O;
+    public final Long A0P;
+    public final String A0Q;
+    public final Collection A0R;
+    public final HashSet A0S;
+    public final List A0T;
+    public final List A0U;
+    public final List A0V;
+    public final java.util.Map A0W;
+    public final java.util.Map A0X;
+    public final java.util.Map A0Y;
+    public final java.util.Map A0Z;
+    public final java.util.Map A0a;
+    public final Set A0b;
+    public final Function0 A0c;
+    public final boolean A0d;
+    public final boolean A0e;
+    public final boolean A0f;
+    public final boolean A0g;
+    public final boolean A0h;
+
+    public C172357hf(C1QO c1qo, C181737yN c181737yN, C181737yN c181737yN2, C149746hh c149746hh, C1838184w c1838184w, C1DO c1do, C29545CwP c29545CwP, C29545CwP c29545CwP2, C80I c80i, C177837rf c177837rf, C181427xq c181427xq, C1CI c1ci, C26221Cj c26221Cj, C176497pV c176497pV, InterfaceC200258oe interfaceC200258oe, C177557rD c177557rD, Boolean bool, Boolean bool2, Integer num, Long l, String str, Collection collection, HashSet hashSet, List list, List list2, List list3, java.util.Map map, java.util.Map map2, java.util.Map map3, java.util.Map map4, java.util.Map map5, Set set, Function0 function0, int i, int i2, long j, long j2, long j3, long j4, boolean z, boolean z2, boolean z3, boolean z4, boolean z5) {
+        AbstractC81813lk.A16(list, collection);
+        this.A0V = list;
+        this.A0T = list2;
+        this.A0U = list3;
+        this.A0R = collection;
+        this.A09 = c149746hh;
+        this.A0E = c80i;
+        this.A05 = j;
+        this.A00 = i;
+        this.A0e = z;
+        this.A0Z = map;
+        this.A0S = hashSet;
+        this.A0h = z2;
+        this.A02 = j2;
+        this.A0f = z3;
+        this.A0g = z4;
+        this.A0K = interfaceC200258oe;
+        this.A0a = map2;
+        this.A0b = set;
+        this.A0O = num;
+        this.A0P = l;
+        this.A01 = i2;
+        this.A03 = j3;
+        this.A04 = j4;
+        this.A0J = c176497pV;
+        this.A0M = bool;
+        this.A0L = c177557rD;
+        this.A07 = c181737yN;
+        this.A08 = c181737yN2;
+        this.A0W = map3;
+        this.A0d = z5;
+        this.A0A = c1838184w;
+        this.A0Q = str;
+        this.A0H = c1ci;
+        this.A0B = c1do;
+        this.A0C = c29545CwP;
+        this.A0D = c29545CwP2;
+        this.A0G = c181427xq;
+        this.A06 = c1qo;
+        this.A0c = function0;
+        this.A0I = c26221Cj;
+        this.A0F = c177837rf;
+        this.A0N = bool2;
+        this.A0Y = map4;
+        this.A0X = map5;
+    }
+}

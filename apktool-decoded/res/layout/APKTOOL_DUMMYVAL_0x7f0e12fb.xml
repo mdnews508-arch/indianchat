@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.indianchat.ui.coreui.components.MainChildCoordinatorLayout android:id="@id/content_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040520="@id/store_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/store_container" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.indianchat.ui.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f15058e" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/sticker_store_tabs" android:background="?APKTOOL_DUMMYVAL_0x7f040593" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040855="@style/APKTOOL_DUMMYVAL_0x7f15041f" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/sticker_store_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.indianchat.ui.coreui.components.MainChildCoordinatorLayout>

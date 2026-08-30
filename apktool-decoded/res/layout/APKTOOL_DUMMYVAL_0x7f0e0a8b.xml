@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/upi_id_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.coreui.base.WaImageView android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f124e18" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/avatar_contact" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07113e">
+                <com.indianchat.ui.wds.components.textview.WDSTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062e" android:id="@id/vpa_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122e7f" app:APKTOOL_DUMMYVAL_0x7f0409dd="wds_font_body1" />
+                <com.indianchat.ui.coreui.CopyableTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0710bb" android:textColor="?APKTOOL_DUMMYVAL_0x7f0409ff" android:id="@id/account_id_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0408d7="@string/APKTOOL_DUMMYVAL_0x7f124a6b" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/payment_separator" android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b7a" />
+        <LinearLayout android:orientation="vertical" android:id="@id/send_and_request_payment_container" android:background="?APKTOOL_DUMMYVAL_0x7f040a12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/send_payment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f122faa" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f04068e="text" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/wds_ic_currency_india_rupee" app:APKTOOL_DUMMYVAL_0x7f0406c1="borderless" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        </LinearLayout>
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/view_contact_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f04068e="text" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_person" app:APKTOOL_DUMMYVAL_0x7f0406c1="borderless" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        <com.indianchat.ui.wds.components.list.listitem.WDSListItem android:id="@id/block_vpa_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04068c="@string/APKTOOL_DUMMYVAL_0x7f120713" app:APKTOOL_DUMMYVAL_0x7f04068d="body1" app:APKTOOL_DUMMYVAL_0x7f04068e="text" app:APKTOOL_DUMMYVAL_0x7f0406bc="@drawable/ic_block" app:APKTOOL_DUMMYVAL_0x7f0406bd="destructive" app:APKTOOL_DUMMYVAL_0x7f0406c1="borderless" app:APKTOOL_DUMMYVAL_0x7f0406c8="icon" />
+        <com.indianchat.ui.coreui.base.WaImageView android:layout_gravity="center_horizontal" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07113e" style="@style/APKTOOL_DUMMYVAL_0x7f150343" />
+    </LinearLayout>
+</ScrollView>

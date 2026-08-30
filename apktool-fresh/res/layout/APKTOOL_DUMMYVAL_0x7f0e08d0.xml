@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f071150" style="@style/APKTOOL_DUMMYVAL_0x7f1503b0" />
+    <include android:id="@id/variant_group_1" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13fc" />
+    <include android:id="@id/variant_group_2" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e13fc" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_shadow" android:background="@drawable/variants_upward_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c0f" />
+</LinearLayout>

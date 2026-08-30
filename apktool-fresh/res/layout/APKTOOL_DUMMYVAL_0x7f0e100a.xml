@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader android:id="@id/paa_group_creation_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403a9="@string/APKTOOL_DUMMYVAL_0x7f122c45" app:APKTOOL_DUMMYVAL_0x7f0403aa="defaultHeader" />
+    <com.whatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@id/group_creation_privacy_preference" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d6b" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1503be">
+        <com.whatsapp.ui.coreui.base.WaImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070dc3" app:APKTOOL_DUMMYVAL_0x7f0407f2="@drawable/ic_group_add" app:APKTOOL_DUMMYVAL_0x7f0408c4="@color/APKTOOL_DUMMYVAL_0x7f060891" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122c49" android:maxLines="1" style="?APKTOOL_DUMMYVAL_0x7f040774" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView android:id="@id/paa_group_creation_switch_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f071149" android:text="@string/APKTOOL_DUMMYVAL_0x7f122c47" style="?APKTOOL_DUMMYVAL_0x7f040770" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.toggle.WDSSwitch android:layout_gravity="end|center|top" android:id="@id/group_creation_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ProgressBar android:layout_gravity="end|center|top" android:id="@id/group_creation_progress_bar" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        </FrameLayout>
+    </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+</LinearLayout>

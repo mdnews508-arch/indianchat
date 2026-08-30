@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar android:id="@id/contact_access_explainer_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0408ad="@style/APKTOOL_DUMMYVAL_0x7f150781" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout android:orientation="vertical" android:id="@id/contact_access_explainer_text_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0403a6="@drawable/wds_ill_phonebook_notification_bell" app:APKTOOL_DUMMYVAL_0x7f0403ab="@string/APKTOOL_DUMMYVAL_0x7f125198" app:APKTOOL_DUMMYVAL_0x7f040443="view" app:APKTOOL_DUMMYVAL_0x7f04044e="parent" app:APKTOOL_DUMMYVAL_0x7f040454="parent" app:APKTOOL_DUMMYVAL_0x7f040467="parent" app:APKTOOL_DUMMYVAL_0x7f04046b="parent" app:APKTOOL_DUMMYVAL_0x7f040470="@dimen/APKTOOL_DUMMYVAL_0x7f070c8d" app:APKTOOL_DUMMYVAL_0x7f040930="@layout/APKTOOL_DUMMYVAL_0x7f0e108b" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
