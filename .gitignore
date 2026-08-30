@@ -1,0 +1,8 @@
+# Large artifacts -> uploaded as GitHub Release assets instead
+# (GitHub rejects any single file over 100 MB)
+apktool-decoded/
+apktool-fresh/
+java-source/
+raw-apk/
+_dex/
+*.apk

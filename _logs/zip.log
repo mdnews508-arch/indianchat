@@ -1,0 +1,30 @@
+  ... 25000 files zipped (364s)
+  ... 50000 files zipped (711s)
+  ... 75000 files zipped (984s)
+  ... 100000 files zipped (1369s)
+  ... 125000 files zipped (1774s)
+  ... 150000 files zipped (2189s)
+  ... 175000 files zipped (2595s)
+  ... 200000 files zipped (3012s)
+ZIP_DONE added=203330 skipped=48 walk_errors=0 secs=3085
+ZIP_SIZE_MB=388.2
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda0.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda1.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda2.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda3.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda4.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda5.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda6.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda7.smali
+  SKIP: OSError: ...ential/CredentialProviderCreateRestoreCredentialController$$ExternalSyntheticLambda8.smali
+  SKIP: OSError: ...tial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda0.smali
+  SKIP: OSError: ...tial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda1.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda10.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda11.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda12.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda13.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda14.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda15.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda16.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda17.smali
+  SKIP: OSError: ...ial/CredentialProviderCreatePublicKeyCredentialController$$ExternalSyntheticLambda18.smali
